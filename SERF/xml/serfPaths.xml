@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SERF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://gcmd.gsfc.nasa.gov/Aboutus/xml/serf/ file:/Users/ted/Dropbox/Metadata/NASA/GCMD/SERF/schema/serf.xsd">
+   <Entry_ID>/SERF/Entry_ID[1]</Entry_ID>
+   <Entry_Title>/SERF/Entry_Title[1]</Entry_Title>
+   <Service_Citation>
+      <Originators>/SERF/Service_Citation[1]/Originators[1]</Originators>
+      <Title>/SERF/Service_Citation[1]/Title[1]</Title>
+      <Release_Date>/SERF/Service_Citation[1]/Release_Date[1]</Release_Date>
+      <Provider>/SERF/Service_Citation[1]/Provider[1]</Provider>
+      <Edition>/SERF/Service_Citation[1]/Edition[1]</Edition>
+      <URL>/SERF/Service_Citation[1]/URL[1]</URL>
+   </Service_Citation>
+   <Personnel>
+      <Role>/SERF/Personnel[1]/Role[1]</Role>
+      <First_Name>/SERF/Personnel[1]/First_Name[1]</First_Name>
+      <Middle_Name>/SERF/Personnel[1]/Middle_Name[1]</Middle_Name>
+      <Last_Name>/SERF/Personnel[1]/Last_Name[1]</Last_Name>
+      <Email>/SERF/Personnel[1]/Email[1]</Email>
+      <Phone>/SERF/Personnel[1]/Phone[1]</Phone>
+      <Fax>/SERF/Personnel[1]/Fax[1]</Fax>
+      <Contact_Address>
+         <Address>/SERF/Personnel[1]/Contact_Address[1]/Address[1]</Address>
+         <City>/SERF/Personnel[1]/Contact_Address[1]/City[1]</City>
+         <Province_or_State>/SERF/Personnel[1]/Contact_Address[1]/Province_or_State[1]</Province_or_State>
+         <Postal_Code>/SERF/Personnel[1]/Contact_Address[1]/Postal_Code[1]</Postal_Code>
+         <Country>/SERF/Personnel[1]/Contact_Address[1]/Country[1]</Country>
+      </Contact_Address>
+   </Personnel>
+   <Service_Parameters uuid="uuid1">
+      <Service_Category>/SERF/Service_Parameters[1]/Service_Category[1]</Service_Category>
+      <Service_Topic>/SERF/Service_Parameters[1]/Service_Topic[1]</Service_Topic>
+      <Service_Term>/SERF/Service_Parameters[1]/Service_Term[1]</Service_Term>
+      <Service_Specific_Name>/SERF/Service_Parameters[1]/Service_Specific_Name[1]</Service_Specific_Name>
+   </Service_Parameters>
+   <Science_Parameters uuid="uuid3">
+      <Science_Category>/SERF/Science_Parameters[1]/Science_Category[1]</Science_Category>
+      <Science_Topic>/SERF/Science_Parameters[1]/Science_Topic[1]</Science_Topic>
+      <Science_Term>/SERF/Science_Parameters[1]/Science_Term[1]</Science_Term>
+      <Science_Variable_Level_1>/SERF/Science_Parameters[1]/Science_Variable_Level_1[1]</Science_Variable_Level_1>
+      <Science_Variable_Level_2>/SERF/Science_Parameters[1]/Science_Variable_Level_2[1]</Science_Variable_Level_2>
+      <Science_Variable_Level_3>/SERF/Science_Parameters[1]/Science_Variable_Level_3[1]</Science_Variable_Level_3>
+      <Science_Detailed_Variable>/SERF/Science_Parameters[1]/Science_Detailed_Variable[1]</Science_Detailed_Variable>
+   </Science_Parameters>
+   <ISO_Topic_Category uuid="uuid5">/SERF/ISO_Topic_Category[1]</ISO_Topic_Category>
+   <Keyword>/SERF/Keyword[1]</Keyword>
+   <Sensor_Name uuid="uuid7">
+      <Short_Name>/SERF/Sensor_Name[1]/Short_Name[1]</Short_Name>
+      <Long_Name>/SERF/Sensor_Name[1]/Long_Name[1]</Long_Name>
+   </Sensor_Name>
+   <Source_Name uuid="uuid9">
+      <Short_Name>/SERF/Source_Name[1]/Short_Name[1]</Short_Name>
+      <Long_Name>/SERF/Source_Name[1]/Long_Name[1]</Long_Name>
+   </Source_Name>
+   <Project uuid="uuid11">
+      <Short_Name>/SERF/Project[1]/Short_Name[1]</Short_Name>
+      <Long_Name>/SERF/Project[1]/Long_Name[1]</Long_Name>
+   </Project>
+   <Quality>/SERF/Quality[1]</Quality>
+   <Access_Constraints>/SERF/Access_Constraints[1]</Access_Constraints>
+   <Use_Constraints>/SERF/Use_Constraints[1]</Use_Constraints>
+   <Service_Language>/SERF/Service_Language[1]</Service_Language>
+   <Distribution>
+      <Distribution_Media>/SERF/Distribution[1]/Distribution_Media[1]</Distribution_Media>
+      <Distribution_Size>/SERF/Distribution[1]/Distribution_Size[1]</Distribution_Size>
+      <Distribution_Format>/SERF/Distribution[1]/Distribution_Format[1]</Distribution_Format>
+      <Fees>/SERF/Distribution[1]/Fees[1]</Fees>
+   </Distribution>
+   <Multimedia_Sample>
+      <File>/SERF/Multimedia_Sample[1]/File[1]</File>
+      <URL>/SERF/Multimedia_Sample[1]/URL[1]</URL>
+      <Format>/SERF/Multimedia_Sample[1]/Format[1]</Format>
+      <Caption>/SERF/Multimedia_Sample[1]/Caption[1]</Caption>
+      <Description>/SERF/Multimedia_Sample[1]/Description[1]</Description>
+   </Multimedia_Sample>
+   <Reference>
+      <Author>/SERF/Reference[1]/Author[1]</Author>
+      <Publication_Date>/SERF/Reference[1]/Publication_Date[1]</Publication_Date>
+      <Title>/SERF/Reference[1]/Title[1]</Title>
+      <Series>/SERF/Reference[1]/Series[1]</Series>
+      <Edition>/SERF/Reference[1]/Edition[1]</Edition>
+      <Volume>/SERF/Reference[1]/Volume[1]</Volume>
+      <Issue>/SERF/Reference[1]/Issue[1]</Issue>
+      <Report_Number>/SERF/Reference[1]/Report_Number[1]</Report_Number>
+      <Publication_Place>/SERF/Reference[1]/Publication_Place[1]</Publication_Place>
+      <Publisher>/SERF/Reference[1]/Publisher[1]</Publisher>
+      <Pages>/SERF/Reference[1]/Pages[1]</Pages>
+      <ISBN>/SERF/Reference[1]/ISBN[1]</ISBN>
+      <DOI>/SERF/Reference[1]/DOI[1]</DOI>
+      <Online_Resource>/SERF/Reference[1]/Online_Resource[1]</Online_Resource>
+      <Other_Reference_Details>/SERF/Reference[1]/Other_Reference_Details[1]</Other_Reference_Details>
+   </Reference>
+   <Service_Provider uuid="uuid13">
+      <Service_Organization uuid="uuid15">
+         <Short_Name>/SERF/Service_Provider[1]/Service_Organization[1]/Short_Name[1]</Short_Name>
+         <Long_Name>/SERF/Service_Provider[1]/Service_Organization[1]/Long_Name[1]</Long_Name>
+      </Service_Organization>
+      <Service_Organization_URL>/SERF/Service_Provider[1]/Service_Organization_URL[1]</Service_Organization_URL>
+      <Personnel>
+         <Role>/SERF/Service_Provider[1]/Personnel[1]/Role[1]</Role>
+         <First_Name>/SERF/Service_Provider[1]/Personnel[1]/First_Name[1]</First_Name>
+         <Middle_Name>/SERF/Service_Provider[1]/Personnel[1]/Middle_Name[1]</Middle_Name>
+         <Last_Name>/SERF/Service_Provider[1]/Personnel[1]/Last_Name[1]</Last_Name>
+         <Email>/SERF/Service_Provider[1]/Personnel[1]/Email[1]</Email>
+         <Phone>/SERF/Service_Provider[1]/Personnel[1]/Phone[1]</Phone>
+         <Fax>/SERF/Service_Provider[1]/Personnel[1]/Fax[1]</Fax>
+         <Contact_Address>
+            <Address>/SERF/Service_Provider[1]/Personnel[1]/Contact_Address[1]/Address[1]</Address>
+            <City>/SERF/Service_Provider[1]/Personnel[1]/Contact_Address[1]/City[1]</City>
+            <Province_or_State>/SERF/Service_Provider[1]/Personnel[1]/Contact_Address[1]/Province_or_State[1]</Province_or_State>
+            <Postal_Code>/SERF/Service_Provider[1]/Personnel[1]/Contact_Address[1]/Postal_Code[1]</Postal_Code>
+            <Country>/SERF/Service_Provider[1]/Personnel[1]/Contact_Address[1]/Country[1]</Country>
+         </Contact_Address>
+      </Personnel>
+   </Service_Provider>
+   <Summary>
+      <Abstract>/SERF/Summary[1]/Abstract[1]</Abstract>
+      <Purpose>/SERF/Summary[1]/Purpose[1]</Purpose>
+   </Summary>
+   <Related_URL>
+      <URL_Content_Type uuid="uuid17">
+         <Type>/SERF/Related_URL[1]/URL_Content_Type[1]/Type[1]</Type>
+         <Subtype>/SERF/Related_URL[1]/URL_Content_Type[1]/Subtype[1]</Subtype>
+      </URL_Content_Type>
+      <URL>/SERF/Related_URL[1]/URL[1]</URL>
+      <Description>/SERF/Related_URL[1]/Description[1]</Description>
+   </Related_URL>
+   <Parent_SERF>/SERF/Parent_SERF[1]</Parent_SERF>
+   <IDN_Node uuid="uuid19">
+      <Short_Name>/SERF/IDN_Node[1]/Short_Name[1]</Short_Name>
+      <Long_Name>/SERF/IDN_Node[1]/Long_Name[1]</Long_Name>
+   </IDN_Node>
+   <Metadata_Name>/SERF/Metadata_Name[1]</Metadata_Name>
+   <Metadata_Version>/SERF/Metadata_Version[1]</Metadata_Version>
+   <SERF_Creation_Date>/SERF/SERF_Creation_Date[1]</SERF_Creation_Date>
+   <Last_SERF_Revision_Date>/SERF/Last_SERF_Revision_Date[1]</Last_SERF_Revision_Date>
+   <SERF_Revision_History>/SERF/SERF_Revision_History[1]</SERF_Revision_History>
+   <Future_SERF_Review_Date>/SERF/Future_SERF_Review_Date[1]</Future_SERF_Review_Date>
+   <Private>/SERF/Private[1]</Private>
+   <Extended_Metadata>
+      <Metadata>
+         <Group>/SERF/Extended_Metadata[1]/Metadata[1]/Group[1]</Group>
+         <Name>/SERF/Extended_Metadata[1]/Metadata[1]/Name[1]</Name>
+         <Value>/SERF/Extended_Metadata[1]/Metadata[1]/Value[1]</Value>
+      </Metadata>
+   </Extended_Metadata>
+</SERF>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <dif:DIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dif="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/">
+  <Entry_ID>/DIF/Entry_ID[1]</Entry_ID>
+  <Entry_Title>/DIF/Entry_Title[1]</Entry_Title>
+  <Data_Set_Citation>
+    <Dataset_Creator>/DIF/Data_Set_Citation[1]/Dataset_Creator[1]</Dataset_Creator>
+    <Dataset_Editor>/DIF/Data_Set_Citation[1]/Dataset_Editor[1]</Dataset_Editor>
+    <Dataset_Title>/DIF/Data_Set_Citation[1]/Dataset_Title[1]</Dataset_Title>
+    <Dataset_Series_Name>/DIF/Data_Set_Citation[1]/Dataset_Series_Name[1]</Dataset_Series_Name>
+    <Dataset_Release_Date>/DIF/Data_Set_Citation[1]/Dataset_Release_Date[1]</Dataset_Release_Date>
+    <Dataset_Release_Place>/DIF/Data_Set_Citation[1]/Dataset_Release_Place[1]</Dataset_Release_Place>
+    <Dataset_Publisher>/DIF/Data_Set_Citation[1]/Dataset_Publisher[1]</Dataset_Publisher>
+    <Version>/DIF/Data_Set_Citation[1]/Version[1]</Version>
+    <Issue_Identification>/DIF/Data_Set_Citation[1]/Issue_Identification[1]</Issue_Identification>
+    <Data_Presentation_Form>/DIF/Data_Set_Citation[1]/Data_Presentation_Form[1]</Data_Presentation_Form>
+    <Other_Citation_Details>/DIF/Data_Set_Citation[1]/Other_Citation_Details[1]</Other_Citation_Details>
+    <Dataset_DOI>/DIF/Data_Set_Citation[1]/Dataset_DOI[1]</Dataset_DOI>
+    <Online_Resource>/DIF/Data_Set_Citation[1]/Online_Resource[1]</Online_Resource>
+  </Data_Set_Citation>
+  <Personnel>
+    <Role>DIF AUTHOR</Role>
+    <First_Name>/DIF/Personnel[Role='DIF AUTHOR']/First_Name[1]</First_Name>
+    <Middle_Name>/DIF/Personnel[Role='DIF AUTHOR']/Middle_Name[1]</Middle_Name>
+    <Last_Name>/DIF/Personnel[Role='DIF AUTHOR']/Last_Name[1]</Last_Name>
+    <Email>/DIF/Personnel[Role='DIF AUTHOR']/Email[1]</Email>
+    <Phone>/DIF/Personnel[Role='DIF AUTHOR']/Phone[1]</Phone>
+    <Fax>/DIF/Personnel[Role='DIF AUTHOR']/Fax[1]</Fax>
+    <Contact_Address>
+      <Address>/DIF/Personnel[Role='DIF AUTHOR']/Contact_Address[1]/Address[1]</Address>
+      <City>/DIF/Personnel[Role='DIF AUTHOR']/Contact_Address[1]/City[1]</City>
+      <Province_or_State>/DIF/Personnel[Role='DIF AUTHOR']/Contact_Address[1]/Province_or_State[1]</Province_or_State>
+      <Postal_Code>/DIF/Personnel[Role='DIF AUTHOR']/Contact_Address[1]/Postal_Code[1]</Postal_Code>
+      <Country>/DIF/Personnel[Role='DIF AUTHOR']/Contact_Address[1]/Country[1]</Country>
+    </Contact_Address>
+  </Personnel>
+  <Personnel>
+    <Role>INVESTIGATOR</Role>
+    <First_Name>/DIF/Personnel[Role='INVESTIGATOR']/First_Name[1]</First_Name>
+    <Middle_Name>/DIF/Personnel[Role='INVESTIGATOR']/Middle_Name[1]</Middle_Name>
+    <Last_Name>/DIF/Personnel[Role='INVESTIGATOR']/Last_Name[1]</Last_Name>
+    <Email>/DIF/Personnel[Role='INVESTIGATOR']/Email[1]</Email>
+    <Phone>/DIF/Personnel[Role='INVESTIGATOR']/Phone[1]</Phone>
+    <Fax>/DIF/Personnel[Role='INVESTIGATOR']/Fax[1]</Fax>
+    <Contact_Address>
+      <Address>/DIF/Personnel[Role='INVESTIGATOR']/Contact_Address[1]/Address[1]</Address>
+      <City>/DIF/Personnel[Role='INVESTIGATOR']/Contact_Address[1]/City[1]</City>
+      <Province_or_State>/DIF/Personnel[Role='INVESTIGATOR']/Contact_Address[1]/Province_or_State[1]</Province_or_State>
+      <Postal_Code>/DIF/Personnel[Role='INVESTIGATOR']/Contact_Address[1]/Postal_Code[1]</Postal_Code>
+      <Country>/DIF/Personnel[Role='INVESTIGATOR']/Contact_Address[1]/Country[1]</Country>
+    </Contact_Address>
+  </Personnel>
+  <Personnel>
+    <Role>TECHNICAL CONTACT</Role>
+    <First_Name>/DIF/Personnel[Role='TECHNICAL CONTACT']/First_Name[1]</First_Name>
+    <Middle_Name>/DIF/Personnel[Role='TECHNICAL CONTACT']/Middle_Name[1]</Middle_Name>
+    <Last_Name>/DIF/Personnel[Role='TECHNICAL CONTACT']/Last_Name[1]</Last_Name>
+    <Email>/DIF/Personnel[Role='TECHNICAL CONTACT']/Email[1]</Email>
+    <Phone>/DIF/Personnel[Role='TECHNICAL CONTACT']/Phone[1]</Phone>
+    <Fax>/DIF/Personnel[Role='TECHNICAL CONTACT']/Fax[1]</Fax>
+    <Contact_Address>
+      <Address>/DIF/Personnel[Role='TECHNICAL CONTACT']/Contact_Address[1]/Address[1]</Address>
+      <City>/DIF/Personnel[Role='TECHNICAL CONTACT']/Contact_Address[1]/City[1]</City>
+      <Province_or_State>/DIF/Personnel[Role='TECHNICAL CONTACT']/Contact_Address[1]/Province_or_State[1]</Province_or_State>
+      <Postal_Code>/DIF/Personnel[Role='TECHNICAL CONTACT']/Contact_Address[1]/Postal_Code[1]</Postal_Code>
+      <Country>/DIF/Personnel[Role='TECHNICAL CONTACT']/Contact_Address[1]/Country[1]</Country>
+    </Contact_Address>
+  </Personnel>
+  <Discipline uuid="uuid1">
+    <Discipline_Name>/DIF/Discipline[1]/Discipline_Name[1]</Discipline_Name>
+    <Subdiscipline>/DIF/Discipline[1]/Subdiscipline[1]</Subdiscipline>
+    <Detailed_Subdiscipline>/DIF/Discipline[1]/Detailed_Subdiscipline[1]</Detailed_Subdiscipline>
+  </Discipline>
+  <Parameters uuid="uuid3">
+    <Category>/DIF/Parameters[1]/Category[1]</Category>
+    <Topic>/DIF/Parameters[1]/Topic[1]</Topic>
+    <Term>/DIF/Parameters[1]/Term[1]</Term>
+    <Variable_Level_1>/DIF/Parameters[1]/Variable_Level_1[1]</Variable_Level_1>
+    <Variable_Level_2>/DIF/Parameters[1]/Variable_Level_2[1]</Variable_Level_2>
+    <Variable_Level_3>/DIF/Parameters[1]/Variable_Level_3[1]</Variable_Level_3>
+    <Detailed_Variable>/DIF/Parameters[1]/Detailed_Variable[1]</Detailed_Variable>
+  </Parameters>
+  <ISO_Topic_Category uuid="uuid5">/DIF/ISO_Topic_Category[1]</ISO_Topic_Category>
+  <Keyword>/DIF/Keyword[1]</Keyword>
+  <Sensor_Name uuid="uuid7">
+    <Short_Name>/DIF/Sensor_Name[1]/Short_Name[1]</Short_Name>
+    <Long_Name>/DIF/Sensor_Name[1]/Long_Name[1]</Long_Name>
+  </Sensor_Name>
+  <Source_Name uuid="uuid9">
+    <Short_Name>/DIF/Source_Name[1]/Short_Name[1]</Short_Name>
+    <Long_Name>/DIF/Source_Name[1]/Long_Name[1]</Long_Name>
+  </Source_Name>
+  <Temporal_Coverage>
+    <Start_Date>/DIF/Temporal_Coverage[1]/Start_Date[1]</Start_Date>
+    <Stop_Date>/DIF/Temporal_Coverage[1]/Stop_Date[1]</Stop_Date>
+  </Temporal_Coverage>
+  <Paleo_Temporal_Coverage>
+    <Paleo_Start_Date>/DIF/Paleo_Temporal_Coverage[1]/Paleo_Start_Date[1]</Paleo_Start_Date>
+    <Paleo_Stop_Date>/DIF/Paleo_Temporal_Coverage[1]/Paleo_Stop_Date[1]</Paleo_Stop_Date>
+    <Chronostratigraphic_Unit uuid="uuid11">
+      <Eon>/DIF/Paleo_Temporal_Coverage[1]/Chronostratigraphic_Unit[1]/Eon[1]</Eon>
+      <Era>/DIF/Paleo_Temporal_Coverage[1]/Chronostratigraphic_Unit[1]/Era[1]</Era>
+      <Period>/DIF/Paleo_Temporal_Coverage[1]/Chronostratigraphic_Unit[1]/Period[1]</Period>
+      <Epoch>/DIF/Paleo_Temporal_Coverage[1]/Chronostratigraphic_Unit[1]/Epoch[1]</Epoch>
+      <Stage>/DIF/Paleo_Temporal_Coverage[1]/Chronostratigraphic_Unit[1]/Stage[1]</Stage>
+      <Detailed_Classification>/DIF/Paleo_Temporal_Coverage[1]/Chronostratigraphic_Unit[1]/Detailed_Classification[1]</Detailed_Classification>
+    </Chronostratigraphic_Unit>
+  </Paleo_Temporal_Coverage>
+  <Data_Set_Progress>/DIF/Data_Set_Progress[1]</Data_Set_Progress>
+  <Spatial_Coverage>
+    <Southernmost_Latitude>/DIF/Spatial_Coverage[1]/Southernmost_Latitude[1]</Southernmost_Latitude>
+    <Northernmost_Latitude>/DIF/Spatial_Coverage[1]/Northernmost_Latitude[1]</Northernmost_Latitude>
+    <Westernmost_Longitude>/DIF/Spatial_Coverage[1]/Westernmost_Longitude[1]</Westernmost_Longitude>
+    <Easternmost_Longitude>/DIF/Spatial_Coverage[1]/Easternmost_Longitude[1]</Easternmost_Longitude>
+    <Minimum_Altitude>/DIF/Spatial_Coverage[1]/Minimum_Altitude[1] </Minimum_Altitude>
+    <Maximum_Altitude>/DIF/Spatial_Coverage[1]/Maximum_Altitude[1] </Maximum_Altitude>
+    <Minimum_Depth>/DIF/Spatial_Coverage[1]/Minimum_Depth[1]</Minimum_Depth>
+    <Maximum_Depth>/DIF/Spatial_Coverage[1]/Maximum_Depth[1]</Maximum_Depth>
+  </Spatial_Coverage>
+  <Location uuid="uuid13">
+    <Location_Category>/DIF/Location[1]/Location_Category[1]</Location_Category>
+    <Location_Type>/DIF/Location[1]/Location_Type[1]</Location_Type>
+    <Location_Subregion1>/DIF/Location[1]/Location_Subregion1[1]</Location_Subregion1>
+    <Location_Subregion2>/DIF/Location[1]/Location_Subregion2[1]</Location_Subregion2>
+    <Location_Subregion3>/DIF/Location[1]/Location_Subregion3[1]</Location_Subregion3>
+    <Detailed_Location>/DIF/Location[1]/Detailed_Location[1]</Detailed_Location>
+  </Location>
+  <Data_Resolution>
+    <Latitude_Resolution>/DIF/Data_Resolution[1]/Latitude_Resolution[1]</Latitude_Resolution>
+    <Longitude_Resolution>/DIF/Data_Resolution[1]/Longitude_Resolution[1]</Longitude_Resolution>
+    <Horizontal_Resolution_Range uuid="uuid15">/DIF/Data_Resolution[1]/Horizontal_Resolution_Range[1]</Horizontal_Resolution_Range>
+    <Vertical_Resolution>/DIF/Data_Resolution[1]/Vertical_Resolution[1]</Vertical_Resolution>
+    <Vertical_Resolution_Range uuid="uuid17">/DIF/Data_Resolution[1]/Vertical_Resolution_Range[1]</Vertical_Resolution_Range>
+    <Temporal_Resolution>/DIF/Data_Resolution[1]/Temporal_Resolution[1]</Temporal_Resolution>
+    <Temporal_Resolution_Range uuid="uuid19">/DIF/Data_Resolution[1]/Temporal_Resolution_Range[1]</Temporal_Resolution_Range>
+  </Data_Resolution>
+  <Project uuid="uuid21">
+    <Short_Name>/DIF/Project[1]/Short_Name[1]</Short_Name>
+    <Long_Name>/DIF/Project[1]/Long_Name[1]</Long_Name>
+  </Project>
+  <Quality>/DIF/Quality[1]</Quality>
+  <Access_Constraints>/DIF/Access_Constraints[1]</Access_Constraints>
+  <Use_Constraints>/DIF/Use_Constraints[1]</Use_Constraints>
+  <Data_Set_Language>/DIF/Data_Set_Language[1]</Data_Set_Language>
+  <Originating_Center>/DIF/Originating_Center[1]</Originating_Center>
+  <Data_Center uuid="uuid23">
+    <Data_Center_Name>
+      <Short_Name>/DIF/Data_Center[1]/Data_Center_Name[1]/Short_Name[1]</Short_Name>
+      <Long_Name>/DIF/Data_Center[1]/Data_Center_Name[1]/Long_Name[1]</Long_Name>
+    </Data_Center_Name>
+    <Data_Center_URL>/DIF/Data_Center[1]/Data_Center_URL[1]</Data_Center_URL>
+    <Data_Set_ID>/DIF/Data_Center[1]/Data_Set_ID[1]</Data_Set_ID>
+    <Personnel>
+      <Role>TECHNICAL CONTACT</Role>
+      <First_Name>/DIF/Data_Center[1]/Personnel[Role='TECHNICAL CONTACT']/First_Name[1]</First_Name>
+      <Middle_Name>/DIF/Data_Center[1]/Personnel[Role='TECHNICAL CONTACT']/Middle_Name[1]</Middle_Name>
+      <Last_Name>/DIF/Data_Center[1]/Personnel[Role='TECHNICAL CONTACT']/Last_Name[1]</Last_Name>
+      <Email>/DIF/Data_Center[1]/Personnel[Role='TECHNICAL CONTACT']/Email[1]</Email>
+      <Phone>/DIF/Data_Center[1]/Personnel[Role='TECHNICAL CONTACT']/Phone[1]</Phone>
+      <Fax>/DIF/Data_Center[1]/Personnel[Role='TECHNICAL CONTACT']/Fax[1]</Fax>
+      <Contact_Address>
+        <Address>/DIF/Data_Center[1]/Personnel[Role='TECHNICAL CONTACT']/Contact_Address[1]/Address[1]</Address>
+        <City>/DIF/Data_Center[1]/Personnel[Role='TECHNICAL CONTACT']/Contact_Address[1]/City[1]</City>
+        <Province_or_State>/DIF/Data_Center[1]/Personnel[Role='TECHNICAL CONTACT']/Contact_Address[1]/Province_or_State[1]</Province_or_State>
+        <Postal_Code>/DIF/Data_Center[1]/Personnel[Role='TECHNICAL CONTACT']/Contact_Address[1]/Postal_Code[1]</Postal_Code>
+        <Country>/DIF/Data_Center[1]/Personnel[Role='TECHNICAL CONTACT']/Contact_Address[1]/Country[1]</Country>
+      </Contact_Address>
+    </Personnel>
+  </Data_Center>
+  <Distribution>
+    <Distribution_Media>/DIF/Distribution[1]/Distribution_Media[1]</Distribution_Media>
+    <Distribution_Size>1234</Distribution_Size>
+    <Distribution_Format>/DIF/Distribution[1]/Distribution_Format[1]</Distribution_Format>
+    <Fees>/DIF/Distribution[1]/Fees[1]</Fees>
+  </Distribution>
+  <Multimedia_Sample>
+    <File>/DIF/Multimedia_Sample[1]/File[1]</File>
+    <URL>/DIF/Multimedia_Sample[1]/URL[1]</URL>
+    <Format>/DIF/Multimedia_Sample[1]/Format[1]</Format>
+    <Caption>/DIF/Multimedia_Sample[1]/Caption[1]</Caption>
+    <Description>/DIF/Multimedia_Sample[1]/Description[1]</Description>
+  </Multimedia_Sample>
+  <Reference>
+    <Author>/DIF/Reference[1]/Author[1]</Author>
+    <Publication_Date>/DIF/Reference[1]/Publication_Date[1]</Publication_Date>
+    <Title>/DIF/Reference[1]/Title[1]</Title>
+    <Series>/DIF/Reference[1]/Series[1]</Series>
+    <Edition>/DIF/Reference[1]/Edition[1]</Edition>
+    <Volume>/DIF/Reference[1]/Volume[1]</Volume>
+    <Issue>/DIF/Reference[1]/Issue[1]</Issue>
+    <Report_Number>/DIF/Reference[1]/Report_Number[1]</Report_Number>
+    <Publication_Place>/DIF/Reference[1]/Publication_Place[1]</Publication_Place>
+    <Publisher>/DIF/Reference[1]/Publisher[1]</Publisher>
+    <Pages>/DIF/Reference[1]/Pages[1]</Pages>
+    <ISBN>/DIF/Reference[1]/ISBN[1]</ISBN>
+    <DOI>/DIF/Reference[1]/DOI[1]</DOI>
+    <Online_Resource>/DIF/Reference[1]/Online_Resource[1]</Online_Resource>
+    <Other_Reference_Details>/DIF/Reference[1]/Other_Reference_Details[1]</Other_Reference_Details>
+  </Reference>
+  <Summary>
+    <Abstract>/DIF/Summary[1]/Abstract[1]</Abstract>
+    <Purpose>/DIF/Summary[1]/Purpose[1]</Purpose>
+  </Summary>
+  <Related_URL uuid="uuid25">
+    <URL_Content_Type>
+      <Type>/DIF/Related_URL[1]/URL_Content_Type[1]/Type[1]</Type>
+      <Subtype>/DIF/Related_URL[1]/URL_Content_Type[1]/Subtype[1]</Subtype>
+    </URL_Content_Type>
+    <URL>/DIF/Related_URL[1]/URL[1]</URL>
+    <Description>/DIF/Related_URL[1]/Description[1]</Description>
+  </Related_URL>
+  <Parent_DIF>/DIF/Parent_DIF[1]</Parent_DIF>
+  <IDN_Node uuid="uuid27">
+    <Short_Name>/DIF/IDN_Node[1]/Short_Name[1]</Short_Name>
+    <Long_Name>/DIF/IDN_Node[1]/Long_Name[1]</Long_Name>
+  </IDN_Node>
+  <Originating_Metadata_Node>/DIF/Originating_Metadata_Node[1]</Originating_Metadata_Node>
+  <Metadata_Name>/DIF/Metadata_Name[1]</Metadata_Name>
+  <Metadata_Version>/DIF/Metadata_Version[1]</Metadata_Version>
+  <DIF_Creation_Date>/DIF/DIF_Creation_Date[1]</DIF_Creation_Date>
+  <Last_DIF_Revision_Date>/DIF/Last_DIF_Revision_Date[1]</Last_DIF_Revision_Date>
+  <DIF_Revision_History>/DIF/DIF_Revision_History[1]</DIF_Revision_History>
+  <Future_DIF_Review_Date>/DIF/Future_DIF_Review_Date[1]</Future_DIF_Review_Date>
+  <Private>/DIF/Private[1]</Private>
+</dif:DIF>
