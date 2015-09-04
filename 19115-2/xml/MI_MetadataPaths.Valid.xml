@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gmi:MI_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://www.isotc211.org/2005/gmi ../../../../ISO/19139/19139%20Schemas%20-%20NGDC/schema.xsd" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml/3.2"
- xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi">
+ xsi:schemaLocation="http://www.isotc211.org/2005/gmi ../../../ISOTC211-XML/XML/ISO19115-2/gmi/1.0/2015-05-29/gmi.xsd" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+ xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:srv="http://www.isotc211.org/2005/srv"
+ xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts"
+ xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi">
   <gmd:fileIdentifier>
     <gco:CharacterString>/gmi:MI_Metadata/gmd:fileIdentifier[1]/gco:CharacterString[1]</gco:CharacterString>
   </gmd:fileIdentifier>
@@ -215,13 +217,23 @@
           <gmd:title>
             <gco:CharacterString>/gmi:MI_Metadata/gmd:identificationInfo[1]/gmd:MD_DataIdentification[1]/gmd:citation[1]/gmd:CI_Citation[1]/gmd:title[1]/gco:CharacterString[1]</gco:CharacterString>
           </gmd:title>
+          <!-- alternateTitles usd to test gco:CharacterString substitutions -->
+          <gmd:alternateTitle>
+            <gco:CharacterString>/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:alternateTitle/gco:CharacterString</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:alternateTitle>
+            <gmx:Anchor xlink:href="http://www.example.com/testAnchorSubstitution">/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:alternateTitle/gmx:Anchor</gmx:Anchor>
+          </gmd:alternateTitle>
+          <gmd:alternateTitle>
+            <gmx:FileName src="http://www.example.com/testFileNameSubstitution">/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:alternateTitle/gmx:FileName</gmx:FileName>
+          </gmd:alternateTitle>
           <gmd:date>
             <gmd:CI_Date>
               <gmd:date>
                 <gco:Date>2000-03-03</gco:Date>
               </gmd:date>
               <gmd:dateType>
-                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">/gmi:MI_Metadata/gmd:identificationInfo[1]/gmd:MD_DataIdentification[1]/gmd:citation[1]/gmd:CI_Citation[1]/gmd:date[1]/gmd:CI_Date[1]/gmd:dateType[1]/gmd:CI_DateTypeCode[1]</gmd:CI_DateTypeCode>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
               </gmd:dateType>
             </gmd:CI_Date>
           </gmd:date>
@@ -3893,6 +3905,22 @@
           <gmi:instrument gco:nilReason="missing"/>
         </gmi:MI_Platform>
       </gmi:platform>
+      <gmi:environmentalConditions>
+        <gmi:MI_EnvironmentalRecord>
+          <gmi:averageAirTemperature>
+            <gco:Real>11.11</gco:Real>
+          </gmi:averageAirTemperature>
+          <gmi:maxRelativeHumidity>
+            <gco:Real>22.22</gco:Real>
+          </gmi:maxRelativeHumidity>
+          <gmi:maxAltitude>
+            <gco:Real>33.33</gco:Real>
+          </gmi:maxAltitude>
+          <gmi:meterologicalConditions>
+            <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:environmentalConditions/gmi:MI_EnvironmentalRecord/gmi:meterologicalConditions/gco:CharacterString</gco:CharacterString>
+          </gmi:meterologicalConditions>
+        </gmi:MI_EnvironmentalRecord>
+      </gmi:environmentalConditions>
     </gmi:MI_AcquisitionInformation>
   </gmi:acquisitionInformation>
 </gmi:MI_Metadata>
