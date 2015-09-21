@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/mdt/1.0/mdt.xsd" xmlns:cat="http://standards.iso.org/iso/19115/-3/cat/1.0"
- xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mpc="http://standards.iso.org/iso/19115/-3/mpc/1.0"
- xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:srv="http://standards.iso.org/iso/19115/-3/srv/2.0" xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/1.0"
- xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0"
- xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:mas="http://standards.iso.org/iso/19115/-3/mas/1.0" xmlns:mda="http://standards.iso.org/iso/19115/-3/mda/1.0"
- xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0"
- xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:gcx="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0"
- xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:mdt="http://standards.iso.org/iso/19115/-3/mdt/1.0"
- xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2"
- xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/1.0" xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0">
+                 xmlns:cat="http://standards.iso.org/iso/19115/-3/cat/1.0"
+                 xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0"
+                 xmlns:gcx="http://standards.iso.org/iso/19115/-3/gcx/1.0"
+                 xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0"
+                 xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0"
+                 xmlns:srv="http://standards.iso.org/iso/19115/-3/srv/2.0"
+                 xmlns:mas="http://standards.iso.org/iso/19115/-3/mas/1.0"
+                 xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0"
+                 xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0"
+                 xmlns:mda="http://standards.iso.org/iso/19115/-3/mda/1.0"
+                 xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0"
+                 xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0"
+                 xmlns:mdt="http://standards.iso.org/iso/19115/-3/mdt/1.0"
+                 xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0"
+                 xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0"
+                 xmlns:mpc="http://standards.iso.org/iso/19115/-3/mpc/1.0"
+                 xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/1.0"
+                 xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0"
+                 xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0"
+                 xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/1.0"
+                 xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0"
+                 xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/1.0"
+                 xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0"
+                 xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/1.0"
+                 xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0"
+                 xmlns:gml="http://www.opengis.net/gml/3.2"
+                 xmlns:xlink="http://www.w3.org/1999/xlink">
    <mdb:metadataIdentifier>
       <mcc:MD_Identifier>
          <mcc:code>
@@ -1554,323 +1571,6 @@
          <mrc:attributeDescription>
             <gco:RecordType xlink:href="http://www.ngdc.noaa.gov/getRecordDescription/gov.noaa.class:AERO100"/>
          </mrc:attributeDescription>
-         <mrc:attributeGroup>
-            <mrc:MD_AttributeGroup>
-               <mrc:contentType>
-                  <mrc:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode"
-                                                  codeListValue="physicalMeasurement">/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:contentType/gmd:MD_CoverageContentTypeCode</mrc:MD_CoverageContentTypeCode>
-               </mrc:contentType>
-               <mrc:attribute>
-                  <mrc:MD_SampleDimension>
-                     <mrc:sequenceIdentifier>
-                        <gco:MemberName>
-                           <gco:aName>
-                              <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:aName/gco:CharacterString</gco:CharacterString>
-                           </gco:aName>
-                           <gco:attributeType>
-                              <gco:TypeName>
-                                 <gco:aName>
-                                    <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:attributeType/gco:TypeName/gco:aName/gco:CharacterString</gco:CharacterString>
-                                 </gco:aName>
-                              </gco:TypeName>
-                           </gco:attributeType>
-                        </gco:MemberName>
-                     </mrc:sequenceIdentifier>
-                     <mrc:description>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:descriptor/gco:CharacterString</gco:CharacterString>
-                     </mrc:description>
-                     <mrc:maxValue>
-                        <gco:Real>10</gco:Real>
-                     </mrc:maxValue>
-                     <mrc:minValue>
-                        <gco:Real>-10</gco:Real>
-                     </mrc:minValue>
-                     <mrc:units xlink:href="http://TBD_UnitsDictionary#Optical_Thickness_Unit__X_1000"/>
-                     <mrc:scaleFactor>
-                        <gco:Real>12</gco:Real>
-                     </mrc:scaleFactor>
-                  </mrc:MD_SampleDimension>
-               </mrc:attribute>
-               <mrc:attribute>
-                  <mrc:MD_SampleDimension>
-                     <mrc:sequenceIdentifier>
-                        <gco:MemberName>
-                           <gco:aName>
-                              <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:aName/gco:CharacterString</gco:CharacterString>
-                           </gco:aName>
-                           <gco:attributeType>
-                              <gco:TypeName>
-                                 <gco:aName>
-                                    <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:attributeType/gco:TypeName/gco:aName/gco:CharacterString</gco:CharacterString>
-                                 </gco:aName>
-                              </gco:TypeName>
-                           </gco:attributeType>
-                        </gco:MemberName>
-                     </mrc:sequenceIdentifier>
-                     <mrc:description>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:descriptor/gco:CharacterString</gco:CharacterString>
-                     </mrc:description>
-                     <mrc:maxValue>
-                        <gco:Real>20</gco:Real>
-                     </mrc:maxValue>
-                     <mrc:minValue>
-                        <gco:Real>-20</gco:Real>
-                     </mrc:minValue>
-                     <mrc:units xlink:href="http://TBD_UnitsDictionary#Optical_Thickness_Unit__X_1000"/>
-                     <mrc:scaleFactor>
-                        <gco:Real>22</gco:Real>
-                     </mrc:scaleFactor>
-                  </mrc:MD_SampleDimension>
-               </mrc:attribute>
-               <mrc:attribute>
-                  <mrc:MD_SampleDimension>
-                     <mrc:sequenceIdentifier>
-                        <gco:MemberName>
-                           <gco:aName>
-                              <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:aName/gco:CharacterString</gco:CharacterString>
-                           </gco:aName>
-                           <gco:attributeType>
-                              <gco:TypeName>
-                                 <gco:aName>
-                                    <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:attributeType/gco:TypeName/gco:aName/gco:CharacterString</gco:CharacterString>
-                                 </gco:aName>
-                              </gco:TypeName>
-                           </gco:attributeType>
-                        </gco:MemberName>
-                     </mrc:sequenceIdentifier>
-                     <mrc:description>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:descriptor/gco:CharacterString</gco:CharacterString>
-                     </mrc:description>
-                     <mrc:maxValue>
-                        <gco:Real>30</gco:Real>
-                     </mrc:maxValue>
-                     <mrc:minValue>
-                        <gco:Real>-30</gco:Real>
-                     </mrc:minValue>
-                     <mrc:units xlink:href="http://TBD_UnitsDictionary#units/100_km_(x_1000)"/>
-                     <mrc:scaleFactor>
-                        <gco:Real>13</gco:Real>
-                     </mrc:scaleFactor>
-                  </mrc:MD_SampleDimension>
-               </mrc:attribute>
-               <mrc:attribute>
-                  <mrc:MD_SampleDimension>
-                     <mrc:sequenceIdentifier>
-                        <gco:MemberName>
-                           <gco:aName>
-                              <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:aName/gco:CharacterString</gco:CharacterString>
-                           </gco:aName>
-                           <gco:attributeType>
-                              <gco:TypeName>
-                                 <gco:aName>
-                                    <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:attributeType/gco:TypeName/gco:aName/gco:CharacterString</gco:CharacterString>
-                                 </gco:aName>
-                              </gco:TypeName>
-                           </gco:attributeType>
-                        </gco:MemberName>
-                     </mrc:sequenceIdentifier>
-                     <mrc:description>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:descriptor/gco:CharacterString</gco:CharacterString>
-                     </mrc:description>
-                  </mrc:MD_SampleDimension>
-               </mrc:attribute>
-               <mrc:attribute>
-                  <mrc:MD_SampleDimension>
-                     <mrc:sequenceIdentifier>
-                        <gco:MemberName>
-                           <gco:aName>
-                              <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:aName/gco:CharacterString</gco:CharacterString>
-                           </gco:aName>
-                           <gco:attributeType>
-                              <gco:TypeName>
-                                 <gco:aName>
-                                    <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:attributeType/gco:TypeName/gco:aName/gco:CharacterString</gco:CharacterString>
-                                 </gco:aName>
-                              </gco:TypeName>
-                           </gco:attributeType>
-                        </gco:MemberName>
-                     </mrc:sequenceIdentifier>
-                     <mrc:description>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:descriptor/gco:CharacterString</gco:CharacterString>
-                     </mrc:description>
-                     <mrc:maxValue>
-                        <gco:Real>40</gco:Real>
-                     </mrc:maxValue>
-                     <mrc:minValue>
-                        <gco:Real>-40</gco:Real>
-                     </mrc:minValue>
-                     <mrc:units xlink:href="http://TBD_UnitsDictionary#units/100km_(x_1000)"/>
-                     <mrc:scaleFactor>
-                        <gco:Real>14</gco:Real>
-                     </mrc:scaleFactor>
-                  </mrc:MD_SampleDimension>
-               </mrc:attribute>
-               <mrc:attribute>
-                  <mrc:MD_SampleDimension>
-                     <mrc:sequenceIdentifier>
-                        <gco:MemberName>
-                           <gco:aName>
-                              <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:aName/gco:CharacterString</gco:CharacterString>
-                           </gco:aName>
-                           <gco:attributeType>
-                              <gco:TypeName>
-                                 <gco:aName>
-                                    <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:attributeType/gco:TypeName/gco:aName/gco:CharacterString</gco:CharacterString>
-                                 </gco:aName>
-                              </gco:TypeName>
-                           </gco:attributeType>
-                        </gco:MemberName>
-                     </mrc:sequenceIdentifier>
-                     <mrc:description>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:descriptor/gco:CharacterString</gco:CharacterString>
-                     </mrc:description>
-                  </mrc:MD_SampleDimension>
-               </mrc:attribute>
-               <mrc:attribute>
-                  <mrc:MD_SampleDimension>
-                     <mrc:sequenceIdentifier>
-                        <gco:MemberName>
-                           <gco:aName>
-                              <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:aName/gco:CharacterString</gco:CharacterString>
-                           </gco:aName>
-                           <gco:attributeType>
-                              <gco:TypeName>
-                                 <gco:aName>
-                                    <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:attributeType/gco:TypeName/gco:aName/gco:CharacterString</gco:CharacterString>
-                                 </gco:aName>
-                              </gco:TypeName>
-                           </gco:attributeType>
-                        </gco:MemberName>
-                     </mrc:sequenceIdentifier>
-                     <mrc:description>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:descriptor/gco:CharacterString</gco:CharacterString>
-                     </mrc:description>
-                     <mrc:maxValue>
-                        <gco:Real>50</gco:Real>
-                     </mrc:maxValue>
-                     <mrc:minValue>
-                        <gco:Real>-50</gco:Real>
-                     </mrc:minValue>
-                     <mrc:units xlink:href="http://TBD_UnitsDictionary#units/100km_(x_1000)"/>
-                     <mrc:scaleFactor>
-                        <gco:Real>15</gco:Real>
-                     </mrc:scaleFactor>
-                  </mrc:MD_SampleDimension>
-               </mrc:attribute>
-            </mrc:MD_AttributeGroup>
-         </mrc:attributeGroup>
-         <mrc:attributeGroup>
-            <mrc:MD_AttributeGroup>
-               <mrc:contentType>
-                  <mrc:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode"
-                                                  codeListValue="referenceInformation">/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:contentType/gmd:MD_CoverageContentTypeCode</mrc:MD_CoverageContentTypeCode>
-               </mrc:contentType>
-               <mrc:attribute>
-                  <mrc:MD_SampleDimension>
-                     <mrc:sequenceIdentifier>
-                        <gco:MemberName>
-                           <gco:aName>
-                              <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:aName/gco:CharacterString</gco:CharacterString>
-                           </gco:aName>
-                           <gco:attributeType>
-                              <gco:TypeName>
-                                 <gco:aName>
-                                    <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:attributeType/gco:TypeName/gco:aName/gco:CharacterString</gco:CharacterString>
-                                 </gco:aName>
-                              </gco:TypeName>
-                           </gco:attributeType>
-                        </gco:MemberName>
-                     </mrc:sequenceIdentifier>
-                     <mrc:description>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:descriptor/gco:CharacterString</gco:CharacterString>
-                     </mrc:description>
-                  </mrc:MD_SampleDimension>
-               </mrc:attribute>
-               <mrc:attribute>
-                  <mrc:MD_SampleDimension>
-                     <mrc:sequenceIdentifier>
-                        <gco:MemberName>
-                           <gco:aName>
-                              <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:aName/gco:CharacterString</gco:CharacterString>
-                           </gco:aName>
-                           <gco:attributeType>
-                              <gco:TypeName>
-                                 <gco:aName>
-                                    <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:attributeType/gco:TypeName/gco:aName/gco:CharacterString</gco:CharacterString>
-                                 </gco:aName>
-                              </gco:TypeName>
-                           </gco:attributeType>
-                        </gco:MemberName>
-                     </mrc:sequenceIdentifier>
-                     <mrc:description>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:descriptor/gco:CharacterString</gco:CharacterString>
-                     </mrc:description>
-                     <mrc:maxValue>
-                        <gco:Real>60</gco:Real>
-                     </mrc:maxValue>
-                     <mrc:minValue>
-                        <gco:Real>-60</gco:Real>
-                     </mrc:minValue>
-                     <mrc:units xlink:href="http://TBD_UnitsDictionary#Degrees"/>
-                     <mrc:scaleFactor>
-                        <gco:Real>16</gco:Real>
-                     </mrc:scaleFactor>
-                  </mrc:MD_SampleDimension>
-               </mrc:attribute>
-               <mrc:attribute>
-                  <mrc:MD_SampleDimension>
-                     <mrc:sequenceIdentifier>
-                        <gco:MemberName>
-                           <gco:aName>
-                              <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:aName/gco:CharacterString</gco:CharacterString>
-                           </gco:aName>
-                           <gco:attributeType>
-                              <gco:TypeName>
-                                 <gco:aName>
-                                    <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:attributeType/gco:TypeName/gco:aName/gco:CharacterString</gco:CharacterString>
-                                 </gco:aName>
-                              </gco:TypeName>
-                           </gco:attributeType>
-                        </gco:MemberName>
-                     </mrc:sequenceIdentifier>
-                     <mrc:description>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:descriptor/gco:CharacterString</gco:CharacterString>
-                     </mrc:description>
-                  </mrc:MD_SampleDimension>
-               </mrc:attribute>
-               <mrc:attribute>
-                  <mrc:MD_SampleDimension>
-                     <mrc:sequenceIdentifier>
-                        <gco:MemberName>
-                           <gco:aName>
-                              <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:aName/gco:CharacterString</gco:CharacterString>
-                           </gco:aName>
-                           <gco:attributeType>
-                              <gco:TypeName>
-                                 <gco:aName>
-                                    <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:attributeType/gco:TypeName/gco:aName/gco:CharacterString</gco:CharacterString>
-                                 </gco:aName>
-                              </gco:TypeName>
-                           </gco:attributeType>
-                        </gco:MemberName>
-                     </mrc:sequenceIdentifier>
-                     <mrc:description>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:descriptor/gco:CharacterString</gco:CharacterString>
-                     </mrc:description>
-                     <mrc:maxValue>
-                        <gco:Real>70</gco:Real>
-                     </mrc:maxValue>
-                     <mrc:minValue>
-                        <gco:Real>-70</gco:Real>
-                     </mrc:minValue>
-                     <mrc:units xlink:href="http://TBD_UnitsDictionary#Degrees"/>
-                     <mrc:scaleFactor>
-                        <gco:Real>17</gco:Real>
-                     </mrc:scaleFactor>
-                  </mrc:MD_SampleDimension>
-               </mrc:attribute>
-            </mrc:MD_AttributeGroup>
-         </mrc:attributeGroup>
       </mrc:MD_CoverageDescription>
    </mdb:contentInfo>
    <mdb:distributionInfo>
@@ -2678,11 +2378,43 @@
             <mdq:DQ_QuantitativeAttributeAccuracy>
                <mdq:measure>
                   <mdq:DQ_MeasureReference>
+                     <mdq:measureIdentification>
+                        <mcc:MD_Identifier>
+                           <mcc:code>
+                              <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:measureIdentification/gmd:MD_Identifier/gmd:code</gco:CharacterString>
+                           </mcc:code>
+                        </mcc:MD_Identifier>
+                     </mdq:measureIdentification>
                      <mdq:nameOfMeasure>
                         <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:nameOfMeasure/gco:CharacterString</gco:CharacterString>
                      </mdq:nameOfMeasure>
+                     <mdq:measureDescription>
+                        <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:measureDescription/gco:CharacterString</gco:CharacterString>
+                     </mdq:measureDescription>
                   </mdq:DQ_MeasureReference>
                </mdq:measure>
+               <mdq:evaluationMethod>
+                  <mdq:DQ_FullInspection>
+                     <mdq:dateTime>
+                        <gco:DateTime>2012-10-02T15:44:00</gco:DateTime>
+                     </mdq:dateTime>
+                     <mdq:evaluationMethodDescription>
+                        <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:evaluationMethodDescription/gco:CharacterString</gco:CharacterString>
+                     </mdq:evaluationMethodDescription>
+                     <mdq:evaluationProcedure>
+                        <cit:CI_Citation>
+                           <cit:title>
+                              <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:evaluationProcedure/gmd:CI_Citation/gmd:title/gco:CharacterString</gco:CharacterString>
+                           </cit:title>
+                           <cit:date gco:nilReason="inapplicable"/>
+                        </cit:CI_Citation>
+                     </mdq:evaluationProcedure>
+                     <mdq:evaluationMethodType>
+                        <mdq:DQ_EvaluationMethodTypeCode codeList="codeListLocation#DQ_EvaluationMethodTypeCode"
+                                                         codeListValue="/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:evaluationMethodType/gmd:DQ_EvaluationMethodTypeCode">/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:evaluationMethodType/gmd:DQ_EvaluationMethodTypeCode</mdq:DQ_EvaluationMethodTypeCode>
+                     </mdq:evaluationMethodType>
+                  </mdq:DQ_FullInspection>
+               </mdq:evaluationMethod>
                <mdq:result>
                   <mdq:DQ_QuantitativeResult>
                      <mdq:value gco:nilReason="inapplicable"/>
@@ -2693,88 +2425,16 @@
             </mdq:DQ_QuantitativeAttributeAccuracy>
          </mdq:report>
          <mdq:report>
-            <mdq:DQ_ConceptualConsistency>
-               <mdq:measure>
-                  <mdq:DQ_MeasureReference>
-                     <mdq:nameOfMeasure>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_ConceptualConsistency/gmd:nameOfMeasure/gco:CharacterString</gco:CharacterString>
-                     </mdq:nameOfMeasure>
-                  </mdq:DQ_MeasureReference>
-               </mdq:measure>
-               <mdq:result>
-                  <mdq:DQ_QuantitativeResult>
-                     <mdq:value gco:nilReason="inapplicable"/>
-                     <mdq:value>
-                        <gco:Record>
-                           <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_ConceptualConsistency/gmd:result/gmd:DQ_QuantitativeResult/gmd:value/gco:Record/gco:CharacterString</gco:CharacterString>
-                        </gco:Record>
-                     </mdq:value>
-                     <mdq:valueUnit gco:nilReason="inapplicable"/>
-                  </mdq:DQ_QuantitativeResult>
-               </mdq:result>
-            </mdq:DQ_ConceptualConsistency>
+            <mdq:DQ_ConceptualConsistency/>
          </mdq:report>
          <mdq:report>
-            <mdq:DQ_CompletenessOmission>
-               <mdq:measure>
-                  <mdq:DQ_MeasureReference>
-                     <mdq:nameOfMeasure>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_CompletenessOmission/gmd:nameOfMeasure/gco:CharacterString</gco:CharacterString>
-                     </mdq:nameOfMeasure>
-                  </mdq:DQ_MeasureReference>
-               </mdq:measure>
-               <mdq:result>
-                  <mdq:DQ_QuantitativeResult>
-                     <mdq:value gco:nilReason="inapplicable"/>
-                     <mdq:value>
-                        <gco:Record>
-                           <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_CompletenessOmission/gmd:result/gmd:DQ_QuantitativeResult/gmd:value/gco:Record/gco:CharacterString</gco:CharacterString>
-                        </gco:Record>
-                     </mdq:value>
-                     <mdq:valueUnit gco:nilReason="inapplicable"/>
-                  </mdq:DQ_QuantitativeResult>
-               </mdq:result>
-            </mdq:DQ_CompletenessOmission>
+            <mdq:DQ_CompletenessOmission/>
          </mdq:report>
          <mdq:report>
-            <mdq:DQ_AbsoluteExternalPositionalAccuracy>
-               <mdq:measure>
-                  <mdq:DQ_MeasureReference>
-                     <mdq:nameOfMeasure>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_AbsoluteExternalPositionalAccuracy/gmd:nameOfMeasure/gco:CharacterString</gco:CharacterString>
-                     </mdq:nameOfMeasure>
-                  </mdq:DQ_MeasureReference>
-               </mdq:measure>
-               <mdq:result>
-                  <mdq:DQ_QuantitativeResult>
-                     <mdq:value gco:nilReason="inapplicable"/>
-                     <mdq:value>
-                        <gco:Record>
-                           <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_AbsoluteExternalPositionalAccuracy/gmd:result/gmd:DQ_QuantitativeResult/gmd:value/gco:Record/gco:CharacterString</gco:CharacterString>
-                        </gco:Record>
-                     </mdq:value>
-                     <mdq:valueUnit gco:nilReason="inapplicable"/>
-                  </mdq:DQ_QuantitativeResult>
-               </mdq:result>
-            </mdq:DQ_AbsoluteExternalPositionalAccuracy>
+            <mdq:DQ_AbsoluteExternalPositionalAccuracy/>
          </mdq:report>
          <mdq:report>
-            <mdq:DQ_AbsoluteExternalPositionalAccuracy>
-               <mdq:measure>
-                  <mdq:DQ_MeasureReference>
-                     <mdq:nameOfMeasure>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_AbsoluteExternalPositionalAccuracy/gmd:nameOfMeasure/gco:CharacterString</gco:CharacterString>
-                     </mdq:nameOfMeasure>
-                  </mdq:DQ_MeasureReference>
-               </mdq:measure>
-               <mdq:result>
-                  <mdq:DQ_QuantitativeResult>
-                     <mdq:value gco:nilReason="inapplicable"/>
-                     <mdq:value gco:nilReason="inapplicable"/>
-                     <mdq:valueUnit gco:nilReason="inapplicable"/>
-                  </mdq:DQ_QuantitativeResult>
-               </mdq:result>
-            </mdq:DQ_AbsoluteExternalPositionalAccuracy>
+            <mdq:DQ_AbsoluteExternalPositionalAccuracy/>
          </mdq:report>
       </mdq:DQ_DataQuality>
    </mdb:dataQualityInfo>
@@ -2798,269 +2458,111 @@
          </mdq:scope>
          <mdq:report>
             <mdq:DQ_QuantitativeAttributeAccuracy>
-               <mdq:result>
-                  <mdq:QE_CoverageResult>
-                     <mdq:spatialRepresentationType>
-                        <mcc:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode"
-                                                              codeListValue="grid">/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:result/gmi:QE_CoverageResult/gmi:spatialRepresentationType/gmd:MD_SpatialRepresentationTypeCode</mcc:MD_SpatialRepresentationTypeCode>
-                     </mdq:spatialRepresentationType>
-                     <mdq:resultFile gco:nilReason="missing"/>
-                     <mdq:resultSpatialRepresentation xlink:href="#seriesSpatialRepresentation"/>
-                     <mdq:resultContentDescription>
-                        <mrc:MI_CoverageDescription>
-                           <mrc:attributeDescription>
-                              <gco:RecordType xlink:href="http://www.ngdc.noaa.gov/getRecordDescription/gov.noaa.class:AERO100"/>
-                           </mrc:attributeDescription>
-                           <mrc:attributeGroup>
-                              <mrc:MD_AttributeGroup>
-                                 <mrc:contentType>
-                                    <mrc:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode"
-                                                                    codeListValue="qualityInformation">/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:result/gmi:QE_CoverageResult/gmi:resultContentDescription/gmi:MI_CoverageDescription/gmd:contentType/gmd:MD_CoverageContentTypeCode</mrc:MD_CoverageContentTypeCode>
-                                 </mrc:contentType>
-                                 <mrc:attribute>
-                                    <mrc:MD_SampleDimension>
-                                       <mrc:sequenceIdentifier>
-                                          <gco:MemberName>
-                                             <gco:aName>
-                                                <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:result/gmi:QE_CoverageResult/gmi:resultContentDescription/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:aName/gco:CharacterString</gco:CharacterString>
-                                             </gco:aName>
-                                             <gco:attributeType>
-                                                <gco:TypeName>
-                                                   <gco:aName>
-                                                      <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:result/gmi:QE_CoverageResult/gmi:resultContentDescription/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:attributeType/gco:TypeName/gco:aName/gco:CharacterString</gco:CharacterString>
-                                                   </gco:aName>
-                                                </gco:TypeName>
-                                             </gco:attributeType>
-                                          </gco:MemberName>
-                                       </mrc:sequenceIdentifier>
-                                       <mrc:description>
-                                          <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:result/gmi:QE_CoverageResult/gmi:resultContentDescription/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:descriptor/gco:CharacterString</gco:CharacterString>
-                                       </mrc:description>
-                                       <mrc:maxValue>
-                                          <gco:Real>80</gco:Real>
-                                       </mrc:maxValue>
-                                       <mrc:minValue>
-                                          <gco:Real>-80</gco:Real>
-                                       </mrc:minValue>
-                                       <mrc:units xlink:href="http://TBD_UnitsDictionary#Integer"/>
-                                       <mrc:scaleFactor>
-                                          <gco:Real>18</gco:Real>
-                                       </mrc:scaleFactor>
-                                    </mrc:MD_SampleDimension>
-                                 </mrc:attribute>
-                              </mrc:MD_AttributeGroup>
-                           </mrc:attributeGroup>
-                        </mrc:MI_CoverageDescription>
-                     </mdq:resultContentDescription>
-                     <mdq:resultFormat gco:nilReason="unknown"/>
-                  </mdq:QE_CoverageResult>
-               </mdq:result>
-            </mdq:DQ_QuantitativeAttributeAccuracy>
-         </mdq:report>
-         <mdq:report>
-            <mdq:DQ_QuantitativeAttributeAccuracy>
-               <mdq:result>
-                  <mdq:QE_CoverageResult>
-                     <mdq:spatialRepresentationType>
-                        <mcc:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode"
-                                                              codeListValue="grid">/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:result/gmi:QE_CoverageResult/gmi:spatialRepresentationType/gmd:MD_SpatialRepresentationTypeCode</mcc:MD_SpatialRepresentationTypeCode>
-                     </mdq:spatialRepresentationType>
-                     <mdq:resultFile gco:nilReason="missing"/>
-                     <mdq:resultSpatialRepresentation xlink:href="#seriesSpatialRepresentation"/>
-                     <mdq:resultContentDescription>
-                        <mrc:MI_CoverageDescription>
-                           <mrc:attributeDescription>
-                              <gco:RecordType xlink:href="http://www.ngdc.noaa.gov/getRecordDescription/gov.noaa.class:AERO100"/>
-                           </mrc:attributeDescription>
-                           <mrc:attributeGroup>
-                              <mrc:MD_AttributeGroup>
-                                 <mrc:contentType>
-                                    <mrc:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode"
-                                                                    codeListValue="qualityInformation">/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:result/gmi:QE_CoverageResult/gmi:resultContentDescription/gmi:MI_CoverageDescription/gmd:contentType/gmd:MD_CoverageContentTypeCode</mrc:MD_CoverageContentTypeCode>
-                                 </mrc:contentType>
-                                 <mrc:attribute>
-                                    <mrc:MD_SampleDimension>
-                                       <mrc:sequenceIdentifier>
-                                          <gco:MemberName>
-                                             <gco:aName>
-                                                <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:result/gmi:QE_CoverageResult/gmi:resultContentDescription/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:aName/gco:CharacterString</gco:CharacterString>
-                                             </gco:aName>
-                                             <gco:attributeType>
-                                                <gco:TypeName>
-                                                   <gco:aName>
-                                                      <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:result/gmi:QE_CoverageResult/gmi:resultContentDescription/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:attributeType/gco:TypeName/gco:aName/gco:CharacterString</gco:CharacterString>
-                                                   </gco:aName>
-                                                </gco:TypeName>
-                                             </gco:attributeType>
-                                          </gco:MemberName>
-                                       </mrc:sequenceIdentifier>
-                                       <mrc:description>
-                                          <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:result/gmi:QE_CoverageResult/gmi:resultContentDescription/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:descriptor/gco:CharacterString</gco:CharacterString>
-                                       </mrc:description>
-                                       <mrc:maxValue>
-                                          <gco:Real>90</gco:Real>
-                                       </mrc:maxValue>
-                                       <mrc:minValue>
-                                          <gco:Real>-90</gco:Real>
-                                       </mrc:minValue>
-                                       <mrc:units xlink:href="http://TBD_UnitsDictionary#Hours"/>
-                                       <mrc:scaleFactor>
-                                          <gco:Real>19</gco:Real>
-                                       </mrc:scaleFactor>
-                                    </mrc:MD_SampleDimension>
-                                 </mrc:attribute>
-                              </mrc:MD_AttributeGroup>
-                           </mrc:attributeGroup>
-                        </mrc:MI_CoverageDescription>
-                     </mdq:resultContentDescription>
-                     <mdq:resultFormat gco:nilReason="unknown"/>
-                  </mdq:QE_CoverageResult>
-               </mdq:result>
-            </mdq:DQ_QuantitativeAttributeAccuracy>
-         </mdq:report>
-         <mdq:report>
-            <mdq:DQ_QuantitativeAttributeAccuracy>
-               <mdq:result>
-                  <mdq:QE_CoverageResult>
-                     <mdq:spatialRepresentationType>
-                        <mcc:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode"
-                                                              codeListValue="grid">/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:result/gmi:QE_CoverageResult/gmi:spatialRepresentationType/gmd:MD_SpatialRepresentationTypeCode</mcc:MD_SpatialRepresentationTypeCode>
-                     </mdq:spatialRepresentationType>
-                     <mdq:resultFile gco:nilReason="missing"/>
-                     <mdq:resultSpatialRepresentation xlink:href="#seriesSpatialRepresentation"/>
-                     <mdq:resultContentDescription>
-                        <mrc:MI_CoverageDescription>
-                           <mrc:attributeDescription>
-                              <gco:RecordType xlink:href="http://www.ngdc.noaa.gov/getRecordDescription/gov.noaa.class:AERO100"/>
-                           </mrc:attributeDescription>
-                           <mrc:attributeGroup>
-                              <mrc:MD_AttributeGroup>
-                                 <mrc:contentType>
-                                    <mrc:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode"
-                                                                    codeListValue="qualityInformation">/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:result/gmi:QE_CoverageResult/gmi:resultContentDescription/gmi:MI_CoverageDescription/gmd:contentType/gmd:MD_CoverageContentTypeCode</mrc:MD_CoverageContentTypeCode>
-                                 </mrc:contentType>
-                                 <mrc:attribute>
-                                    <mrc:MD_SampleDimension>
-                                       <mrc:sequenceIdentifier>
-                                          <gco:MemberName>
-                                             <gco:aName>
-                                                <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:result/gmi:QE_CoverageResult/gmi:resultContentDescription/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:aName/gco:CharacterString</gco:CharacterString>
-                                             </gco:aName>
-                                             <gco:attributeType>
-                                                <gco:TypeName>
-                                                   <gco:aName>
-                                                      <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:result/gmi:QE_CoverageResult/gmi:resultContentDescription/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:attributeType/gco:TypeName/gco:aName/gco:CharacterString</gco:CharacterString>
-                                                   </gco:aName>
-                                                </gco:TypeName>
-                                             </gco:attributeType>
-                                          </gco:MemberName>
-                                       </mrc:sequenceIdentifier>
-                                       <mrc:description>
-                                          <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:result/gmi:QE_CoverageResult/gmi:resultContentDescription/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:descriptor/gco:CharacterString</gco:CharacterString>
-                                       </mrc:description>
-                                       <mrc:maxValue>
-                                          <gco:Real>100</gco:Real>
-                                       </mrc:maxValue>
-                                       <mrc:minValue>
-                                          <gco:Real>-100</gco:Real>
-                                       </mrc:minValue>
-                                       <mrc:units xlink:href="http://TBD_UnitsDictionary#Integer"/>
-                                       <mrc:scaleFactor>
-                                          <gco:Real>20</gco:Real>
-                                       </mrc:scaleFactor>
-                                    </mrc:MD_SampleDimension>
-                                 </mrc:attribute>
-                              </mrc:MD_AttributeGroup>
-                           </mrc:attributeGroup>
-                        </mrc:MI_CoverageDescription>
-                     </mdq:resultContentDescription>
-                     <mdq:resultFormat gco:nilReason="unknown"/>
-                  </mdq:QE_CoverageResult>
-               </mdq:result>
-            </mdq:DQ_QuantitativeAttributeAccuracy>
-         </mdq:report>
-         <mdq:report>
-            <mdq:DQ_QuantitativeAttributeAccuracy>
-               <mdq:result>
-                  <mdq:QE_CoverageResult>
-                     <mdq:spatialRepresentationType>
-                        <mcc:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode"
-                                                              codeListValue="grid">/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:result/gmi:QE_CoverageResult/gmi:spatialRepresentationType/gmd:MD_SpatialRepresentationTypeCode</mcc:MD_SpatialRepresentationTypeCode>
-                     </mdq:spatialRepresentationType>
-                     <mdq:resultFile gco:nilReason="missing"/>
-                     <mdq:resultSpatialRepresentation xlink:href="#seriesSpatialRepresentation"/>
-                     <mdq:resultContentDescription>
-                        <mrc:MI_CoverageDescription>
-                           <mrc:attributeDescription>
-                              <gco:RecordType xlink:href="http://www.ngdc.noaa.gov/getRecordDescription/gov.noaa.class:AERO100"/>
-                           </mrc:attributeDescription>
-                           <mrc:attributeGroup>
-                              <mrc:MD_AttributeGroup>
-                                 <mrc:contentType>
-                                    <mrc:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode"
-                                                                    codeListValue="qualityInformation">/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:result/gmi:QE_CoverageResult/gmi:resultContentDescription/gmi:MI_CoverageDescription/gmd:contentType/gmd:MD_CoverageContentTypeCode</mrc:MD_CoverageContentTypeCode>
-                                 </mrc:contentType>
-                                 <mrc:attribute>
-                                    <mrc:MD_SampleDimension>
-                                       <mrc:sequenceIdentifier>
-                                          <gco:MemberName>
-                                             <gco:aName>
-                                                <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:result/gmi:QE_CoverageResult/gmi:resultContentDescription/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:aName/gco:CharacterString</gco:CharacterString>
-                                             </gco:aName>
-                                             <gco:attributeType>
-                                                <gco:TypeName>
-                                                   <gco:aName>
-                                                      <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:result/gmi:QE_CoverageResult/gmi:resultContentDescription/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:attributeType/gco:TypeName/gco:aName/gco:CharacterString</gco:CharacterString>
-                                                   </gco:aName>
-                                                </gco:TypeName>
-                                             </gco:attributeType>
-                                          </gco:MemberName>
-                                       </mrc:sequenceIdentifier>
-                                       <mrc:description>
-                                          <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:result/gmi:QE_CoverageResult/gmi:resultContentDescription/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:descriptor/gco:CharacterString</gco:CharacterString>
-                                       </mrc:description>
-                                       <mrc:maxValue>
-                                          <gco:Real>110</gco:Real>
-                                       </mrc:maxValue>
-                                       <mrc:minValue>
-                                          <gco:Real>-110</gco:Real>
-                                       </mrc:minValue>
-                                       <mrc:units xlink:href="http://TBD_UnitsDictionary#Bits"/>
-                                       <mrc:scaleFactor>
-                                          <gco:Real>50</gco:Real>
-                                       </mrc:scaleFactor>
-                                    </mrc:MD_SampleDimension>
-                                 </mrc:attribute>
-                              </mrc:MD_AttributeGroup>
-                           </mrc:attributeGroup>
-                        </mrc:MI_CoverageDescription>
-                     </mdq:resultContentDescription>
-                     <mdq:resultFormat gco:nilReason="unknown"/>
-                  </mdq:QE_CoverageResult>
-               </mdq:result>
-            </mdq:DQ_QuantitativeAttributeAccuracy>
-         </mdq:report>
-         <mdq:report>
-            <mdq:DQ_NonQuantitativeAttributeCorrectness>
                <mdq:measure>
                   <mdq:DQ_MeasureReference>
+                     <mdq:measureIdentification>
+                        <mcc:MD_Identifier>
+                           <mcc:code>
+                              <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:measureIdentification/gmd:MD_Identifier/gmd:code</gco:CharacterString>
+                           </mcc:code>
+                        </mcc:MD_Identifier>
+                     </mdq:measureIdentification>
                      <mdq:nameOfMeasure>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_NonQuantitativeAttributeAccuracy/gmd:nameOfMeasure/gco:CharacterString</gco:CharacterString>
+                        <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:nameOfMeasure/gco:CharacterString</gco:CharacterString>
                      </mdq:nameOfMeasure>
+                     <mdq:measureDescription>
+                        <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:measureDescription/gco:CharacterString</gco:CharacterString>
+                     </mdq:measureDescription>
                   </mdq:DQ_MeasureReference>
                </mdq:measure>
+               <mdq:evaluationMethod>
+                  <mdq:DQ_FullInspection>
+                     <mdq:dateTime>
+                        <gco:DateTime>2012-10-02T15:44:00</gco:DateTime>
+                     </mdq:dateTime>
+                     <mdq:evaluationMethodDescription>
+                        <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:evaluationMethodDescription/gco:CharacterString</gco:CharacterString>
+                     </mdq:evaluationMethodDescription>
+                     <mdq:evaluationProcedure>
+                        <cit:CI_Citation>
+                           <cit:title>
+                              <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:evaluationProcedure/gmd:CI_Citation/gmd:title/gco:CharacterString</gco:CharacterString>
+                           </cit:title>
+                           <cit:date gco:nilReason="inapplicable"/>
+                        </cit:CI_Citation>
+                     </mdq:evaluationProcedure>
+                     <mdq:evaluationMethodType>
+                        <mdq:DQ_EvaluationMethodTypeCode codeList="codeListLocation#DQ_EvaluationMethodTypeCode"
+                                                         codeListValue="/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:evaluationMethodType/gmd:DQ_EvaluationMethodTypeCode">/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:evaluationMethodType/gmd:DQ_EvaluationMethodTypeCode</mdq:DQ_EvaluationMethodTypeCode>
+                     </mdq:evaluationMethodType>
+                  </mdq:DQ_FullInspection>
+               </mdq:evaluationMethod>
                <mdq:result>
-                  <mdq:DQ_QuantitativeResult>
-                     <mdq:value gco:nilReason="inapplicable"/>
-                     <mdq:value>
-                        <gco:Record>
-                           <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_NonQuantitativeAttributeAccuracy/gmd:result/gmd:DQ_QuantitativeResult/gmd:value/gco:Record/gco:CharacterString</gco:CharacterString>
-                        </gco:Record>
-                     </mdq:value>
-                     <mdq:valueUnit gco:nilReason="inapplicable"/>
-                  </mdq:DQ_QuantitativeResult>
+                  <msr:QE_CoverageResult>
+                     <msr:spatialRepresentationType>
+                        <mcc:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode"
+                                                              codeListValue="grid">/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:result/gmi:QE_CoverageResult/gmi:spatialRepresentationType/gmd:MD_SpatialRepresentationTypeCode</mcc:MD_SpatialRepresentationTypeCode>
+                     </msr:spatialRepresentationType>
+                     <msr:resultFile gco:nilReason="missing"/>
+                     <msr:resultSpatialRepresentation xlink:href="#seriesSpatialRepresentation"/>
+                     <msr:resultContentDescription>
+                        <msr:MI_CoverageDescription>
+                           <mdq:attributeDescription>
+                              <gco:RecordType xlink:href="http://www.ngdc.noaa.gov/getRecordDescription/gov.noaa.class:AERO100"/>
+                           </mdq:attributeDescription>
+                           <mdq:contentType>
+                              <mdq:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode"
+                                                              codeListValue="qualityInformation">/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:result/gmi:QE_CoverageResult/gmi:resultContentDescription/gmi:MI_CoverageDescription/gmd:contentType/gmd:MD_CoverageContentTypeCode</mdq:MD_CoverageContentTypeCode>
+                           </mdq:contentType>
+                           <mrc:attribute>
+                              <mrc:MD_SampleDimension>
+                                 <mdq:sequenceIdentifier>
+                                    <gco:MemberName>
+                                       <gco:aName>
+                                          <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:result/gmi:QE_CoverageResult/gmi:resultContentDescription/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:aName/gco:CharacterString</gco:CharacterString>
+                                       </gco:aName>
+                                       <gco:attributeType>
+                                          <gco:TypeName>
+                                             <gco:aName>
+                                                <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:result/gmi:QE_CoverageResult/gmi:resultContentDescription/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:attributeType/gco:TypeName/gco:aName/gco:CharacterString</gco:CharacterString>
+                                             </gco:aName>
+                                          </gco:TypeName>
+                                       </gco:attributeType>
+                                    </gco:MemberName>
+                                 </mdq:sequenceIdentifier>
+                                 <mrc:description>
+                                    <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:result/gmi:QE_CoverageResult/gmi:resultContentDescription/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:descriptor/gco:CharacterString</gco:CharacterString>
+                                 </mrc:description>
+                                 <mdq:maxValue>
+                                    <gco:Real>80</gco:Real>
+                                 </mdq:maxValue>
+                                 <mdq:minValue>
+                                    <gco:Real>-80</gco:Real>
+                                 </mdq:minValue>
+                                 <mdq:units xlink:href="http://TBD_UnitsDictionary#Integer"/>
+                                 <mdq:scaleFactor>
+                                    <gco:Real>18</gco:Real>
+                                 </mdq:scaleFactor>
+                              </mrc:MD_SampleDimension>
+                           </mrc:attribute>
+                        </msr:MI_CoverageDescription>
+                     </msr:resultContentDescription>
+                     <msr:resultFormat gco:nilReason="unknown"/>
+                  </msr:QE_CoverageResult>
                </mdq:result>
-            </mdq:DQ_NonQuantitativeAttributeCorrectness>
+            </mdq:DQ_QuantitativeAttributeAccuracy>
+         </mdq:report>
+         <mdq:report>
+            <mdq:DQ_QuantitativeAttributeAccuracy/>
+         </mdq:report>
+         <mdq:report>
+            <mdq:DQ_QuantitativeAttributeAccuracy/>
+         </mdq:report>
+         <mdq:report>
+            <mdq:DQ_QuantitativeAttributeAccuracy/>
+         </mdq:report>
+         <mdq:report>
+            <mdq:DQ_NonQuantitativeAttributeCorrectness/>
          </mdq:report>
       </mdq:DQ_DataQuality>
    </mdb:dataQualityInfo>
@@ -3773,15 +3275,11 @@
             </mrl:LI_Source>
          </mrl:source>
          <mrl:processStep>
-            <mrl:LE_ProcessStep id="ps_144">
+            <msr:LE_ProcessStep id="ps_144">
                <mrl:description>
                   <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:processStep/gmi:LE_ProcessStep/gmd:description/gco:CharacterString</gco:CharacterString>
                </mrl:description>
-               <mrl:stepDateTime>
-                  <gml:TimeInstant gml:id="d10e2138">
-                     <gml:timePosition/>
-                  </gml:TimeInstant>
-               </mrl:stepDateTime>
+               <mrl:dateTime gco:nilReason="Not complete"/>
                <mrl:processor>
                   <cit:CI_Responsibility id="fgdccontact_183.114858.21623">
                      <cit:role>
@@ -3847,11 +3345,31 @@
                </mrl:processor>
                <mrl:source xlink:href="#src_AEROBS_File"/>
                <mrl:source xlink:href="#src_AVHRR_GAC"/>
-               <mrl:processingInformation>
-                  <mrl:LE_Processing>
-                     <mrl:algorithm>
-                        <mrl:LE_Algorithm>
-                           <mrl:citation>
+               <msr:processingInformation>
+                  <msr:LE_Processing>
+                     <msr:identifier>
+                        <mcc:MD_Identifier>
+                           <mcc:code>
+                              <gco:CharacterString>/gco:CharacterString/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:processStep/gmi:LE_ProcessStep/gmi:processingInformation/gmi:LE_Processing/gmi:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString</gco:CharacterString>
+                           </mcc:code>
+                        </mcc:MD_Identifier>
+                     </msr:identifier>
+                     <msr:softwareReference>
+                        <cit:CI_Citation>
+                           <cit:title/>
+                           <cit:date>
+                              <cit:CI_Date>
+                                 <cit:date/>
+                                 <cit:dateType>
+                                    <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+                                 </cit:dateType>
+                              </cit:CI_Date>
+                           </cit:date>
+                        </cit:CI_Citation>
+                     </msr:softwareReference>
+                     <msr:algorithm>
+                        <msr:LE_Algorithm>
+                           <msr:citation>
                               <cit:CI_Citation>
                                  <cit:title>
                                     <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:processStep/gmi:LE_ProcessStep/gmi:processingInformation/gmi:LE_Processing/gmi:algorithm/gmi:LE_Algorithm/gmi:citation/gmd:CI_Citation/gmd:title/gco:CharacterString</gco:CharacterString>
@@ -3900,36 +3418,16 @@
                                     </cit:CI_Responsibility>
                                  </cit:citedResponsibleParty>
                               </cit:CI_Citation>
-                           </mrl:citation>
-                           <mrl:description>
+                           </msr:citation>
+                           <msr:description>
                               <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:processStep/gmi:LE_ProcessStep/gmi:processingInformation/gmi:LE_Processing/gmi:algorithm/gmi:LE_Algorithm/gmi:description/gco:CharacterString</gco:CharacterString>
-                           </mrl:description>
-                        </mrl:LE_Algorithm>
-                     </mrl:algorithm>
-                     <mrl:identifier>
-                        <mcc:MD_Identifier>
-                           <mcc:code>
-                              <gco:CharacterString>/gco:CharacterString/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:processStep/gmi:LE_ProcessStep/gmi:processingInformation/gmi:LE_Processing/gmi:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString</gco:CharacterString>
-                           </mcc:code>
-                        </mcc:MD_Identifier>
-                     </mrl:identifier>
-                     <mrl:softwareReference>
-                        <cit:CI_Citation>
-                           <cit:title/>
-                           <cit:date>
-                              <cit:CI_Date>
-                                 <cit:date/>
-                                 <cit:dateType>
-                                    <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
-                                 </cit:dateType>
-                              </cit:CI_Date>
-                           </cit:date>
-                        </cit:CI_Citation>
-                     </mrl:softwareReference>
-                  </mrl:LE_Processing>
-               </mrl:processingInformation>
-               <mrl:output xlink:href="#src_gov.noaa.class_AERO100"/>
-            </mrl:LE_ProcessStep>
+                           </msr:description>
+                        </msr:LE_Algorithm>
+                     </msr:algorithm>
+                  </msr:LE_Processing>
+               </msr:processingInformation>
+               <msr:output xlink:href="#src_gov.noaa.class_AERO100"/>
+            </msr:LE_ProcessStep>
          </mrl:processStep>
       </mrl:LI_Lineage>
    </mdb:resourceLineage>
@@ -3969,7 +3467,7 @@
                   <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:processStep/gmd:LI_ProcessStep/gmd:description/gco:CharacterString</gco:CharacterString>
                </mrl:description>
                <mrl:stepDateTime>
-                  <gml:TimeInstant gml:id="d10e2709">
+                  <gml:TimeInstant gml:id="d10e2758">
                      <gml:timePosition>2000-07-01T01:01:05</gml:timePosition>
                   </gml:TimeInstant>
                </mrl:stepDateTime>
@@ -3981,7 +3479,7 @@
                   <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:processStep/gmd:LI_ProcessStep/gmd:description/gco:CharacterString</gco:CharacterString>
                </mrl:description>
                <mrl:stepDateTime>
-                  <gml:TimeInstant gml:id="d10e2717">
+                  <gml:TimeInstant gml:id="d10e2766">
                      <gml:timePosition/>
                   </gml:TimeInstant>
                </mrl:stepDateTime>
@@ -3993,7 +3491,7 @@
                   <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:processStep/gmd:LI_ProcessStep/gmd:description/gco:CharacterString</gco:CharacterString>
                </mrl:description>
                <mrl:stepDateTime>
-                  <gml:TimeInstant gml:id="d10e2723">
+                  <gml:TimeInstant gml:id="d10e2772">
                      <gml:timePosition>2000-07-01T01:01:02</gml:timePosition>
                   </gml:TimeInstant>
                </mrl:stepDateTime>
@@ -4029,525 +3527,4 @@
          </mmi:maintenanceNote>
       </mmi:MD_MaintenanceInformation>
    </mdb:metadataMaintenance>
-   <mdb:acquisitionInformation>
-      <mac:MI_AcquisitionInformation>
-         <mac:instrument>
-            <mac:MI_Instrument id="instrument_1">
-               <mac:citation>
-                  <cit:CI_Citation>
-                     <cit:title>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/gmi:MI_Instrument/gmi:citation/gmd:CI_Citation/gmd:title/gco:CharacterString</gco:CharacterString>
-                     </cit:title>
-                     <cit:date>
-                        <cit:CI_Date>
-                           <cit:date/>
-                           <cit:dateType>
-                              <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
-                           </cit:dateType>
-                        </cit:CI_Date>
-                     </cit:date>
-                     <cit:identifier>
-                        <mcc:MD_Identifier>
-                           <mcc:code>
-                              <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/gmi:MI_Instrument/gmi:citation/gmd:CI_Citation/gmd:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString</gco:CharacterString>
-                           </mcc:code>
-                        </mcc:MD_Identifier>
-                     </cit:identifier>
-                     <cit:citedResponsibleParty>
-                        <cit:CI_Responsibility id="fgdccitation_26722.114902.381482.1">
-                           <cit:role>
-                              <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="originator">originator</cit:CI_RoleCode>
-                           </cit:role>
-                           <cit:party>
-                              <cit:CI_Individual>
-                                 <cit:name>
-                                    <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/gmi:MI_Instrument/gmi:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString</gco:CharacterString>
-                                 </cit:name>
-                              </cit:CI_Individual>
-                           </cit:party>
-                        </cit:CI_Responsibility>
-                     </cit:citedResponsibleParty>
-                     <cit:citedResponsibleParty>
-                        <cit:CI_Responsibility id="fgdccitation_26722.114902.381482.2">
-                           <cit:role>
-                              <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</cit:CI_RoleCode>
-                           </cit:role>
-                           <cit:party>
-                              <cit:CI_Individual>
-                                 <cit:name>
-                                    <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/gmi:MI_Instrument/gmi:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString</gco:CharacterString>
-                                 </cit:name>
-                              </cit:CI_Individual>
-                           </cit:party>
-                        </cit:CI_Responsibility>
-                     </cit:citedResponsibleParty>
-                  </cit:CI_Citation>
-               </mac:citation>
-               <mac:citation>
-                  <cit:CI_Citation>
-                     <cit:title>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/gmi:MI_Instrument/gmi:citation/gmd:CI_Citation/gmd:title/gco:CharacterString</gco:CharacterString>
-                     </cit:title>
-                     <cit:date>
-                        <cit:CI_Date>
-                           <cit:date/>
-                           <cit:dateType>
-                              <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
-                           </cit:dateType>
-                        </cit:CI_Date>
-                     </cit:date>
-                     <cit:edition>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/gmi:MI_Instrument/gmi:citation/gmd:CI_Citation/gmd:edition/gco:CharacterString</gco:CharacterString>
-                     </cit:edition>
-                     <cit:identifier>
-                        <mcc:MD_Identifier>
-                           <mcc:code>
-                              <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/gmi:MI_Instrument/gmi:citation/gmd:CI_Citation/gmd:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString</gco:CharacterString>
-                           </mcc:code>
-                        </mcc:MD_Identifier>
-                     </cit:identifier>
-                     <cit:citedResponsibleParty>
-                        <cit:CI_Responsibility id="fgdccitation_26723.114902.453748.1">
-                           <cit:role>
-                              <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="originator">originator</cit:CI_RoleCode>
-                           </cit:role>
-                           <cit:party>
-                              <cit:CI_Individual>
-                                 <cit:name>
-                                    <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/gmi:MI_Instrument/gmi:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString</gco:CharacterString>
-                                 </cit:name>
-                              </cit:CI_Individual>
-                           </cit:party>
-                        </cit:CI_Responsibility>
-                     </cit:citedResponsibleParty>
-                     <cit:citedResponsibleParty>
-                        <cit:CI_Responsibility id="fgdccitation_26723.114902.453748.2">
-                           <cit:role>
-                              <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="originator">originator</cit:CI_RoleCode>
-                           </cit:role>
-                           <cit:party>
-                              <cit:CI_Individual>
-                                 <cit:name>
-                                    <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/gmi:MI_Instrument/gmi:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString</gco:CharacterString>
-                                 </cit:name>
-                              </cit:CI_Individual>
-                           </cit:party>
-                        </cit:CI_Responsibility>
-                     </cit:citedResponsibleParty>
-                     <cit:citedResponsibleParty>
-                        <cit:CI_Responsibility id="fgdccitation_26723.114902.453748.3">
-                           <cit:role>
-                              <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="originator">originator</cit:CI_RoleCode>
-                           </cit:role>
-                           <cit:party>
-                              <cit:CI_Individual>
-                                 <cit:name>
-                                    <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/gmi:MI_Instrument/gmi:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString</gco:CharacterString>
-                                 </cit:name>
-                              </cit:CI_Individual>
-                           </cit:party>
-                        </cit:CI_Responsibility>
-                     </cit:citedResponsibleParty>
-                     <cit:citedResponsibleParty>
-                        <cit:CI_Responsibility id="fgdccitation_26723.114902.453748.4">
-                           <cit:role>
-                              <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</cit:CI_RoleCode>
-                           </cit:role>
-                           <cit:party>
-                              <cit:CI_Individual>
-                                 <cit:name>
-                                    <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/gmi:MI_Instrument/gmi:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString</gco:CharacterString>
-                                 </cit:name>
-                              </cit:CI_Individual>
-                           </cit:party>
-                        </cit:CI_Responsibility>
-                     </cit:citedResponsibleParty>
-                  </cit:CI_Citation>
-               </mac:citation>
-               <mac:identifier>
-                  <mcc:MD_Identifier>
-                     <mcc:code>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/gmi:MI_Instrument/gmi:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString</gco:CharacterString>
-                     </mcc:code>
-                  </mcc:MD_Identifier>
-               </mac:identifier>
-               <mac:type>
-                  <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/gmi:MI_Instrument/gmi:type/gco:CharacterString</gco:CharacterString>
-               </mac:type>
-               <mac:description>
-                  <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/gmi:MI_Instrument/gmi:description/gco:CharacterString</gco:CharacterString>
-               </mac:description>
-            </mac:MI_Instrument>
-         </mac:instrument>
-         <mac:instrument>
-            <mac:MI_Instrument id="instrument_219">
-               <mac:citation>
-                  <cit:CI_Citation>
-                     <cit:title>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/gmi:MI_Instrument/gmi:citation/gmd:CI_Citation/gmd:title/gco:CharacterString</gco:CharacterString>
-                     </cit:title>
-                     <cit:date>
-                        <cit:CI_Date>
-                           <cit:date/>
-                           <cit:dateType>
-                              <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
-                           </cit:dateType>
-                        </cit:CI_Date>
-                     </cit:date>
-                     <cit:identifier>
-                        <mcc:MD_Identifier>
-                           <mcc:code>
-                              <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/gmi:MI_Instrument/gmi:citation/gmd:CI_Citation/gmd:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString</gco:CharacterString>
-                           </mcc:code>
-                        </mcc:MD_Identifier>
-                     </cit:identifier>
-                     <cit:citedResponsibleParty>
-                        <cit:CI_Responsibility id="fgdccitation_26722.114902.567480.1">
-                           <cit:role>
-                              <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="originator">originator</cit:CI_RoleCode>
-                           </cit:role>
-                           <cit:party>
-                              <cit:CI_Individual>
-                                 <cit:name>
-                                    <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/gmi:MI_Instrument/gmi:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString</gco:CharacterString>
-                                 </cit:name>
-                              </cit:CI_Individual>
-                           </cit:party>
-                        </cit:CI_Responsibility>
-                     </cit:citedResponsibleParty>
-                     <cit:citedResponsibleParty>
-                        <cit:CI_Responsibility id="fgdccitation_26722.114902.567480.2">
-                           <cit:role>
-                              <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</cit:CI_RoleCode>
-                           </cit:role>
-                           <cit:party>
-                              <cit:CI_Individual>
-                                 <cit:name>
-                                    <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/gmi:MI_Instrument/gmi:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString</gco:CharacterString>
-                                 </cit:name>
-                              </cit:CI_Individual>
-                           </cit:party>
-                        </cit:CI_Responsibility>
-                     </cit:citedResponsibleParty>
-                  </cit:CI_Citation>
-               </mac:citation>
-               <mac:citation>
-                  <cit:CI_Citation>
-                     <cit:title>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/gmi:MI_Instrument/gmi:citation/gmd:CI_Citation/gmd:title/gco:CharacterString</gco:CharacterString>
-                     </cit:title>
-                     <cit:date>
-                        <cit:CI_Date>
-                           <cit:date/>
-                           <cit:dateType>
-                              <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
-                           </cit:dateType>
-                        </cit:CI_Date>
-                     </cit:date>
-                     <cit:edition>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/gmi:MI_Instrument/gmi:citation/gmd:CI_Citation/gmd:edition/gco:CharacterString</gco:CharacterString>
-                     </cit:edition>
-                     <cit:identifier>
-                        <mcc:MD_Identifier>
-                           <mcc:code>
-                              <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/gmi:MI_Instrument/gmi:citation/gmd:CI_Citation/gmd:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString</gco:CharacterString>
-                           </mcc:code>
-                        </mcc:MD_Identifier>
-                     </cit:identifier>
-                     <cit:citedResponsibleParty>
-                        <cit:CI_Responsibility id="fgdccitation_23475.114902.640233.1">
-                           <cit:role>
-                              <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="originator">originator</cit:CI_RoleCode>
-                           </cit:role>
-                           <cit:party>
-                              <cit:CI_Individual>
-                                 <cit:name>
-                                    <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/gmi:MI_Instrument/gmi:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString</gco:CharacterString>
-                                 </cit:name>
-                              </cit:CI_Individual>
-                           </cit:party>
-                        </cit:CI_Responsibility>
-                     </cit:citedResponsibleParty>
-                     <cit:citedResponsibleParty>
-                        <cit:CI_Responsibility id="fgdccitation_23475.114902.640233.2">
-                           <cit:role>
-                              <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</cit:CI_RoleCode>
-                           </cit:role>
-                           <cit:party>
-                              <cit:CI_Individual>
-                                 <cit:name>
-                                    <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/gmi:MI_Instrument/gmi:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString</gco:CharacterString>
-                                 </cit:name>
-                              </cit:CI_Individual>
-                           </cit:party>
-                        </cit:CI_Responsibility>
-                     </cit:citedResponsibleParty>
-                  </cit:CI_Citation>
-               </mac:citation>
-               <mac:identifier>
-                  <mcc:MD_Identifier>
-                     <mcc:code>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/gmi:MI_Instrument/gmi:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString</gco:CharacterString>
-                     </mcc:code>
-                  </mcc:MD_Identifier>
-               </mac:identifier>
-               <mac:type>
-                  <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/gmi:MI_Instrument/gmi:type/gco:CharacterString</gco:CharacterString>
-               </mac:type>
-               <mac:description>
-                  <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/gmi:MI_Instrument/gmi:description/gco:CharacterString</gco:CharacterString>
-               </mac:description>
-            </mac:MI_Instrument>
-         </mac:instrument>
-         <mac:operation>
-            <mac:MI_Operation>
-               <mac:description>
-                  <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:operation/gmi:MI_Operation/gmi:description/gco:CharacterString</gco:CharacterString>
-               </mac:description>
-               <mac:identifier>
-                  <mcc:MD_Identifier>
-                     <mcc:authority>
-                        <cit:CI_Citation>
-                           <cit:title>
-                              <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:operation/gmi:MI_Operation/gmi:identifier/gmd:MD_Identifier/gmd:authority/gmd:CI_Citation/gmd:title/gco:CharacterString</gco:CharacterString>
-                           </cit:title>
-                           <cit:date>
-                              <cit:CI_Date>
-                                 <cit:date/>
-                                 <cit:dateType>
-                                    <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
-                                 </cit:dateType>
-                              </cit:CI_Date>
-                           </cit:date>
-                           <cit:edition>
-                              <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:operation/gmi:MI_Operation/gmi:identifier/gmd:MD_Identifier/gmd:authority/gmd:CI_Citation/gmd:edition/gco:CharacterString</gco:CharacterString>
-                           </cit:edition>
-                           <cit:editionDate>
-                              <gco:DateTime>2000-08-05T00:00:00</gco:DateTime>
-                           </cit:editionDate>
-                           <cit:citedResponsibleParty>
-                              <cit:CI_Responsibility>
-                                 <cit:role>
-                                    <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode"
-                                                     codeListValue="resourceProvider">resourceProvider</cit:CI_RoleCode>
-                                 </cit:role>
-                                 <cit:party>
-                                    <cit:CI_Organisation>
-                                       <cit:name>
-                                          <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:operation/gmi:MI_Operation/gmi:identifier/gmd:MD_Identifier/gmd:authority/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString</gco:CharacterString>
-                                       </cit:name>
-                                       <cit:contactInfo>
-                                          <cit:CI_Contact>
-                                             <cit:onlineResource>
-                                                <cit:CI_OnlineResource>
-                                                   <cit:linkage>
-                                                      <gco:CharacterString>http://example.com/onlineResource.33</gco:CharacterString>
-                                                   </cit:linkage>
-                                                   <cit:protocol>
-                                                      <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:operation/gmi:MI_Operation/gmi:identifier/gmd:MD_Identifier/gmd:authority/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:protocol/gco:CharacterString</gco:CharacterString>
-                                                   </cit:protocol>
-                                                   <cit:applicationProfile>
-                                                      <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:operation/gmi:MI_Operation/gmi:identifier/gmd:MD_Identifier/gmd:authority/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:applicationProfile/gco:CharacterString</gco:CharacterString>
-                                                   </cit:applicationProfile>
-                                                   <cit:name>
-                                                      <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:operation/gmi:MI_Operation/gmi:identifier/gmd:MD_Identifier/gmd:authority/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:name/gco:CharacterString</gco:CharacterString>
-                                                   </cit:name>
-                                                   <cit:description>
-                                                      <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:operation/gmi:MI_Operation/gmi:identifier/gmd:MD_Identifier/gmd:authority/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:description/gco:CharacterString</gco:CharacterString>
-                                                   </cit:description>
-                                                   <cit:function>
-                                                      <cit:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
-                                                                                 codeListValue="information">/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:operation/gmi:MI_Operation/gmi:identifier/gmd:MD_Identifier/gmd:authority/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:function/gmd:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
-                                                   </cit:function>
-                                                </cit:CI_OnlineResource>
-                                             </cit:onlineResource>
-                                          </cit:CI_Contact>
-                                       </cit:contactInfo>
-                                    </cit:CI_Organisation>
-                                 </cit:party>
-                              </cit:CI_Responsibility>
-                           </cit:citedResponsibleParty>
-                           <cit:onlineResource>
-                              <cit:CI_OnlineResource>
-                                 <cit:linkage>
-                                    <gco:CharacterString>http://example.com/onlineResource.33</gco:CharacterString>
-                                 </cit:linkage>
-                                 <cit:protocol>
-                                    <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:operation/gmi:MI_Operation/gmi:identifier/gmd:MD_Identifier/gmd:authority/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:protocol/gco:CharacterString</gco:CharacterString>
-                                 </cit:protocol>
-                                 <cit:applicationProfile>
-                                    <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:operation/gmi:MI_Operation/gmi:identifier/gmd:MD_Identifier/gmd:authority/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:applicationProfile/gco:CharacterString</gco:CharacterString>
-                                 </cit:applicationProfile>
-                                 <cit:name>
-                                    <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:operation/gmi:MI_Operation/gmi:identifier/gmd:MD_Identifier/gmd:authority/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:name/gco:CharacterString</gco:CharacterString>
-                                 </cit:name>
-                                 <cit:description>
-                                    <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:operation/gmi:MI_Operation/gmi:identifier/gmd:MD_Identifier/gmd:authority/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:description/gco:CharacterString</gco:CharacterString>
-                                 </cit:description>
-                                 <cit:function>
-                                    <cit:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
-                                                               codeListValue="information">/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:operation/gmi:MI_Operation/gmi:identifier/gmd:MD_Identifier/gmd:authority/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:function/gmd:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
-                                 </cit:function>
-                              </cit:CI_OnlineResource>
-                           </cit:onlineResource>
-                        </cit:CI_Citation>
-                     </mcc:authority>
-                     <mcc:code>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:operation/gmi:MI_Operation/gmi:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString</gco:CharacterString>
-                     </mcc:code>
-                  </mcc:MD_Identifier>
-               </mac:identifier>
-               <mac:status>
-                  <mcc:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode"
-                                       codeListValue="onGoing"/>
-               </mac:status>
-               <mac:type>
-                  <mac:MI_OperationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MI_OperationTypeCode"
-                                            codeListValue="real">/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:operation/gmi:MI_Operation/gmi:type/gmi:MI_OperationTypeCode</mac:MI_OperationTypeCode>
-               </mac:type>
-               <mac:parentOperation gco:nilReason="inapplicable"/>
-            </mac:MI_Operation>
-         </mac:operation>
-         <mac:platform>
-            <mac:MI_Platform id="platform_32">
-               <mac:citation>
-                  <cit:CI_Citation>
-                     <cit:title>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/gmi:MI_Instrument/gmi:citation/gmd:CI_Citation/gmd:title/gco:CharacterString</gco:CharacterString>
-                     </cit:title>
-                     <cit:date>
-                        <cit:CI_Date>
-                           <cit:date/>
-                           <cit:dateType>
-                              <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
-                           </cit:dateType>
-                        </cit:CI_Date>
-                     </cit:date>
-                     <cit:identifier>
-                        <mcc:MD_Identifier>
-                           <mcc:code>
-                              <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/gmi:MI_Platform/gmi:citation/gmd:CI_Citation/gmd:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString</gco:CharacterString>
-                           </mcc:code>
-                        </mcc:MD_Identifier>
-                     </cit:identifier>
-                     <cit:citedResponsibleParty>
-                        <cit:CI_Responsibility id="fgdccitation_26722.114902.381482.10">
-                           <cit:role>
-                              <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="originator">originator</cit:CI_RoleCode>
-                           </cit:role>
-                           <cit:party>
-                              <cit:CI_Individual>
-                                 <cit:name>
-                                    <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/gmi:MI_Platform/gmi:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString</gco:CharacterString>
-                                 </cit:name>
-                              </cit:CI_Individual>
-                           </cit:party>
-                        </cit:CI_Responsibility>
-                     </cit:citedResponsibleParty>
-                     <cit:citedResponsibleParty>
-                        <cit:CI_Responsibility id="fgdccitation_26722.114902.381482.3">
-                           <cit:role>
-                              <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</cit:CI_RoleCode>
-                           </cit:role>
-                           <cit:party>
-                              <cit:CI_Individual>
-                                 <cit:name>
-                                    <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/gmi:MI_Platform/gmi:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString</gco:CharacterString>
-                                 </cit:name>
-                              </cit:CI_Individual>
-                           </cit:party>
-                        </cit:CI_Responsibility>
-                     </cit:citedResponsibleParty>
-                  </cit:CI_Citation>
-               </mac:citation>
-               <mac:identifier>
-                  <mcc:MD_Identifier>
-                     <mcc:code>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/gmi:MI_Platform/gmi:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString</gco:CharacterString>
-                     </mcc:code>
-                  </mcc:MD_Identifier>
-               </mac:identifier>
-               <mac:description>
-                  <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/gmi:MI_Platform/gmi:description/gco:CharacterString</gco:CharacterString>
-               </mac:description>
-               <mac:instrument gco:nilReason="missing"/>
-            </mac:MI_Platform>
-         </mac:platform>
-         <mac:platform>
-            <mac:MI_Platform id="platform_1351">
-               <mac:identifier>
-                  <mcc:MD_Identifier>
-                     <mcc:code>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/gmi:MI_Platform/gmi:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString</gco:CharacterString>
-                     </mcc:code>
-                  </mcc:MD_Identifier>
-               </mac:identifier>
-               <mac:description>
-                  <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/gmi:MI_Platform/gmi:description/gco:CharacterString</gco:CharacterString>
-               </mac:description>
-               <mac:instrument gco:nilReason="missing"/>
-            </mac:MI_Platform>
-         </mac:platform>
-         <mac:platform>
-            <mac:MI_Platform id="platform_34">
-               <mac:identifier>
-                  <mcc:MD_Identifier>
-                     <mcc:code>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/gmi:MI_Platform/gmi:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString</gco:CharacterString>
-                     </mcc:code>
-                  </mcc:MD_Identifier>
-               </mac:identifier>
-               <mac:description>
-                  <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/gmi:MI_Platform/gmi:description/gco:CharacterString</gco:CharacterString>
-               </mac:description>
-               <mac:instrument gco:nilReason="missing"/>
-            </mac:MI_Platform>
-         </mac:platform>
-         <mac:platform>
-            <mac:MI_Platform id="platform_30">
-               <mac:identifier>
-                  <mcc:MD_Identifier>
-                     <mcc:code>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/gmi:MI_Platform/gmi:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString</gco:CharacterString>
-                     </mcc:code>
-                  </mcc:MD_Identifier>
-               </mac:identifier>
-               <mac:description>
-                  <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/gmi:MI_Platform/gmi:description/gco:CharacterString</gco:CharacterString>
-               </mac:description>
-               <mac:instrument gco:nilReason="missing"/>
-            </mac:MI_Platform>
-         </mac:platform>
-         <mac:platform>
-            <mac:MI_Platform id="platform_33">
-               <mac:identifier>
-                  <mcc:MD_Identifier>
-                     <mcc:code>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/gmi:MI_Platform/gmi:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString</gco:CharacterString>
-                     </mcc:code>
-                  </mcc:MD_Identifier>
-               </mac:identifier>
-               <mac:description>
-                  <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/gmi:MI_Platform/gmi:description/gco:CharacterString</gco:CharacterString>
-               </mac:description>
-               <mac:instrument gco:nilReason="missing"/>
-            </mac:MI_Platform>
-         </mac:platform>
-         <mac:platform>
-            <mac:MI_Platform id="platform_31">
-               <mac:identifier>
-                  <mcc:MD_Identifier>
-                     <mcc:code>
-                        <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/gmi:MI_Platform/gmi:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString</gco:CharacterString>
-                     </mcc:code>
-                  </mcc:MD_Identifier>
-               </mac:identifier>
-               <mac:description>
-                  <gco:CharacterString>/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/gmi:MI_Platform/gmi:description/gco:CharacterString</gco:CharacterString>
-               </mac:description>
-               <mac:instrument gco:nilReason="missing"/>
-            </mac:MI_Platform>
-         </mac:platform>
-      </mac:MI_AcquisitionInformation>
-   </mdb:acquisitionInformation>
 </mdb:MD_Metadata>

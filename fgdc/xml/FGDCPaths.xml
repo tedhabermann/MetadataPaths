@@ -6,7 +6,8 @@
     <citation>
       <citeinfo>
         <origin>/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:origin</origin>
-        <pubdate>11111111</pubdate>
+        <pubdate>/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubdate</pubdate>
+        <pubtime>/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:pubtime</pubtime>
         <title>/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:title</title>
         <edition>/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:edition</edition>
         <geoform>/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:geoform</geoform>
@@ -49,8 +50,10 @@
     <timeperd>
       <timeinfo>
         <rngdates>
-          <begdate>20000101</begdate>
-          <enddate>20000202</enddate>
+          <begdate>/fgdc:metadata/fgdc:idinfo/fgdc:timeperd/fgdc:timeinfo/fgdc:rngdates/fgdc:begdate</begdate>
+          <begtime>/fgdc:metadata/fgdc:idinfo/fgdc:timeperd/fgdc:timeinfo/fgdc:rngdates/fgdc:begtime</begtime>
+          <enddate>/fgdc:metadata/fgdc:idinfo/fgdc:timeperd/fgdc:timeinfo/fgdc:rngdates/fgdc:enddate</enddate>
+          <endtime>/fgdc:metadata/fgdc:idinfo/fgdc:timeperd/fgdc:timeinfo/fgdc:rngdates/fgdc:endtime</endtime>
         </rngdates>
       </timeinfo>
       <current>/fgdc:metadata/fgdc:idinfo/fgdc:timeperd/fgdc:current</current>

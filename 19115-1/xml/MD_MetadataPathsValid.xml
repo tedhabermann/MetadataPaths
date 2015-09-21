@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/mdt/1.0/mdt.xsd" xmlns:cat="http://standards.iso.org/iso/19115/-3/cat/1.0"
- xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mpc="http://standards.iso.org/iso/19115/-3/mpc/1.0"
- xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:srv="http://standards.iso.org/iso/19115/-3/srv/2.0" xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/1.0"
- xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0"
- xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:mas="http://standards.iso.org/iso/19115/-3/mas/1.0" xmlns:mda="http://standards.iso.org/iso/19115/-3/mda/1.0"
- xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0"
- xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:gcx="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0"
- xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:mdt="http://standards.iso.org/iso/19115/-3/mdt/1.0"
- xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2"
- xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/1.0" xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0">
+                 xmlns:cat="http://standards.iso.org/iso/19115/-3/cat/1.0"
+                 xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0"
+                 xmlns:gcx="http://standards.iso.org/iso/19115/-3/gcx/1.0"
+                 xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0"
+                 xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0"
+                 xmlns:srv="http://standards.iso.org/iso/19115/-3/srv/2.0"
+                 xmlns:mas="http://standards.iso.org/iso/19115/-3/mas/1.0"
+                 xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0"
+                 xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0"
+                 xmlns:mda="http://standards.iso.org/iso/19115/-3/mda/1.0"
+                 xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0"
+                 xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0"
+                 xmlns:mdt="http://standards.iso.org/iso/19115/-3/mdt/1.0"
+                 xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0"
+                 xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0"
+                 xmlns:mpc="http://standards.iso.org/iso/19115/-3/mpc/1.0"
+                 xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/1.0"
+                 xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0"
+                 xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0"
+                 xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/1.0"
+                 xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0"
+                 xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/1.0"
+                 xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0"
+                 xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/1.0"
+                 xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0"
+                 xmlns:gml="http://www.opengis.net/gml/3.2"
+                 xmlns:xlink="http://www.w3.org/1999/xlink">
    <mdb:metadataIdentifier>
       <mcc:MD_Identifier>
          <mcc:code>
@@ -659,9 +676,7 @@
                      </cit:title>
                      <cit:date>
                         <cit:CI_Date>
-                           <cit:date>
-                              <gco:DateTime>2011-04-04T00:00:00</gco:DateTime>
-                           </cit:date>
+                           <cit:date/>
                            <cit:dateType>
                               <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
                            </cit:dateType>
@@ -669,9 +684,7 @@
                      </cit:date>
                      <cit:date>
                         <cit:CI_Date>
-                           <cit:date>
-                              <gco:DateTime>2777-07-07T00:00:00</gco:DateTime>
-                           </cit:date>
+                           <cit:date/>
                            <cit:dateType>
                               <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
                            </cit:dateType>
@@ -850,9 +863,7 @@
                </cit:alternateTitle>
                <cit:date>
                   <cit:CI_Date>
-                     <cit:date>
-                        <gco:DateTime>2011-01-01T00:00:00</gco:DateTime>
-                     </cit:date>
+                     <cit:date/>
                      <cit:dateType>
                         <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
                      </cit:dateType>
@@ -860,9 +871,7 @@
                </cit:date>
                <cit:date>
                   <cit:CI_Date>
-                     <cit:date>
-                        <gco:DateTime>2011-11-11T00:00:00</gco:DateTime>
-                     </cit:date>
+                     <cit:date/>
                      <cit:dateType>
                         <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
                      </cit:dateType>
@@ -870,9 +879,7 @@
                </cit:date>
                <cit:date>
                   <cit:CI_Date>
-                     <cit:date>
-                        <gco:DateTime>2011-12-22T00:00:00</gco:DateTime>
-                     </cit:date>
+                     <cit:date/>
                      <cit:dateType>
                         <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
                      </cit:dateType>
@@ -880,9 +887,7 @@
                </cit:date>
                <cit:date>
                   <cit:CI_Date>
-                     <cit:date>
-                        <gco:DateTime>2011-12-22T22:22:22</gco:DateTime>
-                     </cit:date>
+                     <cit:date/>
                      <cit:dateType>
                         <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
                      </cit:dateType>
@@ -1317,9 +1322,7 @@
                                  </cit:title>
                                  <cit:date>
                                     <cit:CI_Date>
-                                       <cit:date>
-                                          <gco:DateTime>2000-06-06T00:00:00</gco:DateTime>
-                                       </cit:date>
+                                       <cit:date/>
                                        <cit:dateType>
                                           <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
                                        </cit:dateType>
@@ -1513,9 +1516,7 @@
                      </cit:title>
                      <cit:date>
                         <cit:CI_Date>
-                           <cit:date>
-                              <gco:DateTime>2011-10-10T00:00:00</gco:DateTime>
-                           </cit:date>
+                           <cit:date/>
                            <cit:dateType>
                               <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
                            </cit:dateType>
@@ -1541,9 +1542,7 @@
                      </cit:title>
                      <cit:date>
                         <cit:CI_Date>
-                           <cit:date>
-                              <gco:DateTime>2011-05-05T00:00:00</gco:DateTime>
-                           </cit:date>
+                           <cit:date/>
                            <cit:dateType>
                               <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
                            </cit:dateType>
@@ -1569,9 +1568,7 @@
                      </cit:title>
                      <cit:date>
                         <cit:CI_Date>
-                           <cit:date>
-                              <gco:DateTime>2011-07-07T00:00:00</gco:DateTime>
-                           </cit:date>
+                           <cit:date/>
                            <cit:dateType>
                               <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
                            </cit:dateType>
@@ -1597,9 +1594,7 @@
                      </cit:title>
                      <cit:date>
                         <cit:CI_Date>
-                           <cit:date>
-                              <gco:DateTime>2011-06-06T00:00:00</gco:DateTime>
-                           </cit:date>
+                           <cit:date/>
                            <cit:dateType>
                               <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
                            </cit:dateType>
@@ -1628,9 +1623,7 @@
                      </cit:title>
                      <cit:date>
                         <cit:CI_Date>
-                           <cit:date>
-                              <gco:DateTime>2011-08-08T00:00:00</gco:DateTime>
-                           </cit:date>
+                           <cit:date/>
                            <cit:dateType>
                               <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
                            </cit:dateType>
@@ -1656,9 +1649,7 @@
                      </cit:title>
                      <cit:date>
                         <cit:CI_Date>
-                           <cit:date>
-                              <gco:DateTime>2011-09-09T00:00:00</gco:DateTime>
-                           </cit:date>
+                           <cit:date/>
                            <cit:dateType>
                               <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
                            </cit:dateType>
@@ -1862,9 +1853,7 @@
                      </cit:title>
                      <cit:date>
                         <cit:CI_Date>
-                           <cit:date>
-                              <gco:DateTime>2000-05-05T00:00:00</gco:DateTime>
-                           </cit:date>
+                           <cit:date/>
                            <cit:dateType>
                               <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
                            </cit:dateType>
@@ -1996,9 +1985,7 @@
                      </cit:title>
                      <cit:date>
                         <cit:CI_Date>
-                           <cit:date>
-                              <gco:DateTime>2000-01-02T00:00:00</gco:DateTime>
-                           </cit:date>
+                           <cit:date/>
                            <cit:dateType>
                               <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
                            </cit:dateType>
@@ -2208,9 +2195,7 @@
                </cit:title>
                <cit:date>
                   <cit:CI_Date>
-                     <cit:date>
-                        <gco:DateTime>8888-08-08T00:00:00</gco:DateTime>
-                     </cit:date>
+                     <cit:date/>
                      <cit:dateType>
                         <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode"
                                              codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode/@codeListValue">/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode/@codeListValue</cit:CI_DateTypeCode>
@@ -2418,9 +2403,7 @@
                      </cit:title>
                      <cit:date>
                         <cit:CI_Date>
-                           <cit:date>
-                              <gco:DateTime>2011-08-08T00:00:00</gco:DateTime>
-                           </cit:date>
+                           <cit:date/>
                            <cit:dateType>
                               <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode"
                                                    codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode/@codeListValue">/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode/@codeListValue</cit:CI_DateTypeCode>
@@ -2752,9 +2735,7 @@
                </cit:title>
                <cit:date>
                   <cit:CI_Date>
-                     <cit:date>
-                        <gco:DateTime>2666-06-06T00:00:00</gco:DateTime>
-                     </cit:date>
+                     <cit:date/>
                      <cit:dateType>
                         <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode"
                                              codeListValue="featureCatalogDate">featureCatalogDate</cit:CI_DateTypeCode>
@@ -3522,9 +3503,7 @@
                            </cit:title>
                            <cit:date>
                               <cit:CI_Date>
-                                 <cit:date>
-                                    <gco:DateTime>2012-10-02T00:00:00</gco:DateTime>
-                                 </cit:date>
+                                 <cit:date/>
                                  <cit:dateType>
                                     <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode"
                                                          codeListValue="/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_CompletenessOmission/gmd:result/gmd:DQ_ConformanceResult/gmd:specification/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode">/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_CompletenessOmission/gmd:result/gmd:DQ_ConformanceResult/gmd:specification/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode</cit:CI_DateTypeCode>
@@ -3589,9 +3568,7 @@
                            </cit:title>
                            <cit:date>
                               <cit:CI_Date>
-                                 <cit:date>
-                                    <gco:DateTime>2222-02-22T00:00:00</gco:DateTime>
-                                 </cit:date>
+                                 <cit:date/>
                                  <cit:dateType>
                                     <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode"
                                                          codeListValue="/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_ConformanceResult/gmd:specification/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode/@codeListValue">/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_ConformanceResult/gmd:specification/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode/@codeListValue</cit:CI_DateTypeCode>
@@ -3784,9 +3761,7 @@
                </cit:alternateTitle>
                <cit:date>
                   <cit:CI_Date>
-                     <cit:date>
-                        <gco:DateTime>2000-01-05T00:00:00</gco:DateTime>
-                     </cit:date>
+                     <cit:date/>
                      <cit:dateType>
                         <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode"
                                              codeListValue="/gmd:MD_Metadata/gmd:portrayalCatalogueInfo/gmd:MD_PortrayalCatalogueReference/gmd:portrayalCatalogueCitation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode">/gmd:MD_Metadata/gmd:portrayalCatalogueInfo/gmd:MD_PortrayalCatalogueReference/gmd:portrayalCatalogueCitation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode</cit:CI_DateTypeCode>
@@ -3808,9 +3783,7 @@
                            </cit:title>
                            <cit:date>
                               <cit:CI_Date>
-                                 <cit:date>
-                                    <gco:DateTime>2000-01-01T02:02:02</gco:DateTime>
-                                 </cit:date>
+                                 <cit:date/>
                                  <cit:dateType>
                                     <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode"
                                                          codeListValue="/gmd:MD_Metadata/gmd:portrayalCatalogueInfo/gmd:MD_PortrayalCatalogueReference/gmd:portrayalCatalogueCitation/gmd:CI_Citation/gmd:identifier/gmd:MD_Identifier/gmd:authority/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode">/gmd:MD_Metadata/gmd:portrayalCatalogueInfo/gmd:MD_PortrayalCatalogueReference/gmd:portrayalCatalogueCitation/gmd:CI_Citation/gmd:identifier/gmd:MD_Identifier/gmd:authority/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode</cit:CI_DateTypeCode>
