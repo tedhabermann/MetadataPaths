@@ -2743,6 +2743,27 @@
                       </gmd:date>
                     </gmd:CI_Citation>
                   </gmi:softwareReference>
+                  <gmi:procedureDescription>
+                    <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:processStep/gmi:LE_ProcessStep/gmi:processingInformation/gmi:LE_Processing/gmi:procedureDescription/gco:CharacterString</gco:CharacterString>
+                  </gmi:procedureDescription>
+                  <gmi:documentation>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:processStep/gmi:LE_ProcessStep/gmi:processingInformation/gmi:LE_Processing/gmi:documentation/gmd:CI_Citation/gmd:title/gco:CharacterString</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date><gco:Date>20151112</gco:Date></gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:processStep/gmi:LE_ProcessStep/gmi:processingInformation/gmi:LE_Processing/gmi:documentation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                    </gmd:CI_Citation>
+                  </gmi:documentation>
+                  <gmi:runTimeParameters>
+                    <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:processStep/gmi:LE_ProcessStep/gmi:processingInformation/gmi:LE_Processing/gmi:runTimeParameters/gco:CharacterString</gco:CharacterString>
+                  </gmi:runTimeParameters>
                   <gmi:algorithm>
                     <gmi:LE_Algorithm>
                       <gmi:citation>
