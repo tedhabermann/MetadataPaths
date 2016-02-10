@@ -1,0 +1,388 @@
+{"records": [{"spirals": [
+{"title":"UMM-Common Required","code":"UMM-Common_Required","description":"The NASA Unified Metadata Model/Mapping (UMM) includes a profile for elements that are common to all of the UMM Profiles, the UMM-Common Profile. These are the elements required by that profile.","maximum":"21","existTotal":"11",
+"countTotal":"35",
+
+"items" : [
+{
+"name":"Modified Date","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/*/gmd:dateStamp/gco:Date","exists":"1",
+"count":"1"
+},
+{"path":"/*/gmd:dateStamp/gco:DateTime","exists":"0",
+"count":"0"
+}],
+"description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."}, {
+"name":"Future Metadata Review Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/gmd:MD_Metadata/gmd:metadataMaintenance/gmd:MD_MaintenanceInformation/gmd:dateOfNextUpdate/gco:Date","exists":"0",
+"count":"0"
+}],
+"description":"Anticipated date of a future metadata review."},
+        {
+"name":"Metadata Deletion Date","exists":"-1","count":"-1","description":"Date of metadata deletion."}, {
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:title/gco:CharacterString","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."}, {
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/*/gmd:identificationInfo/*/gmd:abstract/gco:CharacterString","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."}, {
+"name":"Resource Contact","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/*/gmd:identificationInfo/*/gmd:pointOfContact","exists":"1",
+"count":"1"
+}],
+"description":"The organization or person responsible for answering questions about the resource."}, {
+"name":"Distribution Contact","exists":"1",
+"count":"6",
+
+"paths" : [
+
+{"path":"/*/gmd:distributionInfo/gmd:MD_Distribution/gmd:distributor/gmd:MD_Distributor/gmd:distributorContact/gmd:CI_ResponsibleParty","exists":"1",
+"count":"6"
+}],
+"description":"Contact information for the organization or individual that distributes the resource."},
+            {
+"name":"Processor","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:processStep/gmd:LI_ProcessStep/gmd:processor","exists":"0",
+"count":"0"
+}],
+"description":"Identification of, and means of communication with, person(s) and organisation(s) associated with the process step."}, ,
+            {
+"name":"Spatial Extent","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement","exists":"1",
+"count":"2"
+}],
+"description":"The spatial extent of the resource."}, {
+"name":"Temporal Extent","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent","exists":"1",
+"count":"2"
+}],
+"description":"The temporal extent of the resource"}, {
+"name":"Resource on-line Link","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/*/gmd:distributionInfo/gmd:MD_Distribution/gmd:distributor/gmd:MD_Distributor/gmd:distributorTransferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource[normalize-space(gmd:function/gmd:CI_OnLineFunctionCode)='information']","exists":"0",
+"count":"0"
+},
+{"path":"/*/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource[normalize-space(gmd:function/gmd:CI_OnLineFunctionCode)='information']","exists":"0",
+"count":"0"
+},
+{"path":"/*/gmd:distributionInfo/gmd:MD_Distribution/gmd:distributor/gmd:MD_Distributor/gmd:distributorTransferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource[normalize-space(gmd:function/gmd:CI_OnLineFunctionCode)='download']","exists":"0",
+"count":"0"
+},
+{"path":"/*/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource[normalize-space(gmd:function/gmd:CI_OnLineFunctionCode)='download']","exists":"0",
+"count":"0"
+},
+{"path":"/*/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource","exists":"0",
+"count":"0"
+}],
+"description":"Online link referencing additional information about the resource."}, {
+"name":"Browse URL","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/*/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:graphicOverview/gmd:MD_BrowseGraphic/gmx:FileName/@src","exists":"0",
+"count":"0"
+}],
+"description":"Location of the browse file on the Web."}, {
+"name":"Browse File Name","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/*/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:graphicOverview/gmd:MD_BrowseGraphic/gmd:fileName/gco:CharacterString","exists":"1",
+"count":"1"
+}],
+"description":"Name of the file holding the browse graphic."},
+            {
+"name":"Platform","exists":"1",
+"count":"16",
+
+"paths" : [
+
+{"path":"/*/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform//*","exists":"1",
+"count":"16"
+}],
+"description":"The platform used to collect the observations."}, {
+"name":"Platform Keyword","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='platform']/gmd:keyword/gco:CharacterString","exists":"0",
+"count":"0"
+}],
+"description":"Keywords that describe the platform used to collect the resource."},
+            {
+"name":"Platform Short Name","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/*/gmi:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString","exists":"1",
+"count":"2"
+}],
+"description":"The platform used to collect the observations."},
+            {
+"name":"Instrument","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/*","exists":"1",
+"count":"2"
+},
+{"path":"/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/*/gmi:instrument/*","exists":"0",
+"count":"0"
+}],
+"description":"Information about the instrument used to make the observations."},
+            {
+"name":"Instrument Keyword","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='instrument']/gmd:keyword/gco:CharacterString","exists":"0",
+"count":"0"
+}],
+"description":"Keywords that describe the instrument used to collect the resource."},
+            {
+"name":"Instrument Short Name","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:Instrument/*/gmi:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString","exists":"0",
+"count":"0"
+}],
+"description":"Short name (abbreviation) for the Instrument used to collect the observations."}, {
+"name":"Sensor Short Name","exists":"-1","count":"-1","description":"The sensory sub-component of an instrument."}]
+},
+{"title":"UMM-Common Optional","code":"UMM-Common_Optional","description":"The NASA Unified Metadata Model/Mapping (UMM) includes a profile for elements that are common to all of the UMM Profiles, the UMM-Common Profile. These are the optional elements included in that profile.","maximum":"15","existTotal":"5",
+"countTotal":"300",
+
+"items" : [
+{
+"name":"Metadata Language","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/*/gmd:language/gco:CharacterString","exists":"0",
+"count":"0"
+}],
+"description":"Language of the metadata"},
+            {
+"name":"Resource Language","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/*/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:language/gco:CharacterString","exists":"0",
+"count":"0"
+}],
+"description":"The language of the resource."}, {
+"name":"Resource Creation/Revision Date","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='creation']/gmd:date/gco:Date","exists":"0",
+"count":"0"
+},
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='creation']/gmd:date/gco:DateTime","exists":"0",
+"count":"0"
+},
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='revision']/gmd:date/gco:Date","exists":"0",
+"count":"0"
+},
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='revision']/gmd:date/gco:DateTime","exists":"0",
+"count":"0"
+},
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='publication']/gmd:date/gco:Date","exists":"0",
+"count":"0"
+},
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='publication']/gmd:date/gco:DateTime","exists":"0",
+"count":"0"
+}],
+"description":"The date the resource was created"},
+            {
+"name":"Purpose","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/*/gmd:identificationInfo/*/gmd:purpose/gco:CharacterString","exists":"1",
+"count":"1"
+}],
+"description":"A paragraph describing the original purpose for collecting the dataset."}, {
+"name":"Resource Citation","exists":"1",
+"count":"108",
+
+"paths" : [
+
+{"path":"/*/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation//*","exists":"1",
+"count":"108"
+}],
+"description":"Citation for the resource."}, {
+"name":"Quality Statement","exists":"1",
+"count":"188",
+
+"paths" : [
+
+{"path":"/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report//*","exists":"1",
+"count":"188"
+}],
+"description":"Information about the quality of the data or any quality assurance procedures followed in producing the data."}, {
+"name":"Resource Use Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/*/gmd:identificationInfo/*/gmd:resourceConstraints/gmd:MD_Constraints/gmd:useLimitation/gco:CharacterString","exists":"0",
+"count":"0"
+},
+{"path":"/*/gmd:identificationInfo/*/gmd:resourceConstraints/gmd:MD_LegalConstraints/gmd:useConstraints/gmd:MD_RestrictionCode","exists":"0",
+"count":"0"
+},
+{"path":"/*/gmd:identificationInfo/*/gmd:resourceConstraints/gmd:MD_LegalConstraints/gmd:otherConstraints/gco:CharacterString","exists":"0",
+"count":"0"
+}],
+"description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."},
+            {
+"name":"Resource Access Constraints","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/*/gmd:identificationInfo/*/gmd:resourceConstraints/gmd:MD_LegalConstraints/gmd:accessConstraints/gco:CharacterString","exists":"0",
+"count":"0"
+},
+{"path":"/*/gmd:identificationInfo/*/gmd:resourceConstraints/gmd:MD_LegalConstraints/gmd:otherConstraints/gco:CharacterString","exists":"0",
+"count":"0"
+}],
+"description":"Information about any constraints for accessing the data set. This includes any special restrictions, legal prerequisites, limitations and/or warnings on obtaining the data set. Some words that may be used in this field include: Public, In-house, Limited, Additional detailed instructions on how to access the data can be entered in this field."},
+            {
+"name":"Topic Category","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/*/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:topicCategory/gmd:MD_TopicCategoryCode","exists":"1",
+"count":"2"
+}],
+"description":"High level category enumeration used in ISO"}, {
+"name":"TwoDCoordinateSystem","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicDescription/gmd:geographicIdentifier","exists":"1",
+"count":"1"
+}],
+"description":"Bounding extent defined in two dimensions with min and max values."},
+            {
+"name":"Resource on-line Link","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/*/gmd:distributionInfo/gmd:MD_Distribution/gmd:distributor/gmd:MD_Distributor/gmd:distributorTransferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource[normalize-space(gmd:function/gmd:CI_OnLineFunctionCode)='information']","exists":"0",
+"count":"0"
+},
+{"path":"/*/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource[normalize-space(gmd:function/gmd:CI_OnLineFunctionCode)='information']","exists":"0",
+"count":"0"
+},
+{"path":"/*/gmd:distributionInfo/gmd:MD_Distribution/gmd:distributor/gmd:MD_Distributor/gmd:distributorTransferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource[normalize-space(gmd:function/gmd:CI_OnLineFunctionCode)='download']","exists":"0",
+"count":"0"
+},
+{"path":"/*/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource[normalize-space(gmd:function/gmd:CI_OnLineFunctionCode)='download']","exists":"0",
+"count":"0"
+},
+{"path":"/*/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource","exists":"0",
+"count":"0"
+}],
+"description":"Online link referencing additional information about the resource."}, {
+"name":"Browse URL","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/*/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:graphicOverview/gmd:MD_BrowseGraphic/gmx:FileName/@src","exists":"0",
+"count":"0"
+}],
+"description":"Location of the browse file on the Web."}, {
+"name":"Resource Format","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/*/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceFormat/gmd:MD_Format/gmd:name/gco:CharacterString","exists":"0",
+"count":"0"
+}],
+"description":"The physical or digital manifestation of the resource"},
+            {
+"name":"Project Name","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/*/gmd:identificationInfo/*/gmd:aggregationInfo/gmd:MD_AggregateInformation[normalize-space(gmd:associationType/gmd:DS_AssociationTypeCode)='largerWorkCitation' and normalize-space(gmd:initiativeType/gmd:DS_InitiativeTypeCode)='project']/gmd:aggregateDataSetName/gmd:CI_Citation/gmd:title/gco:CharacterString","exists":"0",
+"count":"0"
+},
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='project']/gmd:keyword/gco:CharacterString","exists":"0",
+"count":"0"
+}],
+"description":"The name of the project that the resource was associated with."},
+            {
+"name":"Project Keyword","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='project']/gmd:keyword/gco:CharacterString","exists":"0",
+"count":"0"
+}],
+"description":"Keywords that describe the Project used to collect the resource."}]
+}],"Record":"file:/Users/jkozimor/MetadataPaths/19115-2/test/MI_MetadataPaths.xml",
+"Date":"2016-02-09-07:00",
+"rubricType":"UMM-Common","rubricVersion":"0.1","rubricMax":"36","rubricExists":"16",
+"rubricCounts":"335"
+}]}
