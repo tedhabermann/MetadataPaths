@@ -2173,6 +2173,19 @@
       </gmi:rangeElementDescription>
     </gmi:MI_CoverageDescription>
   </gmd:contentInfo>
+  <gmd:contentInfo>
+    <gmi:MI_ImageDescription>
+      <gmd:attributeDescription/>
+      <gmd:contentType/>
+      <gmd:processingLevelCode>
+        <gmd:MD_Identifier>
+          <gmd:code>
+            <gco:CharacterString>1</gco:CharacterString>
+          </gmd:code>
+        </gmd:MD_Identifier>
+      </gmd:processingLevelCode>
+    </gmi:MI_ImageDescription>
+  </gmd:contentInfo>
   <gmd:distributionInfo>
     <gmd:MD_Distribution>
       <gmd:distributor>
