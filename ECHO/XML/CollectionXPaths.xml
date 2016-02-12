@@ -1064,6 +1064,18 @@
       <ValueAccuracyExplanation>/*/AdditionalAttributes/AdditionalAttribute[9]/ValueAccuracyExplanation</ValueAccuracyExplanation>
       <Value>/*/AdditionalAttributes/AdditionalAttribute[9]/Value</Value>
     </AdditionalAttribute>
+    <AdditionalAttribute>
+      <Name>FileFormat</Name>
+      <DataType>/*/AdditionalAttributes/AdditionalAttribute[10]/DataType</DataType>
+      <Description>/*/AdditionalAttributes/AdditionalAttribute[10]/Description</Description>
+      <MeasurementResolution>/*/AdditionalAttributes/AdditionalAttribute[10]/MeasurementResolution</MeasurementResolution>
+      <ParameterRangeBegin>/*/AdditionalAttributes/AdditionalAttribute[10]/ParameterRangeBegin</ParameterRangeBegin>
+      <ParameterRangeEnd>/*/AdditionalAttributes/AdditionalAttribute[10/ParameterRangeEnd</ParameterRangeEnd>
+      <ParameterUnitsOfMeasure>/*/AdditionalAttributes/AdditionalAttribute[10]/ParameterUnitsOfMeasure</ParameterUnitsOfMeasure>
+      <ParameterValueAccuracy>/*/AdditionalAttributes/AdditionalAttribute[10]/ParameterValueAccuracy</ParameterValueAccuracy>
+      <ValueAccuracyExplanation>/*/AdditionalAttributes/AdditionalAttribute[10]/ValueAccuracyExplanation</ValueAccuracyExplanation>
+      <Value>/*/AdditionalAttributes/AdditionalAttribute[10]/Value</Value>
+    </AdditionalAttribute>
   </AdditionalAttributes>
   <CSDTDescriptions>
     <CSDTDescription>
