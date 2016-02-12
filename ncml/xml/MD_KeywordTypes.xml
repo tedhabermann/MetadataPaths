@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nc:netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2"
+           xmlns:nc="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+   <nc:group name="gmd:descriptiveKeywords">
+      <nc:attribute name="role" value="gmd:descriptiveKeywords"/>
+      <nc:attribute name="type" value="gmd:MD_Keywords"/>
+      <nc:group name="gmd:type">
+         <nc:attribute name="role" value="gmd:type"/>
+         <nc:attribute name="type" value="gmd:MD_KeywordTypeCode"/>
+         <nc:attribute name="codeList"
+                       value="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"/>
+         <nc:attribute name="codeListValue" value="theme"/>
+         <nc:attribute name="value" value="theme"/>
+      </nc:group>
+      <nc:group name="gmd:thesaurusName">
+         <nc:attribute name="role" value="gmd:thesaurusName"/>
+         <nc:attribute name="type" value="gmd:CI_Citation"/>
+         <nc:group name="gmd:date">
+            <nc:attribute name="gco:nilReason" value="unknown"/>
+         </nc:group>
+         <nc:group name="gmd:citedResponsibleParty">
+            <nc:attribute name="role" value="gmd:citedResponsibleParty"/>
+            <nc:attribute name="type" value="gmd:CI_ResponsibleParty"/>
+            <nc:group name="gmd:contactInfo">
+               <nc:attribute name="role" value="gmd:contactInfo"/>
+               <nc:attribute name="type" value="gmd:CI_Contact"/>
+               <nc:group name="gmd:address">
+                  <nc:attribute name="role" value="gmd:address"/>
+                  <nc:attribute name="type" value="gmd:CI_Address"/>
+               </nc:group>
+               <nc:group name="gmd:onlineResource">
+                  <nc:attribute name="role" value="gmd:onlineResource"/>
+                  <nc:attribute name="type" value="gmd:CI_OnlineResource"/>
+                  <nc:group name="gmd:function">
+                     <nc:attribute name="role" value="gmd:function"/>
+                     <nc:attribute name="type" value="gmd:CI_OnLineFunctionCode"/>
+                     <nc:attribute name="codeList"
+                                   value="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"/>
+                     <nc:attribute name="codeListValue" value="information"/>
+                     <nc:attribute name="value" value="information"/>
+                  </nc:group>
+               </nc:group>
+            </nc:group>
+            <nc:group name="gmd:role">
+               <nc:attribute name="role" value="gmd:role"/>
+               <nc:attribute name="type" value="gmd:CI_RoleCode"/>
+               <nc:attribute name="codeList"
+                             value="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"/>
+               <nc:attribute name="codeListValue" value="custodian"/>
+               <nc:attribute name="value" value="custodian"/>
+            </nc:group>
+         </nc:group>
+         <nc:group name="gmd:citedResponsibleParty_d1e49">
+            <nc:attribute name="role" value="gmd:citedResponsibleParty"/>
+            <nc:attribute name="type" value="gmd:CI_ResponsibleParty"/>
+            <nc:group name="gmd:organisationName">
+               <nc:attribute name="gco:nilReason" value="inapplicable"/>
+            </nc:group>
+            <nc:group name="gmd:contactInfo">
+               <nc:attribute name="role" value="gmd:contactInfo"/>
+               <nc:attribute name="type" value="gmd:CI_Contact"/>
+               <nc:group name="gmd:onlineResource">
+                  <nc:attribute name="role" value="gmd:onlineResource"/>
+                  <nc:attribute name="type" value="gmd:CI_OnlineResource"/>
+                  <nc:group name="gmd:function">
+                     <nc:attribute name="role" value="gmd:function"/>
+                     <nc:attribute name="type" value="gmd:CI_OnLineFunctionCode"/>
+                     <nc:attribute name="codeList"
+                                   value="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"/>
+                     <nc:attribute name="codeListValue" value="information"/>
+                     <nc:attribute name="value" value="information"/>
+                  </nc:group>
+               </nc:group>
+            </nc:group>
+            <nc:group name="gmd:role">
+               <nc:attribute name="role" value="gmd:role"/>
+               <nc:attribute name="type" value="gmd:CI_RoleCode"/>
+               <nc:attribute name="codeList"
+                             value="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"/>
+               <nc:attribute name="codeListValue" value="custodian"/>
+               <nc:attribute name="value" value="custodian"/>
+            </nc:group>
+         </nc:group>
+      </nc:group>
+   </nc:group>
+   <nc:group name="gmd:descriptiveKeywords_d1e71">
+      <nc:attribute name="role" value="gmd:descriptiveKeywords"/>
+      <nc:attribute name="type" value="gmd:MD_Keywords"/>
+      <nc:group name="gmd:type">
+         <nc:attribute name="role" value="gmd:type"/>
+         <nc:attribute name="type" value="gmd:MD_KeywordTypeCode"/>
+         <nc:attribute name="codeList"
+                       value="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"/>
+         <nc:attribute name="codeListValue" value="place"/>
+         <nc:attribute name="value" value="place"/>
+      </nc:group>
+      <nc:group name="gmd:thesaurusName">
+         <nc:attribute name="role" value="gmd:thesaurusName"/>
+         <nc:attribute name="type" value="gmd:CI_Citation"/>
+         <nc:group name="gmd:date">
+            <nc:attribute name="gco:nilReason" value="unknown"/>
+         </nc:group>
+         <nc:group name="gmd:citedResponsibleParty">
+            <nc:attribute name="role" value="gmd:citedResponsibleParty"/>
+            <nc:attribute name="type" value="gmd:CI_ResponsibleParty"/>
+            <nc:group name="gmd:contactInfo">
+               <nc:attribute name="role" value="gmd:contactInfo"/>
+               <nc:attribute name="type" value="gmd:CI_Contact"/>
+               <nc:group name="gmd:phone">
+                  <nc:attribute name="gco:nilReason" value="missing"/>
+               </nc:group>
+               <nc:group name="gmd:address">
+                  <nc:attribute name="role" value="gmd:address"/>
+                  <nc:attribute name="type" value="gmd:CI_Address"/>
+               </nc:group>
+               <nc:group name="gmd:onlineResource">
+                  <nc:attribute name="role" value="gmd:onlineResource"/>
+                  <nc:attribute name="type" value="gmd:CI_OnlineResource"/>
+                  <nc:group name="gmd:function">
+                     <nc:attribute name="role" value="gmd:function"/>
+                     <nc:attribute name="type" value="gmd:CI_OnLineFunctionCode"/>
+                     <nc:attribute name="codeList"
+                                   value="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"/>
+                     <nc:attribute name="codeListValue" value="information"/>
+                     <nc:attribute name="value" value="information"/>
+                  </nc:group>
+               </nc:group>
+            </nc:group>
+            <nc:group name="gmd:role">
+               <nc:attribute name="role" value="gmd:role"/>
+               <nc:attribute name="type" value="gmd:CI_RoleCode"/>
+               <nc:attribute name="codeList"
+                             value="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"/>
+               <nc:attribute name="codeListValue" value="custodian"/>
+               <nc:attribute name="value" value="custodian"/>
+            </nc:group>
+         </nc:group>
+         <nc:group name="gmd:citedResponsibleParty_d1e142">
+            <nc:attribute name="role" value="gmd:citedResponsibleParty"/>
+            <nc:attribute name="type" value="gmd:CI_ResponsibleParty"/>
+            <nc:group name="gmd:contactInfo">
+               <nc:attribute name="role" value="gmd:contactInfo"/>
+               <nc:attribute name="type" value="gmd:CI_Contact"/>
+               <nc:group name="gmd:phone">
+                  <nc:attribute name="gco:nilReason" value="missing"/>
+               </nc:group>
+               <nc:group name="gmd:address">
+                  <nc:attribute name="role" value="gmd:address"/>
+                  <nc:attribute name="type" value="gmd:CI_Address"/>
+               </nc:group>
+               <nc:group name="gmd:onlineResource">
+                  <nc:attribute name="role" value="gmd:onlineResource"/>
+                  <nc:attribute name="type" value="gmd:CI_OnlineResource"/>
+                  <nc:group name="gmd:function">
+                     <nc:attribute name="role" value="gmd:function"/>
+                     <nc:attribute name="type" value="gmd:CI_OnLineFunctionCode"/>
+                     <nc:attribute name="codeList"
+                                   value="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"/>
+                     <nc:attribute name="codeListValue" value="download"/>
+                     <nc:attribute name="value" value="download"/>
+                  </nc:group>
+               </nc:group>
+            </nc:group>
+            <nc:group name="gmd:role">
+               <nc:attribute name="role" value="gmd:role"/>
+               <nc:attribute name="type" value="gmd:CI_RoleCode"/>
+               <nc:attribute name="codeList"
+                             value="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"/>
+               <nc:attribute name="codeListValue" value="custodian"/>
+               <nc:attribute name="value" value="custodian"/>
+            </nc:group>
+         </nc:group>
+      </nc:group>
+   </nc:group>
+   <nc:group name="gmd:descriptiveKeywords_d1e196">
+      <nc:attribute name="role" value="gmd:descriptiveKeywords"/>
+      <nc:attribute name="type" value="gmd:MD_Keywords"/>
+      <nc:group name="gmd:type">
+         <nc:attribute name="role" value="gmd:type"/>
+         <nc:attribute name="type" value="gmd:MD_KeywordTypeCode"/>
+         <nc:attribute name="codeList"
+                       value="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"/>
+         <nc:attribute name="codeListValue" value="dataCenter"/>
+         <nc:attribute name="value" value="dataCenter"/>
+      </nc:group>
+      <nc:group name="gmd:thesaurusName">
+         <nc:attribute name="role" value="gmd:thesaurusName"/>
+         <nc:attribute name="type" value="gmd:CI_Citation"/>
+         <nc:group name="gmd:date">
+            <nc:attribute name="role" value="gmd:date"/>
+            <nc:attribute name="type" value="gmd:CI_Date"/>
+            <nc:group name="gmd:dateType">
+               <nc:attribute name="role" value="gmd:dateType"/>
+               <nc:attribute name="type" value="gmd:CI_DateTypeCode"/>
+               <nc:attribute name="codeList"
+                             value="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"/>
+               <nc:attribute name="codeListValue" value="publication"/>
+               <nc:attribute name="value" value="publication"/>
+            </nc:group>
+         </nc:group>
+         <nc:group name="gmd:identifier">
+            <nc:attribute name="gco:nilReason" value="unknown"/>
+         </nc:group>
+         <nc:group name="gmd:citedResponsibleParty">
+            <nc:attribute name="role" value="gmd:citedResponsibleParty"/>
+            <nc:attribute name="type" value="gmd:CI_ResponsibleParty"/>
+            <nc:group name="gmd:contactInfo">
+               <nc:attribute name="role" value="gmd:contactInfo"/>
+               <nc:attribute name="type" value="gmd:CI_Contact"/>
+               <nc:group name="gmd:address">
+                  <nc:attribute name="role" value="gmd:address"/>
+                  <nc:attribute name="type" value="gmd:CI_Address"/>
+               </nc:group>
+               <nc:group name="gmd:onlineResource">
+                  <nc:attribute name="role" value="gmd:onlineResource"/>
+                  <nc:attribute name="type" value="gmd:CI_OnlineResource"/>
+                  <nc:group name="gmd:function">
+                     <nc:attribute name="role" value="gmd:function"/>
+                     <nc:attribute name="type" value="gmd:CI_OnLineFunctionCode"/>
+                     <nc:attribute name="codeList"
+                                   value="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"/>
+                     <nc:attribute name="codeListValue" value="information"/>
+                     <nc:attribute name="value" value="information"/>
+                  </nc:group>
+               </nc:group>
+            </nc:group>
+            <nc:group name="gmd:role">
+               <nc:attribute name="role" value="gmd:role"/>
+               <nc:attribute name="type" value="gmd:CI_RoleCode"/>
+               <nc:attribute name="codeList"
+                             value="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"/>
+               <nc:attribute name="codeListValue" value="custodian"/>
+               <nc:attribute name="value" value="custodian"/>
+            </nc:group>
+         </nc:group>
+         <nc:group name="gmd:citedResponsibleParty_d1e250">
+            <nc:attribute name="role" value="gmd:citedResponsibleParty"/>
+            <nc:attribute name="type" value="gmd:CI_ResponsibleParty"/>
+            <nc:group name="gmd:organisationName">
+               <nc:attribute name="gco:nilReason" value="inapplicable"/>
+            </nc:group>
+            <nc:group name="gmd:contactInfo">
+               <nc:attribute name="role" value="gmd:contactInfo"/>
+               <nc:attribute name="type" value="gmd:CI_Contact"/>
+               <nc:group name="gmd:onlineResource">
+                  <nc:attribute name="role" value="gmd:onlineResource"/>
+                  <nc:attribute name="type" value="gmd:CI_OnlineResource"/>
+                  <nc:group name="gmd:function">
+                     <nc:attribute name="role" value="gmd:function"/>
+                     <nc:attribute name="type" value="gmd:CI_OnLineFunctionCode"/>
+                     <nc:attribute name="codeList"
+                                   value="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"/>
+                     <nc:attribute name="codeListValue" value="information"/>
+                     <nc:attribute name="value" value="information"/>
+                  </nc:group>
+               </nc:group>
+            </nc:group>
+            <nc:group name="gmd:role">
+               <nc:attribute name="role" value="gmd:role"/>
+               <nc:attribute name="type" value="gmd:CI_RoleCode"/>
+               <nc:attribute name="codeList"
+                             value="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"/>
+               <nc:attribute name="codeListValue" value="custodian"/>
+               <nc:attribute name="value" value="custodian"/>
+            </nc:group>
+         </nc:group>
+      </nc:group>
+   </nc:group>
+   <nc:group name="gmd:descriptiveKeywords_d1e272">
+      <nc:attribute name="role" value="gmd:descriptiveKeywords"/>
+      <nc:attribute name="type" value="gmd:MD_Keywords"/>
+      <nc:group name="gmd:type">
+         <nc:attribute name="role" value="gmd:type"/>
+         <nc:attribute name="type" value="gmd:MD_KeywordTypeCode"/>
+         <nc:attribute name="codeList"
+                       value="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"/>
+         <nc:attribute name="codeListValue" value="project"/>
+         <nc:attribute name="value" value="project"/>
+      </nc:group>
+      <nc:group name="gmd:thesaurusName">
+         <nc:attribute name="role" value="gmd:thesaurusName"/>
+         <nc:attribute name="type" value="gmd:CI_Citation"/>
+         <nc:group name="gmd:date">
+            <nc:attribute name="gco:nilReason" value="unknown"/>
+         </nc:group>
+         <nc:group name="gmd:citedResponsibleParty">
+            <nc:attribute name="role" value="gmd:citedResponsibleParty"/>
+            <nc:attribute name="type" value="gmd:CI_ResponsibleParty"/>
+            <nc:group name="gmd:contactInfo">
+               <nc:attribute name="role" value="gmd:contactInfo"/>
+               <nc:attribute name="type" value="gmd:CI_Contact"/>
+               <nc:group name="gmd:address">
+                  <nc:attribute name="role" value="gmd:address"/>
+                  <nc:attribute name="type" value="gmd:CI_Address"/>
+               </nc:group>
+               <nc:group name="gmd:onlineResource">
+                  <nc:attribute name="role" value="gmd:onlineResource"/>
+                  <nc:attribute name="type" value="gmd:CI_OnlineResource"/>
+                  <nc:group name="gmd:function">
+                     <nc:attribute name="role" value="gmd:function"/>
+                     <nc:attribute name="type" value="gmd:CI_OnLineFunctionCode"/>
+                     <nc:attribute name="codeList"
+                                   value="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"/>
+                     <nc:attribute name="codeListValue" value="information"/>
+                     <nc:attribute name="value" value="information"/>
+                  </nc:group>
+               </nc:group>
+            </nc:group>
+            <nc:group name="gmd:role">
+               <nc:attribute name="role" value="gmd:role"/>
+               <nc:attribute name="type" value="gmd:CI_RoleCode"/>
+               <nc:attribute name="codeList"
+                             value="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"/>
+               <nc:attribute name="codeListValue" value="custodian"/>
+               <nc:attribute name="value" value="custodian"/>
+            </nc:group>
+         </nc:group>
+         <nc:group name="gmd:citedResponsibleParty_d1e330">
+            <nc:attribute name="role" value="gmd:citedResponsibleParty"/>
+            <nc:attribute name="type" value="gmd:CI_ResponsibleParty"/>
+            <nc:group name="gmd:organisationName">
+               <nc:attribute name="gco:nilReason" value="inapplicable"/>
+            </nc:group>
+            <nc:group name="gmd:contactInfo">
+               <nc:attribute name="role" value="gmd:contactInfo"/>
+               <nc:attribute name="type" value="gmd:CI_Contact"/>
+               <nc:group name="gmd:onlineResource">
+                  <nc:attribute name="role" value="gmd:onlineResource"/>
+                  <nc:attribute name="type" value="gmd:CI_OnlineResource"/>
+                  <nc:group name="gmd:function">
+                     <nc:attribute name="role" value="gmd:function"/>
+                     <nc:attribute name="type" value="gmd:CI_OnLineFunctionCode"/>
+                     <nc:attribute name="codeList"
+                                   value="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"/>
+                     <nc:attribute name="codeListValue" value="information"/>
+                     <nc:attribute name="value" value="information"/>
+                  </nc:group>
+               </nc:group>
+            </nc:group>
+            <nc:group name="gmd:role">
+               <nc:attribute name="role" value="gmd:role"/>
+               <nc:attribute name="type" value="gmd:CI_RoleCode"/>
+               <nc:attribute name="codeList"
+                             value="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"/>
+               <nc:attribute name="codeListValue" value="custodian"/>
+               <nc:attribute name="value" value="custodian"/>
+            </nc:group>
+         </nc:group>
+      </nc:group>
+   </nc:group>
+</nc:netcdf>
