@@ -3849,6 +3849,24 @@
          </mco:classification>
       </mco:MD_SecurityConstraints>
    </mdb:metadataConstraints>
+   <mdb:applicationSchemaInfo>
+      <mdb:MD_ApplicationSchemaInformation>
+         <mdb:name>
+            <cit:CI_Citation>
+               <cit:title>
+                  <gco:CharacterString>/gmd:MD_Metadata/gmd:applicationSchemaInfo/gmd:MD_ApplicationSchemaInformation/gmd:name/gmd:CI_Citation/gmd:title/gco:CharacterString</gco:CharacterString>
+               </cit:title>
+               <cit:date gco:nilReason="missing"/>
+            </cit:CI_Citation>
+         </mdb:name>
+         <mdb:schemaLanguage>
+            <gco:CharacterString>/gmd:MD_Metadata/gmd:applicationSchemaInfo/gmd:MD_ApplicationSchemaInformation/gmd:schemaLanguage/gco:CharacterString</gco:CharacterString>
+         </mdb:schemaLanguage>
+         <mdb:constraintLanguage>
+            <gco:CharacterString>/gmd:MD_Metadata/gmd:applicationSchemaInfo/gmd:MD_ApplicationSchemaInformation/gmd:constraintLanguage/gco:CharacterString</gco:CharacterString>
+         </mdb:constraintLanguage>
+      </mdb:MD_ApplicationSchemaInformation>
+   </mdb:applicationSchemaInfo>
    <mdb:metadataMaintenance>
       <mmi:MD_MaintenanceInformation>
          <mmi:maintenanceAndUpdateFrequency>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nc:netcdf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2"
+           xmlns:nc="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+   <nc:group name="gmd:MD_Keywords">
+      <nc:attribute name="role" value="metadataRoot"/>
+      <nc:attribute name="type" value="gmd:MD_Keywords"/>
+      <nc:attribute name="gmd:keyword"
+                    value="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gco:CharacterString"
+                    isoType="gco:CharacterString"/>
+      <nc:attribute name="gmd:keyword_d1e6"
+                    value="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword.2/gco:CharacterString"
+                    isoType="gco:CharacterString"/>
+      <nc:group name="gmd:type">
+         <nc:attribute name="role" value="gmd:type"/>
+         <nc:attribute name="type" value="gmd:MD_KeywordTypeCode"/>
+         <nc:attribute name="codeList"
+                       value="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"/>
+         <nc:attribute name="codeListValue" value="theme"/>
+         <nc:attribute name="value"
+                       value="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:type/gmd:MD_KeywordTypeCode"/>
+      </nc:group>
+      <nc:group name="gmd:thesaurusName">
+         <nc:attribute name="role" value="gmd:thesaurusName"/>
+         <nc:attribute name="type" value="gmd:CI_Citation"/>
+         <nc:attribute name="gmd:title"
+                       value="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName/gmd:CI_Citation/gmd:title/gco:CharacterString"
+                       isoType="gco:CharacterString"/>
+         <nc:group name="gmd:date">
+            <nc:attribute name="role" value="gmd:date"/>
+            <nc:attribute name="type" value="gmd:CI_Date"/>
+            <nc:attribute name="gmd:date" value="20111010" isoType="gco:Date"/>
+            <nc:group name="gmd:dateType">
+               <nc:attribute name="role" value="gmd:dateType"/>
+               <nc:attribute name="type" value="gmd:CI_DateTypeCode"/>
+               <nc:attribute name="codeList"
+                             value="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"/>
+               <nc:attribute name="codeListValue" value="revision"/>
+            </nc:group>
+         </nc:group>
+      </nc:group>
+      <nc:group name="namespace_1">
+         <nc:attribute name="prefix" value="xml"/>
+         <nc:attribute name="uri" value="http://www.w3.org/XML/1998/namespace"/>
+      </nc:group>
+      <nc:group name="namespace_2">
+         <nc:attribute name="prefix" value="gmd"/>
+         <nc:attribute name="uri" value="http://www.isotc211.org/2005/gmd"/>
+      </nc:group>
+      <nc:group name="namespace_3">
+         <nc:attribute name="prefix" value="gco"/>
+         <nc:attribute name="uri" value="http://www.isotc211.org/2005/gco"/>
+      </nc:group>
+   </nc:group>
+</nc:netcdf>
