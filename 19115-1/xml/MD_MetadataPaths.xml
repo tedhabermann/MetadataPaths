@@ -31,7 +31,16 @@
          </lan:characterEncoding>
       </lan:PT_Locale>
    </mdb:defaultLocale>
-   <mdb:parentMetadata uuidref="/gmd:MD_Metadata/gmd:parentIdentifier/gco:CharacterString"/>
+   <mdb:parentMetadata>
+      <mcc:MD_Identifier>
+         <mcc:code>
+            <gco:CharacterString>parentIdentifier</gco:CharacterString>
+         </mcc:code>
+         <mcc:codeSpace>
+            <gco:CharacterString>parentIdentifierNamespace</gco:CharacterString>
+         </mcc:codeSpace>
+      </mcc:MD_Identifier>
+   </mdb:parentMetadata>
    <mdb:metadataScope>
       <mdb:MD_MetadataScope>
          <mdb:resourceScope>
