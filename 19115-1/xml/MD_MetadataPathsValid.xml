@@ -1,32 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                 xmlns:cat="http://standards.iso.org/iso/19115/-3/cat/1.0"
-                 xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0"
-                 xmlns:gcx="http://standards.iso.org/iso/19115/-3/gcx/1.0"
-                 xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0"
-                 xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0"
-                 xmlns:srv="http://standards.iso.org/iso/19115/-3/srv/2.0"
-                 xmlns:mas="http://standards.iso.org/iso/19115/-3/mas/1.0"
-                 xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0"
-                 xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0"
-                 xmlns:mda="http://standards.iso.org/iso/19115/-3/mda/1.0"
-                 xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0"
-                 xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0"
-                 xmlns:mdt="http://standards.iso.org/iso/19115/-3/mdt/1.0"
-                 xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0"
-                 xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0"
-                 xmlns:mpc="http://standards.iso.org/iso/19115/-3/mpc/1.0"
-                 xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/1.0"
-                 xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0"
-                 xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0"
-                 xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/1.0"
-                 xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0"
-                 xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/1.0"
-                 xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0"
-                 xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/1.0"
-                 xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0"
-                 xmlns:gml="http://www.opengis.net/gml/3.2"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+ xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdt/1.0/mdt.xsd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/1.0" xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/1.0"
+ xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:cat="http://standards.iso.org/iso/19115/-3/cat/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0"
+ xmlns:gcx="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:mas="http://standards.iso.org/iso/19115/-3/mas/1.0" xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/1.0" xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:mpc="http://standards.iso.org/iso/19115/-3/mpc/1.0"
+ xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mda="http://standards.iso.org/iso/19115/-3/mda/1.0" xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:srv="http://standards.iso.org/iso/19115/-3/srv/2.0"
+ xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:mdt="http://standards.iso.org/iso/19115/-3/mdt/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:xlink="http://www.w3.org/1999/xlink">
    <mdb:metadataIdentifier>
       <mcc:MD_Identifier>
          <mcc:code>
@@ -48,7 +26,23 @@
          </lan:characterEncoding>
       </lan:PT_Locale>
    </mdb:defaultLocale>
-   <mdb:parentMetadata uuidref="/gmd:MD_Metadata/gmd:parentIdentifier/gco:CharacterString"/>
+   <mdb:parentMetadata>
+      <cit:CI_Citation>
+         <cit:title>
+            <gco:CharacterString>/cit:CI_Citation/cit:title</gco:CharacterString>
+         </cit:title>
+         <cit:identifier>
+            <mcc:MD_Identifier>
+               <mcc:code>
+                  <gco:CharacterString>parentIdentifier</gco:CharacterString>
+               </mcc:code>
+               <mcc:codeSpace>
+                  <gco:CharacterString>parentIdentifierNamespace</gco:CharacterString>
+               </mcc:codeSpace>
+            </mcc:MD_Identifier>
+         </cit:identifier>
+      </cit:CI_Citation>
+   </mdb:parentMetadata>
    <mdb:metadataScope>
       <mdb:MD_MetadataScope>
          <mdb:resourceScope>
@@ -3850,22 +3844,22 @@
       </mco:MD_SecurityConstraints>
    </mdb:metadataConstraints>
    <mdb:applicationSchemaInfo>
-      <mdb:MD_ApplicationSchemaInformation>
-         <mdb:name>
+      <mas:MD_ApplicationSchemaInformation>
+         <mas:name>
             <cit:CI_Citation>
                <cit:title>
                   <gco:CharacterString>/gmd:MD_Metadata/gmd:applicationSchemaInfo/gmd:MD_ApplicationSchemaInformation/gmd:name/gmd:CI_Citation/gmd:title/gco:CharacterString</gco:CharacterString>
                </cit:title>
                <cit:date gco:nilReason="missing"/>
             </cit:CI_Citation>
-         </mdb:name>
-         <mdb:schemaLanguage>
+         </mas:name>
+         <mas:schemaLanguage>
             <gco:CharacterString>/gmd:MD_Metadata/gmd:applicationSchemaInfo/gmd:MD_ApplicationSchemaInformation/gmd:schemaLanguage/gco:CharacterString</gco:CharacterString>
-         </mdb:schemaLanguage>
-         <mdb:constraintLanguage>
+         </mas:schemaLanguage>
+         <mas:constraintLanguage>
             <gco:CharacterString>/gmd:MD_Metadata/gmd:applicationSchemaInfo/gmd:MD_ApplicationSchemaInformation/gmd:constraintLanguage/gco:CharacterString</gco:CharacterString>
-         </mdb:constraintLanguage>
-      </mdb:MD_ApplicationSchemaInformation>
+         </mas:constraintLanguage>
+      </mas:MD_ApplicationSchemaInformation>
    </mdb:applicationSchemaInfo>
    <mdb:metadataMaintenance>
       <mmi:MD_MaintenanceInformation>
