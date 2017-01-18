@@ -3825,14 +3825,14 @@
                <mcc:extent>
                   <gex:EX_Extent>
                      <gex:description>
-                        <gco:CharacterString>/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:scope/gmd:DQ_Scope/gmd:extent/gmd:EX_Extent/gmd:description/gco:CharacterString</gco:CharacterString>
+                        <gco:CharacterString>/mdb:MD_Metadata/mdb:acquisitionInformation/mac:MI_AcquisitionInformation/mac:scope/mcc:MD_Scope/mcc:extent/gex:EX_Extent/gex:description/gco:CharacterString</gco:CharacterString>
                      </gex:description>
                   </gex:EX_Extent>
                </mcc:extent>
                <mcc:levelDescription>
                   <mcc:MD_ScopeDescription>
                      <mcc:other>
-                        <gco:CharacterString>/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:scope/gmd:DQ_Scope/gmd:levelDescription/gmd:MD_ScopeDescription/gmd:other/gco:CharacterString</gco:CharacterString>
+                        <gco:CharacterString>/mdb:MD_Metadata/mdb:acquisitionInformation/mac:MI_AcquisitionInformation/mac:scope/mcc:MD_Scope/mcc:levelDescription/mcc:MD_ScopeDescription/mcc:other/gco:CharacterString</gco:CharacterString>
                      </mcc:other>
                   </mcc:MD_ScopeDescription>
                </mcc:levelDescription>
@@ -3843,6 +3843,8 @@
                <mac:identifier/>
                <mac:description/>
                <mac:instrument/>
+               <mac:otherProperty/>
+               <mac:otherPropertyType/>
             </mac:MI_Platform>
          </mac:platform>
       </mac:MI_AcquisitionInformation>

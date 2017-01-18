@@ -3792,6 +3792,23 @@
          </mco:classification>
       </mco:MD_SecurityConstraints>
    </mdb:metadataConstraints>
+   <mdb:applicationSchemaInfo>
+      <mas:MD_ApplicationSchemaInformation>
+         <mas:name>
+            <cit:CI_Citation>
+               <cit:title>
+                  <gco:CharacterString>/mdb:MD_Metadata/mdb:applicationSchemaInfo/mas:MD_ApplicationSchemaInformation/mas:name/cit:CI_Citation/cit:title/gco:CharacterString</gco:CharacterString>
+               </cit:title>
+            </cit:CI_Citation>
+         </mas:name>
+         <mas:schemaLanguage>
+            <gco:CharacterString>/mdb:MD_Metadata/mdb:applicationSchemaInfo/mas:MD_ApplicationSchemaInformation/mas:schemaLanguage/gco:CharacterString</gco:CharacterString>
+         </mas:schemaLanguage>
+         <mas:constraintLanguage>
+            <gco:CharacterString>/mdb:MD_Metadata/mdb:applicationSchemaInfo/mas:MD_ApplicationSchemaInformation/mas:constraintLanguage/gco:CharacterString</gco:CharacterString>
+         </mas:constraintLanguage>
+      </mas:MD_ApplicationSchemaInformation>
+   </mdb:applicationSchemaInfo>
    <mdb:metadataMaintenance>
       <mmi:MD_MaintenanceInformation>
          <mmi:maintenanceAndUpdateFrequency>
