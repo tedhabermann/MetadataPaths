@@ -3848,6 +3848,13 @@
                <mac:hosted  xlink:href="#instrumentIdentifier"/>
             </mac:MI_Sensor>
          </mac:instrument>
+         <mac:operation>
+            <mac:MI_Operation>
+               <mac:status></mac:status>
+               <mac:otherPropertyType/>
+               <mac:otherProperty/>
+            </mac:MI_Operation>
+         </mac:operation>
          <mac:platform>
             <mac:MI_Platform id="platformIdentifier">
                <mac:identifier/>
@@ -3906,6 +3913,16 @@
                </mac:history>
             </mac:MI_Platform>
          </mac:platform>
+         <mac:environmentalConditions>
+            <mac:MI_EnvironmentalRecord>
+               <mac:averageAirTemperature/>
+               <mac:maxRelativeHumidity/>
+               <mac:maxAltitude/>
+               <mac:meterologicalConditions/>
+               <mac:solarAzimuth/>
+               <mac:solarElevation/>
+            </mac:MI_EnvironmentalRecord>
+         </mac:environmentalConditions>
       </mac:MI_AcquisitionInformation>
    </mdb:acquisitionInformation>
 </mdb:MD_Metadata>
