@@ -3833,10 +3833,19 @@
             <mac:MI_Sensor id="sensorIdentifier">
                <mac:identifier></mac:identifier>
                <mac:type></mac:type>
-               <mac:mountedOn xlink:href="#instrumentIdentifier"/>
+               <mac:mountedOn xlink:href="#platformIdentifier"/>
                <mac:otherPropertyType/>
                <mac:otherProperty/>
                <mac:content xlink:href="#contentInformationTarget"/>
+               <mac:history>
+                  <mac:MI_InstrumentationEventList>
+                     <mac:citation></mac:citation>
+                     <mac:description/>
+                     <mac:instrumentationEvent/>
+                     <mac:instrumentationEvent/>
+                  </mac:MI_InstrumentationEventList>
+               </mac:history>
+               <mac:hosted  xlink:href="#instrumentIdentifier"/>
             </mac:MI_Sensor>
          </mac:instrument>
          <mac:platform>
@@ -3872,6 +3881,29 @@
                <mac:instrument xlink:href="#sensorIdentifier"/>
                <mac:otherPropertyType/>
                <mac:otherProperty/>
+               <mac:history>
+                  <mac:MI_InstrumentationEventList>
+                     <mac:citation/>
+                     <mac:description/>
+                     <mac:instrumentationEvent>
+                        <mac:MI_InstrumentationEvent>
+                           <mac:description></mac:description>
+                           <mac:type></mac:type>
+                           <mac:revisionHistory>
+                              <mac:MI_Revision>
+                                 <mac:author>
+                                    <cit:CI_Responsibility>
+                                       <cit:role></cit:role>
+                                       <cit:party></cit:party>
+                                    </cit:CI_Responsibility>
+                                 </mac:author>
+                                 <mac:dateInfo></mac:dateInfo>
+                              </mac:MI_Revision>
+                           </mac:revisionHistory>
+                        </mac:MI_InstrumentationEvent>
+                     </mac:instrumentationEvent>
+                  </mac:MI_InstrumentationEventList>
+               </mac:history>
             </mac:MI_Platform>
          </mac:platform>
       </mac:MI_AcquisitionInformation>
