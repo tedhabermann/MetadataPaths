@@ -1,0 +1,1408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gmd:MD_Metadata xmlns:util="java:java.util.UUID"
+                 xmlns:gco="http://www.isotc211.org/2005/gco"
+                 xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                 xmlns:gml="http://www.opengis.net/gml"
+                 xmlns:dif="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/"
+                 xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+   <gmd:fileIdentifier>
+      <gco:CharacterString>/DIF/Entry_ID</gco:CharacterString>
+   </gmd:fileIdentifier>
+   <gmd:language>
+      <gco:CharacterString>eng</gco:CharacterString>
+   </gmd:language>
+   <gmd:characterSet>
+      <gmd:MD_CharacterSetCode codeListValue="utf8"
+                               codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode">utf8</gmd:MD_CharacterSetCode>
+   </gmd:characterSet>
+   <gmd:parentIdentifier>
+      <gco:CharacterString>/DIF/Parent_DIF</gco:CharacterString>
+   </gmd:parentIdentifier>
+   <gmd:hierarchyLevel>
+      <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
+                        codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+   </gmd:hierarchyLevel>
+   <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+         <gmd:individualName>
+            <gco:CharacterString>/DIF/Personnel[Role='DIF AUTHOR']/Last_Name, /DIF/Personnel[Role='DIF AUTHOR']/First_Name/DIF/Personnel[Role='DIF AUTHOR']/Middle_Name</gco:CharacterString>
+         </gmd:individualName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:phone>
+                  <gmd:CI_Telephone>
+                     <gmd:voice>
+                        <gco:CharacterString>/DIF/Personnel[Role='DIF AUTHOR']/Phone</gco:CharacterString>
+                     </gmd:voice>
+                     <gmd:facsimile>
+                        <gco:CharacterString>/DIF/Personnel[Role='DIF AUTHOR']/Fax</gco:CharacterString>
+                     </gmd:facsimile>
+                  </gmd:CI_Telephone>
+               </gmd:phone>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:deliveryPoint>
+                        <gco:CharacterString>/DIF/Personnel[Role='DIF AUTHOR']/Contact_Address/Address</gco:CharacterString>
+                     </gmd:deliveryPoint>
+                     <gmd:city>
+                        <gco:CharacterString>/DIF/Personnel[Role='DIF AUTHOR']/Contact_Address/City</gco:CharacterString>
+                     </gmd:city>
+                     <gmd:administrativeArea>
+                        <gco:CharacterString>/DIF/Personnel[Role='DIF AUTHOR']/Contact_Address/Province_or_State</gco:CharacterString>
+                     </gmd:administrativeArea>
+                     <gmd:postalCode>
+                        <gco:CharacterString>/DIF/Personnel[Role='DIF AUTHOR']/Contact_Address/Postal_Code</gco:CharacterString>
+                     </gmd:postalCode>
+                     <gmd:country>
+                        <gco:CharacterString>/DIF/Personnel[Role='DIF AUTHOR']/Contact_Address/Country</gco:CharacterString>
+                     </gmd:country>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>/DIF/Personnel[Role='DIF AUTHOR']/Email</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                             codeListValue="author">author</gmd:CI_RoleCode>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+   </gmd:contact>
+   <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+         <gmd:organisationName>
+            <gco:CharacterString>/DIF/Originating_Metadata_Node</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                             codeListValue="originator">originator</gmd:CI_RoleCode>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+   </gmd:contact>
+   <gmd:dateStamp>
+      <gco:Date>/DIF/DIF_Creation_Date</gco:Date>
+   </gmd:dateStamp>
+   <gmd:metadataStandardName>
+      <gco:CharacterString>/DIF/Metadata_Name</gco:CharacterString>
+   </gmd:metadataStandardName>
+   <gmd:metadataStandardVersion>
+      <gco:CharacterString>/DIF/Metadata_Version</gco:CharacterString>
+   </gmd:metadataStandardVersion>
+   <gmd:identificationInfo>
+      <gmd:MD_DataIdentification>
+         <gmd:citation>
+            <gmd:CI_Citation>
+               <gmd:title>
+                  <gco:CharacterString>/DIF/Entry_Title</gco:CharacterString>
+               </gmd:title>
+               <gmd:alternateTitle>
+                  <gco:CharacterString>/DIF/Data_Set_Citation/Dataset_Title</gco:CharacterString>
+               </gmd:alternateTitle>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>/DIF/DIF_Creation_Date</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:edition>
+                  <gco:CharacterString>/DIF/Data_Set_Citation/Version</gco:CharacterString>
+               </gmd:edition>
+               <gmd:identifier>
+                  <gmd:MD_Identifier>
+                     <gmd:code>
+                        <gco:CharacterString>/DIF/Data_Center/Data_Set_ID</gco:CharacterString>
+                     </gmd:code>
+                  </gmd:MD_Identifier>
+               </gmd:identifier>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>/DIF/Personnel[Role='INVESTIGATOR']/Last_Name, /DIF/Personnel[Role='INVESTIGATOR']/First_Name/DIF/Personnel[Role='INVESTIGATOR']/Middle_Name</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice>
+                                    <gco:CharacterString>/DIF/Personnel[Role='INVESTIGATOR']/Phone</gco:CharacterString>
+                                 </gmd:voice>
+                                 <gmd:facsimile>
+                                    <gco:CharacterString>/DIF/Personnel[Role='INVESTIGATOR']/Fax</gco:CharacterString>
+                                 </gmd:facsimile>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>/DIF/Personnel[Role='INVESTIGATOR']/Contact_Address/Address</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>/DIF/Personnel[Role='INVESTIGATOR']/Contact_Address/City</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString>/DIF/Personnel[Role='INVESTIGATOR']/Contact_Address/Province_or_State</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>/DIF/Personnel[Role='INVESTIGATOR']/Contact_Address/Postal_Code</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:country>
+                                    <gco:CharacterString>/DIF/Personnel[Role='INVESTIGATOR']/Contact_Address/Country</gco:CharacterString>
+                                 </gmd:country>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>/DIF/Personnel[Role='INVESTIGATOR']/Email</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>/DIF/Personnel[Role='TECHNICAL CONTACT']/Last_Name, /DIF/Personnel[Role='TECHNICAL CONTACT']/First_Name/DIF/Personnel[Role='TECHNICAL CONTACT']/Middle_Name</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice>
+                                    <gco:CharacterString>/DIF/Personnel[Role='TECHNICAL CONTACT']/Phone</gco:CharacterString>
+                                 </gmd:voice>
+                                 <gmd:facsimile>
+                                    <gco:CharacterString>/DIF/Personnel[Role='TECHNICAL CONTACT']/Fax</gco:CharacterString>
+                                 </gmd:facsimile>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>/DIF/Personnel[Role='TECHNICAL CONTACT']/Contact_Address/Address</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>/DIF/Personnel[Role='TECHNICAL CONTACT']/Contact_Address/City</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString>/DIF/Personnel[Role='TECHNICAL CONTACT']/Contact_Address/Province_or_State</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>/DIF/Personnel[Role='TECHNICAL CONTACT']/Contact_Address/Postal_Code</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:country>
+                                    <gco:CharacterString>/DIF/Personnel[Role='TECHNICAL CONTACT']/Contact_Address/Country</gco:CharacterString>
+                                 </gmd:country>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>/DIF/Personnel[Role='TECHNICAL CONTACT']/Email</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="processor">processor</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>/DIF/Data_Set_Citation/Dataset_Creator</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="originator">originator</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>/DIF/Originating_Center</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="originator">originator</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>/DIF/Data_Set_Citation/Dataset_Publisher</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:series>
+                  <gmd:CI_Series>
+                     <gmd:name>
+                        <gco:CharacterString>/DIF/Data_Set_Citation/Dataset_Series_Name</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:issueIdentification>
+                        <gco:CharacterString>/DIF/Data_Set_Citation/Issue_Identification</gco:CharacterString>
+                     </gmd:issueIdentification>
+                  </gmd:CI_Series>
+               </gmd:series>
+               <gmd:otherCitationDetails>
+                  <gco:CharacterString>/DIF/Data_Set_Citation/Other_Citation_Details</gco:CharacterString>
+               </gmd:otherCitationDetails>
+            </gmd:CI_Citation>
+         </gmd:citation>
+         <gmd:abstract>
+            <gco:CharacterString>/DIF/Summary/Abstract
+	  [ This document was provided by NASA's Global Change Master Directory. 
+      For more information on the source of this metadata please visit
+      http://gcmd.nasa.gov/r/geoss/[/DIF/Originating_Metadata_Node]/DIF/Entry_ID ]
+					</gco:CharacterString>
+         </gmd:abstract>
+         <gmd:purpose>
+            <gco:CharacterString>/DIF/Summary/Purpose</gco:CharacterString>
+         </gmd:purpose>
+         <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:individualName>
+                  <gco:CharacterString>/DIF/Data_Center/Personnel[Role='TECHNICAL CONTACT']/Last_Name, /DIF/Data_Center/Personnel[Role='TECHNICAL CONTACT']/First_Name/DIF/Data_Center/Personnel[Role='TECHNICAL CONTACT']/Middle_Name</gco:CharacterString>
+               </gmd:individualName>
+               <gmd:organisationName>
+                  <gco:CharacterString>/DIF/Data_Center/Data_Center_Name/Short_Name &gt; /DIF/Data_Center/Data_Center_Name/Long_Name</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:positionName>
+                  <gco:CharacterString>TECHNICAL CONTACT</gco:CharacterString>
+               </gmd:positionName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice>
+                              <gco:CharacterString>/DIF/Data_Center/Personnel[Role='TECHNICAL CONTACT']/Phone</gco:CharacterString>
+                           </gmd:voice>
+                           <gmd:facsimile>
+                              <gco:CharacterString>/DIF/Data_Center/Personnel[Role='TECHNICAL CONTACT']/Fax</gco:CharacterString>
+                           </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint>
+                              <gco:CharacterString>/DIF/Data_Center/Personnel[Role='TECHNICAL CONTACT']/Contact_Address/Address</gco:CharacterString>
+                           </gmd:deliveryPoint>
+                           <gmd:city>
+                              <gco:CharacterString>/DIF/Data_Center/Personnel[Role='TECHNICAL CONTACT']/Contact_Address/City</gco:CharacterString>
+                           </gmd:city>
+                           <gmd:administrativeArea>
+                              <gco:CharacterString>/DIF/Data_Center/Personnel[Role='TECHNICAL CONTACT']/Contact_Address/Province_or_State</gco:CharacterString>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode>
+                              <gco:CharacterString>/DIF/Data_Center/Personnel[Role='TECHNICAL CONTACT']/Contact_Address/Postal_Code</gco:CharacterString>
+                           </gmd:postalCode>
+                           <gmd:country>
+                              <gco:CharacterString>/DIF/Data_Center/Personnel[Role='TECHNICAL CONTACT']/Contact_Address/Country</gco:CharacterString>
+                           </gmd:country>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>/DIF/Data_Center/Personnel[Role='TECHNICAL CONTACT']/Email</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                     <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                           <gmd:linkage>
+                              <gmd:URL>/DIF/Data_Center/Data_Center_URL</gmd:URL>
+                           </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                     </gmd:onlineResource>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                   codeListValue="resourceProvider">resourceProvider</gmd:CI_RoleCode>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:pointOfContact>
+         <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:individualName>
+                  <gco:CharacterString>/DIF/Data_Center/Personnel[Role='DATA CENTER CONTACT']/Last_Name, /DIF/Data_Center/Personnel[Role='DATA CENTER CONTACT']/First_Name/DIF/Data_Center/Personnel[Role='DATA CENTER CONTACT']/Middle_Name</gco:CharacterString>
+               </gmd:individualName>
+               <gmd:organisationName>
+                  <gco:CharacterString>/DIF/Data_Center/Data_Center_Name/Short_Name &gt; /DIF/Data_Center/Data_Center_Name/Long_Name</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:positionName>
+                  <gco:CharacterString>DATA CENTER CONTACT</gco:CharacterString>
+               </gmd:positionName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice>
+                              <gco:CharacterString>/DIF/Data_Center/Personnel[Role='DATA CENTER CONTACT']/Phone</gco:CharacterString>
+                           </gmd:voice>
+                           <gmd:facsimile>
+                              <gco:CharacterString>/DIF/Data_Center/Personnel[Role='DATA CENTER CONTACT']/Fax</gco:CharacterString>
+                           </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint>
+                              <gco:CharacterString>/DIF/Data_Center/Personnel[Role='DATA CENTER CONTACT']/Contact_Address/Address</gco:CharacterString>
+                           </gmd:deliveryPoint>
+                           <gmd:city>
+                              <gco:CharacterString>/DIF/Data_Center/Personnel[Role='DATA CENTER CONTACT']/Contact_Address/City</gco:CharacterString>
+                           </gmd:city>
+                           <gmd:administrativeArea>
+                              <gco:CharacterString>/DIF/Data_Center/Personnel[Role='DATA CENTER CONTACT']/Contact_Address/Province_or_State</gco:CharacterString>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode>
+                              <gco:CharacterString>/DIF/Data_Center/Personnel[Role='DATA CENTER CONTACT']/Contact_Address/Postal_Code</gco:CharacterString>
+                           </gmd:postalCode>
+                           <gmd:country>
+                              <gco:CharacterString>/DIF/Data_Center/Personnel[Role='DATA CENTER CONTACT']/Contact_Address/Country</gco:CharacterString>
+                           </gmd:country>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>/DIF/Data_Center/Personnel[Role='DATA CENTER CONTACT']/Email</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                     <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                           <gmd:linkage>
+                              <gmd:URL>/DIF/Data_Center/Data_Center_URL</gmd:URL>
+                           </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                     </gmd:onlineResource>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                   codeListValue="resourceProvider">resourceProvider</gmd:CI_RoleCode>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:pointOfContact>
+         <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+               <gmd:fileName>
+                  <gco:CharacterString>/DIF/Multimedia_Sample/File</gco:CharacterString>
+               </gmd:fileName>
+               <gmd:fileDescription>
+                  <gco:CharacterString>/DIF/Multimedia_Sample/Description</gco:CharacterString>
+               </gmd:fileDescription>
+               <gmd:fileType>
+                  <gco:CharacterString>/DIF/Multimedia_Sample/Format</gco:CharacterString>
+               </gmd:fileType>
+            </gmd:MD_BrowseGraphic>
+         </gmd:graphicOverview>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>/DIF/Parameters/Category &gt; /DIF/Parameters/Topic &gt; /DIF/Parameters/Term &gt; /DIF/Parameters/Variable_Level_1 &gt; /DIF/Parameters/Variable_Level_2 &gt; /DIF/Parameters/Variable_Level_3</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>NASA/GCMD Earth Science Keywords</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:alternateTitle>
+                        <gco:CharacterString>Science Keywords</gco:CharacterString>
+                     </gmd:alternateTitle>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2008-02-05</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <gmd:collectiveTitle>
+                        <gco:CharacterString>Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 .   NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version  6.0.0.0.0</gco:CharacterString>
+                     </gmd:collectiveTitle>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>/DIF/Keyword</gco:CharacterString>
+               </gmd:keyword>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>/DIF/Sensor_Name/Short_Name &gt; /DIF/Sensor_Name/Long_Name</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>NASA/GCMD Earth Science Keywords</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:alternateTitle>
+                        <gco:CharacterString>Instruments</gco:CharacterString>
+                     </gmd:alternateTitle>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2009-06-10</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <gmd:collectiveTitle>
+                        <gco:CharacterString>Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 .   NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version  6.0.0.0.0</gco:CharacterString>
+                     </gmd:collectiveTitle>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>/DIF/Source_Name/Short_Name &gt; /DIF/Source_Name/Long_Name</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>NASA/GCMD Earth Science Keywords</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:alternateTitle>
+                        <gco:CharacterString>Platforms</gco:CharacterString>
+                     </gmd:alternateTitle>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2009-06-10</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <gmd:collectiveTitle>
+                        <gco:CharacterString>Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 .   NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version  6.0.0.0.0</gco:CharacterString>
+                     </gmd:collectiveTitle>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>
+                      Paleo Start Date /DIF/Paleo_Temporal_Coverage/Paleo_Start_Date</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>
+                      Paleo Stop Date /DIF/Paleo_Temporal_Coverage/Paleo_Stop_Date</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>GCMD Paleo Temporal Coverage</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:alternateTitle>
+                        <gco:CharacterString>Paleo Start and Stop Dates</gco:CharacterString>
+                     </gmd:alternateTitle>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>/DIF/Last_DIF_Revision_Date</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>/DIF/Paleo_Temporal_Coverage/Chronostratigraphic_Unit/Eon &gt; /DIF/Paleo_Temporal_Coverage/Chronostratigraphic_Unit/Era &gt; /DIF/Paleo_Temporal_Coverage/Chronostratigraphic_Unit/Period &gt; /DIF/Paleo_Temporal_Coverage/Chronostratigraphic_Unit/Epoch</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>NASA/GCMD Earth Science Keywords</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:alternateTitle>
+                        <gco:CharacterString>Chronostratigraphic Unit</gco:CharacterString>
+                     </gmd:alternateTitle>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2008-02-05</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <gmd:collectiveTitle>
+                        <gco:CharacterString>Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 .   NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version  6.0.0.0.0</gco:CharacterString>
+                     </gmd:collectiveTitle>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>/DIF/Project/Short_Name &gt; /DIF/Project/Long_Name</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>NASA/GCMD Earth Science Keywords</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:alternateTitle>
+                        <gco:CharacterString>Projects</gco:CharacterString>
+                     </gmd:alternateTitle>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2009-06-10</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <gmd:collectiveTitle>
+                        <gco:CharacterString>Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 .   NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version  6.0.0.0.0</gco:CharacterString>
+                     </gmd:collectiveTitle>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>/DIF/IDN_Node/Short_Name</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>NASA/GCMD Earth Science Keywords</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:alternateTitle>
+                        <gco:CharacterString>IDN Nodes</gco:CharacterString>
+                     </gmd:alternateTitle>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2007-04-01</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <gmd:collectiveTitle>
+                        <gco:CharacterString>Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 .   NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version  6.0.0.0.0</gco:CharacterString>
+                     </gmd:collectiveTitle>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>/DIF/Location/Location_Category &gt; /DIF/Location/Location_Type &gt; /DIF/Location/Location_Subregion1 &gt; /DIF/Location/Location_Subregion2 &gt; /DIF/Location/Location_Subregion3 &gt; /DIF/Location/Detailed_Location</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>NASA/GCMD Earth Science Keywords</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:alternateTitle>
+                        <gco:CharacterString>Locations</gco:CharacterString>
+                     </gmd:alternateTitle>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2009-12-22</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <gmd:collectiveTitle>
+                        <gco:CharacterString>Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 .   NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version  6.0.0.0.0</gco:CharacterString>
+                     </gmd:collectiveTitle>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>geossDataCore</gco:CharacterString>
+               </gmd:keyword>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>geossNoMonetaryCharge</gco:CharacterString>
+               </gmd:keyword>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode"
+                                          codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+               </gmd:accessConstraints>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>/DIF/Access_Constraints</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode"
+                                          codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+               </gmd:useConstraints>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>/DIF/Use_Constraints</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+         <gmd:aggregationInfo>
+            <gmd:MD_AggregateInformation>
+               <gmd:aggregateDataSetName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>/DIF/Reference/Title</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>/DIF/Reference/Publication_Date</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <gmd:edition>
+                        <gco:CharacterString>/DIF/Reference/Edition</gco:CharacterString>
+                     </gmd:edition>
+                     <gmd:identifier>
+                        <gmd:MD_Identifier>
+                           <gmd:code>
+                              <gco:CharacterString>/DIF/Reference/DOI</gco:CharacterString>
+                           </gmd:code>
+                        </gmd:MD_Identifier>
+                     </gmd:identifier>
+                     <gmd:identifier>
+                        <gmd:MD_Identifier>
+                           <gmd:code>
+                              <gco:CharacterString>/DIF/Reference/Online_Resource</gco:CharacterString>
+                           </gmd:code>
+                        </gmd:MD_Identifier>
+                     </gmd:identifier>
+                     <gmd:identifier>
+                        <gmd:MD_Identifier>
+                           <gmd:code>
+                              <gco:CharacterString>
+                                Report Number /DIF/Reference/Report_Number</gco:CharacterString>
+                           </gmd:code>
+                        </gmd:MD_Identifier>
+                     </gmd:identifier>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:individualName>
+                              <gco:CharacterString>/DIF/Reference/Author</gco:CharacterString>
+                           </gmd:individualName>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                               codeListValue="author">author</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName>
+                              <gco:CharacterString>/DIF/Reference/Publisher</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:city>
+                                          <gco:CharacterString>/DIF/Reference/Publication_Place</gco:CharacterString>
+                                       </gmd:city>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                               codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                     <gmd:series>
+                        <gmd:CI_Series>
+                           <gmd:name>
+                              <gco:CharacterString>/DIF/Reference/Series</gco:CharacterString>
+                           </gmd:name>
+                           <gmd:issueIdentification>
+                              <gco:CharacterString>/DIF/Reference/Issue</gco:CharacterString>
+                           </gmd:issueIdentification>
+                           <gmd:page>
+                              <gco:CharacterString>/DIF/Reference/Pages</gco:CharacterString>
+                           </gmd:page>
+                        </gmd:CI_Series>
+                     </gmd:series>
+                     <gmd:otherCitationDetails>
+                        <gco:CharacterString>/DIF/Reference/Other_Reference_Details</gco:CharacterString>
+                     </gmd:otherCitationDetails>
+                     <gmd:collectiveTitle>
+                        <gco:CharacterString>
+                            Volume /DIF/Reference/Volume</gco:CharacterString>
+                     </gmd:collectiveTitle>
+                     <gmd:ISBN>
+                        <gco:CharacterString>/DIF/Reference/ISBN</gco:CharacterString>
+                     </gmd:ISBN>
+                  </gmd:CI_Citation>
+               </gmd:aggregateDataSetName>
+               <gmd:associationType>
+                  <gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode"
+                                              codeListValue="largerWorkCitation">largerWorkCitation</gmd:DS_AssociationTypeCode>
+               </gmd:associationType>
+            </gmd:MD_AggregateInformation>
+         </gmd:aggregationInfo>
+         <gmd:characterSet>
+            <gmd:MD_CharacterSetCode codeListValue="utf8"
+                                     codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode">utf8</gmd:MD_CharacterSetCode>
+         </gmd:characterSet>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>/dif/iso_topic_category</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox>
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>/DIF/Spatial_Coverage/Westernmost_Longitude</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>/DIF/Spatial_Coverage/Easternmost_Longitude</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>/DIF/Spatial_Coverage/Southernmost_Latitude</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>/DIF/Spatial_Coverage/Northernmost_Latitude</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicDescription>
+                     <gmd:geographicIdentifier>
+                        <gmd:MD_Identifier>
+                           <gmd:authority>
+                              <gmd:CI_Citation>
+                                 <gmd:title>
+                                    <gco:CharacterString>NASA/GCMD Earth Science Keywords</gco:CharacterString>
+                                 </gmd:title>
+                                 <gmd:alternateTitle>
+                                    <gco:CharacterString>Locations</gco:CharacterString>
+                                 </gmd:alternateTitle>
+                                 <gmd:date>
+                                    <gmd:CI_Date>
+                                       <gmd:date>
+                                          <gco:Date>2009-12-22</gco:Date>
+                                       </gmd:date>
+                                       <gmd:dateType>
+                                          <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                               codeListValue="revision"/>
+                                       </gmd:dateType>
+                                    </gmd:CI_Date>
+                                 </gmd:date>
+                                 <gmd:collectiveTitle>
+                                    <gco:CharacterString>Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 .   NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version  6.0.0.0.0</gco:CharacterString>
+                                 </gmd:collectiveTitle>
+                              </gmd:CI_Citation>
+                           </gmd:authority>
+                           <gmd:code>
+                              <gco:CharacterString>/DIF/Location/Location_Category &gt; /DIF/Location/Location_Type &gt; /DIF/Location/Location_Subregion1 &gt; /DIF/Location/Location_Subregion2 &gt; /DIF/Location/Location_Subregion3 &gt; /DIF/Location/Detailed_Location</gco:CharacterString>
+                           </gmd:code>
+                        </gmd:MD_Identifier>
+                     </gmd:geographicIdentifier>
+                  </gmd:EX_GeographicDescription>
+               </gmd:geographicElement>
+               <gmd:temporalElement>
+                  <gmd:EX_TemporalExtent>
+                     <gmd:extent>
+                        <gml:TimePeriod gml:id="d1e290">
+                           <gml:begin>
+                              <gml:TimeInstant gml:id="d1e292">
+                                 <gml:timePosition>/DIF/Temporal_Coverage/Start_Date</gml:timePosition>
+                              </gml:TimeInstant>
+                           </gml:begin>
+                           <gml:end>
+                              <gml:TimeInstant gml:id="d1e295">
+                                 <gml:timePosition>/DIF/Temporal_Coverage/Stop_Date</gml:timePosition>
+                              </gml:TimeInstant>
+                           </gml:end>
+                        </gml:TimePeriod>
+                     </gmd:extent>
+                  </gmd:EX_TemporalExtent>
+               </gmd:temporalElement>
+               <gmd:verticalElement>
+                  <gmd:EX_VerticalExtent>
+                     <gmd:minimumValue>
+                        <gco:Real>/DIF/Spatial_Coverage/Minimum_Altitude</gco:Real>
+                     </gmd:minimumValue>
+                     <gmd:maximumValue>
+                        <gco:Real>/DIF/Spatial_Coverage/Maximum_Altitude</gco:Real>
+                     </gmd:maximumValue>
+                     <gmd:verticalCRS>
+                        <gml:VerticalCRS gml:id="ac796303b-afbc-4db4-8d8c-608fcfae1a4f">
+                           <gml:identifier codeSpace=""/>
+                           <gml:scope/>
+                           <gml:verticalDatum>
+                              <gml:VerticalDatum gml:id="a88f35a79-0aab-41a9-8fbb-e23fff69c35e">
+                                 <gml:identifier codeSpace=""/>
+                                 <gml:scope/>
+                              </gml:VerticalDatum>
+                           </gml:verticalDatum>
+                        </gml:VerticalCRS>
+                     </gmd:verticalCRS>
+                  </gmd:EX_VerticalExtent>
+               </gmd:verticalElement>
+               <gmd:verticalElement>
+                  <gmd:EX_VerticalExtent>
+                     <gmd:minimumValue>
+                        <gco:Real/>
+                     </gmd:minimumValue>
+                     <gmd:maximumValue>
+                        <gco:Real/>
+                     </gmd:maximumValue>
+                     <gmd:verticalCRS>
+                        <gml:VerticalCRS gml:id="d1e333">
+                           <gml:identifier codeSpace=""/>
+                           <gml:scope/>
+                           <gml:verticalDatum>
+                              <gml:VerticalDatum gml:id="ac6988432-79ab-43d2-afc6-682cc171c9f3">
+                                 <gml:identifier codeSpace=""/>
+                                 <gml:scope/>
+                              </gml:VerticalDatum>
+                           </gml:verticalDatum>
+                        </gml:VerticalCRS>
+                     </gmd:verticalCRS>
+                  </gmd:EX_VerticalExtent>
+               </gmd:verticalElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:supplementalInformation>
+            <gco:CharacterString>
+    /DIF/Reference/Author
+    /DIF/Reference/Publication_Date
+    /DIF/Reference/Title
+    /DIF/Reference/Series
+    /DIF/Reference/Edition
+    /DIF/Reference/Volume
+    /DIF/Reference/Issue
+    /DIF/Reference/Report_Number
+    /DIF/Reference/Publication_Place
+    /DIF/Reference/Publisher
+    /DIF/Reference/Pages
+    /DIF/Reference/ISBN
+    /DIF/Reference/DOI
+    /DIF/Reference/Online_Resource
+    /DIF/Reference/Other_Reference_Details
+  </gco:CharacterString>
+         </gmd:supplementalInformation>
+      </gmd:MD_DataIdentification>
+   </gmd:identificationInfo>
+   <gmd:distributionInfo>
+      <gmd:MD_Distribution>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>/DIF/Distribution/Distribution_Format</gco:CharacterString>
+               </gmd:name>
+               <gmd:version gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
+         <gmd:distributor>
+            <gmd:MD_Distributor>
+               <gmd:distributorContact>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>/DIF/Data_Center/Personnel[Role='TECHNICAL CONTACT']/Last_Name, /DIF/Data_Center/Personnel[Role='TECHNICAL CONTACT']/First_Name/DIF/Data_Center/Personnel[Role='TECHNICAL CONTACT']/Middle_Name</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName>
+                        <gco:CharacterString>/DIF/Data_Center/Data_Center_Name/Short_Name &gt; /DIF/Data_Center/Data_Center_Name/Long_Name</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:positionName>
+                        <gco:CharacterString>TECHNICAL CONTACT</gco:CharacterString>
+                     </gmd:positionName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice>
+                                    <gco:CharacterString>/DIF/Data_Center/Personnel[Role='TECHNICAL CONTACT']/Phone</gco:CharacterString>
+                                 </gmd:voice>
+                                 <gmd:facsimile>
+                                    <gco:CharacterString>/DIF/Data_Center/Personnel[Role='TECHNICAL CONTACT']/Fax</gco:CharacterString>
+                                 </gmd:facsimile>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>/DIF/Data_Center/Personnel[Role='TECHNICAL CONTACT']/Contact_Address/Address</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>/DIF/Data_Center/Personnel[Role='TECHNICAL CONTACT']/Contact_Address/City</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString>/DIF/Data_Center/Personnel[Role='TECHNICAL CONTACT']/Contact_Address/Province_or_State</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>/DIF/Data_Center/Personnel[Role='TECHNICAL CONTACT']/Contact_Address/Postal_Code</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:country>
+                                    <gco:CharacterString>/DIF/Data_Center/Personnel[Role='TECHNICAL CONTACT']/Contact_Address/Country</gco:CharacterString>
+                                 </gmd:country>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>/DIF/Data_Center/Personnel[Role='TECHNICAL CONTACT']/Email</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                           <gmd:onlineResource>
+                              <gmd:CI_OnlineResource>
+                                 <gmd:linkage>
+                                    <gmd:URL>/DIF/Data_Center/Data_Center_URL</gmd:URL>
+                                 </gmd:linkage>
+                              </gmd:CI_OnlineResource>
+                           </gmd:onlineResource>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="distributor">distributor</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:distributorContact>
+               <gmd:distributionOrderProcess>
+                  <gmd:MD_StandardOrderProcess>
+                     <gmd:fees>
+                        <gco:CharacterString>/DIF/Distribution/Fees</gco:CharacterString>
+                     </gmd:fees>
+                     <gmd:plannedAvailableDateTime>
+                        <gco:DateTime>/DIF/Data_Set_Citation/Dataset_Release_DateT12:00:00
+                            </gco:DateTime>
+                     </gmd:plannedAvailableDateTime>
+                  </gmd:MD_StandardOrderProcess>
+               </gmd:distributionOrderProcess>
+            </gmd:MD_Distributor>
+         </gmd:distributor>
+         <gmd:distributor>
+            <gmd:MD_Distributor>
+               <gmd:distributorContact>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>/DIF/Data_Center/Personnel[Role='DATA CENTER CONTACT']/Last_Name, /DIF/Data_Center/Personnel[Role='DATA CENTER CONTACT']/First_Name/DIF/Data_Center/Personnel[Role='DATA CENTER CONTACT']/Middle_Name</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName>
+                        <gco:CharacterString>/DIF/Data_Center/Data_Center_Name/Short_Name &gt; /DIF/Data_Center/Data_Center_Name/Long_Name</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:positionName>
+                        <gco:CharacterString>DATA CENTER CONTACT</gco:CharacterString>
+                     </gmd:positionName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice>
+                                    <gco:CharacterString>/DIF/Data_Center/Personnel[Role='DATA CENTER CONTACT']/Phone</gco:CharacterString>
+                                 </gmd:voice>
+                                 <gmd:facsimile>
+                                    <gco:CharacterString>/DIF/Data_Center/Personnel[Role='DATA CENTER CONTACT']/Fax</gco:CharacterString>
+                                 </gmd:facsimile>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>/DIF/Data_Center/Personnel[Role='DATA CENTER CONTACT']/Contact_Address/Address</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>/DIF/Data_Center/Personnel[Role='DATA CENTER CONTACT']/Contact_Address/City</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString>/DIF/Data_Center/Personnel[Role='DATA CENTER CONTACT']/Contact_Address/Province_or_State</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>/DIF/Data_Center/Personnel[Role='DATA CENTER CONTACT']/Contact_Address/Postal_Code</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:country>
+                                    <gco:CharacterString>/DIF/Data_Center/Personnel[Role='DATA CENTER CONTACT']/Contact_Address/Country</gco:CharacterString>
+                                 </gmd:country>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>/DIF/Data_Center/Personnel[Role='DATA CENTER CONTACT']/Email</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                           <gmd:onlineResource>
+                              <gmd:CI_OnlineResource>
+                                 <gmd:linkage>
+                                    <gmd:URL>/DIF/Data_Center/Data_Center_URL</gmd:URL>
+                                 </gmd:linkage>
+                              </gmd:CI_OnlineResource>
+                           </gmd:onlineResource>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                         codeListValue="distributor">distributor</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:distributorContact>
+               <gmd:distributionOrderProcess>
+                  <gmd:MD_StandardOrderProcess>
+                     <gmd:fees>
+                        <gco:CharacterString>/DIF/Distribution/Fees</gco:CharacterString>
+                     </gmd:fees>
+                     <gmd:plannedAvailableDateTime>
+                        <gco:DateTime>/DIF/Data_Set_Citation/Dataset_Release_DateT12:00:00
+                            </gco:DateTime>
+                     </gmd:plannedAvailableDateTime>
+                  </gmd:MD_StandardOrderProcess>
+               </gmd:distributionOrderProcess>
+            </gmd:MD_Distributor>
+         </gmd:distributor>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:unitsOfDistribution>
+                  <gco:CharacterString/>
+               </gmd:unitsOfDistribution>
+               <gmd:transferSize>
+                  <gco:Real/>
+               </gmd:transferSize>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>/DIF/Related_URL[Type/Subtype='EOSDIS DATA POOL']/URL</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>/DIF/Related_URL/URL_Content_Type[Subtype='EOSDIS DATA POOL']/Type &gt; EOSDIS DATA POOL</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>/DIF/Related_URL[Type/Subtype='EOSDIS DATA POOL']/Description</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>/DIF/Related_URL[Type/Subtype='OPENDAP DATA (DODS)']/URL</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>/DIF/Related_URL/URL_Content_Type[Subtype='OPENDAP DATA (DODS)']/Type &gt; OPENDAP DATA (DODS)</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>/DIF/Related_URL[Type/Subtype='OPENDAP DATA (DODS)']/Description</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>/DIF/Related_URL[Type/Subtype='OPENDAP DIRECTORY (DODS)']/URL</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>/DIF/Related_URL/URL_Content_Type[Subtype='OPENDAP DIRECTORY (DODS)']/Type &gt; OPENDAP DIRECTORY (DODS)</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>/DIF/Related_URL[Type/Subtype='OPENDAP DIRECTORY (DODS)']/Description</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>/DIF/Related_URL[Type/Subtype='THREDDS DIRECTORY']/URL</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>/DIF/Related_URL/URL_Content_Type[Subtype='THREDDS DIRECTORY']/Type &gt; THREDDS DIRECTORY</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>/DIF/Related_URL[Type/Subtype='THREDDS DIRECTORY']/Description</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>/DIF/Related_URL[Type/Subtype='ACCESS WEB SERVICE']/URL</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>/DIF/Related_URL/URL_Content_Type[Subtype='ACCESS WEB SERVICE']/Type &gt; ACCESS WEB SERVICE</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>/DIF/Related_URL[Type/Subtype='ACCESS WEB SERVICE']/Description</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>/DIF/Multimedia_Sample/URL</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>Multimedia Sample</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>/DIF/Multimedia_Sample/Description</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>/DIF/Data_Set_Citation/Online_Resource</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>Data Set Citation</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>/DIF/Data_Set_Citation/Dataset_Title</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:offLine>
+                  <gmd:MD_Medium>
+                     <gmd:name>
+                        <gmd:MD_MediumNameCode
+                           codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MediumNameCode"
+                           codeListValue="onLine">onLine</gmd:MD_MediumNameCode>
+                     </gmd:name>
+                  </gmd:MD_Medium>
+               </gmd:offLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+      </gmd:MD_Distribution>
+   </gmd:distributionInfo>
+   <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
+                                    codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+               </gmd:level>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:report>
+            <gmd:DQ_AccuracyOfATimeMeasurement>
+               <gmd:nameOfMeasure>
+                  <gco:CharacterString>Temporal Resolution</gco:CharacterString>
+               </gmd:nameOfMeasure>
+               <gmd:result>
+                  <gmd:DQ_QuantitativeResult>
+                     <gmd:valueUnit>
+                        <gml:DerivedUnit gml:id="d1e402">
+                           <gml:identifier codeSpace=""/>
+                           <gml:derivationUnitTerm uom=""/>
+                        </gml:DerivedUnit>
+                     </gmd:valueUnit>
+                     <gmd:value>
+                        <gco:Record/>
+                     </gmd:value>
+                  </gmd:DQ_QuantitativeResult>
+               </gmd:result>
+            </gmd:DQ_AccuracyOfATimeMeasurement>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+               <gmd:nameOfMeasure>
+                  <gco:CharacterString>Latitude Resolution</gco:CharacterString>
+               </gmd:nameOfMeasure>
+               <gmd:result>
+                  <gmd:DQ_QuantitativeResult>
+                     <gmd:valueUnit>
+                        <gml:DerivedUnit gml:id="d1e386">
+                           <gml:identifier codeSpace=""/>
+                           <gml:derivationUnitTerm uom=""/>
+                        </gml:DerivedUnit>
+                     </gmd:valueUnit>
+                     <gmd:value>
+                        <gco:Record/>
+                     </gmd:value>
+                  </gmd:DQ_QuantitativeResult>
+               </gmd:result>
+            </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+               <gmd:nameOfMeasure>
+                  <gco:CharacterString>Longitude Resolution</gco:CharacterString>
+               </gmd:nameOfMeasure>
+               <gmd:result>
+                  <gmd:DQ_QuantitativeResult>
+                     <gmd:valueUnit>
+                        <gml:DerivedUnit gml:id="d1e389">
+                           <gml:identifier codeSpace=""/>
+                           <gml:derivationUnitTerm uom=""/>
+                        </gml:DerivedUnit>
+                     </gmd:valueUnit>
+                     <gmd:value>
+                        <gco:Record/>
+                     </gmd:value>
+                  </gmd:DQ_QuantitativeResult>
+               </gmd:result>
+            </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+               <gmd:nameOfMeasure>
+                  <gco:CharacterString>Vertical Resolution</gco:CharacterString>
+               </gmd:nameOfMeasure>
+               <gmd:result>
+                  <gmd:DQ_QuantitativeResult>
+                     <gmd:valueUnit>
+                        <gml:DerivedUnit gml:id="d1e395">
+                           <gml:identifier codeSpace=""/>
+                           <gml:derivationUnitTerm uom=""/>
+                        </gml:DerivedUnit>
+                     </gmd:valueUnit>
+                     <gmd:value>
+                        <gco:Record/>
+                     </gmd:value>
+                  </gmd:DQ_QuantitativeResult>
+               </gmd:result>
+            </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+         </gmd:report>
+         <gmd:lineage>
+            <gmd:LI_Lineage>
+               <gmd:statement>
+                  <gco:CharacterString>/DIF/Quality</gco:CharacterString>
+               </gmd:statement>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+   </gmd:dataQualityInfo>
+   <gmd:metadataMaintenance>
+      <gmd:MD_MaintenanceInformation>
+         <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+                                             codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+         </gmd:maintenanceAndUpdateFrequency>
+         <gmd:dateOfNextUpdate>
+            <gco:Date>/DIF/Future_DIF_Review_Date</gco:Date>
+         </gmd:dateOfNextUpdate>
+         <gmd:maintenanceNote>
+            <gco:CharacterString>/DIF/DIF_Revision_History</gco:CharacterString>
+         </gmd:maintenanceNote>
+         <gmd:contact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:individualName>
+                  <gco:CharacterString>/DIF/Personnel[Role='DIF AUTHOR']/Last_Name, /DIF/Personnel[Role='DIF AUTHOR']/First_Name/DIF/Personnel[Role='DIF AUTHOR']/Middle_Name</gco:CharacterString>
+               </gmd:individualName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice>
+                              <gco:CharacterString>/DIF/Personnel[Role='DIF AUTHOR']/Phone</gco:CharacterString>
+                           </gmd:voice>
+                           <gmd:facsimile>
+                              <gco:CharacterString>/DIF/Personnel[Role='DIF AUTHOR']/Fax</gco:CharacterString>
+                           </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint>
+                              <gco:CharacterString>/DIF/Personnel[Role='DIF AUTHOR']/Contact_Address/Address</gco:CharacterString>
+                           </gmd:deliveryPoint>
+                           <gmd:city>
+                              <gco:CharacterString>/DIF/Personnel[Role='DIF AUTHOR']/Contact_Address/City</gco:CharacterString>
+                           </gmd:city>
+                           <gmd:administrativeArea>
+                              <gco:CharacterString>/DIF/Personnel[Role='DIF AUTHOR']/Contact_Address/Province_or_State</gco:CharacterString>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode>
+                              <gco:CharacterString>/DIF/Personnel[Role='DIF AUTHOR']/Contact_Address/Postal_Code</gco:CharacterString>
+                           </gmd:postalCode>
+                           <gmd:country>
+                              <gco:CharacterString>/DIF/Personnel[Role='DIF AUTHOR']/Contact_Address/Country</gco:CharacterString>
+                           </gmd:country>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>/DIF/Personnel[Role='DIF AUTHOR']/Email</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                   codeListValue="author">author</gmd:CI_RoleCode>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:contact>
+      </gmd:MD_MaintenanceInformation>
+   </gmd:metadataMaintenance>
+</gmd:MD_Metadata>

@@ -3191,7 +3191,7 @@
             </gmi:LE_ProcessStep>
           </gmd:processStep>
           <gmd:source>
-            <gmd:LI_Source id="src_AVHRR_GAC.1114858.37344">
+            <gmd:LI_Source id="src_AVHRR_GAC">
               <gmd:description>
                 <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:source/gmd:LI_Source/gmd:description/gco:CharacterString</gco:CharacterString>
               </gmd:description>
@@ -3366,7 +3366,7 @@
             </gmd:LI_Source>
           </gmd:source>
           <gmd:source>
-            <gmd:LI_Source id="src_BR_CLIMATE.3114858.37344">
+            <gmd:LI_Source id="src_BR_CLIMATE">
               <gmd:description>
                 <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:source/gmd:LI_Source/gmd:description/gco:CharacterString</gco:CharacterString>
               </gmd:description>
@@ -3581,7 +3581,7 @@
             </gmd:LI_Source>
           </gmd:source>
           <gmd:source>
-            <gmd:LI_Source id="src_AEROBS_File.5114858.37344">
+            <gmd:LI_Source id="src_AEROBS_File">
               <gmd:description>
                 <gco:CharacterString>/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:source/gmd:LI_Source/gmd:description/gco:CharacterString</gco:CharacterString>
               </gmd:description>
@@ -3815,6 +3815,7 @@
           </gmd:processStep>
         </gmd:LI_Lineage>
       </gmd:lineage>
+    
     </gmd:DQ_DataQuality>
   </gmd:dataQualityInfo>
   <gmd:metadataConstraints>
