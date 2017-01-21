@@ -2616,7 +2616,7 @@
                            <gco:attributeType>
                               <gco:TypeName>
                                  <gco:aName>
-                                    <gco:CharacterString>/gmd:MD_Metadata/gmd:contentInfo.2/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:attributeType/gco:TypeName/gco:aName/gco:CharacterString</gco:CharacterString>
+                                    <gco:CharacterString>/mdb:MD_Metadata/mdb:contentInfo/mrc:MD_CoverageDescription/mrc:attributeGroup/mrc:MD_AttributeGroup/mrc:attribute/mrc:MD_SampleDimension/mrc:sequenceIdentifier/gco:MemberName/gco:attributeType/gco:TypeName/gco:aName/gco:CharacterString</gco:CharacterString>
                                  </gco:aName>
                               </gco:TypeName>
                            </gco:attributeType>
@@ -2657,6 +2657,24 @@
                         <gco:Real>22.2222</gco:Real>
                      </mrc:scaleFactor>
                   </mrc:MD_SampleDimension>
+               </mrc:attribute>
+               <mrc:attribute>
+                  <mrc:MD_Band>
+                     <mrc:boundMax/>
+                     <mrc:boundMin/>
+                  </mrc:MD_Band>
+               </mrc:attribute>
+               <mrc:attribute>
+                  <mrc:MI_Band>
+                     <mrc:boundMax/>
+                     <mrc:boundMin/>
+                     <mrc:bandBoundaryDefinition>
+                        <mrc:MI_BandDefinition codeList="" codeListValue="fiftyPercent"/>
+                     </mrc:bandBoundaryDefinition>
+                     <mrc:nominalSpatialResolution>
+                        <gco:Real>99.99</gco:Real>
+                     </mrc:nominalSpatialResolution>
+                  </mrc:MI_Band>
                </mrc:attribute>
             </mrc:MD_AttributeGroup>
          </mrc:attributeGroup>
