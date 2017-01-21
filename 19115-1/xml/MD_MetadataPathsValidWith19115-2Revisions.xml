@@ -2675,6 +2675,13 @@
                      <mrc:nominalSpatialResolution>
                         <gco:Real>99.99</gco:Real>
                      </mrc:nominalSpatialResolution>
+                     <mrc:sensor>
+                        <mac:MI_Sensor>
+                           <mac:identifier/>
+                           <mac:type/>
+                           <mac:hosted/>
+                        </mac:MI_Sensor>
+                     </mrc:sensor>
                   </mrc:MI_Band>
                </mrc:attribute>
             </mrc:MD_AttributeGroup>
