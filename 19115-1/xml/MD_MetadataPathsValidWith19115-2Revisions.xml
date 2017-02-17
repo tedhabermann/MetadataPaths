@@ -593,6 +593,13 @@
                <mcc:level>
                   <mcc:MD_ScopeCode codeList="" codeListValue="">/mdb:MD_Metadata/mdb:spatialRepresentationInfo/msr:MD_Georectified/msr:scope/mcc:MD_Scope/mcc:level/mcc:MD_ScopeCode</mcc:MD_ScopeCode>
                </mcc:level>
+               <mcc:levelDescription>
+                  <mcc:MD_ScopeDescription>
+                     <mcc:dataset>
+                        <gco:CharacterString>/mdb:MD_Metadata/mdb:spatialRepresentationInfo/msr:MD_Georectified/msr:scope/mcc:MD_Scope/mcc:levelDescription/mcc:MD_ScopeDescription/mcc:dataset/gco:CharacterString</gco:CharacterString>
+                     </mcc:dataset>
+                  </mcc:MD_ScopeDescription>
+               </mcc:levelDescription>
             </mcc:MD_Scope>
          </msr:scope>
          <msr:numberOfDimensions>
@@ -3944,6 +3951,26 @@
                   </MI_CoverageDescription>
                </mac:content>
                <mac:sensor xlink:href="#sensorIdentifier"/>
+               <mac:history>
+                  <mac:MI_InstrumentationEventList>
+                     <mac:citation>
+                        <cit:CI_Citation>
+                           <cit:title>
+                              <gco:CharacterString>/mdb:MD_Metadata/mdb:acquisitionInformation/mac:MI_AcquisitionInformation/mac:instrument/mac:MI_Instrument/mac:history/mac:MI_InstrumentationEventList/mac:citation/cit:CI_Citation/cit:title/gco:CharacterString</gco:CharacterString>
+                           </cit:title>
+                           <cit:onlineResource>
+                              <cit:CI_OnlineResource>
+                                 <cit:linkage>
+                                    <gco:CharacterString>http://www.example.com/testAnchorSubstitution</gco:CharacterString>
+                                 </cit:linkage>
+                              </cit:CI_OnlineResource>
+                           </cit:onlineResource>
+                        </cit:CI_Citation>
+                     </mac:citation>
+                     <mac:description></mac:description>
+                     <mac:instrumentationEvent></mac:instrumentationEvent>
+                  </mac:MI_InstrumentationEventList>
+               </mac:history>
             </mac:MI_Instrument>
          </mac:instrument>
          <mac:instrument>
