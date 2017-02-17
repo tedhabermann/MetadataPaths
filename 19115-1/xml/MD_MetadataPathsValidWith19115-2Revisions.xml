@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/1.0" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:cat="http://standards.iso.org/iso/19115/-3/cat/1.0"
    xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:gcx="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:mas="http://standards.iso.org/iso/19115/-3/mas/1.0" xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0"
-   xmlns:mpc="http://standards.iso.org/iso/19115/-3/mpc/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mda="http://standards.iso.org/iso/19115/-3/mda/1.0" xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:srv="http://standards.iso.org/iso/19115/-3/srv/2.0" xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:mdt="http://standards.iso.org/iso/19115/-3/mdt/1.0"
+   xmlns:mpc="http://standards.iso.org/iso/19115/-3/mpc/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mda="http://standards.iso.org/iso/19115/-3/mda/1.0" xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:srv="http://standards.iso.org/iso/19115/-3/srv/2.1" xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:mdt="http://standards.iso.org/iso/19115/-3/mdt/1.0"
    xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/2.0" xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/2.0"
    xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/mdt/1.0/mdt.xsd 
    http://standards.iso.org/iso/19115/-3/mac/2.0 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/mac/2.0/mac.xsd
    http://standards.iso.org/iso/19115/-3/mrl/2.0 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/mrl/2.0/mrl.xsd
-   http://standards.iso.org/iso/19115/-3/mrc/2.0 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/mrc/2.0/mrc.xsd">
+   http://standards.iso.org/iso/19115/-3/mrc/2.0 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/mrc/2.0/mrc.xsd
+   http://standards.iso.org/iso/19115/-3/srv/2.1 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/srv/2.1/srv.xsd">
    <mdb:metadataIdentifier>
       <mcc:MD_Identifier>
          <mcc:code>
@@ -2465,7 +2466,7 @@
                <srv:parameter>
                   <srv:SV_Parameter>
                      <srv:name>
-                        <gco:MemberName>
+                        <gco:MemberName>                           
                            <gco:aName>
                               <gco:CharacterString>/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:containsOperations/srv:SV_OperationMetadata/srv:parameters/srv:SV_Parameter/srv:name/gco:aName/gco:CharacterString</gco:CharacterString>
                            </gco:aName>
@@ -2490,6 +2491,15 @@
                      <srv:repeatability>
                         <gco:Boolean>false</gco:Boolean>
                      </srv:repeatability>
+                  </srv:SV_Parameter>
+               </srv:parameter>
+               <srv:parameter>
+                  <srv:SV_Parameter>
+                     <srv:name/>
+                     <srv:direction/>
+                     <srv:description/>
+                     <srv:optionality/>
+                     <srv:repeatability/>
                   </srv:SV_Parameter>
                </srv:parameter>
             </srv:SV_OperationMetadata>
@@ -2598,6 +2608,8 @@
                      <mrc:scaleFactor>
                         <gco:Real>55.55</gco:Real>
                      </mrc:scaleFactor>
+                     <mrc:otherPropertyType></mrc:otherPropertyType>
+                     <mrc:otherProperty></mrc:otherProperty>                     
                   </mrc:MD_SampleDimension>
                </mrc:attribute>
             </mrc:MD_AttributeGroup>
@@ -3720,10 +3732,10 @@
                      <mrl:runTimeParameters/>
                      <mrl:parameter>
                         <mrl:LE_ProcessParameter>
-                           <srv:name/>
+                           <!--<srv:name/>
                            <srv:direction/>
                            <srv:optionality/>
-                           <srv:repeatability/>
+                           <srv:repeatability/>-->
                            <mrl:valueType/>
                            <mrl:value/>
                            <mrl:resource>
@@ -3733,10 +3745,10 @@
                      </mrl:parameter>
                      <mrl:parameter>
                         <mrl:LE_ProcessParameter>
-                           <srv:name/>
+                           <!--<srv:name/>
                            <srv:direction/>
                            <srv:optionality/>
-                           <srv:repeatability/>
+                           <srv:repeatability/>-->
                            <mrl:valueType/>
                            <mrl:value/>
                            <mrl:resource>
