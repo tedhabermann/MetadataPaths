@@ -3495,6 +3495,25 @@
             </mdq:DQ_QuantitativeAttributeAccuracy>
          </mdq:report>
          <mdq:report>
+            <mdq:DQ_QuantitativeAttributeAccuracy>
+               <mdq:measure/>
+               <mdq:evaluationMethod/>
+               <mdq:result>
+                  <mdq:QE_CoverageResult>
+                     <mdq:spatialRepresentationType></mdq:spatialRepresentationType>
+                     <mdq:resultFile></mdq:resultFile>
+                     <mdq:resultSpatialRepresentation></mdq:resultSpatialRepresentation>
+                     <mdq:resultContentDescription xlink:href="#contentInformationTarget"/>
+                     <mdq:resultFormat>
+                        <mrd:MD_Format>
+                           <mrd:formatSpecificationCitation/>
+                        </mrd:MD_Format>
+                     </mdq:resultFormat>
+                  </mdq:QE_CoverageResult>
+               </mdq:result>
+            </mdq:DQ_QuantitativeAttributeAccuracy>
+         </mdq:report>
+         <mdq:report>
             <mdq:DQ_CompletenessOmission>
                <mdq:measure>
                   <mdq:DQ_MeasureReference>
