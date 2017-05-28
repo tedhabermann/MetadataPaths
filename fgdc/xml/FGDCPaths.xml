@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="../../schema/fgdc-std-001-1998.xsd">
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Dropbox/Metadata/FGDC/schema/fgdc-std-001-1998.xsd">
   <idinfo>
     <datsetid>/fgdc:metadata/fgdc:idinfo/fgdc:datsetid</datsetid>
     <citation>
@@ -65,9 +64,9 @@
     <spdom>
       <bounding>
         <westbc>111.111</westbc>
-        <eastbc>222.222</eastbc>
-        <northbc>333.333</northbc>
-        <southbc>444.444</southbc>
+        <eastbc>111.222</eastbc>
+        <northbc>11.333</northbc>
+        <southbc>11.444</southbc>
       </bounding>
     </spdom>
     <keywords>
@@ -286,6 +285,33 @@
     </vertdef>
   </spref>
   <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>/metadata/eainfo/detailed/enttyp/enttypl</enttypl>
+        <enttypd>/metadata/eainfo/detailed/enttyp/enttypd</enttypd>
+        <enttypds>/metadata/eainfo/detailed/enttyp/enttypds</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>/metadata/eainfo/detailed/attr/attrlabl</attrlabl>
+        <attrdef>/metadata/eainfo/detailed/attr/attrdef</attrdef>
+        <attrdefs>/metadata/eainfo/detailed/attr/attrdefs</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>/metadata/eainfo/detailed/attr/attrdomv/edom/edomv</edomv>
+            <edomvd>/metadata/eainfo/detailed/attr/attrdomv/edom/edomvd</edomvd>
+            <edomvds>/metadata/eainfo/detailed/attr/attrdomv/edom/edomvds</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>/metadata/eainfo/detailed/attr/attrlabl</attrlabl>
+        <attrdef>/metadata/eainfo/detailed/attr/attrdef</attrdef>
+        <attrdefs>/metadata/eainfo/detailed/attr/attrdefs</attrdefs>
+        <attrdomv>
+          <udom>/metadata/eainfo/detailed/attr/attrdomv/udom</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
     <overview>
       <eaover>/fgdc:metadata/fgdc:eainfo/fgdc:overview/fgdc:eaover</eaover>
       <eadetcit>/fgdc:metadata/fgdc:eainfo/fgdc:overview/fgdc:eadetcit</eadetcit>
@@ -356,7 +382,7 @@
   <metainfo>
     <metd>22220202</metd>
     <metrd>22330302</metrd>
-    <metfrd/>22330303</metainfo>
+    <metfrd>22330303</metfrd>
     <metc>
       <cntinfo>
         <cntorgp>
