@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-   xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" 
-   xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:cat="http://standards.iso.org/iso/19115/-3/cat/1.0"
-   xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" 
-   xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" 
-   xmlns:gcx="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:mas="http://standards.iso.org/iso/19115/-3/mas/1.0" 
-   xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/2.0" 
-   xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:mpc="http://standards.iso.org/iso/19115/-3/mpc/1.0" 
-   xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:mda="http://standards.iso.org/iso/19115/-3/mda/1.0" 
-   xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:srv="http://standards.iso.org/iso/19115/-3/srv/2.0" 
-   xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
-   xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0"  
-   xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/2.0"
-   xmlns:mdt="http://standards.iso.org/iso/19115/-3/mdt/2.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/2.0" 
-   xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/2.0" xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/2.0"
-   xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/2.0 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/mdt/2.0/mdt.xsd 
-   http://standards.iso.org/iso/19115/-3/mac/2.0 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/mac/2.0/mac.xsd
-   http://standards.iso.org/iso/19115/-3/mdb/2.0 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/mdb/2.0/mdb.xsd
-   http://standards.iso.org/iso/19115/-3/mrl/2.0 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/mrl/2.0/mrl.xsd
-   http://standards.iso.org/iso/19115/-3/mdt/2.0 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/mdt/2.0/mdt.xsd
-   http://standards.iso.org/iso/19115/-3/mrc/2.0 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/mrc/2.0/mrc.xsd
-   http://standards.iso.org/iso/19115/-3/msr/2.0 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/msr/2.0/msr.xsd
-   http://standards.iso.org/iso/19115/-3/cit/2.0 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/cit/2.0/cit.xsd">
+<mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:gml="http://www.opengis.net/gml/3.2"
+                 xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0"
+                 xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0"
+                 xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/2.0"
+                 xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0"
+                 xmlns:cat="http://standards.iso.org/iso/19115/-3/cat/1.0"
+                 xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0"
+                 xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0"
+                 xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0"
+                 xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0"
+                 xmlns:gcx="http://standards.iso.org/iso/19115/-3/gcx/1.0"
+                 xmlns:mas="http://standards.iso.org/iso/19115/-3/mas/1.0"
+                 xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0"
+                 xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/2.0"
+                 xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0"
+                 xmlns:mpc="http://standards.iso.org/iso/19115/-3/mpc/1.0"
+                 xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0"
+                 xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0"
+                 xmlns:mda="http://standards.iso.org/iso/19115/-3/mda/1.0"
+                 xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0"
+                 xmlns:srv="http://standards.iso.org/iso/19115/-3/srv/2.0"
+                 xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0"
+                 xmlns:mdt="http://standards.iso.org/iso/19115/-3/mdt/1.0"
+                 xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/2.0"
+                 xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/2.0"
+                 xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/mdt/1.0/mdt.xsd     http://standards.iso.org/iso/19115/-3/mac/2.0 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/mac/2.0/mac.xsd    http://standards.iso.org/iso/19115/-3/mrl/2.0 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/mrl/2.0/mrl.xsd    http://standards.iso.org/iso/19115/-3/mrc/2.0 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/mrc/2.0/mrc.xsd    http://standards.iso.org/iso/19115/-3/msr/2.0 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/msr/2.0/msr.xsd    http://standards.iso.org/iso/19115/-3/cit/2.0 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/cit/2.0/cit.xsd">
    <mdb:metadataIdentifier>
       <mcc:MD_Identifier>
          <mcc:code>
@@ -35,7 +41,8 @@
    <mdb:defaultLocale>
       <lan:PT_Locale>
          <lan:language>
-            <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="/gmd:MD_Metadata/gmd:language/gco:CharacterString">/mdb:MD_Metadata/mdb:defaultLocale/lan:PT_Locale/lan:language/lan:LanguageCode</lan:LanguageCode>
+            <lan:LanguageCode codeList="codeListLocation#LanguageCode"
+                              codeListValue="/gmd:MD_Metadata/gmd:language/gco:CharacterString">/mdb:MD_Metadata/mdb:defaultLocale/lan:PT_Locale/lan:language/lan:LanguageCode</lan:LanguageCode>
          </lan:language>
          <lan:characterEncoding>
             <lan:MD_CharacterSetCode codeList="codeListLocation#MD_CharacterSetCode" codeListValue="UTF8">/mdb:MD_Metadata/mdb:defaultLocale/lan:PT_Locale/lan:characterEncoding/lan:MD_CharacterSetCode</lan:MD_CharacterSetCode>
@@ -91,7 +98,8 @@
                               <gco:CharacterString>/mdb:MD_Metadata/mdb:contact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:number/gco:CharacterString</gco:CharacterString>
                            </cit:number>
                            <cit:numberType>
-                              <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="facsimile">/mdb:MD_Metadata/mdb:contact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:numberType/cit:CI_TelephoneTypeCode</cit:CI_TelephoneTypeCode>
+                              <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode"
+                                                        codeListValue="facsimile">/mdb:MD_Metadata/mdb:contact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:numberType/cit:CI_TelephoneTypeCode</cit:CI_TelephoneTypeCode>
                            </cit:numberType>
                         </cit:CI_Telephone>
                      </cit:phone>
@@ -135,7 +143,8 @@
                               <gco:CharacterString>/mdb:MD_Metadata/mdb:contact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:onlineResource/cit:CI_OnlineResource/cit:description/gco:CharacterString</gco:CharacterString>
                            </cit:description>
                            <cit:function>
-                              <cit:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="download">/mdb:MD_Metadata/mdb:contact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:onlineResource/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
+                              <cit:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                         codeListValue="download">/mdb:MD_Metadata/mdb:contact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:onlineResource/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
                            </cit:function>
                         </cit:CI_OnlineResource>
                      </cit:onlineResource>
@@ -147,7 +156,7 @@
                      </cit:contactInstructions>
                   </cit:CI_Contact>
                </cit:contactInfo>
-               <cit:partyIdentifier>
+               <!-- partyIdentifier: An identifier for people or organizations. --><cit:partyIdentifier>
                   <mcc:MD_Identifier>
                      <mcc:code>
                         <gco:CharacterString>/mdb:MD_Metadata/mdb:contact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:partyIdentifier/mcc:MD_Identifier/mcc:code/gco:CharacterString</gco:CharacterString>
@@ -196,7 +205,8 @@
                               <gco:CharacterString>/mdb:MD_Metadata/mdb:contact/cit:CI_Responsibility/cit:party/cit:CI_Individual/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:number/gco:CharacterString</gco:CharacterString>
                            </cit:number>
                            <cit:numberType>
-                              <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="facsimile">/mdb:MD_Metadata/mdb:contact/cit:CI_Responsibility/cit:party/cit:CI_Individual/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:numberType/cit:CI_TelephoneTypeCode</cit:CI_TelephoneTypeCode>
+                              <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode"
+                                                        codeListValue="facsimile">/mdb:MD_Metadata/mdb:contact/cit:CI_Responsibility/cit:party/cit:CI_Individual/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:numberType/cit:CI_TelephoneTypeCode</cit:CI_TelephoneTypeCode>
                            </cit:numberType>
                         </cit:CI_Telephone>
                      </cit:phone>
@@ -259,7 +269,8 @@
                               <gco:CharacterString>/mdb:MD_Metadata/mdb:contact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:number/gco:CharacterString</gco:CharacterString>
                            </cit:number>
                            <cit:numberType>
-                              <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="facsimile">/mdb:MD_Metadata/mdb:contact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:numberType/cit:CI_TelephoneTypeCode</cit:CI_TelephoneTypeCode>
+                              <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode"
+                                                        codeListValue="facsimile">/mdb:MD_Metadata/mdb:contact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:numberType/cit:CI_TelephoneTypeCode</cit:CI_TelephoneTypeCode>
                            </cit:numberType>
                         </cit:CI_Telephone>
                      </cit:phone>
@@ -319,7 +330,8 @@
                               <gco:CharacterString>/mdb:MD_Metadata/mdb:contact/cit:CI_Responsibility/cit:party/cit:CI_Individual/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:number/gco:CharacterString</gco:CharacterString>
                            </cit:number>
                            <cit:numberType>
-                              <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="facsimile">/mdb:MD_Metadata/mdb:contact/cit:CI_Responsibility/cit:party/cit:CI_Individual/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:numberType/cit:CI_TelephoneTypeCode</cit:CI_TelephoneTypeCode>
+                              <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode"
+                                                        codeListValue="facsimile">/mdb:MD_Metadata/mdb:contact/cit:CI_Responsibility/cit:party/cit:CI_Individual/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:numberType/cit:CI_TelephoneTypeCode</cit:CI_TelephoneTypeCode>
                            </cit:numberType>
                         </cit:CI_Telephone>
                      </cit:phone>
@@ -385,7 +397,8 @@
                               <gco:CharacterString>/mdb:MD_Metadata/mdb:contact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:number/gco:CharacterString</gco:CharacterString>
                            </cit:number>
                            <cit:numberType>
-                              <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="facsimile">/mdb:MD_Metadata/mdb:contact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:numberType/cit:CI_TelephoneTypeCode</cit:CI_TelephoneTypeCode>
+                              <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode"
+                                                        codeListValue="facsimile">/mdb:MD_Metadata/mdb:contact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:numberType/cit:CI_TelephoneTypeCode</cit:CI_TelephoneTypeCode>
                            </cit:numberType>
                         </cit:CI_Telephone>
                      </cit:phone>
@@ -455,7 +468,8 @@
                               <gco:CharacterString>/mdb:MD_Metadata/mdb:contact/cit:CI_Responsibility/cit:party/cit:CI_Individual/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:number/gco:CharacterString</gco:CharacterString>
                            </cit:number>
                            <cit:numberType>
-                              <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="facsimile">/mdb:MD_Metadata/mdb:contact/cit:CI_Responsibility/cit:party/cit:CI_Individual/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:numberType/cit:CI_TelephoneTypeCode</cit:CI_TelephoneTypeCode>
+                              <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode"
+                                                        codeListValue="facsimile">/mdb:MD_Metadata/mdb:contact/cit:CI_Responsibility/cit:party/cit:CI_Individual/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:numberType/cit:CI_TelephoneTypeCode</cit:CI_TelephoneTypeCode>
                            </cit:numberType>
                         </cit:CI_Telephone>
                      </cit:phone>
@@ -521,7 +535,8 @@
                               <gco:CharacterString>/mdb:MD_Metadata/mdb:contact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:number/gco:CharacterString</gco:CharacterString>
                            </cit:number>
                            <cit:numberType>
-                              <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="facsimile">/mdb:MD_Metadata/mdb:contact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:numberType/cit:CI_TelephoneTypeCode</cit:CI_TelephoneTypeCode>
+                              <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode"
+                                                        codeListValue="facsimile">/mdb:MD_Metadata/mdb:contact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:numberType/cit:CI_TelephoneTypeCode</cit:CI_TelephoneTypeCode>
                            </cit:numberType>
                         </cit:CI_Telephone>
                      </cit:phone>
@@ -586,7 +601,8 @@
    <mdb:otherLocale>
       <lan:PT_Locale>
          <lan:language>
-            <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="/gmd:MD_Metadata/gmd:locale/gmd:PT_Locale/gmd:languageCode/gmd:LanguageCode">/mdb:MD_Metadata/mdb:otherLocale/lan:PT_Locale/lan:language/lan:LanguageCode</lan:LanguageCode>
+            <lan:LanguageCode codeList="codeListLocation#LanguageCode"
+                              codeListValue="/gmd:MD_Metadata/gmd:locale/gmd:PT_Locale/gmd:languageCode/gmd:LanguageCode">/mdb:MD_Metadata/mdb:otherLocale/lan:PT_Locale/lan:language/lan:LanguageCode</lan:LanguageCode>
          </lan:language>
          <lan:characterEncoding>
             <lan:MD_CharacterSetCode codeList="codeListLocation#MD_CharacterSetCode" codeListValue="UTF8">/mdb:MD_Metadata/mdb:otherLocale/lan:PT_Locale/lan:characterEncoding/lan:MD_CharacterSetCode</lan:MD_CharacterSetCode>
@@ -595,7 +611,7 @@
    </mdb:otherLocale>
    <mdb:spatialRepresentationInfo>
       <msr:MD_Georectified id="seriesSpatialRepresentation">
-         <msr:scope>
+         <!-- MD_Georectified/scope: Description of the part(s) of the resource the spatial representation pertains to. Includes a codelist, a description, and a temporal/spatial extent. --><msr:scope>
             <mcc:MD_Scope>
                <mcc:level>
                   <mcc:MD_ScopeCode codeList="" codeListValue="">/mdb:MD_Metadata/mdb:spatialRepresentationInfo/msr:MD_Georectified/msr:scope/mcc:MD_Scope/mcc:level/mcc:MD_ScopeCode</mcc:MD_ScopeCode>
@@ -615,7 +631,8 @@
          <msr:axisDimensionProperties>
             <msr:MD_Dimension>
                <msr:dimensionName>
-                  <msr:MD_DimensionNameTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_DimensionNameTypeCode" codeListValue="row">/mdb:MD_Metadata/mdb:spatialRepresentationInfo/msr:MD_Georectified/msr:axisDimensionProperties/msr:MD_Dimension/msr:dimensionName/msr:MD_DimensionNameTypeCode</msr:MD_DimensionNameTypeCode>
+                  <msr:MD_DimensionNameTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode"
+                                                codeListValue="row">/mdb:MD_Metadata/mdb:spatialRepresentationInfo/msr:MD_Georectified/msr:axisDimensionProperties/msr:MD_Dimension/msr:dimensionName/msr:MD_DimensionNameTypeCode</msr:MD_DimensionNameTypeCode>
                </msr:dimensionName>
                <msr:dimensionSize>
                   <gco:Integer>555</gco:Integer>
@@ -628,7 +645,8 @@
          <msr:axisDimensionProperties>
             <msr:MD_Dimension>
                <msr:dimensionName>
-                  <msr:MD_DimensionNameTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_DimensionNameTypeCode" codeListValue="column">/mdb:MD_Metadata/mdb:spatialRepresentationInfo/msr:MD_Georectified/msr:axisDimensionProperties/msr:MD_Dimension/msr:dimensionName/msr:MD_DimensionNameTypeCode</msr:MD_DimensionNameTypeCode>
+                  <msr:MD_DimensionNameTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode"
+                                                codeListValue="column">/mdb:MD_Metadata/mdb:spatialRepresentationInfo/msr:MD_Georectified/msr:axisDimensionProperties/msr:MD_Dimension/msr:dimensionName/msr:MD_DimensionNameTypeCode</msr:MD_DimensionNameTypeCode>
                </msr:dimensionName>
                <msr:dimensionSize>
                   <gco:Integer>556</gco:Integer>
@@ -639,7 +657,8 @@
             </msr:MD_Dimension>
          </msr:axisDimensionProperties>
          <msr:cellGeometry>
-            <msr:MD_CellGeometryCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_CellGeometryCode" codeListValue="area">/mdb:MD_Metadata/mdb:spatialRepresentationInfo/msr:MD_Georectified/msr:cellGeometry/msr:MD_CellGeometryCode</msr:MD_CellGeometryCode>
+            <msr:MD_CellGeometryCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CellGeometryCode"
+                                     codeListValue="area">/mdb:MD_Metadata/mdb:spatialRepresentationInfo/msr:MD_Georectified/msr:cellGeometry/msr:MD_CellGeometryCode</msr:MD_CellGeometryCode>
          </msr:cellGeometry>
          <msr:transformationParameterAvailability gco:nilReason="unknown"/>
          <msr:checkPointAvailability gco:nilReason="unknown"/>
@@ -700,7 +719,8 @@
                      <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                            <cit:role>
-                              <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="/gmd:MD_Metadata/gmd:referenceSystemInfo/gmd:MD_ReferenceSystem/gmd:referenceSystemIdentifier/gmd:RS_Identifier/gmd:authority/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode">/mdb:MD_Metadata/mdb:referenceSystemInfo/mrs:MD_ReferenceSystem/mrs:referenceSystemIdentifier/mcc:MD_Identifier/mcc:authority/cit:CI_Citation/cit:citedResponsibleParty/cit:CI_Responsibility/cit:role/cit:CI_RoleCode</cit:CI_RoleCode>
+                              <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode"
+                                               codeListValue="/gmd:MD_Metadata/gmd:referenceSystemInfo/gmd:MD_ReferenceSystem/gmd:referenceSystemIdentifier/gmd:RS_Identifier/gmd:authority/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode">/mdb:MD_Metadata/mdb:referenceSystemInfo/mrs:MD_ReferenceSystem/mrs:referenceSystemIdentifier/mcc:MD_Identifier/mcc:authority/cit:CI_Citation/cit:citedResponsibleParty/cit:CI_Responsibility/cit:role/cit:CI_RoleCode</cit:CI_RoleCode>
                            </cit:role>
                            <cit:party>
                               <cit:CI_Organisation>
@@ -721,7 +741,8 @@
                                                 <gco:CharacterString>/mdb:MD_Metadata/mdb:referenceSystemInfo/mrs:MD_ReferenceSystem/mrs:referenceSystemIdentifier/mcc:MD_Identifier/mcc:authority/cit:CI_Citation/cit:citedResponsibleParty/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:onlineResource/cit:CI_OnlineResource/cit:description/gco:CharacterString</gco:CharacterString>
                                              </cit:description>
                                              <cit:function>
-                                                <cit:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="/gmd:MD_Metadata/gmd:referenceSystemInfo/gmd:MD_ReferenceSystem/gmd:referenceSystemIdentifier/gmd:RS_Identifier/gmd:authority/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:function/gmd:CI_OnLineFunctionCode">/mdb:MD_Metadata/mdb:referenceSystemInfo/mrs:MD_ReferenceSystem/mrs:referenceSystemIdentifier/mcc:MD_Identifier/mcc:authority/cit:CI_Citation/cit:citedResponsibleParty/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:onlineResource/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
+                                                <cit:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                                           codeListValue="/gmd:MD_Metadata/gmd:referenceSystemInfo/gmd:MD_ReferenceSystem/gmd:referenceSystemIdentifier/gmd:RS_Identifier/gmd:authority/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:function/gmd:CI_OnLineFunctionCode">/mdb:MD_Metadata/mdb:referenceSystemInfo/mrs:MD_ReferenceSystem/mrs:referenceSystemIdentifier/mcc:MD_Identifier/mcc:authority/cit:CI_Citation/cit:citedResponsibleParty/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:onlineResource/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
                                              </cit:function>
                                           </cit:CI_OnlineResource>
                                        </cit:onlineResource>
@@ -743,7 +764,8 @@
                               <gco:CharacterString>/mdb:MD_Metadata/mdb:referenceSystemInfo/mrs:MD_ReferenceSystem/mrs:referenceSystemIdentifier/mcc:MD_Identifier/mcc:authority/cit:CI_Citation/cit:onlineResource/cit:CI_OnlineResource/cit:description/gco:CharacterString</gco:CharacterString>
                            </cit:description>
                            <cit:function>
-                              <cit:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="/gmd:MD_Metadata/gmd:referenceSystemInfo/gmd:MD_ReferenceSystem/gmd:referenceSystemIdentifier/gmd:RS_Identifier/gmd:authority/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:function/gmd:CI_OnLineFunctionCode">/mdb:MD_Metadata/mdb:referenceSystemInfo/mrs:MD_ReferenceSystem/mrs:referenceSystemIdentifier/mcc:MD_Identifier/mcc:authority/cit:CI_Citation/cit:onlineResource/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
+                              <cit:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                         codeListValue="/gmd:MD_Metadata/gmd:referenceSystemInfo/gmd:MD_ReferenceSystem/gmd:referenceSystemIdentifier/gmd:RS_Identifier/gmd:authority/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:function/gmd:CI_OnLineFunctionCode">/mdb:MD_Metadata/mdb:referenceSystemInfo/mrs:MD_ReferenceSystem/mrs:referenceSystemIdentifier/mcc:MD_Identifier/mcc:authority/cit:CI_Citation/cit:onlineResource/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
                            </cit:function>
                         </cit:CI_OnlineResource>
                      </cit:onlineResource>
@@ -782,7 +804,8 @@
                   <gco:CharacterString>/mdb:MD_Metadata/mdb:metadataExtensionInfo/mex:MD_MetadataExtensionInformation/mex:extensionOnLineResource/cit:CI_OnlineResource/cit:description/gco:CharacterString</gco:CharacterString>
                </cit:description>
                <cit:function>
-                  <cit:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#" codeListValue="/gmd:MD_Metadata/gmd:metadataExtensionInfo/gmd:MD_MetadataExtensionInformation/gmd:extensionOnLineResource/gmd:CI_OnlineResource/gmd:function/gmd:CI_OnLineFunctionCode">/mdb:MD_Metadata/mdb:metadataExtensionInfo/mex:MD_MetadataExtensionInformation/mex:extensionOnLineResource/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
+                  <cit:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#"
+                                             codeListValue="/gmd:MD_Metadata/gmd:metadataExtensionInfo/gmd:MD_MetadataExtensionInformation/gmd:extensionOnLineResource/gmd:CI_OnlineResource/gmd:function/gmd:CI_OnLineFunctionCode">/mdb:MD_Metadata/mdb:metadataExtensionInfo/mex:MD_MetadataExtensionInformation/mex:extensionOnLineResource/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
                </cit:function>
             </cit:CI_OnlineResource>
          </mex:extensionOnLineResource>
@@ -801,7 +824,8 @@
                   <gco:CharacterString>/mdb:MD_Metadata/mdb:metadataExtensionInfo/mex:MD_MetadataExtensionInformation/mex:extendedElementInformation/mex:MD_ExtendedElementInformation/mex:condition/gco:CharacterString</gco:CharacterString>
                </mex:condition>
                <mex:dataType>
-                  <mex:MD_DatatypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#" codeListValue="/gmd:MD_Metadata/gmd:metadataExtensionInfo/gmd:MD_MetadataExtensionInformation/gmd:extendedElementInformation/gmd:MD_ExtendedElementInformation/gmd:dataType/gmd:MD_DatatypeCode"/>
+                  <mex:MD_DatatypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#"
+                                       codeListValue="/gmd:MD_Metadata/gmd:metadataExtensionInfo/gmd:MD_MetadataExtensionInformation/gmd:extendedElementInformation/gmd:MD_ExtendedElementInformation/gmd:dataType/gmd:MD_DatatypeCode"/>
                </mex:dataType>
                <mex:maximumOccurrence>
                   <gco:CharacterString>/mdb:MD_Metadata/mdb:metadataExtensionInfo/mex:MD_MetadataExtensionInformation/mex:extendedElementInformation/mex:MD_ExtendedElementInformation/mex:maximumOccurrence/gco:CharacterString</gco:CharacterString>
@@ -903,7 +927,8 @@
                      </cit:dateType>
                   </cit:CI_Date>
                </cit:date>
-               <cit:date gco:nilReason="unknown" xlink:title="This is a title attribute on a date"/>
+               <cit:date gco:nilReason="unknown"
+                         xlink:title="This is a title attribute on a date"/>
                <cit:date>
                   <cit:CI_Date>
                      <cit:date gco:nilReason="unknown"/>
@@ -970,7 +995,8 @@
                                           <gco:CharacterString>/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:citation/cit:CI_Citation/cit:citedResponsibleParty/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:number/gco:CharacterString</gco:CharacterString>
                                        </cit:number>
                                        <cit:numberType>
-                                          <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="facsimile">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:citation/cit:CI_Citation/cit:citedResponsibleParty/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:numberType/cit:CI_TelephoneTypeCode</cit:CI_TelephoneTypeCode>
+                                          <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode"
+                                                                    codeListValue="facsimile">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:citation/cit:CI_Citation/cit:citedResponsibleParty/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:numberType/cit:CI_TelephoneTypeCode</cit:CI_TelephoneTypeCode>
                                        </cit:numberType>
                                     </cit:CI_Telephone>
                                  </cit:phone>
@@ -1120,7 +1146,8 @@
                   </cit:CI_Responsibility>
                </cit:citedResponsibleParty>
                <cit:presentationForm>
-                  <cit:CI_PresentationFormCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_PresentationFormCode" codeListValue="mapDigital">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:citation/cit:CI_Citation/cit:presentationForm/cit:CI_PresentationFormCode</cit:CI_PresentationFormCode>
+                  <cit:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode"
+                                               codeListValue="mapDigital">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:citation/cit:CI_Citation/cit:presentationForm/cit:CI_PresentationFormCode</cit:CI_PresentationFormCode>
                </cit:presentationForm>
                <cit:series>
                   <cit:CI_Series>
@@ -1156,7 +1183,8 @@
                         <gco:CharacterString>/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:citation/cit:CI_Citation/cit:onlineResource/cit:CI_OnlineResource/cit:description/gco:CharacterString</gco:CharacterString>
                      </cit:description>
                      <cit:function>
-                        <cit:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#" codeListValue="information">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:citation/cit:CI_Citation/cit:onlineResource/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
+                        <cit:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#"
+                                                   codeListValue="information">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:citation/cit:CI_Citation/cit:onlineResource/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
                      </cit:function>
                   </cit:CI_OnlineResource>
                </cit:onlineResource>
@@ -1169,7 +1197,8 @@
             <gco:CharacterString>/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:purpose/gco:CharacterString</gco:CharacterString>
          </mri:purpose>
          <mri:status>
-            <mcc:MD_ProgressCode codeList="codeListLocation#MD_ProgressCode" codeListValue="/*/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:status/gmd:MD_ProgressCode/@codeListValue">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:status/mcc:MD_ProgressCode</mcc:MD_ProgressCode>
+            <mcc:MD_ProgressCode codeList="codeListLocation#MD_ProgressCode"
+                                 codeListValue="/*/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:status/gmd:MD_ProgressCode/@codeListValue">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:status/mcc:MD_ProgressCode</mcc:MD_ProgressCode>
          </mri:status>
          <mri:pointOfContact>
             <cit:CI_Responsibility>
@@ -1199,7 +1228,8 @@
                                     <gco:CharacterString>/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:pointOfContact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:number/gco:CharacterString</gco:CharacterString>
                                  </cit:number>
                                  <cit:numberType>
-                                    <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="facsimile">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:pointOfContact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:numberType/cit:CI_TelephoneTypeCode</cit:CI_TelephoneTypeCode>
+                                    <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode"
+                                                              codeListValue="facsimile">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:pointOfContact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:numberType/cit:CI_TelephoneTypeCode</cit:CI_TelephoneTypeCode>
                                  </cit:numberType>
                               </cit:CI_Telephone>
                            </cit:phone>
@@ -1261,7 +1291,8 @@
             </cit:CI_Responsibility>
          </mri:pointOfContact>
          <mri:spatialRepresentationType>
-            <mcc:MD_SpatialRepresentationTypeCode codeList="codeListLocation#MD_SpatialRepresentationTypeCode" codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:spatialRepresentationType/gmd:MD_SpatialRepresentationTypeCode">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:spatialRepresentationType/mcc:MD_SpatialRepresentationTypeCode</mcc:MD_SpatialRepresentationTypeCode>
+            <mcc:MD_SpatialRepresentationTypeCode codeList="codeListLocation#MD_SpatialRepresentationTypeCode"
+                                                  codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:spatialRepresentationType/gmd:MD_SpatialRepresentationTypeCode">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:spatialRepresentationType/mcc:MD_SpatialRepresentationTypeCode</mcc:MD_SpatialRepresentationTypeCode>
          </mri:spatialRepresentationType>
          <mri:spatialResolution>
             <mri:MD_Resolution>
@@ -1386,7 +1417,8 @@
          <mri:resourceMaintenance>
             <mmi:MD_MaintenanceInformation>
                <mmi:maintenanceAndUpdateFrequency>
-                  <mmi:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="Weekly">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:resourceMaintenance/mmi:MD_MaintenanceInformation/mmi:maintenanceAndUpdateFrequency/mmi:MD_MaintenanceFrequencyCode</mmi:MD_MaintenanceFrequencyCode>
+                  <mmi:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+                                                   codeListValue="Weekly">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:resourceMaintenance/mmi:MD_MaintenanceInformation/mmi:maintenanceAndUpdateFrequency/mmi:MD_MaintenanceFrequencyCode</mmi:MD_MaintenanceFrequencyCode>
                </mmi:maintenanceAndUpdateFrequency>
                <mmi:maintenanceDate>
                   <cit:CI_Date>
@@ -1510,7 +1542,8 @@
                   <gco:CharacterString>/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:keyword/gco:CharacterString</gco:CharacterString>
                </mri:keyword>
                <mri:type>
-                  <mri:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="theme">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:type/mri:MD_KeywordTypeCode</mri:MD_KeywordTypeCode>
+                  <mri:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="theme">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:type/mri:MD_KeywordTypeCode</mri:MD_KeywordTypeCode>
                </mri:type>
                <mri:thesaurusName>
                   <cit:CI_Citation>
@@ -1537,7 +1570,8 @@
                   <gco:CharacterString>/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:keyword/gco:CharacterString</gco:CharacterString>
                </mri:keyword>
                <mri:type>
-                  <mri:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="theme">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:type/mri:MD_KeywordTypeCode</mri:MD_KeywordTypeCode>
+                  <mri:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="theme">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:type/mri:MD_KeywordTypeCode</mri:MD_KeywordTypeCode>
                </mri:type>
                <mri:thesaurusName>
                   <cit:CI_Citation>
@@ -1564,7 +1598,8 @@
                   <gco:CharacterString>/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:keyword/gco:CharacterString</gco:CharacterString>
                </mri:keyword>
                <mri:type>
-                  <mri:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="place">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:type/mri:MD_KeywordTypeCode</mri:MD_KeywordTypeCode>
+                  <mri:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="place">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:type/mri:MD_KeywordTypeCode</mri:MD_KeywordTypeCode>
                </mri:type>
                <mri:thesaurusName>
                   <cit:CI_Citation>
@@ -1591,7 +1626,8 @@
                   <gco:CharacterString>/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:keyword/gco:CharacterString</gco:CharacterString>
                </mri:keyword>
                <mri:type>
-                  <mri:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="theme">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:type/mri:MD_KeywordTypeCode</mri:MD_KeywordTypeCode>
+                  <mri:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="theme">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:type/mri:MD_KeywordTypeCode</mri:MD_KeywordTypeCode>
                </mri:type>
                <mri:thesaurusName>
                   <cit:CI_Citation>
@@ -1621,7 +1657,8 @@
                   <gco:CharacterString>/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:keyword/gco:CharacterString</gco:CharacterString>
                </mri:keyword>
                <mri:type>
-                  <mri:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="theme">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:type/mri:MD_KeywordTypeCode</mri:MD_KeywordTypeCode>
+                  <mri:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="theme">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:type/mri:MD_KeywordTypeCode</mri:MD_KeywordTypeCode>
                </mri:type>
                <mri:thesaurusName>
                   <cit:CI_Citation>
@@ -1648,7 +1685,8 @@
                   <gco:CharacterString>/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:keyword/gco:CharacterString</gco:CharacterString>
                </mri:keyword>
                <mri:type>
-                  <mri:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="theme">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:type/mri:MD_KeywordTypeCode</mri:MD_KeywordTypeCode>
+                  <mri:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="theme">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:type/mri:MD_KeywordTypeCode</mri:MD_KeywordTypeCode>
                </mri:type>
                <mri:thesaurusName>
                   <cit:CI_Citation>
@@ -1717,7 +1755,8 @@
                                                 <gco:CharacterString>/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:thesaurusName/cit:CI_Citation/cit:citedResponsibleParty/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:onlineResource/cit:CI_OnlineResource/cit:description/gco:CharacterString</gco:CharacterString>
                                              </cit:description>
                                              <cit:function>
-                                                <cit:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:thesaurusName/cit:CI_Citation/cit:citedResponsibleParty/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:onlineResource/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
+                                                <cit:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                                           codeListValue="information">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:thesaurusName/cit:CI_Citation/cit:citedResponsibleParty/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:onlineResource/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
                                              </cit:function>
                                           </cit:CI_OnlineResource>
                                        </cit:onlineResource>
@@ -1745,7 +1784,8 @@
                               <gco:CharacterString>/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:thesaurusName/cit:CI_Citation/cit:onlineResource/cit:CI_OnlineResource/cit:description/gco:CharacterString</gco:CharacterString>
                            </cit:description>
                            <cit:function>
-                              <cit:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:thesaurusName/cit:CI_Citation/cit:onlineResource/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
+                              <cit:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                         codeListValue="information">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:thesaurusName/cit:CI_Citation/cit:onlineResource/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
                            </cit:function>
                         </cit:CI_OnlineResource>
                      </cit:onlineResource>
@@ -1769,7 +1809,8 @@
                <mri:userContactInfo>
                   <cit:CI_Responsibility>
                      <cit:role>
-                        <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceSpecificUsage/gmd:MD_Usage/gmd:userContactInfo/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode/@codeListValue">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:resourceSpecificUsage/mri:MD_Usage/mri:userContactInfo/cit:CI_Responsibility/cit:role/cit:CI_RoleCode</cit:CI_RoleCode>
+                        <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode"
+                                         codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceSpecificUsage/gmd:MD_Usage/gmd:userContactInfo/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode/@codeListValue">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:resourceSpecificUsage/mri:MD_Usage/mri:userContactInfo/cit:CI_Responsibility/cit:role/cit:CI_RoleCode</cit:CI_RoleCode>
                      </cit:role>
                      <cit:party>
                         <cit:CI_Organisation>
@@ -1819,10 +1860,12 @@
                   <gcx:Anchor xlink:href="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceConstraints/gmd:MD_LegalConstraints/gmd:useLimitation/gmx:Anchor/@xlink:href">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:resourceConstraints/mco:MD_LegalConstraints/mco:useLimitation/gcx:Anchor</gcx:Anchor>
                </mco:useLimitation>
                <mco:accessConstraints>
-                  <mco:MD_RestrictionCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#" codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceConstraints/gmd:MD_LegalConstraints/gmd:accessConstraints/gmd:MD_RestrictionCode">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:resourceConstraints/mco:MD_LegalConstraints/mco:accessConstraints/mco:MD_RestrictionCode</mco:MD_RestrictionCode>
+                  <mco:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#"
+                                          codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceConstraints/gmd:MD_LegalConstraints/gmd:accessConstraints/gmd:MD_RestrictionCode">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:resourceConstraints/mco:MD_LegalConstraints/mco:accessConstraints/mco:MD_RestrictionCode</mco:MD_RestrictionCode>
                </mco:accessConstraints>
                <mco:useConstraints>
-                  <mco:MD_RestrictionCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#" codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceConstraints/gmd:MD_LegalConstraints/gmd:useConstraints/gmd:MD_RestrictionCode">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:resourceConstraints/mco:MD_LegalConstraints/mco:useConstraints/mco:MD_RestrictionCode</mco:MD_RestrictionCode>
+                  <mco:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#"
+                                          codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceConstraints/gmd:MD_LegalConstraints/gmd:useConstraints/gmd:MD_RestrictionCode">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:resourceConstraints/mco:MD_LegalConstraints/mco:useConstraints/mco:MD_RestrictionCode</mco:MD_RestrictionCode>
                </mco:useConstraints>
                <mco:otherConstraints>
                   <gco:CharacterString>/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:resourceConstraints/mco:MD_LegalConstraints/mco:otherConstraints/gco:CharacterString</gco:CharacterString>
@@ -1838,7 +1881,8 @@
                   <gco:CharacterString>/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:resourceConstraints/mco:MD_SecurityConstraints/mco:useLimitation/gco:CharacterString</gco:CharacterString>
                </mco:useLimitation>
                <mco:classification>
-                  <mco:MD_ClassificationCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#" codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceConstraints/gmd:MD_SecurityConstraints/gmd:classification/gmd:MD_ClassificationCode">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:resourceConstraints/mco:MD_SecurityConstraints/mco:classification/mco:MD_ClassificationCode</mco:MD_ClassificationCode>
+                  <mco:MD_ClassificationCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#"
+                                             codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceConstraints/gmd:MD_SecurityConstraints/gmd:classification/gmd:MD_ClassificationCode">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:resourceConstraints/mco:MD_SecurityConstraints/mco:classification/mco:MD_ClassificationCode</mco:MD_ClassificationCode>
                </mco:classification>
                <mco:classificationSystem>
                   <gco:CharacterString>/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:resourceConstraints/mco:MD_SecurityConstraints/mco:classificationSystem/gco:CharacterString</gco:CharacterString>
@@ -1965,17 +2009,20 @@
                               <gco:CharacterString>/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:associatedResource/mri:MD_AssociatedResource/mri:name/cit:CI_Citation/cit:onlineResource/cit:CI_OnlineResource/cit:description/gco:CharacterString</gco:CharacterString>
                            </cit:description>
                            <cit:function>
-                              <cit:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:associatedResource/mri:MD_AssociatedResource/mri:name/cit:CI_Citation/cit:onlineResource/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
+                              <cit:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                         codeListValue="information">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:associatedResource/mri:MD_AssociatedResource/mri:name/cit:CI_Citation/cit:onlineResource/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
                            </cit:function>
                         </cit:CI_OnlineResource>
                      </cit:onlineResource>
                   </cit:CI_Citation>
                </mri:name>
                <mri:associationType>
-                  <mri:DS_AssociationTypeCode codeList="codeListLocation#DS_AssociationTypeCode" codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:aggregationInfo/gmd:MD_AggregateInformation/gmd:associationType/gmd:DS_AssociationTypeCode">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:associatedResource/mri:MD_AssociatedResource/mri:associationType/mri:DS_AssociationTypeCode</mri:DS_AssociationTypeCode>
+                  <mri:DS_AssociationTypeCode codeList="codeListLocation#DS_AssociationTypeCode"
+                                              codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:aggregationInfo/gmd:MD_AggregateInformation/gmd:associationType/gmd:DS_AssociationTypeCode">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:associatedResource/mri:MD_AssociatedResource/mri:associationType/mri:DS_AssociationTypeCode</mri:DS_AssociationTypeCode>
                </mri:associationType>
                <mri:initiativeType>
-                  <mri:DS_InitiativeTypeCode codeList="codeListLocation#DS_InitiativeTypeCode" codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:aggregationInfo/gmd:MD_AggregateInformation/gmd:initiativeType/gmd:DS_InitiativeTypeCode">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:associatedResource/mri:MD_AssociatedResource/mri:initiativeType/mri:DS_InitiativeTypeCode</mri:DS_InitiativeTypeCode>
+                  <mri:DS_InitiativeTypeCode codeList="codeListLocation#DS_InitiativeTypeCode"
+                                             codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:aggregationInfo/gmd:MD_AggregateInformation/gmd:initiativeType/gmd:DS_InitiativeTypeCode">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:associatedResource/mri:MD_AssociatedResource/mri:initiativeType/mri:DS_InitiativeTypeCode</mri:DS_InitiativeTypeCode>
                </mri:initiativeType>
             </mri:MD_AssociatedResource>
          </mri:associatedResource>
@@ -2081,17 +2128,20 @@
                               <gco:CharacterString>/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:associatedResource/mri:MD_AssociatedResource/mri:name/cit:CI_Citation/cit:onlineResource/cit:CI_OnlineResource/cit:description/gco:CharacterString</gco:CharacterString>
                            </cit:description>
                            <cit:function>
-                              <cit:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="information">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:associatedResource/mri:MD_AssociatedResource/mri:name/cit:CI_Citation/cit:onlineResource/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
+                              <cit:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                         codeListValue="information">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:associatedResource/mri:MD_AssociatedResource/mri:name/cit:CI_Citation/cit:onlineResource/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
                            </cit:function>
                         </cit:CI_OnlineResource>
                      </cit:onlineResource>
                   </cit:CI_Citation>
                </mri:name>
                <mri:associationType>
-                  <mri:DS_AssociationTypeCode codeList="codeListLocation#DS_AssociationTypeCode" codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:aggregationInfo.2/gmd:MD_AggregateInformation/gmd:associationType/gmd:DS_AssociationTypeCode">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:associatedResource/mri:MD_AssociatedResource/mri:associationType/mri:DS_AssociationTypeCode</mri:DS_AssociationTypeCode>
+                  <mri:DS_AssociationTypeCode codeList="codeListLocation#DS_AssociationTypeCode"
+                                              codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:aggregationInfo.2/gmd:MD_AggregateInformation/gmd:associationType/gmd:DS_AssociationTypeCode">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:associatedResource/mri:MD_AssociatedResource/mri:associationType/mri:DS_AssociationTypeCode</mri:DS_AssociationTypeCode>
                </mri:associationType>
                <mri:initiativeType>
-                  <mri:DS_InitiativeTypeCode codeList="codeListLocation#DS_InitiativeTypeCode" codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:aggregationInfo.2/gmd:MD_AggregateInformation/gmd:initiativeType/gmd:DS_InitiativeTypeCode">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:associatedResource/mri:MD_AssociatedResource/mri:initiativeType/mri:DS_InitiativeTypeCode</mri:DS_InitiativeTypeCode>
+                  <mri:DS_InitiativeTypeCode codeList="codeListLocation#DS_InitiativeTypeCode"
+                                             codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:aggregationInfo.2/gmd:MD_AggregateInformation/gmd:initiativeType/gmd:DS_InitiativeTypeCode">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:associatedResource/mri:MD_AssociatedResource/mri:initiativeType/mri:DS_InitiativeTypeCode</mri:DS_InitiativeTypeCode>
                </mri:initiativeType>
             </mri:MD_AssociatedResource>
          </mri:associatedResource>
@@ -2119,10 +2169,12 @@
                   </cit:CI_Citation>
                </mri:name>
                <mri:associationType>
-                  <mri:DS_AssociationTypeCode codeList="codeListLocation#DS_AssociationTypeCode" codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:aggregationInfo.3/gmd:MD_AggregateInformation/gmd:associationType/gmd:DS_AssociationTypeCode">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:associatedResource/mri:MD_AssociatedResource/mri:associationType/mri:DS_AssociationTypeCode</mri:DS_AssociationTypeCode>
+                  <mri:DS_AssociationTypeCode codeList="codeListLocation#DS_AssociationTypeCode"
+                                              codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:aggregationInfo.3/gmd:MD_AggregateInformation/gmd:associationType/gmd:DS_AssociationTypeCode">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:associatedResource/mri:MD_AssociatedResource/mri:associationType/mri:DS_AssociationTypeCode</mri:DS_AssociationTypeCode>
                </mri:associationType>
                <mri:initiativeType>
-                  <mri:DS_InitiativeTypeCode codeList="codeListLocation#DS_InitiativeTypeCode" codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:aggregationInfo.3/gmd:MD_AggregateInformation/gmd:initiativeType/gmd:DS_InitiativeTypeCode">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:associatedResource/mri:MD_AssociatedResource/mri:initiativeType/mri:DS_InitiativeTypeCode</mri:DS_InitiativeTypeCode>
+                  <mri:DS_InitiativeTypeCode codeList="codeListLocation#DS_InitiativeTypeCode"
+                                             codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:aggregationInfo.3/gmd:MD_AggregateInformation/gmd:initiativeType/gmd:DS_InitiativeTypeCode">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:associatedResource/mri:MD_AssociatedResource/mri:initiativeType/mri:DS_InitiativeTypeCode</mri:DS_InitiativeTypeCode>
                </mri:initiativeType>
             </mri:MD_AssociatedResource>
          </mri:associatedResource>
@@ -2142,10 +2194,12 @@
                   </cit:CI_Citation>
                </mri:name>
                <mri:associationType>
-                  <mri:DS_AssociationTypeCode codeList="codeListLocation#DS_AssociationTypeCode" codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:aggregationInfo.3/gmd:MD_AggregateInformation/gmd:associationType/gmd:DS_AssociationTypeCode">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:associatedResource/mri:MD_AssociatedResource/mri:associationType/mri:DS_AssociationTypeCode</mri:DS_AssociationTypeCode>
+                  <mri:DS_AssociationTypeCode codeList="codeListLocation#DS_AssociationTypeCode"
+                                              codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:aggregationInfo.3/gmd:MD_AggregateInformation/gmd:associationType/gmd:DS_AssociationTypeCode">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:associatedResource/mri:MD_AssociatedResource/mri:associationType/mri:DS_AssociationTypeCode</mri:DS_AssociationTypeCode>
                </mri:associationType>
                <mri:initiativeType>
-                  <mri:DS_InitiativeTypeCode codeList="codeListLocation#DS_InitiativeTypeCode" codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:aggregationInfo.3/gmd:MD_AggregateInformation/gmd:initiativeType/gmd:DS_InitiativeTypeCode">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:associatedResource/mri:MD_AssociatedResource/mri:initiativeType/mri:DS_InitiativeTypeCode</mri:DS_InitiativeTypeCode>
+                  <mri:DS_InitiativeTypeCode codeList="codeListLocation#DS_InitiativeTypeCode"
+                                             codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:aggregationInfo.3/gmd:MD_AggregateInformation/gmd:initiativeType/gmd:DS_InitiativeTypeCode">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:associatedResource/mri:MD_AssociatedResource/mri:initiativeType/mri:DS_InitiativeTypeCode</mri:DS_InitiativeTypeCode>
                </mri:initiativeType>
             </mri:MD_AssociatedResource>
          </mri:associatedResource>
@@ -2159,17 +2213,20 @@
                   </cit:CI_Citation>
                </mri:name>
                <mri:associationType>
-                  <mri:DS_AssociationTypeCode codeList="codeListLocation#DS_AssociationTypeCode" codeListValue="largerWorkCitation">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:associatedResource/mri:MD_AssociatedResource/mri:associationType/mri:DS_AssociationTypeCode</mri:DS_AssociationTypeCode>
+                  <mri:DS_AssociationTypeCode codeList="codeListLocation#DS_AssociationTypeCode"
+                                              codeListValue="largerWorkCitation">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:associatedResource/mri:MD_AssociatedResource/mri:associationType/mri:DS_AssociationTypeCode</mri:DS_AssociationTypeCode>
                </mri:associationType>
             </mri:MD_AssociatedResource>
          </mri:associatedResource>
          <mri:defaultLocale>
             <lan:PT_Locale>
                <lan:language>
-                  <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:language/gco:CharacterString">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:defaultLocale/lan:PT_Locale/lan:language/lan:LanguageCode</lan:LanguageCode>
+                  <lan:LanguageCode codeList="codeListLocation#LanguageCode"
+                                    codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:language/gco:CharacterString">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:defaultLocale/lan:PT_Locale/lan:language/lan:LanguageCode</lan:LanguageCode>
                </lan:language>
                <lan:characterEncoding>
-                  <lan:MD_CharacterSetCode codeList="codeListLocation#MD_CharacterSetCode" codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:characterSet/gmd:MD_CharacterSetCode">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:defaultLocale/lan:PT_Locale/lan:characterEncoding/lan:MD_CharacterSetCode</lan:MD_CharacterSetCode>
+                  <lan:MD_CharacterSetCode codeList="codeListLocation#MD_CharacterSetCode"
+                                           codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:characterSet/gmd:MD_CharacterSetCode">/mdb:MD_Metadata/mdb:identificationInfo/mri:MD_DataIdentification/mri:defaultLocale/lan:PT_Locale/lan:characterEncoding/lan:MD_CharacterSetCode</lan:MD_CharacterSetCode>
                </lan:characterEncoding>
             </lan:PT_Locale>
          </mri:defaultLocale>
@@ -2194,7 +2251,8 @@
                         <gco:DateTime>2017-02-17T00:00:19</gco:DateTime>
                      </cit:date>
                      <cit:dateType>
-                        <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode/@codeListValue">/mdb:MD_Metadata/mdb:identificationInfo/srv:SV_ServiceIdentification/mri:citation/cit:CI_Citation/cit:date/cit:CI_Date/cit:dateType/cit:CI_DateTypeCode</cit:CI_DateTypeCode>
+                        <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode"
+                                             codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode/@codeListValue">/mdb:MD_Metadata/mdb:identificationInfo/srv:SV_ServiceIdentification/mri:citation/cit:CI_Citation/cit:date/cit:CI_Date/cit:dateType/cit:CI_DateTypeCode</cit:CI_DateTypeCode>
                      </cit:dateType>
                   </cit:CI_Date>
                </cit:date>
@@ -2365,7 +2423,8 @@
          <mri:resourceMaintenance>
             <mmi:MD_MaintenanceInformation>
                <mmi:maintenanceAndUpdateFrequency>
-                  <mmi:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="Weekly">/mdb:MD_Metadata/mdb:identificationInfo/srv:SV_ServiceIdentification/mri:resourceMaintenance/mmi:MD_MaintenanceInformation/mmi:maintenanceAndUpdateFrequency/mmi:MD_MaintenanceFrequencyCode</mmi:MD_MaintenanceFrequencyCode>
+                  <mmi:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+                                                   codeListValue="Weekly">/mdb:MD_Metadata/mdb:identificationInfo/srv:SV_ServiceIdentification/mri:resourceMaintenance/mmi:MD_MaintenanceInformation/mmi:maintenanceAndUpdateFrequency/mmi:MD_MaintenanceFrequencyCode</mmi:MD_MaintenanceFrequencyCode>
                </mmi:maintenanceAndUpdateFrequency>
                <mmi:maintenanceDate>
                   <cit:CI_Date>
@@ -2388,7 +2447,8 @@
                   <gco:CharacterString>/mdb:MD_Metadata/mdb:identificationInfo/srv:SV_ServiceIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:keyword/gco:CharacterString</gco:CharacterString>
                </mri:keyword>
                <mri:type>
-                  <mri:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="theme">/mdb:MD_Metadata/mdb:identificationInfo/srv:SV_ServiceIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:type/mri:MD_KeywordTypeCode</mri:MD_KeywordTypeCode>
+                  <mri:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="theme">/mdb:MD_Metadata/mdb:identificationInfo/srv:SV_ServiceIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:type/mri:MD_KeywordTypeCode</mri:MD_KeywordTypeCode>
                </mri:type>
                <mri:thesaurusName>
                   <cit:CI_Citation>
@@ -2401,7 +2461,8 @@
                               <gco:DateTime>2017-02-17T00:00:21</gco:DateTime>
                            </cit:date>
                            <cit:dateType>
-                              <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode/@codeListValue">/mdb:MD_Metadata/mdb:identificationInfo/srv:SV_ServiceIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:thesaurusName/cit:CI_Citation/cit:date/cit:CI_Date/cit:dateType/cit:CI_DateTypeCode</cit:CI_DateTypeCode>
+                              <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode"
+                                                   codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode/@codeListValue">/mdb:MD_Metadata/mdb:identificationInfo/srv:SV_ServiceIdentification/mri:descriptiveKeywords/mri:MD_Keywords/mri:thesaurusName/cit:CI_Citation/cit:date/cit:CI_Date/cit:dateType/cit:CI_DateTypeCode</cit:CI_DateTypeCode>
                            </cit:dateType>
                         </cit:CI_Date>
                      </cit:date>
@@ -2422,10 +2483,12 @@
                   <gco:CharacterString>/mdb:MD_Metadata/mdb:identificationInfo/srv:SV_ServiceIdentification/mri:resourceConstraints/mco:MD_LegalConstraints/mco:useLimitation/gco:CharacterString</gco:CharacterString>
                </mco:useLimitation>
                <mco:accessConstraints>
-                  <mco:MD_RestrictionCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#" codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:resourceConstraints/gmd:MD_LegalConstraints/gmd:accessConstraints/gmd:MD_RestrictionCode/@codeListValue">/mdb:MD_Metadata/mdb:identificationInfo/srv:SV_ServiceIdentification/mri:resourceConstraints/mco:MD_LegalConstraints/mco:accessConstraints/mco:MD_RestrictionCode</mco:MD_RestrictionCode>
+                  <mco:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#"
+                                          codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:resourceConstraints/gmd:MD_LegalConstraints/gmd:accessConstraints/gmd:MD_RestrictionCode/@codeListValue">/mdb:MD_Metadata/mdb:identificationInfo/srv:SV_ServiceIdentification/mri:resourceConstraints/mco:MD_LegalConstraints/mco:accessConstraints/mco:MD_RestrictionCode</mco:MD_RestrictionCode>
                </mco:accessConstraints>
                <mco:useConstraints>
-                  <mco:MD_RestrictionCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#" codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:resourceConstraints/gmd:MD_LegalConstraints/gmd:useConstraints/gmd:MD_RestrictionCode/@codeListValue">/mdb:MD_Metadata/mdb:identificationInfo/srv:SV_ServiceIdentification/mri:resourceConstraints/mco:MD_LegalConstraints/mco:useConstraints/mco:MD_RestrictionCode</mco:MD_RestrictionCode>
+                  <mco:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#"
+                                          codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:resourceConstraints/gmd:MD_LegalConstraints/gmd:useConstraints/gmd:MD_RestrictionCode/@codeListValue">/mdb:MD_Metadata/mdb:identificationInfo/srv:SV_ServiceIdentification/mri:resourceConstraints/mco:MD_LegalConstraints/mco:useConstraints/mco:MD_RestrictionCode</mco:MD_RestrictionCode>
                </mco:useConstraints>
                <mco:otherConstraints>
                   <gco:CharacterString>/mdb:MD_Metadata/mdb:identificationInfo/srv:SV_ServiceIdentification/mri:resourceConstraints/mco:MD_LegalConstraints/mco:otherConstraints/gco:CharacterString</gco:CharacterString>
@@ -2438,7 +2501,8 @@
                   <gco:CharacterString>/mdb:MD_Metadata/mdb:identificationInfo/srv:SV_ServiceIdentification/mri:resourceConstraints/mco:MD_SecurityConstraints/mco:useLimitation/gco:CharacterString</gco:CharacterString>
                </mco:useLimitation>
                <mco:classification>
-                  <mco:MD_ClassificationCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#" codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:resourceConstraints/gmd:MD_SecurityConstraints/gmd:classification/gmd:MD_ClassificationCode/@codeListValue">/mdb:MD_Metadata/mdb:identificationInfo/srv:SV_ServiceIdentification/mri:resourceConstraints/mco:MD_SecurityConstraints/mco:classification/mco:MD_ClassificationCode</mco:MD_ClassificationCode>
+                  <mco:MD_ClassificationCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#"
+                                             codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:resourceConstraints/gmd:MD_SecurityConstraints/gmd:classification/gmd:MD_ClassificationCode/@codeListValue">/mdb:MD_Metadata/mdb:identificationInfo/srv:SV_ServiceIdentification/mri:resourceConstraints/mco:MD_SecurityConstraints/mco:classification/mco:MD_ClassificationCode</mco:MD_ClassificationCode>
                </mco:classification>
                <mco:classificationSystem>
                   <gco:CharacterString>/mdb:MD_Metadata/mdb:identificationInfo/srv:SV_ServiceIdentification/mri:resourceConstraints/mco:MD_SecurityConstraints/mco:classificationSystem/gco:CharacterString</gco:CharacterString>
@@ -2458,7 +2522,8 @@
                   </cit:CI_Citation>
                </mri:name>
                <mri:associationType>
-                  <mri:DS_AssociationTypeCode codeList="codeListLocation#DS_AssociationTypeCode" codeListValue="largerWorkCitation">/mdb:MD_Metadata/mdb:identificationInfo/srv:SV_ServiceIdentification/mri:associatedResource/mri:MD_AssociatedResource/mri:associationType/mri:DS_AssociationTypeCode</mri:DS_AssociationTypeCode>
+                  <mri:DS_AssociationTypeCode codeList="codeListLocation#DS_AssociationTypeCode"
+                                              codeListValue="largerWorkCitation">/mdb:MD_Metadata/mdb:identificationInfo/srv:SV_ServiceIdentification/mri:associatedResource/mri:MD_AssociatedResource/mri:associationType/mri:DS_AssociationTypeCode</mri:DS_AssociationTypeCode>
                </mri:associationType>
             </mri:MD_AssociatedResource>
          </mri:associatedResource>
@@ -2477,7 +2542,8 @@
                   <gco:CharacterString>/mdb:MD_Metadata/mdb:identificationInfo/srv:SV_ServiceIdentification/srv:containsOperations/srv:SV_OperationMetadata/srv:operationName/gco:CharacterString</gco:CharacterString>
                </srv:operationName>
                <srv:distributedComputingPlatform>
-                  <srv:DCPList codeList="codeListLocation#DCPList" codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:containsOperations/srv:SV_OperationMetadata/srv:DCP/srv:DCPList">/mdb:MD_Metadata/mdb:identificationInfo/srv:SV_ServiceIdentification/srv:containsOperations/srv:SV_OperationMetadata/srv:distributedComputingPlatform/srv:DCPList</srv:DCPList>
+                  <srv:DCPList codeList="codeListLocation#DCPList"
+                               codeListValue="/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:containsOperations/srv:SV_OperationMetadata/srv:DCP/srv:DCPList">/mdb:MD_Metadata/mdb:identificationInfo/srv:SV_ServiceIdentification/srv:containsOperations/srv:SV_OperationMetadata/srv:distributedComputingPlatform/srv:DCPList</srv:DCPList>
                </srv:distributedComputingPlatform>
                <srv:invocationName>
                   <gco:CharacterString>/mdb:MD_Metadata/mdb:identificationInfo/srv:SV_ServiceIdentification/srv:containsOperations/srv:SV_OperationMetadata/srv:invocationName/gco:CharacterString</gco:CharacterString>
@@ -2494,7 +2560,8 @@
                         <gco:CharacterString>/mdb:MD_Metadata/mdb:identificationInfo/srv:SV_ServiceIdentification/srv:containsOperations/srv:SV_OperationMetadata/srv:connectPoint/cit:CI_OnlineResource/cit:description/gco:CharacterString</gco:CharacterString>
                      </cit:description>
                      <cit:function>
-                        <cit:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">/mdb:MD_Metadata/mdb:identificationInfo/srv:SV_ServiceIdentification/srv:containsOperations/srv:SV_OperationMetadata/srv:connectPoint/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
+                        <cit:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                   codeListValue="download">/mdb:MD_Metadata/mdb:identificationInfo/srv:SV_ServiceIdentification/srv:containsOperations/srv:SV_OperationMetadata/srv:connectPoint/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
                      </cit:function>
                   </cit:CI_OnlineResource>
                </srv:connectPoint>
@@ -2530,7 +2597,8 @@
                </srv:parameter>
             </srv:SV_OperationMetadata>
          </srv:containsOperations>
-         <srv:operatesOn xlink:href="/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:operatesOn/@xlink:href" uuidref="/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:operatesOn/@uuidref"/>
+         <srv:operatesOn xlink:href="/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:operatesOn/@xlink:href"
+                         uuidref="/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:operatesOn/@uuidref"/>
       </srv:SV_ServiceIdentification>
    </mdb:identificationInfo>
    <mdb:contentInfo>
@@ -2541,7 +2609,8 @@
          <mrc:attributeGroup>
             <mrc:MD_AttributeGroup id="MD_AttributeGroupTarget">
                <mrc:contentType>
-                  <mrc:MD_CoverageContentTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_CoverageContentTypeCode" codeListValue="physicalMeasurement">/mdb:MD_Metadata/mdb:contentInfo/mrc:MD_CoverageDescription/mrc:attributeGroup/mrc:MD_AttributeGroup/mrc:contentType/mrc:MD_CoverageContentTypeCode</mrc:MD_CoverageContentTypeCode>
+                  <mrc:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode"
+                                                  codeListValue="physicalMeasurement">/mdb:MD_Metadata/mdb:contentInfo/mrc:MD_CoverageDescription/mrc:attributeGroup/mrc:MD_AttributeGroup/mrc:contentType/mrc:MD_CoverageContentTypeCode</mrc:MD_CoverageContentTypeCode>
                </mrc:contentType>
                <mrc:attribute>
                   <mrc:MD_SampleDimension>
@@ -2572,21 +2641,6 @@
                      <mrc:scaleFactor>
                         <gco:Real>999</gco:Real>
                      </mrc:scaleFactor>
-                     <mrc:rangeElementDescription>
-                        <mrc:MI_RangeElementDescription>
-                           <mrc:name>
-                              <gco:CharacterString>/mdb:MD_Metadata/mdb:contentInfo/mrc:MD_CoverageDescription/mrc:attributeGroup/mrc:MD_AttributeGroup/mrc:attribute/mrc:MD_SampleDimension/mrc:rangeElementDescription/mrc:MI_RangeElementDescription/mrc:name/gco:CharacterString</gco:CharacterString>
-                           </mrc:name>
-                           <mrc:definition>
-                              <gco:CharacterString>/mdb:MD_Metadata/mdb:contentInfo/mrc:MD_CoverageDescription/mrc:attributeGroup/mrc:MD_AttributeGroup/mrc:attribute/mrc:MD_SampleDimension/mrc:rangeElementDescription/mrc:MI_RangeElementDescription/mrc:definition/gco:CharacterString</gco:CharacterString>
-                           </mrc:definition>
-                           <mrc:rangeElement>
-                              <gco:Record>
-                                 <gco:CharacterString>/mdb:MD_Metadata/mdb:contentInfo/mrc:MD_CoverageDescription/mrc:attributeGroup/mrc:MD_AttributeGroup/mrc:attribute/mrc:MD_SampleDimension/mrc:rangeElementDescription/mrc:MI_RangeElementDescription/mrc:rangeElement/gco:Record/gco:CharacterString</gco:CharacterString>
-                              </gco:Record>
-                           </mrc:rangeElement>
-                        </mrc:MI_RangeElementDescription>
-                     </mrc:rangeElementDescription>
                   </mrc:MD_SampleDimension>
                </mrc:attribute>
                <mrc:attribute>
@@ -2656,7 +2710,8 @@
          <mrc:attributeGroup>
             <mrc:MD_AttributeGroup>
                <mrc:contentType>
-                  <mrc:MD_CoverageContentTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_CoverageContentTypeCode" codeListValue="referenceInformation">/mdb:MD_Metadata/mdb:contentInfo/mrc:MD_CoverageDescription/mrc:attributeGroup/mrc:MD_AttributeGroup/mrc:contentType/mrc:MD_CoverageContentTypeCode</mrc:MD_CoverageContentTypeCode>
+                  <mrc:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode"
+                                                  codeListValue="referenceInformation">/mdb:MD_Metadata/mdb:contentInfo/mrc:MD_CoverageDescription/mrc:attributeGroup/mrc:MD_AttributeGroup/mrc:contentType/mrc:MD_CoverageContentTypeCode</mrc:MD_CoverageContentTypeCode>
                </mrc:contentType>
                <mrc:attribute>
                   <mrc:MD_SampleDimension>
@@ -2727,7 +2782,7 @@
                         <gco:Real>555</gco:Real>
                      </mrc:nominalSpatialResolution>
                      <mrc:sensor>
-                        <mac:MI_Sensor>
+                        <!-- MI_Sensor: Information about a sensor that is mounted on an instrument. --><mac:MI_Sensor>
                            <mac:identifier/>
                            <mac:type/>
                            <mac:hosted/>
@@ -2763,7 +2818,8 @@
                         <gco:DateTime>2017-02-17T00:00:22</gco:DateTime>
                      </cit:date>
                      <cit:dateType>
-                        <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="featureCatalogDate">/mdb:MD_Metadata/mdb:contentInfo/mrc:MD_FeatureCatalogueDescription/mrc:featureCatalogueCitation/cit:CI_Citation/cit:date/cit:CI_Date/cit:dateType/cit:CI_DateTypeCode</cit:CI_DateTypeCode>
+                        <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode"
+                                             codeListValue="featureCatalogDate">/mdb:MD_Metadata/mdb:contentInfo/mrc:MD_FeatureCatalogueDescription/mrc:featureCatalogueCitation/cit:CI_Citation/cit:date/cit:CI_Date/cit:dateType/cit:CI_DateTypeCode</cit:CI_DateTypeCode>
                      </cit:dateType>
                   </cit:CI_Date>
                </cit:date>
@@ -2838,7 +2894,8 @@
                                                 <gco:CharacterString>/mdb:MD_Metadata/mdb:distributionInfo/mrd:MD_Distribution/mrd:distributionFormat/mrd:MD_Format/mrd:formatDistributor/mrd:MD_Distributor/mrd:distributorContact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:number/gco:CharacterString</gco:CharacterString>
                                              </cit:number>
                                              <cit:numberType>
-                                                <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="facsimile">/mdb:MD_Metadata/mdb:distributionInfo/mrd:MD_Distribution/mrd:distributionFormat/mrd:MD_Format/mrd:formatDistributor/mrd:MD_Distributor/mrd:distributorContact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:numberType/cit:CI_TelephoneTypeCode</cit:CI_TelephoneTypeCode>
+                                                <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode"
+                                                                          codeListValue="facsimile">/mdb:MD_Metadata/mdb:distributionInfo/mrd:MD_Distribution/mrd:distributionFormat/mrd:MD_Format/mrd:formatDistributor/mrd:MD_Distributor/mrd:distributorContact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:numberType/cit:CI_TelephoneTypeCode</cit:CI_TelephoneTypeCode>
                                              </cit:numberType>
                                           </cit:CI_Telephone>
                                        </cit:phone>
@@ -2932,7 +2989,8 @@
                                     <gco:CharacterString>/mdb:MD_Metadata/mdb:distributionInfo/mrd:MD_Distribution/mrd:distributionFormat/mrd:MD_Format/mrd:formatDistributor/mrd:MD_Distributor/mrd:distributorTransferOptions/mrd:MD_DigitalTransferOptions/mrd:onLine/cit:CI_OnlineResource/cit:description/gco:CharacterString</gco:CharacterString>
                                  </cit:description>
                                  <cit:function>
-                                    <cit:CI_OnLineFunctionCode codeList="/gmd:MD_Metadata/gmd:distributionInfo/gmd:MD_Distribution/gmd:distributionFormat/gmd:MD_Format/gmd:formatDistributor/gmd:MD_Distributor/gmd:distributorTransferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:function/gmd:CI_OnLineFunctionCode/@codeList" codeListValue="/gmd:MD_Metadata/gmd:distributionInfo/gmd:MD_Distribution/gmd:distributionFormat/gmd:MD_Format/gmd:formatDistributor/gmd:MD_Distributor/gmd:distributorTransferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:function/gmd:CI_OnLineFunctionCode/@codeListValue">/mdb:MD_Metadata/mdb:distributionInfo/mrd:MD_Distribution/mrd:distributionFormat/mrd:MD_Format/mrd:formatDistributor/mrd:MD_Distributor/mrd:distributorTransferOptions/mrd:MD_DigitalTransferOptions/mrd:onLine/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
+                                    <cit:CI_OnLineFunctionCode codeList="/gmd:MD_Metadata/gmd:distributionInfo/gmd:MD_Distribution/gmd:distributionFormat/gmd:MD_Format/gmd:formatDistributor/gmd:MD_Distributor/gmd:distributorTransferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:function/gmd:CI_OnLineFunctionCode/@codeList"
+                                                               codeListValue="/gmd:MD_Metadata/gmd:distributionInfo/gmd:MD_Distribution/gmd:distributionFormat/gmd:MD_Format/gmd:formatDistributor/gmd:MD_Distributor/gmd:distributorTransferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:function/gmd:CI_OnLineFunctionCode/@codeListValue">/mdb:MD_Metadata/mdb:distributionInfo/mrd:MD_Distribution/mrd:distributionFormat/mrd:MD_Format/mrd:formatDistributor/mrd:MD_Distributor/mrd:distributorTransferOptions/mrd:MD_DigitalTransferOptions/mrd:onLine/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
                                  </cit:function>
                               </cit:CI_OnlineResource>
                            </mrd:onLine>
@@ -2972,7 +3030,8 @@
                                           <gco:CharacterString>/mdb:MD_Metadata/mdb:distributionInfo/mrd:MD_Distribution/mrd:distributor/mrd:MD_Distributor/mrd:distributorContact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:number/gco:CharacterString</gco:CharacterString>
                                        </cit:number>
                                        <cit:numberType>
-                                          <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="facsimile">/mdb:MD_Metadata/mdb:distributionInfo/mrd:MD_Distribution/mrd:distributor/mrd:MD_Distributor/mrd:distributorContact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:numberType/cit:CI_TelephoneTypeCode</cit:CI_TelephoneTypeCode>
+                                          <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode"
+                                                                    codeListValue="facsimile">/mdb:MD_Metadata/mdb:distributionInfo/mrd:MD_Distribution/mrd:distributor/mrd:MD_Distributor/mrd:distributorContact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:numberType/cit:CI_TelephoneTypeCode</cit:CI_TelephoneTypeCode>
                                        </cit:numberType>
                                     </cit:CI_Telephone>
                                  </cit:phone>
@@ -3075,7 +3134,8 @@
                               <gco:CharacterString>/mdb:MD_Metadata/mdb:distributionInfo/mrd:MD_Distribution/mrd:distributor/mrd:MD_Distributor/mrd:distributorTransferOptions/mrd:MD_DigitalTransferOptions/mrd:onLine/cit:CI_OnlineResource/cit:description/gco:CharacterString</gco:CharacterString>
                            </cit:description>
                            <cit:function>
-                              <cit:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="download">/mdb:MD_Metadata/mdb:distributionInfo/mrd:MD_Distribution/mrd:distributor/mrd:MD_Distributor/mrd:distributorTransferOptions/mrd:MD_DigitalTransferOptions/mrd:onLine/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
+                              <cit:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                         codeListValue="download">/mdb:MD_Metadata/mdb:distributionInfo/mrd:MD_Distribution/mrd:distributor/mrd:MD_Distributor/mrd:distributorTransferOptions/mrd:MD_DigitalTransferOptions/mrd:onLine/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
                            </cit:function>
                         </cit:CI_OnlineResource>
                      </mrd:onLine>
@@ -3113,7 +3173,8 @@
                                           <gco:CharacterString>/mdb:MD_Metadata/mdb:distributionInfo/mrd:MD_Distribution/mrd:distributor/mrd:MD_Distributor/mrd:distributorContact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:number/gco:CharacterString</gco:CharacterString>
                                        </cit:number>
                                        <cit:numberType>
-                                          <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="facsimile">/mdb:MD_Metadata/mdb:distributionInfo/mrd:MD_Distribution/mrd:distributor/mrd:MD_Distributor/mrd:distributorContact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:numberType/cit:CI_TelephoneTypeCode</cit:CI_TelephoneTypeCode>
+                                          <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode"
+                                                                    codeListValue="facsimile">/mdb:MD_Metadata/mdb:distributionInfo/mrd:MD_Distribution/mrd:distributor/mrd:MD_Distributor/mrd:distributorContact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:numberType/cit:CI_TelephoneTypeCode</cit:CI_TelephoneTypeCode>
                                        </cit:numberType>
                                     </cit:CI_Telephone>
                                  </cit:phone>
@@ -3218,7 +3279,8 @@
                               <gco:CharacterString>/mdb:MD_Metadata/mdb:distributionInfo/mrd:MD_Distribution/mrd:distributor/mrd:MD_Distributor/mrd:distributorTransferOptions/mrd:MD_DigitalTransferOptions/mrd:onLine/cit:CI_OnlineResource/cit:description/gco:CharacterString</gco:CharacterString>
                            </cit:description>
                            <cit:function>
-                              <cit:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="download">/mdb:MD_Metadata/mdb:distributionInfo/mrd:MD_Distribution/mrd:distributor/mrd:MD_Distributor/mrd:distributorTransferOptions/mrd:MD_DigitalTransferOptions/mrd:onLine/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
+                              <cit:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                         codeListValue="download">/mdb:MD_Metadata/mdb:distributionInfo/mrd:MD_Distribution/mrd:distributor/mrd:MD_Distributor/mrd:distributorTransferOptions/mrd:MD_DigitalTransferOptions/mrd:onLine/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
                            </cit:function>
                         </cit:CI_OnlineResource>
                      </mrd:onLine>
@@ -3256,7 +3318,8 @@
                                           <gco:CharacterString>/mdb:MD_Metadata/mdb:distributionInfo/mrd:MD_Distribution/mrd:distributor/mrd:MD_Distributor/mrd:distributorContact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:number/gco:CharacterString</gco:CharacterString>
                                        </cit:number>
                                        <cit:numberType>
-                                          <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode" codeListValue="facsimile">/mdb:MD_Metadata/mdb:distributionInfo/mrd:MD_Distribution/mrd:distributor/mrd:MD_Distributor/mrd:distributorContact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:numberType/cit:CI_TelephoneTypeCode</cit:CI_TelephoneTypeCode>
+                                          <cit:CI_TelephoneTypeCode codeList="codeListLocation#CI_TelephoneTypeCode"
+                                                                    codeListValue="facsimile">/mdb:MD_Metadata/mdb:distributionInfo/mrd:MD_Distribution/mrd:distributor/mrd:MD_Distributor/mrd:distributorContact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:contactInfo/cit:CI_Contact/cit:phone/cit:CI_Telephone/cit:numberType/cit:CI_TelephoneTypeCode</cit:CI_TelephoneTypeCode>
                                        </cit:numberType>
                                     </cit:CI_Telephone>
                                  </cit:phone>
@@ -3353,7 +3416,8 @@
                               <gco:CharacterString>/mdb:MD_Metadata/mdb:distributionInfo/mrd:MD_Distribution/mrd:distributor/mrd:MD_Distributor/mrd:distributorTransferOptions/mrd:MD_DigitalTransferOptions/mrd:onLine/cit:CI_OnlineResource/cit:description/gco:CharacterString</gco:CharacterString>
                            </cit:description>
                            <cit:function>
-                              <cit:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#CI_OnLineFunctionCode" codeListValue="download">/mdb:MD_Metadata/mdb:distributionInfo/mrd:MD_Distribution/mrd:distributor/mrd:MD_Distributor/mrd:distributorTransferOptions/mrd:MD_DigitalTransferOptions/mrd:onLine/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
+                              <cit:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                         codeListValue="download">/mdb:MD_Metadata/mdb:distributionInfo/mrd:MD_Distribution/mrd:distributor/mrd:MD_Distributor/mrd:distributorTransferOptions/mrd:MD_DigitalTransferOptions/mrd:onLine/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
                            </cit:function>
                         </cit:CI_OnlineResource>
                      </mrd:onLine>
@@ -3384,7 +3448,8 @@
                         <gco:CharacterString>/mdb:MD_Metadata/mdb:distributionInfo/mrd:MD_Distribution/mrd:transferOptions/mrd:MD_DigitalTransferOptions/mrd:onLine/cit:CI_OnlineResource/cit:description/gco:CharacterString</gco:CharacterString>
                      </cit:description>
                      <cit:function>
-                        <cit:CI_OnLineFunctionCode codeList="/gmd:MD_Metadata/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:function/gmd:CI_OnLineFunctionCode/@codeList" codeListValue="/gmd:MD_Metadata/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:function/gmd:CI_OnLineFunctionCode/@codeListValue">/mdb:MD_Metadata/mdb:distributionInfo/mrd:MD_Distribution/mrd:transferOptions/mrd:MD_DigitalTransferOptions/mrd:onLine/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
+                        <cit:CI_OnLineFunctionCode codeList="/gmd:MD_Metadata/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:function/gmd:CI_OnLineFunctionCode/@codeList"
+                                                   codeListValue="/gmd:MD_Metadata/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:function/gmd:CI_OnLineFunctionCode/@codeListValue">/mdb:MD_Metadata/mdb:distributionInfo/mrd:MD_Distribution/mrd:transferOptions/mrd:MD_DigitalTransferOptions/mrd:onLine/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
                      </cit:function>
                   </cit:CI_OnlineResource>
                </mrd:onLine>
@@ -3426,7 +3491,8 @@
          <mdq:scope>
             <mcc:MD_Scope>
                <mcc:level>
-                  <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#" codeListValue="/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:scope/gmd:DQ_Scope/gmd:level/gmd:MD_ScopeCode">/mdb:MD_Metadata/mdb:dataQualityInfo/mdq:DQ_DataQuality/mdq:scope/mcc:MD_Scope/mcc:level/mcc:MD_ScopeCode</mcc:MD_ScopeCode>
+                  <mcc:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#"
+                                    codeListValue="/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:scope/gmd:DQ_Scope/gmd:level/gmd:MD_ScopeCode">/mdb:MD_Metadata/mdb:dataQualityInfo/mdq:DQ_DataQuality/mdq:scope/mcc:MD_Scope/mcc:level/mcc:MD_ScopeCode</mcc:MD_ScopeCode>
                </mcc:level>
                <mcc:extent>
                   <gex:EX_Extent>
@@ -3480,7 +3546,8 @@
                         </cit:CI_Citation>
                      </mdq:evaluationProcedure>
                      <mdq:evaluationMethodType>
-                        <mdq:DQ_EvaluationMethodTypeCode codeList="codeListLocation#DQ_EvaluationMethodTypeCode" codeListValue="/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:evaluationMethodType/gmd:DQ_EvaluationMethodTypeCode">/mdb:MD_Metadata/mdb:dataQualityInfo/mdq:DQ_DataQuality/mdq:report/mdq:DQ_QuantitativeAttributeAccuracy/mdq:evaluationMethod/mdq:DQ_FullInspection/mdq:evaluationMethodType/mdq:DQ_EvaluationMethodTypeCode</mdq:DQ_EvaluationMethodTypeCode>
+                        <mdq:DQ_EvaluationMethodTypeCode codeList="codeListLocation#DQ_EvaluationMethodTypeCode"
+                                                         codeListValue="/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:evaluationMethodType/gmd:DQ_EvaluationMethodTypeCode">/mdb:MD_Metadata/mdb:dataQualityInfo/mdq:DQ_DataQuality/mdq:report/mdq:DQ_QuantitativeAttributeAccuracy/mdq:evaluationMethod/mdq:DQ_FullInspection/mdq:evaluationMethodType/mdq:DQ_EvaluationMethodTypeCode</mdq:DQ_EvaluationMethodTypeCode>
                      </mdq:evaluationMethodType>
                   </mdq:DQ_FullInspection>
                </mdq:evaluationMethod>
@@ -3543,7 +3610,8 @@
                                     <gco:DateTime>2017-02-17T00:00:29</gco:DateTime>
                                  </cit:date>
                                  <cit:dateType>
-                                    <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_CompletenessOmission/gmd:result/gmd:DQ_ConformanceResult/gmd:specification/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode">/mdb:MD_Metadata/mdb:dataQualityInfo/mdq:DQ_DataQuality/mdq:report/mdq:DQ_CompletenessOmission/mdq:result/mdq:DQ_ConformanceResult/mdq:specification/cit:CI_Citation/cit:date/cit:CI_Date/cit:dateType/cit:CI_DateTypeCode</cit:CI_DateTypeCode>
+                                    <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode"
+                                                         codeListValue="/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_CompletenessOmission/gmd:result/gmd:DQ_ConformanceResult/gmd:specification/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode">/mdb:MD_Metadata/mdb:dataQualityInfo/mdq:DQ_DataQuality/mdq:report/mdq:DQ_CompletenessOmission/mdq:result/mdq:DQ_ConformanceResult/mdq:specification/cit:CI_Citation/cit:date/cit:CI_Date/cit:dateType/cit:CI_DateTypeCode</cit:CI_DateTypeCode>
                                  </cit:dateType>
                               </cit:CI_Date>
                            </cit:date>
@@ -3596,7 +3664,8 @@
                                     <gco:DateTime>2017-02-17T00:00:30</gco:DateTime>
                                  </cit:date>
                                  <cit:dateType>
-                                    <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_ConformanceResult/gmd:specification/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode/@codeListValue">/mdb:MD_Metadata/mdb:dataQualityInfo/mdq:DQ_DataQuality/mdq:report/mdq:DQ_DomainConsistency/mdq:result/mdq:DQ_ConformanceResult/mdq:specification/cit:CI_Citation/cit:date/cit:CI_Date/cit:dateType/cit:CI_DateTypeCode</cit:CI_DateTypeCode>
+                                    <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode"
+                                                         codeListValue="/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_ConformanceResult/gmd:specification/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode/@codeListValue">/mdb:MD_Metadata/mdb:dataQualityInfo/mdq:DQ_DataQuality/mdq:report/mdq:DQ_DomainConsistency/mdq:result/mdq:DQ_ConformanceResult/mdq:specification/cit:CI_Citation/cit:date/cit:CI_Date/cit:dateType/cit:CI_DateTypeCode</cit:CI_DateTypeCode>
                                  </cit:dateType>
                               </cit:CI_Date>
                            </cit:date>
@@ -3622,7 +3691,8 @@
          <mrl:scope>
             <mcc:MD_Scope>
                <mcc:level>
-                  <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:scope/gmd:DQ_Scope/gmd:level/gmd:MD_ScopeCode">/mdb:MD_Metadata/mdb:resourceLineage/mrl:LI_Lineage/mrl:scope/mcc:MD_Scope/mcc:level/mcc:MD_ScopeCode</mcc:MD_ScopeCode>
+                  <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode"
+                                    codeListValue="/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:scope/gmd:DQ_Scope/gmd:level/gmd:MD_ScopeCode">/mdb:MD_Metadata/mdb:resourceLineage/mrl:LI_Lineage/mrl:scope/mcc:MD_Scope/mcc:level/mcc:MD_ScopeCode</mcc:MD_ScopeCode>
                </mcc:level>
                <mcc:extent>
                   <gex:EX_Extent>
@@ -3717,7 +3787,8 @@
                <mrl:processor>
                   <cit:CI_Responsibility>
                      <cit:role>
-                        <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:processStep/gmd:LI_ProcessStep/gmd:processor/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode">/mdb:MD_Metadata/mdb:resourceLineage/mrl:LI_Lineage/mrl:processStep/mrl:LI_ProcessStep/mrl:processor/cit:CI_Responsibility/cit:role/cit:CI_RoleCode</cit:CI_RoleCode>
+                        <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode"
+                                         codeListValue="/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:processStep/gmd:LI_ProcessStep/gmd:processor/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode">/mdb:MD_Metadata/mdb:resourceLineage/mrl:LI_Lineage/mrl:processStep/mrl:LI_ProcessStep/mrl:processor/cit:CI_Responsibility/cit:role/cit:CI_RoleCode</cit:CI_RoleCode>
                      </cit:role>
                      <cit:party>
                         <cit:CI_Individual>
@@ -3749,7 +3820,7 @@
                         <cit:CI_Citation>
                            <cit:title>
                               <gco:CharacterString>
-                                 >/mdb:MD_Metadata/mdb:resourceLineage/mrl:LI_Lineage/mrl:processStep/mrl:LI_ProcessStep/mrl:source/mrl:LI_Source/mrl:sourceCitation/cit:CI_Citation/cit:title/gco:CharacterString</gco:CharacterString>
+                                 &gt;/mdb:MD_Metadata/mdb:resourceLineage/mrl:LI_Lineage/mrl:processStep/mrl:LI_ProcessStep/mrl:source/mrl:LI_Source/mrl:sourceCitation/cit:CI_Citation/cit:title/gco:CharacterString</gco:CharacterString>
                            </cit:title>
                            <cit:date gco:nilReason="missing"/>
                         </cit:CI_Citation>
@@ -3787,44 +3858,17 @@
                      <mrl:procedureDescription/>
                      <mrl:documentation/>
                      <mrl:runTimeParameters/>
-                     <mrl:parameter>
+                     <!-- LE_Processing/parameter: A parameter used in the processing. --><mrl:parameter>
                         <mrl:LE_ProcessParameter>
-                           <mrl:name>
-                              <gco:MemberName>
-                                 <gco:aName>
-                                    <gco:CharacterString>/mdb:MD_Metadata/mdb:resourceLineage/mrl:LI_Lineage/mrl:processStep/mrl:LE_ProcessStep/mrl:processingInformation/mrl:LE_Processing/mrl:parameter/mrl:LE_ProcessParameter/mrl:name/gco:MemberName/gco:aName/gco:CharacterString</gco:CharacterString>
-                                 </gco:aName>
-                                 <gco:attributeType>
-                                    <gco:TypeName>
-                                       <gco:aName>
-                                          <gco:CharacterString>/mdb:MD_Metadata/mdb:resourceLineage/mrl:LI_Lineage/mrl:processStep/mrl:LE_ProcessStep/mrl:processingInformation/mrl:LE_Processing/mrl:parameter/mrl:LE_ProcessParameter/mrl:name/gco:MemberName/gco:attributeType/gco:TypeName/gco:aName/gco:CharacterString</gco:CharacterString>
-                                       </gco:aName>
-                                    </gco:TypeName>
-                                 </gco:attributeType>
-                              </gco:MemberName>
-                           </mrl:name>
-                           <mrl:direction>
-                              <mrl:LE_ParameterDirection>in</mrl:LE_ParameterDirection>
-                           </mrl:direction>
-                           <mrl:description><gco:CharacterString>/mdb:MD_Metadata/mdb:resourceLineage/mrl:LI_Lineage/mrl:processStep/mrl:LE_ProcessStep/mrl:processingInformation/mrl:LE_Processing/mrl:parameter/mrl:LE_ProcessParameter/mrl:description/gco:CharacterString</gco:CharacterString></mrl:description>
-                           <mrl:optionality>
-                              <gco:Boolean>false</gco:Boolean>
-                           </mrl:optionality>
-                           <mrl:repeatability><gco:Boolean>true</gco:Boolean></mrl:repeatability>
-                           <mrl:valueType><gco:RecordType>/mdb:MD_Metadata/mdb:resourceLineage/mrl:LI_Lineage/mrl:processStep/mrl:LE_ProcessStep/mrl:processingInformation/mrl:LE_Processing/mrl:parameter/mrl:LE_ProcessParameter/mrl:valueType/gco:RecordType</gco:RecordType></mrl:valueType>
-                           <mrl:value><gco:Record>/mdb:MD_Metadata/mdb:resourceLineage/mrl:LI_Lineage/mrl:processStep/mrl:LE_ProcessStep/mrl:processingInformation/mrl:LE_Processing/mrl:parameter/mrl:LE_ProcessParameter/mrl:value/gco:Record</gco:Record></mrl:value>
+                           <mrl:valueType/>
+                           <mrl:value/>
                            <mrl:resource>
                               <mrl:LE_Source/>
                            </mrl:resource>
                         </mrl:LE_ProcessParameter>
                      </mrl:parameter>
-                     <mrl:parameter>
+                     <!-- LE_Processing/parameter: A parameter used in the processing. --><mrl:parameter>
                         <mrl:LE_ProcessParameter>
-                           <mrl:name/>
-                           <mrl:direction/>
-                           <mrl:description/>
-                           <mrl:optionality/>
-                           <mrl:repeatability/>
                            <mrl:valueType/>
                            <mrl:value/>
                            <mrl:resource>
@@ -3832,8 +3876,8 @@
                            </mrl:resource>
                         </mrl:LE_ProcessParameter>
                      </mrl:parameter>
-                     <mrl:otherPropertyType/>
-                     <mrl:otherProperty/>
+                     <!-- LE_Processing/otherPropertyType: Describe the structure of the implementation specific information in the otherProperty. Typically a pointer to an XML schema object. --><mrl:otherPropertyType/>
+                     <!-- LE_Processing/otherProperty: Implementation specific information used to provide fields and values that are not included in the standard. --><mrl:otherProperty/>
                   </mrl:LE_Processing>
                </mrl:processingInformation>
             </mrl:LE_ProcessStep>
@@ -3856,7 +3900,8 @@
                         <gco:DateTime>2017-02-17T00:00:31</gco:DateTime>
                      </cit:date>
                      <cit:dateType>
-                        <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="/gmd:MD_Metadata/gmd:portrayalCatalogueInfo/gmd:MD_PortrayalCatalogueReference/gmd:portrayalCatalogueCitation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode">/mdb:MD_Metadata/mdb:portrayalCatalogueInfo/mpc:MD_PortrayalCatalogueReference/mpc:portrayalCatalogueCitation/cit:CI_Citation/cit:date/cit:CI_Date/cit:dateType/cit:CI_DateTypeCode</cit:CI_DateTypeCode>
+                        <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode"
+                                             codeListValue="/gmd:MD_Metadata/gmd:portrayalCatalogueInfo/gmd:MD_PortrayalCatalogueReference/gmd:portrayalCatalogueCitation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode">/mdb:MD_Metadata/mdb:portrayalCatalogueInfo/mpc:MD_PortrayalCatalogueReference/mpc:portrayalCatalogueCitation/cit:CI_Citation/cit:date/cit:CI_Date/cit:dateType/cit:CI_DateTypeCode</cit:CI_DateTypeCode>
                      </cit:dateType>
                   </cit:CI_Date>
                </cit:date>
@@ -3879,7 +3924,8 @@
                                     <gco:DateTime>2017-02-17T00:00:33</gco:DateTime>
                                  </cit:date>
                                  <cit:dateType>
-                                    <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="/gmd:MD_Metadata/gmd:portrayalCatalogueInfo/gmd:MD_PortrayalCatalogueReference/gmd:portrayalCatalogueCitation/gmd:CI_Citation/gmd:identifier/gmd:MD_Identifier/gmd:authority/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode">/mdb:MD_Metadata/mdb:portrayalCatalogueInfo/mpc:MD_PortrayalCatalogueReference/mpc:portrayalCatalogueCitation/cit:CI_Citation/cit:identifier/mcc:MD_Identifier/mcc:authority/cit:CI_Citation/cit:date/cit:CI_Date/cit:dateType/cit:CI_DateTypeCode</cit:CI_DateTypeCode>
+                                    <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode"
+                                                         codeListValue="/gmd:MD_Metadata/gmd:portrayalCatalogueInfo/gmd:MD_PortrayalCatalogueReference/gmd:portrayalCatalogueCitation/gmd:CI_Citation/gmd:identifier/gmd:MD_Identifier/gmd:authority/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode">/mdb:MD_Metadata/mdb:portrayalCatalogueInfo/mpc:MD_PortrayalCatalogueReference/mpc:portrayalCatalogueCitation/cit:CI_Citation/cit:identifier/mcc:MD_Identifier/mcc:authority/cit:CI_Citation/cit:date/cit:CI_Date/cit:dateType/cit:CI_DateTypeCode</cit:CI_DateTypeCode>
                                  </cit:dateType>
                               </cit:CI_Date>
                            </cit:date>
@@ -3903,7 +3949,8 @@
                         <gco:CharacterString>/mdb:MD_Metadata/mdb:portrayalCatalogueInfo/mpc:MD_PortrayalCatalogueReference/mpc:portrayalCatalogueCitation/cit:CI_Citation/cit:onlineResource/cit:CI_OnlineResource/cit:description/gco:CharacterString</gco:CharacterString>
                      </cit:description>
                      <cit:function>
-                        <cit:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#" codeListValue="/gmd:MD_Metadata/gmd:portrayalCatalogueInfo/gmd:MD_PortrayalCatalogueReference/gmd:portrayalCatalogueCitation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:function/gmd:CI_OnLineFunctionCode">/mdb:MD_Metadata/mdb:portrayalCatalogueInfo/mpc:MD_PortrayalCatalogueReference/mpc:portrayalCatalogueCitation/cit:CI_Citation/cit:onlineResource/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
+                        <cit:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#"
+                                                   codeListValue="/gmd:MD_Metadata/gmd:portrayalCatalogueInfo/gmd:MD_PortrayalCatalogueReference/gmd:portrayalCatalogueCitation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:function/gmd:CI_OnLineFunctionCode">/mdb:MD_Metadata/mdb:portrayalCatalogueInfo/mpc:MD_PortrayalCatalogueReference/mpc:portrayalCatalogueCitation/cit:CI_Citation/cit:onlineResource/cit:CI_OnlineResource/cit:function/cit:CI_OnLineFunctionCode</cit:CI_OnLineFunctionCode>
                      </cit:function>
                   </cit:CI_OnlineResource>
                </cit:onlineResource>
@@ -3921,10 +3968,12 @@
    <mdb:metadataConstraints>
       <mco:MD_LegalConstraints>
          <mco:accessConstraints>
-            <mco:MD_RestrictionCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#" codeListValue="/gmd:MD_Metadata/gmd:metadataConstraints/gmd:MD_LegalConstraints/gmd:accessConstraints/gmd:MD_RestrictionCode/@codeListValue">/mdb:MD_Metadata/mdb:metadataConstraints/mco:MD_LegalConstraints/mco:accessConstraints/mco:MD_RestrictionCode</mco:MD_RestrictionCode>
+            <mco:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#"
+                                    codeListValue="/gmd:MD_Metadata/gmd:metadataConstraints/gmd:MD_LegalConstraints/gmd:accessConstraints/gmd:MD_RestrictionCode/@codeListValue">/mdb:MD_Metadata/mdb:metadataConstraints/mco:MD_LegalConstraints/mco:accessConstraints/mco:MD_RestrictionCode</mco:MD_RestrictionCode>
          </mco:accessConstraints>
          <mco:useConstraints>
-            <mco:MD_RestrictionCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#" codeListValue="/gmd:MD_Metadata/gmd:metadataConstraints/gmd:MD_LegalConstraints/gmd:useConstraints/gmd:MD_RestrictionCode/@codeListValue">/mdb:MD_Metadata/mdb:metadataConstraints/mco:MD_LegalConstraints/mco:useConstraints/mco:MD_RestrictionCode</mco:MD_RestrictionCode>
+            <mco:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#"
+                                    codeListValue="/gmd:MD_Metadata/gmd:metadataConstraints/gmd:MD_LegalConstraints/gmd:useConstraints/gmd:MD_RestrictionCode/@codeListValue">/mdb:MD_Metadata/mdb:metadataConstraints/mco:MD_LegalConstraints/mco:useConstraints/mco:MD_RestrictionCode</mco:MD_RestrictionCode>
          </mco:useConstraints>
       </mco:MD_LegalConstraints>
    </mdb:metadataConstraints>
@@ -3934,14 +3983,16 @@
             <gco:CharacterString>/mdb:MD_Metadata/mdb:metadataConstraints/mco:MD_SecurityConstraints/mco:useLimitation/gco:CharacterString</gco:CharacterString>
          </mco:useLimitation>
          <mco:classification>
-            <mco:MD_ClassificationCode codeList="http://librairies.ign.fr/geoportail/resources/CodeLists.xml#MD_ClassificationCode" codeListValue="unclassified">/mdb:MD_Metadata/mdb:metadataConstraints/mco:MD_SecurityConstraints/mco:classification/mco:MD_ClassificationCode</mco:MD_ClassificationCode>
+            <mco:MD_ClassificationCode codeList="http://librairies.ign.fr/geoportail/resources/CodeLists.xml#MD_ClassificationCode"
+                                       codeListValue="unclassified">/mdb:MD_Metadata/mdb:metadataConstraints/mco:MD_SecurityConstraints/mco:classification/mco:MD_ClassificationCode</mco:MD_ClassificationCode>
          </mco:classification>
       </mco:MD_SecurityConstraints>
    </mdb:metadataConstraints>
    <mdb:metadataMaintenance>
       <mmi:MD_MaintenanceInformation>
          <mmi:maintenanceAndUpdateFrequency>
-            <mmi:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="/gmd:MD_Metadata/gmd:metadataMaintenance/gmd:MD_MaintenanceInformation/gmd:maintenanceAndUpdateFrequency/gmd:MD_MaintenanceFrequencyCode"/>
+            <mmi:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+                                             codeListValue="/gmd:MD_Metadata/gmd:metadataMaintenance/gmd:MD_MaintenanceInformation/gmd:maintenanceAndUpdateFrequency/gmd:MD_MaintenanceFrequencyCode"/>
          </mmi:maintenanceAndUpdateFrequency>
          <mmi:maintenanceDate>
             <cit:CI_Date>
@@ -3960,10 +4011,11 @@
    </mdb:metadataMaintenance>
    <mdb:acquisitionInformation>
       <mac:MI_AcquisitionInformation>
-         <mac:scope>
+         <!-- MI_AcquisitionInformation/scope: Description of the part(s) of the resource that the acquisitionInformation pertains to. Includes a codelist, a description, and a temporal/spatial extent. --><mac:scope>
             <mcc:MD_Scope>
                <mcc:level>
-                  <mcc:MD_ScopeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#" codeListValue="/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:scope/gmd:DQ_Scope/gmd:level/gmd:MD_ScopeCode">/mdb:MD_Metadata/mdb:acquisitionInformation/mac:MI_AcquisitionInformation/mac:scope/mcc:MD_Scope/mcc:level/mcc:MD_ScopeCode</mcc:MD_ScopeCode>
+                  <mcc:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#"
+                                    codeListValue="/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:scope/gmd:DQ_Scope/gmd:level/gmd:MD_ScopeCode">/mdb:MD_Metadata/mdb:acquisitionInformation/mac:MI_AcquisitionInformation/mac:scope/mcc:MD_Scope/mcc:level/mcc:MD_ScopeCode</mcc:MD_ScopeCode>
                </mcc:level>
                <mcc:extent>
                   <gex:EX_Extent>
@@ -3987,17 +4039,17 @@
                <mac:type/>
                <mac:description/>
                <mac:mountedOn xlink:href="#platformIdentifier"/>
-               <mac:otherPropertyType/>
-               <mac:otherProperty/>
-               <mac:content xlink:href="#contentInformationTarget">
+               <!-- MI_Instrument/otherPropertyType: Describe the structure of the implementation specific information in the otherProperty. Typically a pointer to an XML schema object. --><mac:otherPropertyType/>
+               <!-- MI_Instrument/otherProperty: Implementation specific information used to provide fields and values that are not included in the standard. --><mac:otherProperty/>
+               <!-- MI_Instrument/content: Information about content in the dataset collected by this instrument. Typically an xlink to an existing contentInformation section in the metadata record. --><mac:content xlink:href="#contentInformationTarget">
                   <mrc:MD_CoverageDescription>
                      <mrc:attributeDescription/>
                      <mrc:attributeGroup xlink:href="#MD_AttributeGroupTarget"/>
                   </mrc:MD_CoverageDescription>
                </mac:content>
-               <mac:sensor xlink:href="#sensorIdentifier"/>
-               <mac:history>
-                  <mac:MI_InstrumentationEventList>
+               <!-- MI_Instrument/sensor: Information about a sensor that is mounted on this instrument. Typically an xlink to an existing MI_Sensor section in the metadata record. --><mac:sensor xlink:href="#sensorIdentifier"/>
+               <!-- MI_Instrument/history: Information about events that may have affected a platform/instrument/sensor and the data that it produces. --><mac:history>
+                  <!-- MI_InstrumentationEventList: Citation and description of a list of events that may have affected a platform/instrument/sensor and the data that it produces. --><mac:MI_InstrumentationEventList>
                      <mac:citation>
                         <cit:CI_Citation>
                            <cit:title>
@@ -4012,24 +4064,22 @@
                            </cit:onlineResource>
                         </cit:CI_Citation>
                      </mac:citation>
-                     <mac:description>
-                        <gco:CharacterString></gco:CharacterString>
-                     </mac:description>
+                     <mac:description/>
                      <mac:instrumentationEvent/>
                   </mac:MI_InstrumentationEventList>
                </mac:history>
             </mac:MI_Instrument>
          </mac:instrument>
          <mac:instrument>
-            <mac:MI_Sensor id="sensorIdentifier">
+            <!-- MI_Sensor: Information about a sensor that is mounted on an instrument. --><mac:MI_Sensor id="sensorIdentifier">
                <mac:identifier/>
                <mac:type/>
                <mac:mountedOn xlink:href="#platformIdentifier"/>
-               <mac:otherPropertyType/>
-               <mac:otherProperty/>
-               <mac:content xlink:href="#contentInformationTarget"/>
-               <mac:history>
-                  <mac:MI_InstrumentationEventList>
+               <!-- MI_Sensor/otherPropertyType: Describe the structure of the implementation specific information in the otherProperty. Typically a pointer to an XML schema object. --><mac:otherPropertyType/>
+               <!-- MI_Sensor/otherProperty: Implementation specific information used to provide fields and values that are not included in the standard. --><mac:otherProperty/>
+               <!-- MI_Sensor/content: Information about content in the dataset collected by this instrument. Typically an xlink to an existing contentInformation section in the metadata record. --><mac:content xlink:href="#contentInformationTarget"/>
+               <!-- MI_Sensor/history: Information about events that may have affected a platform/instrument/sensor and the data that it produces. --><mac:history>
+                  <!-- MI_InstrumentationEventList: Citation and description of a list of events that may have affected a platform/instrument/sensor and the data that it produces. --><mac:MI_InstrumentationEventList>
                      <mac:citation/>
                      <mac:description/>
                      <mac:instrumentationEvent/>
@@ -4042,8 +4092,8 @@
          <mac:operation>
             <mac:MI_Operation>
                <mac:status/>
-               <mac:otherPropertyType/>
-               <mac:otherProperty/>
+               <!-- MI_Operation/otherPropertyType: Describe the structure of the implementation specific information in the otherProperty. Typically a pointer to an XML schema object. --><mac:otherPropertyType/>
+               <!-- MI_Operation/otherProperty: Implementation specific information used to provide fields and values that are not included in the standard. --><mac:otherProperty/>
             </mac:MI_Operation>
          </mac:operation>
          <mac:platform>
@@ -4077,14 +4127,14 @@
                </mac:sponsor>
                <mac:instrument xlink:href="#instrumentIdentifier"/>
                <mac:instrument xlink:href="#sensorIdentifier"/>
-               <mac:otherPropertyType/>
-               <mac:otherProperty/>
-               <mac:history>
-                  <mac:MI_InstrumentationEventList>
+               <!-- MI_Platform/otherPropertyType: Describe the structure of the implementation specific information in the otherProperty. Typically a pointer to an XML schema object. --><mac:otherPropertyType/>
+               <!-- MI_Platform/otherProperty: Implementation specific information used to provide fields and values that are not included in the standard. --><mac:otherProperty/>
+               <!-- MI_Platform/history: Information about events that may have affected a platform/instrument/sensor and the data that it produces. --><mac:history>
+                  <!-- MI_InstrumentationEventList: Citation and description of a list of events that may have affected a platform/instrument/sensor and the data that it produces. --><mac:MI_InstrumentationEventList>
                      <mac:citation/>
                      <mac:description/>
                      <mac:instrumentationEvent>
-                        <mac:MI_InstrumentationEvent>
+                        <!-- MI_InstrumentationEvent: A description of an event that may have affected a platform/instrument/sensor and the data that it produces. --><mac:MI_InstrumentationEvent>
                            <mac:description/>
                            <mac:type/>
                            <mac:revisionHistory>
