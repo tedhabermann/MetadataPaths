@@ -4130,7 +4130,7 @@
                      >/mdb:MD_Metadata/mdb:acquisitionInformation/mac:MI_AcquisitionInformation/mac:scope/mcc:MD_Scope/mcc:level/mcc:MD_ScopeCode</mcc:MD_ScopeCode>
                </mcc:level>
                <mcc:extent>
-                  <gex:EX_Extent >
+                  <gex:EX_Extent>
                      <gex:description>
                         <gco:CharacterString>/mdb:MD_Metadata/mdb:acquisitionInformation/mac:MI_AcquisitionInformation/mac:scope/mcc:MD_Scope/mcc:extent/gex:EX_Extent/gex:description/gco:CharacterString</gco:CharacterString>
                      </gex:description>
