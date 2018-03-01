@@ -215,6 +215,37 @@
          </msr:pointInPixel>
       </msr:MD_Georectified>
    </mdb:spatialRepresentationInfo>
+   <mdb:spatialRepresentationInfo>
+      <msr:MI_Georeferenceable>
+         <msr:numberOfDimensions/>
+         <msr:cellGeometry/>
+         <msr:transformationParameterAvailability/>
+         <msr:controlPointAvailability/>
+         <msr:orientationParameterAvailability/>
+         <msr:georeferencedParameters>
+            <gco:Record xsi:type="gco:CharacterString_PropertyType">
+               <gco:CharacterString>Description of parameters goes here</gco:CharacterString>
+            </gco:Record>
+         </msr:georeferencedParameters>
+         <msr:parameterCitation>
+            <cit:CI_Citation>
+               <cit:title></cit:title>
+            </cit:CI_Citation>
+         </msr:parameterCitation>
+         <msr:geolocationInformation>
+            <msr:MI_GCPCollection>
+               <msr:gcp>
+                  <msr:MI_GCP>
+                     <msr:geographicCoordinates/>
+                  </msr:MI_GCP>
+               </msr:gcp>
+               <msr:collectionIdentification/>
+               <msr:collectionName/>
+               <msr:coordinateReferenceSystem/>
+            </msr:MI_GCPCollection>
+         </msr:geolocationInformation>
+      </msr:MI_Georeferenceable>
+   </mdb:spatialRepresentationInfo>
    <mdb:referenceSystemInfo>
       <mrs:MD_ReferenceSystem>
          <mrs:referenceSystemIdentifier>

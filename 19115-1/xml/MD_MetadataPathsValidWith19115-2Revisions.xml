@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/1.0" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:cat="http://standards.iso.org/iso/19115/-3/cat/1.0"
    xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:gcx="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:mas="http://standards.iso.org/iso/19115/-3/mas/1.0" xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0"
    xmlns:mpc="http://standards.iso.org/iso/19115/-3/mpc/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mda="http://standards.iso.org/iso/19115/-3/mda/1.0" xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:srv="http://standards.iso.org/iso/19115/-3/srv/2.1" xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:mdt="http://standards.iso.org/iso/19115/-3/mdt/1.0"
    xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/2.0" xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/2.0"
+=======
+<mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0"
+   xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0"
+   xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:cat="http://standards.iso.org/iso/19115/-3/cat/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0"
+   xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:gcx="http://standards.iso.org/iso/19115/-3/gcx/1.0"
+   xmlns:mas="http://standards.iso.org/iso/19115/-3/mas/1.0" xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/2.0"
+   xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:mpc="http://standards.iso.org/iso/19115/-3/mpc/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0"
+   xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mda="http://standards.iso.org/iso/19115/-3/mda/1.0" xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0"
+   xmlns:srv="http://standards.iso.org/iso/19115/-3/srv/2.0" xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:mdt="http://standards.iso.org/iso/19115/-3/mdt/1.0"
+   xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/2.0"
+   xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/2.0"
+>>>>>>> origin/master
    xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/mdt/1.0/mdt.xsd 
    http://standards.iso.org/iso/19115/-3/mac/2.0 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/mac/2.0/mac.xsd
    http://standards.iso.org/iso/19115/-3/mrl/2.0 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/mrl/2.0/mrl.xsd
    http://standards.iso.org/iso/19115/-3/mrc/2.0 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/mrc/2.0/mrc.xsd
+<<<<<<< HEAD
    http://standards.iso.org/iso/19115/-3/srv/2.1 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/srv/2.1/srv.xsd">
+=======
+   http://standards.iso.org/iso/19115/-3/msr/2.0 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/msr/2.0/msr.xsd
+   http://standards.iso.org/iso/19115/-3/cit/2.0 ../../../ISOTC211-XML/XML/standards.iso.org/19115/-3/cit/2.0/cit.xsd">
+>>>>>>> origin/master
    <mdb:metadataIdentifier>
       <mcc:MD_Identifier>
          <mcc:code>
@@ -133,6 +151,13 @@
                      </cit:contactInstructions>
                   </cit:CI_Contact>
                </cit:contactInfo>
+               <cit:partyIdentifier>
+                  <mcc:MD_Identifier>
+                     <mcc:code>
+                        <gco:CharacterString>/mdb:MD_Metadata/mdb:contact/cit:CI_Responsibility/cit:party/cit:CI_Organisation/cit:partyIdentifier/mcc:MD_Identifier/mcc:code/gco:CharacterString</gco:CharacterString>
+                     </mcc:code>
+                  </mcc:MD_Identifier>
+               </cit:partyIdentifier>
                <cit:individual>
                   <cit:CI_Individual>
                      <cit:name>
@@ -574,6 +599,20 @@
    </mdb:otherLocale>
    <mdb:spatialRepresentationInfo>
       <msr:MD_Georectified id="seriesSpatialRepresentation">
+         <msr:scope>
+            <mcc:MD_Scope>
+               <mcc:level>
+                  <mcc:MD_ScopeCode codeList="" codeListValue="">/mdb:MD_Metadata/mdb:spatialRepresentationInfo/msr:MD_Georectified/msr:scope/mcc:MD_Scope/mcc:level/mcc:MD_ScopeCode</mcc:MD_ScopeCode>
+               </mcc:level>
+               <mcc:levelDescription>
+                  <mcc:MD_ScopeDescription>
+                     <mcc:dataset>
+                        <gco:CharacterString>/mdb:MD_Metadata/mdb:spatialRepresentationInfo/msr:MD_Georectified/msr:scope/mcc:MD_Scope/mcc:levelDescription/mcc:MD_ScopeDescription/mcc:dataset/gco:CharacterString</gco:CharacterString>
+                     </mcc:dataset>
+                  </mcc:MD_ScopeDescription>
+               </mcc:levelDescription>
+            </mcc:MD_Scope>
+         </msr:scope>
          <msr:numberOfDimensions>
             <gco:Integer>77788</gco:Integer>
          </msr:numberOfDimensions>
@@ -1195,10 +1234,12 @@
                                  <cit:linkage>
                                     <gco:CharacterString>/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:linkage/gmd:URL</gco:CharacterString>
                                  </cit:linkage>
-                                 <cit:protocol gco:nilReason="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:protocol/@gco:nilReason">
+                                 <cit:protocol
+                                    gco:nilReason="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:protocol/@gco:nilReason">
                                     <gco:CharacterString>/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:protocol/gco:CharacterString</gco:CharacterString>
                                  </cit:protocol>
-                                 <cit:name gco:nilReason="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:name/@gco:nilReason">
+                                 <cit:name
+                                    gco:nilReason="/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:name/@gco:nilReason">
                                     <gco:CharacterString>/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:name/gco:CharacterString</gco:CharacterString>
                                  </cit:name>
                                  <cit:description>
@@ -2264,10 +2305,12 @@
                                  <cit:linkage>
                                     <gco:CharacterString>/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:linkage/gmd:URL</gco:CharacterString>
                                  </cit:linkage>
-                                 <cit:protocol gco:nilReason="/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:protocol/@gco:nilReason">
+                                 <cit:protocol
+                                    gco:nilReason="/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:protocol/@gco:nilReason">
                                     <gco:CharacterString>/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:protocol/gco:CharacterString</gco:CharacterString>
                                  </cit:protocol>
-                                 <cit:name gco:nilReason="/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:name/@gco:nilReason">
+                                 <cit:name
+                                    gco:nilReason="/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:name/@gco:nilReason">
                                     <gco:CharacterString>/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:name/gco:CharacterString</gco:CharacterString>
                                  </cit:name>
                                  <cit:description>
@@ -2504,7 +2547,8 @@
                </srv:parameter>
             </srv:SV_OperationMetadata>
          </srv:containsOperations>
-         <srv:operatesOn xlink:href="/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:operatesOn/@xlink:href" uuidref="/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:operatesOn/@uuidref"/>
+         <srv:operatesOn xlink:href="/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:operatesOn/@xlink:href"
+            uuidref="/gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:operatesOn/@uuidref"/>
       </srv:SV_ServiceIdentification>
    </mdb:identificationInfo>
    <mdb:contentInfo>
@@ -2513,7 +2557,7 @@
             <gco:RecordType xlink:href="http://www.ngdc.noaa.gov/getRecordDescription/gov.noaa.class:AERO200"/>
          </mrc:attributeDescription>
          <mrc:attributeGroup>
-            <mrc:MD_AttributeGroup>
+            <mrc:MD_AttributeGroup id="MD_AttributeGroupTarget">
                <mrc:contentType>
                   <mrc:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="physicalMeasurement">/gmd:MD_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:contentType/gmd:MD_CoverageContentTypeCode</mrc:MD_CoverageContentTypeCode>
                </mrc:contentType>
@@ -3357,12 +3401,19 @@
             <mrd:MD_DigitalTransferOptions>
                <mrd:onLine>
                   <cit:CI_OnlineResource>
-                     <cit:linkage gco:nilReason="/gmd:MD_Metadata/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:linkage/@gco:nilReason"/>
-                     <cit:protocol gco:nilReason="/gmd:MD_Metadata/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:protocol/@gco:nilReason"/>
-                     <cit:applicationProfile gco:nilReason="/gmd:MD_Metadata/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:applicationProfile/@gco:nilReason"/>
-                     <cit:name gco:nilReason="/gmd:MD_Metadata/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:name/@gco:nilReason"/>
-                     <cit:description gco:nilReason="/gmd:MD_Metadata/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:description/@gco:nilReason"/>
-                     <cit:function gco:nilReason="/gmd:MD_Metadata/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:function/@gco:nilReason"/>
+                     <cit:linkage
+                        gco:nilReason="/gmd:MD_Metadata/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:linkage/@gco:nilReason"/>
+                     <cit:protocol
+                        gco:nilReason="/gmd:MD_Metadata/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:protocol/@gco:nilReason"/>
+                     <cit:applicationProfile
+                        gco:nilReason="/gmd:MD_Metadata/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:applicationProfile/@gco:nilReason"/>
+                     <cit:name
+                        gco:nilReason="/gmd:MD_Metadata/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:name/@gco:nilReason"/>
+                     <cit:description
+                        gco:nilReason="/gmd:MD_Metadata/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:description/@gco:nilReason"/>
+                     <cit:function
+                        gco:nilReason="/gmd:MD_Metadata/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:function/@gco:nilReason"
+                     />
                   </cit:CI_OnlineResource>
                </mrd:onLine>
             </mrd:MD_DigitalTransferOptions>
@@ -3462,6 +3513,25 @@
                      </mdq:value>
                      <mdq:valueUnit xlink:href="AnyValidURI"/>
                   </mdq:DQ_QuantitativeResult>
+               </mdq:result>
+            </mdq:DQ_QuantitativeAttributeAccuracy>
+         </mdq:report>
+         <mdq:report>
+            <mdq:DQ_QuantitativeAttributeAccuracy>
+               <mdq:measure/>
+               <mdq:evaluationMethod/>
+               <mdq:result>
+                  <mdq:QE_CoverageResult>
+                     <mdq:spatialRepresentationType></mdq:spatialRepresentationType>
+                     <mdq:resultFile></mdq:resultFile>
+                     <mdq:resultSpatialRepresentation></mdq:resultSpatialRepresentation>
+                     <mdq:resultContentDescription xlink:href="#contentInformationTarget"/>
+                     <mdq:resultFormat>
+                        <mrd:MD_Format>
+                           <mrd:formatSpecificationCitation/>
+                        </mrd:MD_Format>
+                     </mdq:resultFormat>
+                  </mdq:QE_CoverageResult>
                </mdq:result>
             </mdq:DQ_QuantitativeAttributeAccuracy>
          </mdq:report>
@@ -3732,7 +3802,12 @@
                      <mrl:runTimeParameters/>
                      <mrl:parameter>
                         <mrl:LE_ProcessParameter>
+<<<<<<< HEAD
                            <!--<srv:name/>
+=======
+                           <!-- These properties are inherited from srv
+                           <srv:name/>
+>>>>>>> origin/master
                            <srv:direction/>
                            <srv:optionality/>
                            <srv:repeatability/>-->
@@ -3745,7 +3820,12 @@
                      </mrl:parameter>
                      <mrl:parameter>
                         <mrl:LE_ProcessParameter>
+<<<<<<< HEAD
                            <!--<srv:name/>
+=======
+                           <!-- These properties are inherited from srv
+                           <srv:name/>
+>>>>>>> origin/master
                            <srv:direction/>
                            <srv:optionality/>
                            <srv:repeatability/>-->
@@ -3913,8 +3993,33 @@
                <mac:mountedOn xlink:href="#platformIdentifier"/>
                <mac:otherPropertyType/>
                <mac:otherProperty/>
-               <mac:content xlink:href="#contentInformationTarget"/>
+               <mac:content xlink:href="#contentInformationTarget">
+                  <MI_CoverageDescription xmlns="http://standards.iso.org/iso/19115/-3/mrc/1.0">
+                     <attributeDescription/>
+                     <attributeGroup xlink:href="#MD_AttributeGroupTarget"/>
+                  </MI_CoverageDescription>
+               </mac:content>
                <mac:sensor xlink:href="#sensorIdentifier"/>
+               <mac:history>
+                  <mac:MI_InstrumentationEventList>
+                     <mac:citation>
+                        <cit:CI_Citation>
+                           <cit:title>
+                              <gco:CharacterString>/mdb:MD_Metadata/mdb:acquisitionInformation/mac:MI_AcquisitionInformation/mac:instrument/mac:MI_Instrument/mac:history/mac:MI_InstrumentationEventList/mac:citation/cit:CI_Citation/cit:title/gco:CharacterString</gco:CharacterString>
+                           </cit:title>
+                           <cit:onlineResource>
+                              <cit:CI_OnlineResource>
+                                 <cit:linkage>
+                                    <gco:CharacterString>http://www.example.com/testAnchorSubstitution</gco:CharacterString>
+                                 </cit:linkage>
+                              </cit:CI_OnlineResource>
+                           </cit:onlineResource>
+                        </cit:CI_Citation>
+                     </mac:citation>
+                     <mac:description></mac:description>
+                     <mac:instrumentationEvent></mac:instrumentationEvent>
+                  </mac:MI_InstrumentationEventList>
+               </mac:history>
             </mac:MI_Instrument>
          </mac:instrument>
          <mac:instrument>
