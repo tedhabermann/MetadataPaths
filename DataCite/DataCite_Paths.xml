@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns="http://datacite.org/schema/kernel-4"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://datacite.org/schema/kernel-4 ../../../Dropbox/Metadata/DataCite/schema/DataCite%204.1%20schema/dataCite_4.1.metadata.xsd">
+   <identifier identifierType="DOI">/resource/identifier</identifier>
+   <creators>
+      <creator>
+         <creatorName>/resource/creators/creator/creatorName</creatorName>
+         <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">/resource/creators/creator/nameIdentifier</nameIdentifier>
+         <affiliation>/resource/creators/creator/affiliation</affiliation>
+      </creator>
+   </creators>
+   <titles>
+      <title xml:lang="en-us">/resource/titles/title</title>
+   </titles>
+   <publisher>/resource/publisher</publisher>
+   <publicationYear>/resource/publicationYear</publicationYear>
+   <subjects>
+      <subject xml:lang="en-us">/resource/subjects/subject</subject>
+   </subjects>
+   <contributors>
+      <contributor contributorType="Editor">
+         <contributorName>/resource/contributors/contributor/contributorName</contributorName>
+         <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW">/resource/contributors/contributor/nameIdentifier</nameIdentifier>
+         <affiliation>/resource/contributors/contributor/affiliation</affiliation>
+      </contributor>
+   </contributors>
+   <dates>
+      <date dateType="Created">/resource/dates/date</date>
+   </dates>
+   <language>/resource/language</language>
+   <resourceType resourceTypeGeneral="Text">/resource/resourceType</resourceType>
+   <relatedIdentifiers>
+      <relatedIdentifier relatedIdentifierType="ISBN" relationType="IsPartOf">/resource/relatedIdentifiers/relatedIdentifier</relatedIdentifier>
+   </relatedIdentifiers>
+   <sizes>
+      <size>/resource/sizes/size</size>
+   </sizes>
+   <formats>
+      <format>/resource/formats/format</format>
+   </formats>
+   <rightsList>
+      <rights rightsURI="https://creativecommons.org/licenses/by/3.0/">/resource/rightsList/rights</rights>
+   </rightsList>
+   <descriptions>
+      <description xml:lang="en-us" descriptionType="Abstract">/resource/descriptions/description</description>
+      <description descriptionType="SeriesInformation">/resource/descriptions/description</description>
+   </descriptions>
+</resource>

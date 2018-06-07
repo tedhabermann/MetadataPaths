@@ -1,0 +1,235 @@
+<resource xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd" xmlns="http://datacite.org/schema/kernel-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<identifier identifierType="DOI">10.18429/JACoW-ICALEPCS2015-MOPGF070</identifier>
+<creators>
+  <creator>
+    <creatorName>Palaha, Arvinder</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00078328</nameIdentifier>
+    <affiliation>DLS, Oxfordshire, United Kingdom</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Angelsen, Christian</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00078619</nameIdentifier>
+    <affiliation>DLS, Oxfordshire, United Kingdom</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Bayer, Matthias</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00084430</nameIdentifier>
+    <affiliation>DESY, Hamburg, Germany</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Cautero, Giuseppe</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00036230</nameIdentifier>
+    <affiliation>Elettra-Sincrotrone Trieste S.C.p.A., Basovizza, Italy</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Correa, Jonathan</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00084438</nameIdentifier>
+    <affiliation>DESY, Hamburg, Germany</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Das, Dipayan</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00084435</nameIdentifier>
+    <affiliation>STFC/RAL, Chilton, Didcot, Oxon, United Kingdom</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Giuressi, Dario</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00037203</nameIdentifier>
+    <affiliation>Elettra-Sincrotrone Trieste S.C.p.A., Basovizza, Italy</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Gnadt, Pierre</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00084446</nameIdentifier>
+    <affiliation>DESY, Hamburg, Germany</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Graafsma, Heinz</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00025722</nameIdentifier>
+    <affiliation>DESY, Hamburg, Germany</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Gu, Qiushi</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00083988</nameIdentifier>
+    <affiliation>DLS, Oxfordshire, United Kingdom</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Guerrini, Nicola</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00084432</nameIdentifier>
+    <affiliation>STFC/RAL, Chilton, Didcot, Oxon, United Kingdom</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Göttlicher, Peter</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00022186</nameIdentifier>
+    <affiliation>DESY, Hamburg, Germany</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Hyun, HyoJung</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00081968</nameIdentifier>
+    <affiliation>PAL, Pohang, Republic of Korea</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Khromova, Anastasiya</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00084444</nameIdentifier>
+    <affiliation>Elettra-Sincrotrone Trieste S.C.p.A., Basovizza, Italy</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Kim, Kyung Sook</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00075167</nameIdentifier>
+    <affiliation>PAL, Pohang, Kyungbuk, Republic of Korea</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Lange, Sabine</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00084443</nameIdentifier>
+    <affiliation>DESY, Hamburg, Germany</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Marchal, Julien</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00050991</nameIdentifier>
+    <affiliation>DLS, Oxfordshire, United Kingdom</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Marras, Alessandro</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00084436</nameIdentifier>
+    <affiliation>DESY, Hamburg, Germany</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Marsh, Ben</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00084434</nameIdentifier>
+    <affiliation>STFC/RAL, Chilton, Didcot, Oxon, United Kingdom</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Menk, Ralf</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00047790</nameIdentifier>
+    <affiliation>Elettra-Sincrotrone Trieste S.C.p.A., Basovizza, Italy</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Nicholls, Tim</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00050989</nameIdentifier>
+    <affiliation>STFC/RAL, Chilton, Didcot, Oxon, United Kingdom</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Pedersen, Ulrik</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00022054</nameIdentifier>
+    <affiliation>DLS, Oxfordshire, United Kingdom</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Pinaroli, Giovanni</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00084447</nameIdentifier>
+    <affiliation>Elettra-Sincrotrone Trieste S.C.p.A., Basovizza, Italy</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Rah, Seungyu</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00019054</nameIdentifier>
+    <affiliation>PAL, Pohang, Kyungbuk, Republic of Korea</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Rees, Nick</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00022057</nameIdentifier>
+    <affiliation>DLS, Oxfordshire, United Kingdom</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Reza, Salim</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00084445</nameIdentifier>
+    <affiliation>DESY, Hamburg, Germany</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Sedgwick, Iain</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00084433</nameIdentifier>
+    <affiliation>STFC/RAL, Chilton, Didcot, Oxon, United Kingdom</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Shevyakov, Igor</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00084439</nameIdentifier>
+    <affiliation>DESY, Hamburg, Germany</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Smoljanin, Sergej</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00084442</nameIdentifier>
+    <affiliation>DESY, Hamburg, Germany</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Stebel, Luigi</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00084441</nameIdentifier>
+    <affiliation>DESY, Hamburg, Germany</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Tartoni, Nicola</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00078617</nameIdentifier>
+    <affiliation>DLS, Oxfordshire, United Kingdom</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Turchetta, Renato</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00084431</nameIdentifier>
+    <affiliation>STFC/RAL, Chilton, Didcot, Oxon, United Kingdom</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Wunderer, Cornelia</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00084437</nameIdentifier>
+    <affiliation>DESY, Hamburg, Germany</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Xia, Qingqing</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00084440</nameIdentifier>
+    <affiliation>DESY, Hamburg, Germany</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Yousef, Hazem</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00078612</nameIdentifier>
+    <affiliation>DLS, Oxfordshire, United Kingdom</affiliation>
+  </creator>
+  <creator>
+    <creatorName>Zimmer, Manfred</creatorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">JACoW-00049446</nameIdentifier>
+    <affiliation>DESY, Hamburg, Germany</affiliation>
+  </creator>
+</creators>
+<titles>
+  <title xml:lang="en-us">Report on Control/DAQ Software Design and Current State of Implementation for the Percival Detector</title>
+</titles>
+<publisher>JACoW, Geneva, Switzerland </publisher>
+<publicationYear>2015</publicationYear>
+<subjects>
+  <subject xml:lang="en-us">Accelerator Physics</subject>
+  <subject xml:lang="en-us">Experimental Control</subject>
+</subjects>
+<contributors>
+  <contributor contributorType="Editor">
+    <contributorName>Corvetti, Lou (Ed.)</contributorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW">JACoW-00041783</nameIdentifier>
+    <affiliation>AS, Clayton, Australia</affiliation>
+  </contributor>
+  <contributor contributorType="Editor">
+    <contributorName>Riches, Kathleen (Ed.)</contributorName>
+    <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW">JACoW-00062863</nameIdentifier>
+    <affiliation>SLSA, Clayton, Australia</affiliation>
+  </contributor>
+  <contributor contributorType="Editor">
+    <contributorName>Schaa, Volker RW (Ed.)</contributorName>
+    <nameIdentifier schemeURI="http://orcid.org/" nameIdentifierScheme="ORCID">0000-0003-1866-8570</nameIdentifier>
+    <affiliation>GSI, Darmstadt, Germany</affiliation>
+  </contributor>
+</contributors>
+<dates>
+  <date dateType="Created">2015-12-16</date>
+</dates>
+<language>en-us</language>
+<resourceType resourceTypeGeneral="Text">ConferencePaper</resourceType>
+<relatedIdentifiers>
+  <relatedIdentifier relatedIdentifierType="ISBN" relationType="IsPartOf">978-3-95450-148-9</relatedIdentifier>
+</relatedIdentifiers>
+<sizes>
+  <size>4 pages</size>
+  <size>0.432 MB</size>
+</sizes>
+<formats><format>PDF</format></formats>
+<rightsList>
+  <rights rightsURI="https://creativecommons.org/licenses/by/3.0/">CC 3.0</rights>
+</rightsList>
+<descriptions>
+  <description xml:lang="en-us" descriptionType="Abstract">
+    The increased brilliance of state-of-the-art Synchrotron radiation sources and Free Electron Lasers require imaging detectors capable of taking advantage of these light source facilities. The PERCIVAL ("Pixelated Energy Resolving CMOS Imager, Versatile and Large") detector is being developed in collaboration between DESY, Elettra Sincrotrone Trieste, Diamond Light Source and Pohang Accelerator Laboratory. It is a CMOS detector targeting soft X-rays &lt; 1 KeV, with a high resolution of up to 13 M pixels reading out at 120 Hz, producing a challenging data rate of 6 GB/s. The controls and data acquisition system will include a SDK to allow integration with third party control systems like Tango and DOOCS; an EPICS areaDetector driver will be included by default. It will make use of parallel readout to keep pace with the data rate, distributing the data over multiple nodes to create a single virtual dataset using the HDF5 file format for its speed advantages in high volumes of regular data. This paper presents the design of the control system software for the Percival detector, an update of the current state of the implementation carried out by Diamond Light Source.
+  </description>
+  <description descriptionType="SeriesInformation">
+    Proceedings of the 15th Int. Conf. on Accelerator and Large Experimental Physics Control Systems, ICALEPCS2015, Melbourne, Australia
+  </description>
+</descriptions>
+</resource>
