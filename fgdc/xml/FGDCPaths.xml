@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Dropbox/Metadata/FGDC/schema/fgdc-std-001-1998.xsd">
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="https://www.fgdc.gov/schemas/metadata/fgdc-std-001-1998.xsd">
   <idinfo>
     <datsetid>/fgdc:metadata/fgdc:idinfo/fgdc:datsetid</datsetid>
     <citation>
@@ -24,6 +25,7 @@
           <citeinfo>
             <origin>/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:lworkcit/fgdc:citeinfo/fgdc:origin</origin>
             <pubdate>/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:lworkcit/fgdc:citeinfo/fgdc:pubdate</pubdate>
+            <pubtime>/metadata/idinfo/citation/citeinfo/lworkcit/citeinfo/pubtime</pubtime>
             <title>/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:lworkcit/fgdc:citeinfo/fgdc:title</title>
             <edition>/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:lworkcit/fgdc:citeinfo/fgdc:edition</edition>
             <geoform>/fgdc:metadata/fgdc:idinfo/fgdc:citation/fgdc:citeinfo/fgdc:lworkcit/fgdc:citeinfo/fgdc:geoform</geoform>
@@ -54,6 +56,23 @@
           <enddate>/fgdc:metadata/fgdc:idinfo/fgdc:timeperd/fgdc:timeinfo/fgdc:rngdates/fgdc:enddate</enddate>
           <endtime>/fgdc:metadata/fgdc:idinfo/fgdc:timeperd/fgdc:timeinfo/fgdc:rngdates/fgdc:endtime</endtime>
         </rngdates>
+      </timeinfo>
+      <current>/metadata/idinfo/timeperd/current</current>
+    </timeperd>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>/metadata/idinfo/timeperd/timeinfo/sngdate/caldate</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <timeperd>
+      <timeinfo>
+        <mdattim>
+          <sngdate>
+            <caldate>/metadata/idinfo/timeperd/timeinfo/mdattim/sngdate/caldate</caldate>
+          </sngdate>
+        </mdattim>
       </timeinfo>
       <current>/fgdc:metadata/fgdc:idinfo/fgdc:timeperd/fgdc:current</current>
     </timeperd>
@@ -87,6 +106,10 @@
     <useconst>/fgdc:metadata/fgdc:idinfo/fgdc:useconst</useconst>
     <ptcontac>
       <cntinfo>
+        <cntperp>
+          <cntper>/metadata/idinfo/ptcontac/cntinfo/cntperp/cntper</cntper>
+          <cntorg>/metadata/idinfo/ptcontac/cntinfo/cntperp/cntorg</cntorg>
+        </cntperp>
         <cntorgp>
           <cntorg>/fgdc:metadata/fgdc:idinfo/fgdc:ptcontac/fgdc:cntinfo/fgdc:cntorgp/fgdc:cntorg</cntorg>
           <cntper>/fgdc:metadata/fgdc:idinfo/fgdc:ptcontac/fgdc:cntinfo/fgdc:cntorgp/fgdc:cntper</cntper>
@@ -211,27 +234,50 @@
             </lworkcit>
           </citeinfo>
         </srccite>
+        <srcscale>/metadata/dataqual/lineage/srcinfo/srcscale</srcscale>
         <typesrc>/fgdc:metadata/fgdc:dataqual/fgdc:lineage/fgdc:srcinfo/fgdc:typesrc</typesrc>
         <srctime>
           <timeinfo>
             <sngdate>
               <caldate>44440404</caldate>
             </sngdate>
+          </timeinfo>
+          <srccurr>/fgdc:metadata/fgdc:dataqual/fgdc:lineage/fgdc:srcinfo/fgdc:srctime/fgdc:srccurr</srccurr>
+        </srctime>
+        <srctime>
+          <timeinfo>
             <rngdates>
               <begdate>/fgdc:metadata/fgdc:dataqual/fgdc:lineage/fgdc:srcinfo/fgdc:srctime/fgdc:timeinfo/fgdc:rngdates/fgdc:begdate</begdate>
               <enddate>/fgdc:metadata/fgdc:dataqual/fgdc:lineage/fgdc:srcinfo/fgdc:srctime/fgdc:timeinfo/fgdc:rngdates/fgdc:enddate</enddate>
             </rngdates>
           </timeinfo>
-          <srccurr>/fgdc:metadata/fgdc:dataqual/fgdc:lineage/fgdc:srcinfo/fgdc:srctime/fgdc:srccurr</srccurr>
+          <srccurr>/metadata/dataqual/lineage/srcinfo/srctime/srccurr</srccurr>
+        </srctime>
+        <srctime>
+          <timeinfo>
+            <mdattim>
+              <sngdate>
+                <caldate>/metadata/dataqual/lineage/srcinfo/srctime/timeinfo/mdattim/sngdate/caldate</caldate>
+              </sngdate>
+            </mdattim>
+          </timeinfo>
+          <srccurr>/metadata/dataqual/lineage/srcinfo/srctime/srccurr</srccurr>
         </srctime>
         <srccitea>/fgdc:metadata/fgdc:dataqual/fgdc:lineage/fgdc:srcinfo/fgdc:srccitea</srccitea>
         <srccontr>/fgdc:metadata/fgdc:dataqual/fgdc:lineage/fgdc:srcinfo/fgdc:srccontr</srccontr>
       </srcinfo>
       <procstep>
         <procdesc>/fgdc:metadata/fgdc:dataqual/fgdc:lineage/fgdc:procstep/fgdc:procdesc</procdesc>
+        <srcused>/metadata/dataqual/lineage/procstep/srcused</srcused>
         <procdate>33330303</procdate>
+        <proctime>/metadata/dataqual/lineage/procstep/proctime</proctime>
+        <srcprod>/metadata/dataqual/lineage/procstep/srcprod</srcprod>
         <proccont>
           <cntinfo>
+            <cntperp>
+              <cntper>/metadata/dataqual/lineage/procstep/proccont/cntinfo/cntperp/cntper</cntper>
+              <cntorg>/metadata/dataqual/lineage/procstep/proccont/cntinfo/cntperp/cntper</cntorg>
+            </cntperp>
             <cntorgp>
               <cntorg>/fgdc:metadata/fgdc:dataqual/fgdc:lineage/fgdc:procstep/fgdc:proccont/fgdc:cntinfo/fgdc:cntorgp/fgdc:cntorg</cntorg>
               <cntper>/fgdc:metadata/fgdc:dataqual/fgdc:lineage/fgdc:procstep/fgdc:proccont/fgdc:cntinfo/fgdc:cntorgp/fgdc:cntper</cntper>
@@ -255,6 +301,9 @@
       </procstep>
     </lineage>
   </dataqual>
+  <spdoinfo>
+    <direct>/metadata/spdoinfo/direct</direct>
+  </spdoinfo>
   <spref>
     <horizsys>
       <geograph>
@@ -296,20 +345,48 @@
         <attrdef>/metadata/eainfo/detailed/attr/attrdef</attrdef>
         <attrdefs>/metadata/eainfo/detailed/attr/attrdefs</attrdefs>
         <attrdomv>
+          <codesetd>
+            <codesetn>/metadata/eainfo/detailed/attr/attrdomv/codesetd/codesetn</codesetn>
+            <codesets>/metadata/eainfo/detailed/attr/attrdomv/codesetd/codesets</codesets>
+          </codesetd>
+        </attrdomv>
+        <attrdomv>
           <edom>
             <edomv>/metadata/eainfo/detailed/attr/attrdomv/edom/edomv</edomv>
             <edomvd>/metadata/eainfo/detailed/attr/attrdomv/edom/edomvd</edomvd>
             <edomvds>/metadata/eainfo/detailed/attr/attrdomv/edom/edomvds</edomvds>
           </edom>
         </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>/metadata/eainfo/detailed/attr/attrlabl</attrlabl>
-        <attrdef>/metadata/eainfo/detailed/attr/attrdef</attrdef>
-        <attrdefs>/metadata/eainfo/detailed/attr/attrdefs</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>/metadata/eainfo/detailed/attr/attrdomv/rdom/rdommin</rdommin>
+            <rdommax>/metadata/eainfo/detailed/attr/attrdomv/rdom/rdommin</rdommax>
+            <attrunit>/metadata/eainfo/detailed/attr/attrdomv/rdom/attrunit</attrunit>
+            <attrmres>/metadata/eainfo/detailed/attr/attrdomv/rdom/attrmres</attrmres>
+            <attr>
+              <attrlabl>/metadata/eainfo/detailed/attr/attrdomv/rdom/attr/attrlabl</attrlabl>
+              <attrdef>/metadata/eainfo/detailed/attr/attrdomv/rdom/attr/attrdef</attrdef>
+              <attrdefs>/metadata/eainfo/detailed/attr/attrdomv/rdom/attr/attrdefs</attrdefs>
+              <attrdomv>
+                <codesetd>
+                  <codesetn>/metadata/eainfo/detailed/attr/attrdomv/rdom/attr/attrdomv/codesetd/codesetn</codesetn>
+                  <codesets>/metadata/eainfo/detailed/attr/attrdomv/rdom/attr/attrdomv/codesetd/codesets</codesets>
+                </codesetd>
+              </attrdomv>
+              <attrmfrq>/metadata/eainfo/detailed/attr/attrdomv/rdom/attr/attrmfrq</attrmfrq>
+            </attr>
+          </rdom>
+        </attrdomv>
         <attrdomv>
           <udom>/metadata/eainfo/detailed/attr/attrdomv/udom</udom>
         </attrdomv>
+        <begdatea>/metadata/eainfo/detailed/attr/begdatea</begdatea>
+        <enddatea>/metadata/eainfo/detailed/attr/enddatea</enddatea>
+        <attrvai>
+          <attrva>/metadata/eainfo/detailed/attr/attrvai/attrva</attrva>
+          <attrvae>/metadata/eainfo/detailed/attr/attrvai/attrvae</attrvae>
+        </attrvai>
+        <attrmfrq>/metadata/eainfo/detailed/attr/attrmfrq</attrmfrq>
       </attr>
     </detailed>
     <overview>
@@ -370,6 +447,8 @@
                 <networkr>/fgdc:metadata.org/fgdc:distinfo/fgdc:stdorder/fgdc:digform/fgdc:digtopt/fgdc:onlinopt/fgdc:computer/fgdc:networka/fgdc:networkr</networkr>
               </networka>
             </computer>
+            <accinstr>/metadata/distinfo/stdorder/digform/digtopt/onlinopt/accinstr</accinstr>
+            <oncomp>/metadata/distinfo/stdorder/digform/digtopt/onlinopt/oncomp</oncomp>
           </onlinopt>
         </digtopt>
       </digform>
@@ -385,6 +464,10 @@
     <metfrd>22330303</metfrd>
     <metc>
       <cntinfo>
+        <cntperp>
+          <cntper>/metadata/metainfo/metc/cntinfo/cntperp/cntper</cntper>
+          <cntorg>/metadata/metainfo/metc/cntinfo/cntperp/cntorg</cntorg>
+        </cntperp>
         <cntorgp>
           <cntorg>/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo/fgdc:cntorgp/fgdc:cntorg</cntorg>
           <cntper>/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo/fgdc:cntorgp/fgdc:cntper</cntper>
@@ -402,11 +485,22 @@
         <cntfax>/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo/fgdc:cntfax</cntfax>
         <cntemail>/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo/fgdc:cntemail</cntemail>
         <hours>/fgdc:metadata/fgdc:metainfo/fgdc:metc/fgdc:cntinfo/fgdc:hours</hours>
+        <cntinst>/metadata/metainfo/metc/cntinfo/cntinst</cntinst>
       </cntinfo>
     </metc>
     <metstdn>/fgdc:metadata/fgdc:metainfo/fgdc:metstdn</metstdn>
     <metstdv>/fgdc:metadata/fgdc:metainfo/fgdc:metstdv</metstdv>
+    <mettc>/metadata/metainfo/mettc</mettc>
     <metac>/fgdc:metadata/fgdc:metainfo/fgdc:metac</metac>
     <metuc>/fgdc:metadata/fgdc:metainfo/fgdc:metuc</metuc>
+    <metsi>
+      <metscs>/metadata/metainfo/metsi/metscs</metscs>
+      <metsc>/metadata/metainfo/metsi/metsc</metsc>
+      <metshd>/metadata/metainfo/metsi/metshd</metshd>
+    </metsi>
+    <metextns>
+      <onlink>/metadata/metainfo/metextns/onlink</onlink>
+      <metprof>/metadata/metainfo/metextns/metprof</metprof>
+    </metextns>
   </metainfo>
 </metadata>

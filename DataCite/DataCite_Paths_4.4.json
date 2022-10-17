@@ -1,0 +1,854 @@
+{
+    "data": {
+        "id": "https://doi.org/10.82164/paths4.4",
+        "type": "dois",
+        "attributes": {
+            "doi": "10.82164/PATHS4.4",
+            "identifiers": [
+                {
+                    "identifier": "data/attributes/identifiers/identifier",
+                    "identifierType": "data/attributes/identifiers/identifierType"
+                }
+            ],
+            "creators": [
+                {
+                    "name": "data/attributes/creators/Personal/name",
+                    "nameType": "Personal",
+                    "givenName": "data/attributes/creators/Personal/givenName",
+                    "familyName": "data/attributes/creators/Personal/familyName",
+                    "affiliation": [
+                        {
+                            "name": "data/attributes/creators/Personal/affiliation/name",
+                            "affiliationIdentifier": "data/attributes/creators/Personal/affiliation/affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data/attributes/creators/Personal/affiliation/affiliationIdentifierScheme",
+                            "SchemeURI": "https://data/attributes/creators/Personal/affiliation/SchemeURI"
+                        }
+                    ],
+                    "nameIdentifiers": [
+                        {
+                            "SchemeURI": "https://data/attributes/creators/Personal/nameIdentifiers/schemeUri",
+                            "nameIdentifier": "data/attributes/creators/Personal/nameIdentifiers/nameIdentifier",
+                            "nameIdentifierScheme": "data/attributes/creators/Personal/nameIdentifiers/nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data/attributes/creators/Organizational/name",
+                    "nameType": "Organizational",
+                    "givenName": "data/attributes/creators/Organizational/givenName",
+                    "familyName": "data/attributes/creators/Organizational/familyName",
+                    "affiliation": [
+                        {
+                            "name": "data/attributes/creators/Organizational/affiliation/name",
+                            "affiliationIdentifier": "data/attributes/creators/Organizational/affiliation/affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data/attributes/creators/Organizational/affiliation/affiliationIdentifierScheme",
+                            "SchemeURI": "https://data/attributes/creators/Organizational/affiliation/SchemeURI"
+                        }
+                    ],
+                    "nameIdentifiers": [
+                        {
+                            "SchemeURI": "https://data/attributes/creators/Organizational/nameIdentifiers/schemeUri",
+                            "nameIdentifier": "data/attributes/creators/Organizational/nameIdentifiers/nameIdentifier",
+                            "nameIdentifierScheme": "data/attributes/creators/Organizational/nameIdentifiers/nameIdentifierScheme"
+                        }
+                    ]
+                }
+            ],
+            "titles": [
+                {
+                    "title": "data/attributes/titles/title",
+                    "titleType": "data/attributes/titles/titleType"
+                }
+            ],
+            "publisher": "data/attributes/publisher",
+            "publicationYear": 1000,
+            "subjects": [
+                {
+                    "subject": "data/attributes/subjects/subject.1",
+                    "subjectScheme": "data/attributes/subjects/subjectScheme.1",
+                    "subjectSchemeURI": "data/attributes/subjects/subjectSchemeURI.1",
+                    "valueURI": "data/attributes/subjects/valueURI.1",
+                    "classificationCode": "data/attributes/subjects/classificationCode.1"
+                },
+                {
+                    "subject": "data/attributes/subjects/subject.2",
+                    "subjectScheme": "data/attributes/subjects/subjectScheme.2",
+                    "subjectSchemeURI": "data/attributes/subjects/subjectSchemeURI.2",
+                    "valueURI": "data/attributes/subjects/valueURI.2",
+                    "classificationCode": "data/attributes/subjects/classificationCode.2"
+                }
+            ],
+            "contributors": [
+                {
+                    "name": "data/attributes/contributors/ContactPerson/name",
+                    "nameType": "Personal",
+                    "givenName": "data/attributes/contributors/ContactPerson/givenName",
+                    "familyName": "data/attributes/contributors/ContactPerson/familyName",
+                    "affiliation": [
+                        {
+                            "name": "data/attributes/contributors/ContactPerson/affiliation/name",
+                            "affiliationIdentifier": "data/attributes/contributors/ContactPerson/affiliation/affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data/attributes/contributors/ContactPerson/affiliation/affiliationIdentifierScheme",
+                            "SchemeURI": "https://data/attributes/contributors/ContactPerson/affiliation/SchemeURI"
+                        }
+                    ],
+                    "contributorType": "ContactPerson",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data/attributes/contributors/ContactPerson/nameIdentifiers/nameIdentifier",
+                            "nameIdentifierScheme": "data/attributes/contributors/ContactPerson/nameIdentifiers/nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data/attributes/contributors/DataCollector/name",
+                    "nameType": "Personal",
+                    "givenName": "data/attributes/contributors/DataCollector/givenName",
+                    "familyName": "data/attributes/contributors/DataCollector/familyName",
+                    "affiliation": [
+                        {
+                            "name": "data/attributes/contributors/DataCollector/affiliation/name",
+                            "affiliationIdentifier": "data/attributes/contributors/DataCollector/affiliation/affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data/attributes/contributors/DataCollector/affiliation/affiliationIdentifierScheme",
+                            "SchemeURI": "https://data/attributes/contributors/DataCollector/affiliation/SchemeURI"
+                        }
+                    ],
+                    "contributorType": "DataCollector",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data/attributes/contributors/DataCollector/nameIdentifiers/nameIdentifier",
+                            "nameIdentifierScheme": "data/attributes/contributors/DataCollector/nameIdentifiers/nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data/attributes/contributors/DataCurator/name",
+                    "nameType": "Personal",
+                    "givenName": "data/attributes/contributors/DataCurator/givenName",
+                    "familyName": "data/attributes/contributors/DataCurator/familyName",
+                    "affiliation": [
+                        {
+                            "name": "data/attributes/contributors/DataCurator/affiliation/name",
+                            "affiliationIdentifier": "data/attributes/contributors/DataCurator/affiliation/affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data/attributes/contributors/DataCurator/affiliation/affiliationIdentifierScheme",
+                            "SchemeURI": "https://data/attributes/contributors/DataCurator/affiliation/SchemeURI"
+                        }
+                    ],
+                    "contributorType": "DataCurator",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data/attributes/contributors/DataCurator/nameIdentifiers/nameIdentifier",
+                            "nameIdentifierScheme": "data/attributes/contributors/DataCurator/nameIdentifiers/nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data/attributes/contributors/DataManager/name",
+                    "nameType": "Personal",
+                    "givenName": "data/attributes/contributors/DataManager/givenName",
+                    "familyName": "data/attributes/contributors/DataManager/familyName",
+                    "affiliation": [
+                        {
+                            "name": "data/attributes/contributors/DataManager/affiliation/name",
+                            "affiliationIdentifier": "data/attributes/contributors/DataManager/affiliation/affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data/attributes/contributors/DataManager/affiliation/affiliationIdentifierScheme",
+                            "SchemeURI": "https://data/attributes/contributors/DataManager/affiliation/SchemeURI"
+                        }
+                    ],
+                    "contributorType": "DataManager",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data/attributes/contributors/DataManager/nameIdentifiers/nameIdentifier",
+                            "nameIdentifierScheme": "data/attributes/contributors/DataManager/nameIdentifiers/nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data/attributes/contributors/Distributor/name",
+                    "nameType": "Personal",
+                    "givenName": "data/attributes/contributors/Distributor/givenName",
+                    "familyName": "data/attributes/contributors/Distributor/familyName",
+                    "affiliation": [
+                        {
+                            "name": "data/attributes/contributors/Distributor/affiliation/name",
+                            "affiliationIdentifier": "data/attributes/contributors/Distributor/affiliation/affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data/attributes/contributors/Distributor/affiliation/affiliationIdentifierScheme",
+                            "SchemeURI": "https://data/attributes/contributors/Distributor/affiliation/SchemeURI"
+                        }
+                    ],
+                    "contributorType": "Distributor",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data/attributes/contributors/Distributor/nameIdentifiers/nameIdentifier",
+                            "nameIdentifierScheme": "data/attributes/contributors/Distributor/nameIdentifiers/nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data/attributes/contributors/Editor/name",
+                    "nameType": "Personal",
+                    "givenName": "data/attributes/contributors/Editor/givenName",
+                    "familyName": "data/attributes/contributors/Editor/familyName",
+                    "affiliation": [
+                        {
+                            "name": "data/attributes/contributors/Editor/affiliation/name",
+                            "affiliationIdentifier": "data/attributes/contributors/Editor/affiliation/affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data/attributes/contributors/Editor/affiliation/affiliationIdentifierScheme",
+                            "SchemeURI": "https://data/attributes/contributors/Editor/affiliation/SchemeURI"
+                        }
+                    ],
+                    "contributorType": "Editor",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data/attributes/contributors/Editor/nameIdentifiers/nameIdentifier",
+                            "nameIdentifierScheme": "data/attributes/contributors/Editor/nameIdentifiers/nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data/attributes/contributors/HostingInstitution/name",
+                    "nameType": "Personal",
+                    "givenName": "data/attributes/contributors/HostingInstitution/givenName",
+                    "familyName": "data/attributes/contributors/HostingInstitution/familyName",
+                    "affiliation": [
+                        {
+                            "name": "data/attributes/contributors/HostingInstitution/affiliation/name",
+                            "affiliationIdentifier": "data/attributes/contributors/HostingInstitution/affiliation/affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data/attributes/contributors/HostingInstitution/affiliation/affiliationIdentifierScheme",
+                            "SchemeURI": "https://data/attributes/contributors/HostingInstitution/affiliation/SchemeURI"
+                        }
+                    ],
+                    "contributorType": "HostingInstitution",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data/attributes/contributors/HostingInstitution/nameIdentifiers/nameIdentifier",
+                            "nameIdentifierScheme": "data/attributes/contributors/HostingInstitution/nameIdentifiers/nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data/attributes/contributors/Other/name",
+                    "nameType": "Personal",
+                    "givenName": "data/attributes/contributors/Other/givenName",
+                    "familyName": "data/attributes/contributors/Other/familyName",
+                    "affiliation": [
+                        {
+                            "name": "data/attributes/contributors/Other/affiliation/name",
+                            "affiliationIdentifier": "data/attributes/contributors/Other/affiliation/affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data/attributes/contributors/Other/affiliation/affiliationIdentifierScheme",
+                            "SchemeURI": "https://data/attributes/contributors/Other/affiliation/SchemeURI"
+                        }
+                    ],
+                    "contributorType": "Other",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data/attributes/contributors/Other/nameIdentifiers/nameIdentifier",
+                            "nameIdentifierScheme": "data/attributes/contributors/Other/nameIdentifiers/nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data/attributes/contributors/Producer/name",
+                    "nameType": "Personal",
+                    "givenName": "data/attributes/contributors/Producer/givenName",
+                    "familyName": "data/attributes/contributors/Producer/familyName",
+                    "affiliation": [
+                        {
+                            "name": "data/attributes/contributors/Producer/affiliation/name",
+                            "affiliationIdentifier": "data/attributes/contributors/Producer/affiliation/affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data/attributes/contributors/Producer/affiliation/affiliationIdentifierScheme",
+                            "SchemeURI": "https://data/attributes/contributors/Producer/affiliation/SchemeURI"
+                        }
+                    ],
+                    "contributorType": "Producer",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data/attributes/contributors/Producer/nameIdentifiers/nameIdentifier",
+                            "nameIdentifierScheme": "data/attributes/contributors/Producer/nameIdentifiers/nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data/attributes/contributors/ProjectLeader/name",
+                    "nameType": "Personal",
+                    "givenName": "data/attributes/contributors/ProjectLeader/givenName",
+                    "familyName": "data/attributes/contributors/ProjectLeader/familyName",
+                    "affiliation": [
+                        {
+                            "name": "data/attributes/contributors/ProjectLeader/affiliation/name",
+                            "affiliationIdentifier": "data/attributes/contributors/ProjectLeader/affiliation/affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data/attributes/contributors/ProjectLeader/affiliation/affiliationIdentifierScheme",
+                            "SchemeURI": "https://data/attributes/contributors/ProjectLeader/affiliation/SchemeURI"
+                        }
+                    ],
+                    "contributorType": "ProjectLeader",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data/attributes/contributors/ProjectLeader/nameIdentifiers/nameIdentifier",
+                            "nameIdentifierScheme": "data/attributes/contributors/ProjectLeader/nameIdentifiers/nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data/attributes/contributors/ProjectManager/name",
+                    "nameType": "Personal",
+                    "givenName": "data/attributes/contributors/ProjectManager/givenName",
+                    "familyName": "data/attributes/contributors/ProjectManager/familyName",
+                    "affiliation": [
+                        {
+                            "name": "data/attributes/contributors/ProjectManager/affiliation/name",
+                            "affiliationIdentifier": "data/attributes/contributors/ProjectManager/affiliation/affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data/attributes/contributors/ProjectManager/affiliation/affiliationIdentifierScheme",
+                            "SchemeURI": "https://data/attributes/contributors/ProjectManager/affiliation/SchemeURI"
+                        }
+                    ],
+                    "contributorType": "ProjectManager",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data/attributes/contributors/ProjectManager/nameIdentifiers/nameIdentifier",
+                            "nameIdentifierScheme": "data/attributes/contributors/ProjectManager/nameIdentifiers/nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data/attributes/contributors/ProjectMember/name",
+                    "nameType": "Personal",
+                    "givenName": "data/attributes/contributors/ProjectMember/givenName",
+                    "familyName": "data/attributes/contributors/ProjectMember/familyName",
+                    "affiliation": [
+                        {
+                            "name": "data/attributes/contributors/ProjectMember/affiliation/name",
+                            "affiliationIdentifier": "data/attributes/contributors/ProjectMember/affiliation/affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data/attributes/contributors/ProjectMember/affiliation/affiliationIdentifierScheme",
+                            "SchemeURI": "https://data/attributes/contributors/ProjectMember/affiliation/SchemeURI"
+                        }
+                    ],
+                    "contributorType": "ProjectMember",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data/attributes/contributors/ProjectMember/nameIdentifiers/nameIdentifier",
+                            "nameIdentifierScheme": "data/attributes/contributors/ProjectMember/nameIdentifiers/nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data/attributes/contributors/RegistrationAgency/name",
+                    "nameType": "Personal",
+                    "givenName": "data/attributes/contributors/RegistrationAgency/givenName",
+                    "familyName": "data/attributes/contributors/RegistrationAgency/familyName",
+                    "affiliation": [
+                        {
+                            "name": "data/attributes/contributors/RegistrationAgency/affiliation/name",
+                            "affiliationIdentifier": "data/attributes/contributors/RegistrationAgency/affiliation/affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data/attributes/contributors/RegistrationAgency/affiliation/affiliationIdentifierScheme",
+                            "SchemeURI": "https://data/attributes/contributors/RegistrationAgency/affiliation/SchemeURI"
+                        }
+                    ],
+                    "contributorType": "RegistrationAgency",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data/attributes/contributors/RegistrationAgency/nameIdentifiers/nameIdentifier",
+                            "nameIdentifierScheme": "data/attributes/contributors/RegistrationAgency/nameIdentifiers/nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data/attributes/contributors/RegistrationAuthority/name",
+                    "nameType": "Personal",
+                    "givenName": "data/attributes/contributors/RegistrationAuthority/givenName",
+                    "familyName": "data/attributes/contributors/RegistrationAuthority/familyName",
+                    "affiliation": [
+                        {
+                            "name": "data/attributes/contributors/RegistrationAuthority/affiliation/name",
+                            "affiliationIdentifier": "data/attributes/contributors/RegistrationAuthority/affiliation/affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data/attributes/contributors/RegistrationAuthority/affiliation/affiliationIdentifierScheme",
+                            "SchemeURI": "https://data/attributes/contributors/RegistrationAuthority/affiliation/SchemeURI"
+                        }
+                    ],
+                    "contributorType": "RegistrationAuthority",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data/attributes/contributors/RegistrationAuthority/nameIdentifiers/nameIdentifier",
+                            "nameIdentifierScheme": "data/attributes/contributors/RegistrationAuthority/nameIdentifiers/nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data/attributes/contributors/RelatedPerson/name",
+                    "nameType": "Personal",
+                    "givenName": "data/attributes/contributors/RelatedPerson/givenName",
+                    "familyName": "data/attributes/contributors/RelatedPerson/familyName",
+                    "affiliation": [
+                        {
+                            "name": "data/attributes/contributors/RelatedPerson/affiliation/name",
+                            "affiliationIdentifier": "data/attributes/contributors/RelatedPerson/affiliation/affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data/attributes/contributors/RelatedPerson/affiliation/affiliationIdentifierScheme",
+                            "SchemeURI": "https://data/attributes/contributors/RelatedPerson/affiliation/SchemeURI"
+                        }
+                    ],
+                    "contributorType": "RelatedPerson",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data/attributes/contributors/RelatedPerson/nameIdentifiers/nameIdentifier",
+                            "nameIdentifierScheme": "data/attributes/contributors/RelatedPerson/nameIdentifiers/nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data/attributes/contributors/ResearchGroup/name",
+                    "nameType": "Personal",
+                    "givenName": "data/attributes/contributors/ResearchGroup/givenName",
+                    "familyName": "data/attributes/contributors/ResearchGroup/familyName",
+                    "affiliation": [
+                        {
+                            "name": "data/attributes/contributors/ResearchGroup/affiliation/name",
+                            "affiliationIdentifier": "data/attributes/contributors/ResearchGroup/affiliation/affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data/attributes/contributors/ResearchGroup/affiliation/affiliationIdentifierScheme",
+                            "SchemeURI": "https://data/attributes/contributors/ResearchGroup/affiliation/SchemeURI"
+                        }
+                    ],
+                    "contributorType": "ResearchGroup",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data/attributes/contributors/ResearchGroup/nameIdentifiers/nameIdentifier",
+                            "nameIdentifierScheme": "data/attributes/contributors/ResearchGroup/nameIdentifiers/nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data/attributes/contributors/RightsHolder/name",
+                    "nameType": "Personal",
+                    "givenName": "data/attributes/contributors/RightsHolder/givenName",
+                    "familyName": "data/attributes/contributors/RightsHolder/familyName",
+                    "affiliation": [
+                        {
+                            "name": "data/attributes/contributors/RightsHolder/affiliation/name",
+                            "affiliationIdentifier": "data/attributes/contributors/RightsHolder/affiliation/affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data/attributes/contributors/RightsHolder/affiliation/affiliationIdentifierScheme",
+                            "SchemeURI": "https://data/attributes/contributors/RightsHolder/affiliation/SchemeURI"
+                        }
+                    ],
+                    "contributorType": "RightsHolder",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data/attributes/contributors/RightsHolder/nameIdentifiers/nameIdentifier",
+                            "nameIdentifierScheme": "data/attributes/contributors/RightsHolder/nameIdentifiers/nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data/attributes/contributors/Researcher/name",
+                    "nameType": "Personal",
+                    "givenName": "data/attributes/contributors/Researcher/givenName",
+                    "familyName": "data/attributes/contributors/Researcher/familyName",
+                    "affiliation": [
+                        {
+                            "name": "data/attributes/contributors/Researcher/affiliation/name",
+                            "affiliationIdentifier": "data/attributes/contributors/Researcher/affiliation/affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data/attributes/contributors/Researcher/affiliation/affiliationIdentifierScheme",
+                            "SchemeURI": "https://data/attributes/contributors/Researcher/affiliation/SchemeURI"
+                        }
+                    ],
+                    "contributorType": "Researcher",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data/attributes/contributors/Researcher/nameIdentifiers/nameIdentifier",
+                            "nameIdentifierScheme": "data/attributes/contributors/Researcher/nameIdentifiers/nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data/attributes/contributors/Sponsor/name",
+                    "nameType": "Personal",
+                    "givenName": "data/attributes/contributors/Sponsor/givenName",
+                    "familyName": "data/attributes/contributors/Sponsor/familyName",
+                    "affiliation": [
+                        {
+                            "name": "data/attributes/contributors/Sponsor/affiliation/name",
+                            "affiliationIdentifier": "data/attributes/contributors/Sponsor/affiliation/affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data/attributes/contributors/Sponsor/affiliation/affiliationIdentifierScheme",
+                            "SchemeURI": "https://data/attributes/contributors/Sponsor/affiliation/SchemeURI"
+                        }
+                    ],
+                    "contributorType": "Sponsor",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data/attributes/contributors/Sponsor/nameIdentifiers/nameIdentifier",
+                            "nameIdentifierScheme": "data/attributes/contributors/Sponsor/nameIdentifiers/nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data/attributes/contributors/Supervisor/name",
+                    "nameType": "Personal",
+                    "givenName": "data/attributes/contributors/Supervisor/givenName",
+                    "familyName": "data/attributes/contributors/Supervisor/familyName",
+                    "affiliation": [
+                        {
+                            "name": "data/attributes/contributors/Supervisor/affiliation/name",
+                            "affiliationIdentifier": "data/attributes/contributors/Supervisor/affiliation/affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data/attributes/contributors/Supervisor/affiliation/affiliationIdentifierScheme",
+                            "SchemeURI": "https://data/attributes/contributors/Supervisor/affiliation/SchemeURI"
+                        }
+                    ],
+                    "contributorType": "Supervisor",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data/attributes/contributors/Supervisor/nameIdentifiers/nameIdentifier",
+                            "nameIdentifierScheme": "data/attributes/contributors/Supervisor/nameIdentifiers/nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data/attributes/contributors/WorkPackageLeader/name",
+                    "nameType": "Personal",
+                    "givenName": "data/attributes/contributors/WorkPackageLeader/givenName",
+                    "familyName": "data/attributes/contributors/WorkPackageLeader/familyName",
+                    "affiliation": [
+                        {
+                            "name": "data/attributes/contributors/WorkPackageLeader/affiliation/name",
+                            "affiliationIdentifier": "data/attributes/contributors/WorkPackageLeader/affiliation/affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data/attributes/contributors/WorkPackageLeader/affiliation/affiliationIdentifierScheme",
+                            "SchemeURI": "https://data/attributes/contributors/WorkPackageLeader/affiliation/SchemeURI"
+                        }
+                    ],
+                    "contributorType": "WorkPackageLeader",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data/attributes/contributors/WorkPackageLeader/nameIdentifiers/nameIdentifier",
+                            "nameIdentifierScheme": "data/attributes/contributors/WorkPackageLeader/nameIdentifiers/nameIdentifierScheme"
+                        }
+                    ]
+                }
+            ],
+            "dates": [
+                {
+                    "date": "2021-11-18T00:00:00Z",
+                    "dateType": "Accepted"
+                },
+                {
+                    "date": "2021-11-18T00:00:00Z",
+                    "dateType": "Available"
+                },
+                {
+                    "date": "2021-11-18T00:00:00Z",
+                    "dateType": "Copyrighted"
+                },
+                {
+                    "date": "2021-11-18T00:00:00Z",
+                    "dateType": "Collected"
+                },
+                {
+                    "date": "2021-11-18T00:00:00Z",
+                    "dateType": "Created"
+                },
+                {
+                    "date": "2020",
+                    "dateType": "Issued"
+                },
+                {
+                    "date": "2021-11-18T00:00:00Z",
+                    "dateType": "Submitted"
+                },
+                {
+                    "date": "2021-11-18T00:00:00Z",
+                    "dateType": "Updated"
+                },
+                {
+                    "date": "2021-11-18T00:00:00Z",
+                    "dateType": "Valid"
+                },
+                {
+                    "date": "2021-11-18T00:00:00Z",
+                    "dateType": "Withdrawn"
+                },
+                {
+                    "date": "2021-11-18T00:00:00Z",
+                    "dateType": "Other"
+                }
+            ],
+            "language": "en",
+            "types": {
+                "ris": "data/attributes/types/ris",
+                "bibtex": "data/attributes/types/bibtex",
+                "citeproc": "data/attributes/types/citeproc",
+                "schemaOrg": "data/attributes/types/schema.org",
+                "resourceType": "/data/attributes/types/resourceType",
+                "resourceTypeGeneral": "Dataset"
+            },
+            "relatedIdentifiers": [
+                {
+                    "relationType": "IsCitedBy",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/IsCitedBy/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "Cites",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/Cites/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsSupplementTo",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/IsSupplementTo/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsSupplementedBy",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/IsSupplementedBy/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsContinuedBy",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/IsContinuedBy/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "Continues",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/Continues/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsNewVersionOf",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/IsNewVersionOf/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsPreviousVersionOf",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/IsPreviousVersionOf/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsPartOf",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/IsPartOf/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "HasPart",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/HasPart/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsPublishedIn",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/IsPublishedIn/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsReferencedBy",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/IsReferencedBy/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "References",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/References/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsDocumentedBy",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/IsDocumentedBy/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "Documents",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/Documents/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsCompiledBy",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/IsCompiledBy/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "Compiles",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/Compiles/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsVariantFormOf",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/IsVariantFormOf/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsOriginalFormOf",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/IsOriginalFormOf/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsIdenticalTo",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/IsIdenticalTo/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "HasMetadata",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/HasMetadata/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsMetadataFor",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/IsMetadataFor/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "Reviews",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/Reviews/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsReviewedBy",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/IsReviewedBy/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsDerivedFrom",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/IsDerivedFrom/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsSourceOf",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/IsSourceOf/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "Describes",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/Describes/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsDescribedBy",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/IsDescribedBy/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "HasVersion",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/HasVersion/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsVersionOf",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/IsVersionOf/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "Requires",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/Requires/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsRequiredBy",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/IsRequiredBy/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "Obsoletes",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/Obsoletes/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsObsoletedBy",
+                    "relatedIdentifier": "https://data/attributes/relatedIdentifiers/IsObsoletedBy/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                }
+            ],
+            "sizes": [
+                "data/attributes/relatedIdentifiers/sizes"
+            ],
+            "formats": [
+                "data/attributes/relatedIdentifiers/formats"
+            ],
+            "version": "data/attributes/version",
+            "rightsList": [
+                {
+                    "rights": "data/attributes/rightsList/rights",
+                    "rightsUri": "https://data/attributes/rightsList/rightsUri",
+                    "schemeUri": "https://data/attributes/rightsList/schemeUri",
+                    "rightsIdentifier": "data/attributes/rightsList/rightsIdentifier",
+                    "rightsIdentifierScheme": "data/attributes/rightsList/rightsIdentifierScheme"
+                }
+            ],
+            "descriptions": [
+                {
+                    "description": "data/attributes/descriptions/description/Abstract",
+                    "descriptionType": "Abstract"
+                },
+                {
+                    "description": "data/attributes/descriptions/description/Methods",
+                    "descriptionType": "Methods"
+                },
+                {
+                    "description": "data/attributes/descriptions/description/TechnicalInfo",
+                    "descriptionType": "SeriesInformation"
+                },
+                {
+                    "description": "data/attributes/descriptions/description/TechnicalInfo",
+                    "descriptionType": "TableOfContents"
+                },
+                {
+                    "description": "data/attributes/descriptions/description/TechnicalInfo",
+                    "descriptionType": "TechnicalInfo"
+                },
+                {
+                    "description": "data/attributes/descriptions/description/Other",
+                    "descriptionType": "Other"
+                }
+            ],
+            "geoLocations": [
+                {
+                    "geoLocationBox": {
+                        "eastBoundLongitude": "data/attributes/geoLocations/geoLocationBox/eastBoundLongitude",
+                        "northBoundLatitude": "data/attributes/geoLocations/geoLocationBox/westBoundLongitude",
+                        "southBoundLatitude": "data/attributes/geoLocations/geoLocationBox/southBoundLatitude",
+                        "westBoundLongitude": "data/attributes/geoLocations/geoLocationBox/northBoundLatitude"
+                    },
+                    "geoLocationPoint": {
+                        "pointLatitude": "geolocationPointLongitude",
+                        "pointLongitude": "geolocationPointLatitude"
+                    },
+                    "geoLocationPlace": "geolocationPlace"
+                }
+            ],
+            "fundingReferences": [
+                {
+                    "funderName": "data/attributes/fundingReferences/funderName",
+                    "awardNumber": "data/attributes/fundingReferences/awardNumber",
+                    "funderIdentifier": "data/attributes/fundingReferences/funderIdentifier",
+                    "funderIdentifierType": "data/attributes/fundingReferences/funderIdentifierType"
+                }
+            ],
+            "url": "https://data/attributes/url",
+            "contentUrl": "https://data/attributes/contentUrl"
+        }
+    }
+}

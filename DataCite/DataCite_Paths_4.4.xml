@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns="http://datacite.org/schema/kernel-4"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <identifier identifierType="/resource/identifier/@identifierType"
+      >/resource/identifier</identifier>
+   <alternateIdentifiers>
+      <alternateIdentifier
+         alternateIdentifierType="/resource/alternateIdentifiers/alternateIdentifier/@alternateIdentifierType"
+         >/resource/alternateIdentifiers/alternateIdentifier</alternateIdentifier>
+   </alternateIdentifiers>
+   <creators>
+      <creator>
+         <creatorName nameType="/resource/creators/creator/creatorName/@nameType"
+            >/resource/creators/creator/creatorName</creatorName>
+         <givenName>/resource/creators/creator/givenName</givenName>
+         <familyName>/resource/creators/creator/familyName</familyName>
+         <nameIdentifier schemeURI="/resource/creators/creator/nameIdentifier/@schemeURI"
+            nameIdentifierScheme="/resource/creators/creator/nameIdentifier/@nameIdentifierScheme"
+            >/resource/creators/creator/nameIdentifier</nameIdentifier>
+         <affiliation
+            affiliationIdentifier="/resource/creators/creator/affiliation/@affiliationIdentifier"
+            affiliationIdentifierScheme="/resource/creators/creator/affiliation/@affiliationIdentifierScheme"
+            >/resource/creators/creator/affiliation</affiliation>
+      </creator>
+   </creators>
+   <titles>
+      <title xml:lang="/resource/titles/title/@lang">/resource/titles/title</title>
+      <title xml:lang="en-/resource/titles/title/@lang"
+         titleType="/resource/titles/title/@titleType">/resource/titles/title[2]</title>
+   </titles>
+   <publisher xml:lang="/resource/publisher/@lang">/resource/publisher</publisher>
+   <publicationYear>/resource/publicationYear</publicationYear>
+   <subjects>
+      <subject xml:lang="/resource/subjects/subject/@lang"
+         schemeURI="/resource/subjects/subject/@schemeURI"
+         subjectScheme="/resource/subjects/subject/@subjectScheme"
+         valueURI="/resource/subjects/subject/@valueURI"
+         classificationCode="/resource/subjects/subject/@classificationCode"
+         >/resource/subjects/subject</subject>
+   </subjects>
+   <contributors>
+      <contributor contributorType="/resource/contributors/contributor/@contributorType">
+         <contributorName nameType="/resource/contributors/contributor/contributorName/@nameType"
+            xml:lang="/resource/contributors/contributor/contributorName/@lang"
+            >/resource/contributors/contributorName</contributorName>
+         <givenName>/resource/contributors/contributor/givenName</givenName>
+         <familyName>/resource/contributors/contributor/familyName</familyName>
+         <nameIdentifier schemeURI="/resource/contributors/contributor/nameIdentifier/@schemeURI"
+            nameIdentifierScheme="/resource/contributors/contributor/nameIdentifier/@nameIdentifierScheme"
+            >/resource/contributors/contributor/nameIdentifier</nameIdentifier>
+         <affiliation
+            affiliationIdentifier="/resource/contributors/contributor/affiliation/@affiliationIdentifier"
+            affiliationIdentifierScheme="/resource/contributors/contributor/affiliation/@affiliationIdentifierScheme"
+            >/resource/contributors/contributor/affiliation</affiliation>
+      </contributor>
+   </contributors>
+   <dates>
+      <date dateType="/resource/dates/date/@dateType"
+         dateInformation="/resource/dates/date/@dateInformation">/resource/dates/date</date>
+   </dates>
+   <language>/resource/language</language>
+   <resourceType resourceTypeGeneral="/resource/resourceType/@resourceTypeGeneral"
+      >/resource/resourceType</resourceType>
+   <relatedIdentifiers>
+      <relatedIdentifier
+         relatedIdentifierType="/resource/relatedIdentifiers/relatedIdentifier/@relatedIdentifierType"
+         relationType="/resource/relatedIdentifiers/relatedIdentifier/@relationType"
+         relatedMetadataScheme="/resource/relatedIdentifiers/relatedIdentifier/@relatedMetadataScheme+json"
+         schemeURI="/resource/relatedIdentifiers/relatedIdentifier/@schemeURI"
+         >/resource/relatedIdentifiers/relatedIdentifier</relatedIdentifier>
+   </relatedIdentifiers>
+   <sizes>
+      <size>/resource/sizes/size</size>
+   </sizes>
+   <formats>
+      <format>/resource/formats/format</format>
+   </formats>
+   <version>/resource/version</version>
+   <rightsList>
+      <rights xml:lang="/resource/rightsList/rights/@lang"
+         schemeURI="/resource/rightsList/rights/@schemeURI">
+         rightsIdentifierScheme="/resource/rightsList/rights/@ightsIdentifierScheme"
+         rightsIdentifier="/resource/rightsList/rights/@rightsIdentifier"
+         rightsURI="/resource/rightsList/rights/@rightsURI"/resource/rightsList/rights</rights>
+   </rightsList>
+   <descriptions>
+      <description xml:lang="/resource/descriptions/description/@lang"
+         descriptionType="/resource/descriptions/description/@descriptionType"
+         >/resource/descriptions/description</description>
+   </descriptions>
+   <geoLocations>
+      <geoLocation>
+         <geoLocationPlace>/resource/geoLocations/geoLocation/geoLocationPlace</geoLocationPlace>
+         <geoLocationPoint>
+            <pointLongitude>/resource/geoLocations/geoLocation/geoLocationPoint/pointLongitude</pointLongitude>
+            <pointLatitude>/resource/geoLocations/geoLocation/geoLocationPoint/pointLatitude</pointLatitude>
+         </geoLocationPoint>
+         <geoLocationBox>
+            <westBoundLongitude>/resource/geoLocations/geoLocation/geoLocationBox/westBoundLongitude</westBoundLongitude>
+            <eastBoundLongitude>/resource/geoLocations/geoLocation/geoLocationBox/eastBoundLongitude</eastBoundLongitude>
+            <southBoundLatitude>/resource/geoLocations/geoLocation/geoLocationBox/southBoundLatitude</southBoundLatitude>
+            <northBoundLatitude>/resource/geoLocations/geoLocation/geoLocationBox/northBoundLatitude</northBoundLatitude>
+         </geoLocationBox>
+         <geoLocationPolygon>
+            <polygonPoint>
+               <pointLatitude>/resource/geoLocations/geoLocation/geoLocationPolygon/polygonPoint/pointLatitude</pointLatitude>
+               <pointLongitude>/resource/geoLocations/geoLocation/geoLocationPolygon/polygonPoint/pointLongitude</pointLongitude>
+            </polygonPoint>
+         </geoLocationPolygon>
+      </geoLocation>
+   </geoLocations>
+   <fundingReferences>
+      <fundingReference>
+         <funderName>/resource/fundingReferences/fundingReference/funderName</funderName>
+         <funderIdentifier
+            funderIdentifierType="/resource/fundingReferences/fundingReference/funderIdentifier/@funderIdentifierType"
+            >/resource/fundingReferences/fundingReference/funderIdentifier</funderIdentifier>
+         <awardNumber>/resource/fundingReferences/fundingReference/awardNumber</awardNumber>
+         <awardTitle>/resource/fundingReferences/fundingReference/awardTitle</awardTitle>
+      </fundingReference>
+   </fundingReferences>
+   <relatedItem relationType="/resource/relatedItem/@relationType"
+      relatedItemType="/resource/relatedItem/@relatedItemType">
+      <relatedItemIdentifier
+         relatedItemIdentifierType="/resource/relatedItem/relatedItemIdentifier/@relatedItemIdentifierType"
+         relatedMetadataScheme="/resource/relatedItem/relatedItemIdentifier/@relatedMetadataScheme"
+         schemeURI="/resource/relatedItem/relatedItemIdentifier/@schemeURI"
+         schemaType="/resource/relatedItem/relatedItemIdentifier/@schemaType"
+         >/resource/relatedItem/relatedItemIdentifier</relatedItemIdentifier>
+      <title>/resource/relatedItem/title</title>
+      <title titleType="/resource/relatedItem/title/@titleType"
+         xml:lang="/resource/relatedItem/title/@lang">/resource/relatedItem/title</title>
+      <volume>/resource/relatedItem/volume</volume>
+      <issue xml:lang="/resource/relatedItem/issue/@lang">/resource/relatedItem/issue</issue>
+      <number numberType="/resource/relatedItem/number/@numberType"
+         >/resource/relatedItem/number</number>
+      <firstPage>/resource/relatedItem/firstPage</firstPage>
+      <lastPage>/resource/relatedItem/lastPage</lastPage>
+      <publisher xml:lang="/resource/relatedItem/publisher/@lang"
+         >/resource/relatedItem/publisher</publisher>
+      <publicationYear>/resource/relatedItem/publicationYear</publicationYear>
+      <edition>/resource/relatedItem/edition</edition>
+      <creator>
+         <creatorName nameType="/resource/relatedItem/creator/creatorName/@nameType"
+            >/resource/relatedItem/creator/creatorName</creatorName>
+         <givenName>/resource/relatedItem/creator/givenName</givenName>
+         <familyName>/resource/relatedItem/creator/familyName</familyName>
+      </creator>
+      <contributor contributorType="/resource/relatedItem/contributor/@contributorType">
+         <contributorName nameType="/resource/relatedItem/contributor/contributorName/@nameType"
+            >/resource/relatedItem/contributor/contributorName</contributorName>
+         <givenName>/resource/relatedItem/contributor/givenName</givenName>
+         <familyName>/resource/relatedItem/contributor/familyName</familyName>
+      </contributor>
+   </relatedItem>
+</resource>

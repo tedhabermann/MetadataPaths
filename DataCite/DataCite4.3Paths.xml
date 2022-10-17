@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 ../../../Dropbox/Metadata/DataCite/schema/DataCite%204.1%20schema/dataCite_4.1.metadata.xsd" xmlns="http://datacite.org/schema/kernel-4">
+    <fundingReferences>
+        <fundingReference>
+            <funderName>/resource/fundingReferences/fundingReference/funderName</funderName>
+            <awardNumber>/resource/fundingReferences/fundingReference/awardNumber</awardNumber>
+            <awardTitle>/resource/fundingReferences/fundingReference/awardTitle</awardTitle>
+            <funderIdentifier funderIdentifierType="Crossref Funder ID">/resource/fundingReferences/fundingReference/funderIdentifier</funderIdentifier>
+        </fundingReference>
+    </fundingReferences>
+    <identifier identifierType="DOI">10.6084/m9.figshare.5930848</identifier>
+    <creators>
+        <creator>
+            <creatorName nameType="2.1.1">2.1</creatorName>
+            <givenName>2.2</givenName>
+            <familyName>2.3</familyName>
+            <nameIdentifier schemeURI="2.4.2" nameIdentifierScheme="2.4.1">2.4</nameIdentifier>
+            <affiliation>2.5</affiliation>
+        </creator>
+        <creator>
+            <creatorName nameType="Organizational">/resource/creators/creator/creatorName[@nameType='Organizational']</creatorName>
+            <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW-ID">/resource/creators/creator/nameIdentifier</nameIdentifier>
+            <affiliation>/resource/creators/creator/affiliation</affiliation>
+        </creator>
+    </creators>
+    <titles>
+        <title xml:lang="en-us" titleType="3.1">3</title>
+    </titles>
+    <publisher>
+        <publisherIdentifier schemeURI="/resource/publisherIdentifier/@schemeURI" publisherIdentifierScheme="/resource/publisherIdentifier/@publisherIdentifierScheme">/resource/publisherIdentifier</publisherIdentifier>
+    </publisher>
+    <publisher>
+        <publisherIdentifier schemeURI="" publisherIdentifierScheme="ROR"></publisherIdentifier>
+    </publisher>
+    <publicationYear>2018</publicationYear>
+    <subjects>
+        <subject xml:lang="en-us" schemeURI="/resource/subjects/subject/@schemeURI" subjectScheme="/resource/subjects/subject/@subjectScheme" valueURI="/resource/subjects/subject/@valueURI">/resource/subjects/subject</subject>
+    </subjects>
+    <contributors>
+        <contributor contributorType="Editor">
+            <contributorName>/resource/contributors/contributor/contributorName</contributorName>
+            <nameIdentifier schemeURI="http://jacow.org/" nameIdentifierScheme="JACoW">/resource/contributors/contributor/nameIdentifier</nameIdentifier>
+            <affiliation>/resource/contributors/contributor/affiliation</affiliation>
+        </contributor>
+    </contributors>
+    <dates>
+        <date dateType="Created">/resource/dates/date</date>
+    </dates>
+    <language>eng</language>
+    <resourceType resourceTypeGeneral="Text">/resource/resourceType</resourceType>
+    <relatedIdentifiers>
+        <relatedIdentifier relatedIdentifierType="ISBN" relationType="IsPartOf" relatedMetadataScheme="ISO-19115" resourceTypeGeneral="Dataset" schemeType="XSD" schemeURI="http://standards.iso.org">/resource/relatedIdentifiers/relatedIdentifier</relatedIdentifier>
+    </relatedIdentifiers>
+    <sizes>
+        <size>/resource/sizes/size</size>
+    </sizes>
+    <formats>
+        <format>/resource/formats/format</format>
+    </formats>
+    <rightsList>
+        <rights rightsURI="https://creativecommons.org/licenses/by/3.0/">/resource/rightsList/rights</rights>
+    </rightsList>
+    <descriptions>
+        <description xml:lang="en-us" descriptionType="Abstract">/resource/descriptions/description</description>
+        <description descriptionType="SeriesInformation">/resource/descriptions/description</description>
+    </descriptions>
+</resource>
