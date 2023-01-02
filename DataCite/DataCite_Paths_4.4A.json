@@ -815,10 +815,10 @@
                             "westBoundLongitude": "data/attributes/geoLocations/geoLocationBox/northBoundLatitude"
                         },
                         "geoLocationPoint": {
-                            "pointLatitude": "geolocationPointLongitude",
-                            "pointLongitude": "geolocationPointLatitude"
+                            "pointLatitude": "data/attributes/geoLocations/geoLocationPoint/geolocationPointLongitude",
+                            "pointLongitude": "data/attributes/geoLocations/geoLocationPoint/geolocationPointLatitude"
                         },
-                        "geoLocationPlace": "geolocationPlace"
+                        "geoLocationPlace": "data/attributes/geoLocations/geoLocationPlace"
                     }
                 ],
                 "fundingReferences": [
