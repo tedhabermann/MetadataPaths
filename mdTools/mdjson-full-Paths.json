@@ -1,0 +1,420 @@
+[
+    {
+        "schema": {
+            "name": "$[*].schema.name",
+            "version": "$[*].schema.version"
+        },
+        "contact": [
+            {
+                "contactId": "$[*].contact..contactId",
+                "isOrganization": "$[*].contact..isOrganization",
+                "name": "$[*].contact..name",
+                "memberOfOrganization": [
+                    "$[*].contact..memberOfOrganization"
+                ],
+                "phone": [
+                    {
+                        "service": [
+                            "$[*].contact..phone..service"
+                        ],
+                        "phoneName": "$[*].contact..phone..phoneName",
+                        "phoneNumber": "$[*].contact..phone..phoneNumber"
+                    }
+                ],
+                "address": [
+                    {
+                        "addressType": [
+                            "$[*].contact..address..addressType"
+                        ],
+                        "deliveryPoint": [
+                            "$[*].contact..address..deliveryPoint"
+                        ],
+                        "city": "$[*].contact..address..city",
+                        "administrativeArea": "$[*].contact..address..administrativeArea",
+                        "country": "$[*].contact..address..country",
+                        "postalCode": "$[*].contact..address..postalCode"
+                    }
+                ],
+                "electronicMailAddress": [
+                    "$[*].contact..electronicMailAddress"
+                ],
+                "externalIdentifier": [
+                    {
+                        "identifier": "$[*].contact..externalIdentifier..identifier",
+                        "namespace": "$[*].contact..externalIdentifier..namespace"
+                    }
+                ],
+                "positionName": "$[*].contact..positionName",
+                "contactType": "$[*].contact..contactType"
+            }
+        ],
+        "metadata": {
+            "metadataInfo": {
+                "metadataIdentifier": {
+                    "identifier": "$[*].metadata..metadataInfo.metadataIdentifier.identifier",
+                    "namespace": "$[*].metadata..metadataInfo.metadataIdentifier.namespace"
+                },
+                "metadataContact": [
+                    {
+                        "party": [
+                            {
+                                "contactId": "$[*].metadata..metadataInfo.metadataContact..party..contactId"
+                            }
+                        ],
+                        "role": "$[*].metadata..metadataInfo.metadataContact..role"
+                    }
+                ],
+                "defaultMetadataLocale": {
+                    "language": "$[*].metadata..metadataInfo.defaultMetadataLocale.language",
+                    "characterSet": "$[*].metadata..metadataInfo.defaultMetadataLocale.characterSet",
+                    "country": "$[*].metadata..metadataInfo.defaultMetadataLocale.country"
+                },
+                "metadataDate": [
+                    {
+                        "date": "$[*].metadata..metadataInfo.metadataDate..date",
+                        "dateType": "$[*].metadata..metadataInfo.metadataDate..dateType",
+                        "description": "$[*].metadata..metadataInfo.metadataDate..description"                        
+                    }
+                ],
+                "metadataOnlineResource": [
+                    {
+                        "name": "$[*].metadata..metadataInfo.metadataOnlineResource..name",
+                        "uri": "$[*].metadata..metadataInfo.metadataOnlineResource..name"
+                    }
+                ],
+                "metadataStatus": "$[*].metadata..metadataInfo.metadataStatus"
+            },
+            "resourceInfo": {
+                "abstract": "$[*].metadata..resourceInfo.resourceType",
+                "resourceType": [
+                    {
+                        "type": "$[*].metadata..resourceInfo.resourceType..type",
+                        "name": "$[*].metadata..resourceInfo.resourceType..name"
+                    }
+                ],
+                "citation": {
+                    "title": "$[*].metadata..resourceInfo.citation.title",
+                    "responsibleParty": [
+                        {
+                            "party": [
+                                {
+                                    "contactId": "$[*].metadata..resourceInfo.citation.responsibleParty..party..contactId"
+                                }
+                            ],
+                            "role": "$[*].metadata..resourceInfo.citation.responsibleParty..role"
+                        }
+                    ],
+                    "date": [
+                        {
+                            "date": "$[*].metadata..resourceInfo.citation.date..date",
+                            "dateType": "$[*].metadata..resourceInfo.citation.date..dateType"
+                        }
+                    ],
+                    "identifier": [
+                        {
+                            "identifier": "$[*].metadata..resourceInfo.citation.identifier..identifier",
+                            "namespace": "$[*].metadata..resourceInfo.citation.identifier..namespace",
+                            "description": "$[*].metadata..resourceInfo.citation.identifier..description"
+                        }
+                    ]
+                },
+                "defaultResourceLocale": {
+                    "language": "$[*].metadata..resourceInfo.defaultResourceLocale.language",
+                    "characterSet": "$[*].metadata..resourceInfo.defaultResourceLocale.characterSet",
+                    "country": "$[*].metadata..resourceInfo.defaultResourceLocale.ccountry"
+                },
+                "spatialReferenceSystem": [
+                    {
+                        "referenceSystemIdentifier": {
+                            "authority": {
+                                "responsibleParty": [
+                                    {
+                                        "party": [
+                                            {
+                                                "contactId": "$[*].metadata..resourceInfo.spatialReferenceSystem..referenceSystemIdentifier.authority..responsibleParty..party..contactId"
+                                            }
+                                        ],
+                                        "role": "$[*].metadata..resourceInfo.spatialReferenceSystem..referenceSystemIdentifier.authority..responsibleParty..role"
+                                    }
+                                ],
+                                "title": "$[*].metadata..resourceInfo.spatialReferenceSystem..referenceSystemIdentifier.authority..title"
+                            },
+                            "identifier": "$[*].metadata..resourceInfo.spatialReferenceSystem..referenceSystemIdentifier.identifier",
+                            "namespace": "$[*].metadata..resourceInfo.spatialReferenceSystem..referenceSystemIdentifier.namespace"
+                        },
+                        "referenceSystemType": "$[*].metadata..resourceInfo.spatialReferenceSystem..referenceSystemType"
+                    }
+                ],
+                "timePeriod": {
+                    "startDateTime": "$[*].metadata..resourceInfo.timePeriod..startDateTime",
+                    "endDateTime": "$[*].metadata..resourceInfo.timePeriod..endDateTime",
+                    "description": "$[*].metadata..resourceInfo.timePeriod..description"
+                },
+                "extent": [
+                    {
+                        "description": "$[*].metadata..resourceInfo.extent..description",
+                        "containsData": "$[*].metadata..resourceInfo.extent..geographicExtent..containsData",
+                        "geographicExtent": [
+                            {
+                                "containsData": true,
+                                "boundingBox": {
+                                    "northLatitude": "$[*].metadata..resourceInfo.extent..geographicExtent..boundingBox.northLatitude",
+                                    "southLatitude": "$[*].metadata..resourceInfo.extent..geographicExtent..boundingBox.southLatitude",
+                                    "eastLongitude": "$[*].metadata..resourceInfo.extent..geographicExtent..boundingBox.eastLongitude",
+                                    "westLongitude": "$[*].metadata..resourceInfo.extent..geographicExtent..boundingBox.westLongitude"
+                                },
+                                "description": "$[*].metadata..resourceInfo.extent..geographicExtent..description"
+                            }
+                        ]
+                    }
+                ],
+                "keyword": [
+                    {
+                        "keyword": [
+                            {
+                                "keyword": "$[*].metadata..resourceInfo.keyword..keyword..keyword"
+                            }
+                        ],
+                        "keywordType": "$[*].metadata..resourceInfo.keyword..keywordType",
+                        "thesaurus": {
+                            "onlineResource": [
+                                {
+                                    "uri": "$[*].metadata..resourceInfo.keyword..thesaurus.onlineResource..uri"
+                                }
+                            ],
+                            "title": "$[*].metadata..resourceInfo.keyword..thesaurus.title"
+                        }
+                    }
+                ],
+                "status": [
+                    "$[*].metadata..resourceInfo.status"
+                ],
+                "constraint": [
+                    {
+                        "useLimitation": [
+                            "$[*].metadata..resourceInfo.constraint..useLimitation"
+                        ],
+                        "responsibleParty": [
+                            {
+                                "party": [
+                                    {
+                                        "contactId": "$[*].metadata..resourceInfo.constraint..responsibleParty..party..contactId"
+                                    }
+                                ],
+                                "role": "$[*].metadata..resourceInfo.constraint..responsibleParty..role"
+                            }
+                        ],
+                        "legal": {
+                            "accessConstraint": [
+                                "$[*].metadata..resourceInfo.constraint..legal.accessConstraint"
+                            ],
+                            "useConstraint": [
+                                "$[*].metadata..resourceInfo.constraint..legal.useConstraint"
+                            ],
+                            "otherConstraint": [
+                                "$[*].metadata..resourceInfo.constraint..legal.otherConstraint"
+                            ]
+                        }
+                    }
+                ],
+                "purpose": "$[*].metadata..resourceInfo.purpose",
+                "pointOfContact": [
+                    {
+                        "party": [
+                            {
+                                "contactId": "$[*].metadata..resourceInfo.pointOfContact..party..contactId" 
+                            }
+                        ],
+                        "role": "$[*].metadata..resourceInfo.pointOfContact..role"
+                    }
+                ],
+                "shortAbstract": "$[*].metadata..resourceInfo.shortAbstract",
+                "supplementalInfo": "$[*].metadata..resourceInfo.supplementalInfo",
+                "credit": "$[*].metadata..resourceInfo.credit"
+            },
+            "resourceLineage": [
+                {
+                    "processStep": [
+                        {
+                            "timePeriod": {
+                                "startDateTime": "$[*].metadata..resourceLineage..processStep..timePeriod.startDateTime",
+                                "endDateTime": "$[*].metadata..resourceLineage..processStep..timePeriod.endDateTime"
+                            },
+                            "description": "$[*].metadata..resourceLineage..processStep..description",
+                            "stepId": "$[*].metadata..resourceLineage..processStep..stepId",
+                            "scope": {
+                                "scopeCode": "$[*].metadata..resourceLineage..processStep..scope.scopeCode"
+                            },
+                            "reference": [
+                                {
+                                    "responsibleParty": [
+                                        {
+                                            "party": [
+                                                {
+                                                    "contactId": "$[*].metadata..resourceLineage..processStep..reference..responsibleParty..party..contactId"
+                                                }
+                                            ],
+                                            "role": "$[*].metadata..resourceLineage..processStep..reference..responsibleParty..role"
+                                        }
+                                    ],
+                                    "date": [
+                                        {
+                                            "date": "$[*].metadata..resourceLineage..processStep..reference..date..date",
+                                            "dateType": "$[*].metadata..resourceLineage..processStep..reference..date..dateType"
+                                        }
+                                    ],
+                                    "identifier": [
+                                        {
+                                            "identifier": "$[*].metadata..resourceLineage..processStep..reference..identifier..identifier",
+                                            "namespace": "$[*].metadata..resourceLineage..processStep..reference..identifier..namespace"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "processor": [
+                                {
+                                    "party": [
+                                        {
+                                            "contactId": "$[*].metadata..resourceLineage..processStep..processor..party..contactId"
+                                        }
+                                    ],
+                                    "role": "$[*].metadata..resourceLineage..processStep..processor..role"
+                                }
+                            ],
+                            "stepSource": [
+                                {
+                                    "description": "$[*].metadata..resourceLineage..processStep..stepSource..description"
+                                }
+                            ],
+                            "stepProduct": [
+                                {
+                                    "description": "$[*].metadata..resourceLineage..processStep..stepProduct..description"
+                                }
+                            ]
+                        }
+                    ],
+                    "statement": "$[*].metadata..resourceLineage..statement",
+                    "scope": {
+                        "scopeCode": "$[*].metadata..resourceLineage..scope.scopeCode"
+                    }
+                }
+            ],
+            "dataQuality": [
+                {
+                    "scope": {
+                        "scopeCode": "$[*].metadata..dataQuality..scope.scopeCode"
+                    },
+                    "systemIdentifier": {
+                        "uid": "$[*].metadata..dataQuality..systemIdentifier.uid"
+                    },
+                    "standaloneQualityReport": {
+                        "abstract": "$[*].metadata..dataQuality..standaloneQualityReport..abstract",
+                        "reportReference": {
+                            "responsibleParty": [
+                                {
+                                    "role": "$[*].metadata..dataQuality..standaloneQualityReport..reportReference.responsibleParty..role"
+                                }
+                            ],
+                            "presentationForm": [
+                                "$[*].metadata..dataQuality..standaloneQualityReport..reportReference.presentationForm"
+                            ],
+                            "title": "$[*].metadata..dataQuality..standaloneQualityReport..reportReference.title",
+                            "date": [
+                                {
+                                    "date": "$[*].metadata..dataQuality..standaloneQualityReport..reportReference.date..date",
+                                    "dateType": "$[*].metadata..dataQuality..standaloneQualityReport..reportReference.date..dateType"
+                                }
+                            ],
+                            "identifier": [
+                                {
+                                    "identifier": "$[*].metadata..dataQuality..standaloneQualityReport..reportReference.identifier..identifier",
+                                    "namespace": "$[*].metadata..dataQuality..standaloneQualityReport..reportReference.identifier..namespace",
+                                    "description": "$[*].metadata..dataQuality..standaloneQualityReport..reportReference.identifier..description"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "associatedResource": [
+                {
+                    "resourceCitation": {
+                        "title": "$[*].metadata..associatedResource..resourceCitation.title",
+                        "responsibleParty": [
+                            {
+                                "party": [
+                                    {
+                                        "contactId": "$[*].metadata..associatedResource..resourceCitation.responsibleParty..party..contactId"
+                                    }
+                                ],
+                                "role": "$[*].metadata..associatedResource..resourceCitation..role"
+                            }
+                        ],
+                        "onlineResource": [
+                            {
+                                "name": "$[*].metadata..associatedResource..onlineResource..name",
+                                "uri": "$[*].metadata..associatedResource..onlineResource..uri"
+                            }
+                        ]
+                    },
+                    "associationType": "$[*].metadata..associatedResource..associationType",
+                    "initiativeType": "$[*].metadata..associatedResource..initiativeType",
+                    "resourceType": [
+                        {
+                            "type": "$[*].metadata..associatedResource..resourceType..type"
+                        }
+                    ]
+                }
+            ],
+            "additionalDocumentation": [
+                {
+                    "resourceType": [
+                        {
+                            "type": "$[*].metadata..additionalDocumentation..resourceType..type",
+                            "name": "$[*].metadata..additionalDocumentation..resourceType..name"
+                        }
+                    ],
+                    "citation": [
+                        {
+                            "alternateTitle": [
+                                "$[*].metadata..additionalDocumentation..citation..alternateTitle"
+                            ],
+                            "otherCitationDetails": [
+                                "$[*].metadata..additionalDocumentation..citation..otherCitationDetails"
+                            ],
+                            "title": "$[*].metadata..additionalDocumentation..citation..title"
+                        }
+                    ]
+                }
+            ],
+            "funding": [
+                {
+                    "allocation": [
+                        {
+                            "currency": "$[*].metadata..funding..allocation..currency",
+                            "sourceAllocationId": "$[*].metadata..funding..allocation..sourceAllocationId",
+                            "sourceId": "$[*].metadata..funding..allocation..sourceId",
+                            "amount": "$[*].metadata..funding..allocation..amount"
+                        }
+                    ],
+                    "timePeriod": {
+                        "startDateTime": "$[*].metadata..funding..timePeriod.startDateTime",
+                        "endDateTime": "$[*].metadata..funding..timePeriod.startEndTime"
+                    }
+                }
+            ]
+
+        },
+        "parent": {
+            "description": "$[*].parent.description",
+            "identifier": "$[*].parent.identifier",
+            "namespace": "$[*].parent.namespace"
+        },
+        "metadataRepository": [
+            {
+                "repository": "$[*].metadataRepository..repository"
+            }
+        ],
+        "dataDictionary": []
+    }
+]
