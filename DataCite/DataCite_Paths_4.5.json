@@ -1,0 +1,934 @@
+{
+    "data": {
+        "id": "https://doi.org/10.82164/paths4.4",
+        "type": "dois",
+        "attributes": {
+            "doi": "10.82164/PATHS4.4",
+            "identifiers": [
+                {
+                    "identifier": "data[*].attributes.identifiers[*].identifier",
+                    "identifierType": "data[*].attributes.identifiers[*].identifierType"
+                }
+            ],
+            "creators": [
+                {
+                    "name": "data[*].attributes.creators/Personal.name",
+                    "nameType": "Personal",
+                    "givenName": "data[*].attributes.creators/Personal.givenName",
+                    "familyName": "data[*].attributes.creators/Personal.familyName",
+                    "affiliation": [
+                        {
+                            "name": "data[*].attributes.creators/Personal.affiliation.name",
+                            "affiliationIdentifier": "data[*].attributes.creators/Personal.affiliation.affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data[*].attributes.creators/Personal.affiliation.affiliationIdentifierScheme",
+                            "SchemeURI": "https://data[*].attributes.creators/Personal.affiliation.SchemeURI"
+                        }
+                    ],
+                    "nameIdentifiers": [
+                        {
+                            "SchemeURI": "https://data[*].attributes.creators/Personal.nameidentifiers[*].schemeUri",
+                            "nameIdentifier": "data[*].attributes.creators/Personal.nameidentifiers[*].nameIdentifier",
+                            "nameIdentifierScheme": "data[*].attributes.creators/Personal.nameidentifiers[*].nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data[*].attributes.creators/Organizational.name",
+                    "nameType": "Organizational",
+                    "givenName": "data[*].attributes.creators/Organizational.givenName",
+                    "familyName": "data[*].attributes.creators/Organizational.familyName",
+                    "affiliation": [
+                        {
+                            "name": "data[*].attributes.creators/Organizational.affiliation.name",
+                            "affiliationIdentifier": "data[*].attributes.creators/Organizational.affiliation.affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data[*].attributes.creators/Organizational.affiliation.affiliationIdentifierScheme",
+                            "SchemeURI": "https://data[*].attributes.creators/Organizational.affiliation.SchemeURI"
+                        }
+                    ],
+                    "nameIdentifiers": [
+                        {
+                            "SchemeURI": "https://data[*].attributes.creators/Organizational.nameidentifiers[*].schemeUri",
+                            "nameIdentifier": "data[*].attributes.creators/Organizational.nameidentifiers[*].nameIdentifier",
+                            "nameIdentifierScheme": "data[*].attributes.creators/Organizational.nameidentifiers[*].nameIdentifierScheme"
+                        }
+                    ]
+                }
+            ],
+            "titles": [
+                {
+                    "title": "data[*].attributes.titles[*].title",
+                    "titleType": "data[*].attributes.titles[*].titleType"
+                },
+                {
+                    "title": "data[*].attributes.titles[?(@.titleType='AlternativeTitle')].title"
+                },
+                {
+                    "title": "data[*].attributes.titles[?(@.titleType='SubTitle')].title"
+                },
+                {
+                    "title": "data[*].attributes.titles[?(@.titleType='TranslatedTitle')].title"
+                },
+                {
+                    "title": "data[*].attributes.titles[?(@.titleType='Other')].title"
+                }
+            ],
+            "publisher": {
+                "lang": "data[*].attributes.publisher.title",
+                "name": "data[*].attributes.publisher.name",
+                "schemeUri": "data[*].attributes.publisher.schemeUri",
+                "publisherIdentifier": "data[*].attributes.publisher.publisherIdentifier",
+                "publisherIdentifierScheme": "data[*].attributes.publisher.publisherIdentifierScheme"
+            },
+            "container": {
+                "type": "data[*].attributes.container.type",
+                "title": "data[*].attributes.container.title",
+                "identifier": "data[*].attributes.container.identifier",
+                "identifierType": "data[*].attributes.container.identifierType"
+            },
+            "publicationYear": 1000,
+            "subjects": [
+                {
+                    "subject": "data[*].attributes.subjects/subject.1",
+                    "subjectScheme": "data[*].attributes.subjects/subjectScheme.1",
+                    "subjectSchemeURI": "data[*].attributes.subjects/subjectSchemeURI.1",
+                    "valueURI": "data[*].attributes.subjects/valueURI.1",
+                    "classificationCode": "data[*].attributes.subjects/classificationCode.1"
+                },
+                {
+                    "subject": "data[*].attributes.subjects/subject.2",
+                    "subjectScheme": "data[*].attributes.subjects/subjectScheme.2",
+                    "subjectSchemeURI": "data[*].attributes.subjects/subjectSchemeURI.2",
+                    "valueURI": "data[*].attributes.subjects/valueURI.2",
+                    "classificationCode": "data[*].attributes.subjects/classificationCode.2"
+                }
+            ],
+            "contributors": [
+                {
+                    "name": "data[*].attributes.contributors[*].ContactPerson.name",
+                    "nameType": "Personal",
+                    "givenName": "data[*].attributes.contributors[*].ContactPerson.givenName",
+                    "familyName": "data[*].attributes.contributors[*].ContactPerson.familyName",
+                    "affiliation": [
+                        {
+                            "name": "data[*].attributes.contributors[*].ContactPerson.affiliation.name",
+                            "affiliationIdentifier": "data[*].attributes.contributors[*].ContactPerson.affiliation.affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data[*].attributes.contributors[*].ContactPerson.affiliation.affiliationIdentifierScheme",
+                            "SchemeURI": "https://data[*].attributes.contributors[*].ContactPerson.affiliation.SchemeURI"
+                        }
+                    ],
+                    "contributorType": "ContactPerson",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data[*].attributes.contributors[*].ContactPerson.nameidentifiers[*].nameIdentifier",
+                            "nameIdentifierScheme": "data[*].attributes.contributors[*].ContactPerson.nameidentifiers[*].nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data[*].attributes.contributors[*].DataCollector.name",
+                    "nameType": "Personal",
+                    "givenName": "data[*].attributes.contributors[*].DataCollector.givenName",
+                    "familyName": "data[*].attributes.contributors[*].DataCollector.familyName",
+                    "affiliation": [
+                        {
+                            "name": "data[*].attributes.contributors[*].DataCollector.affiliation.name",
+                            "affiliationIdentifier": "data[*].attributes.contributors[*].DataCollector.affiliation.affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data[*].attributes.contributors[*].DataCollector.affiliation.affiliationIdentifierScheme",
+                            "SchemeURI": "https://data[*].attributes.contributors[*].DataCollector.affiliation.SchemeURI"
+                        }
+                    ],
+                    "contributorType": "DataCollector",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data[*].attributes.contributors[*].DataCollector.nameidentifiers[*].nameIdentifier",
+                            "nameIdentifierScheme": "data[*].attributes.contributors[*].DataCollector.nameidentifiers[*].nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data[*].attributes.contributors[*].DataCurator.name",
+                    "nameType": "Personal",
+                    "givenName": "data[*].attributes.contributors[*].DataCurator.givenName",
+                    "familyName": "data[*].attributes.contributors[*].DataCurator.familyName",
+                    "affiliation": [
+                        {
+                            "name": "data[*].attributes.contributors[*].DataCurator.affiliation.name",
+                            "affiliationIdentifier": "data[*].attributes.contributors[*].DataCurator.affiliation.affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data[*].attributes.contributors[*].DataCurator.affiliation.affiliationIdentifierScheme",
+                            "SchemeURI": "https://data[*].attributes.contributors[*].DataCurator.affiliation.SchemeURI"
+                        }
+                    ],
+                    "contributorType": "DataCurator",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data[*].attributes.contributors[*].DataCurator.nameidentifiers[*].nameIdentifier",
+                            "nameIdentifierScheme": "data[*].attributes.contributors[*].DataCurator.nameidentifiers[*].nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data[*].attributes.contributors[*].DataManager.name",
+                    "nameType": "Personal",
+                    "givenName": "data[*].attributes.contributors[*].DataManager.givenName",
+                    "familyName": "data[*].attributes.contributors[*].DataManager.familyName",
+                    "affiliation": [
+                        {
+                            "name": "data[*].attributes.contributors[*].DataManager.affiliation.name",
+                            "affiliationIdentifier": "data[*].attributes.contributors[*].DataManager.affiliation.affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data[*].attributes.contributors[*].DataManager.affiliation.affiliationIdentifierScheme",
+                            "SchemeURI": "https://data[*].attributes.contributors[*].DataManager.affiliation.SchemeURI"
+                        }
+                    ],
+                    "contributorType": "DataManager",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data[*].attributes.contributors[*].DataManager.nameidentifiers[*].nameIdentifier",
+                            "nameIdentifierScheme": "data[*].attributes.contributors[*].DataManager.nameidentifiers[*].nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data[*].attributes.contributors[*].Distributor.name",
+                    "nameType": "Personal",
+                    "givenName": "data[*].attributes.contributors[*].Distributor.givenName",
+                    "familyName": "data[*].attributes.contributors[*].Distributor.familyName",
+                    "affiliation": [
+                        {
+                            "name": "data[*].attributes.contributors[*].Distributor.affiliation.name",
+                            "affiliationIdentifier": "data[*].attributes.contributors[*].Distributor.affiliation.affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data[*].attributes.contributors[*].Distributor.affiliation.affiliationIdentifierScheme",
+                            "SchemeURI": "https://data[*].attributes.contributors[*].Distributor.affiliation.SchemeURI"
+                        }
+                    ],
+                    "contributorType": "Distributor",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data[*].attributes.contributors[*].Distributor.nameidentifiers[*].nameIdentifier",
+                            "nameIdentifierScheme": "data[*].attributes.contributors[*].Distributor.nameidentifiers[*].nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data[*].attributes.contributors[*].Editor.name",
+                    "nameType": "Personal",
+                    "givenName": "data[*].attributes.contributors[*].Editor.givenName",
+                    "familyName": "data[*].attributes.contributors[*].Editor.familyName",
+                    "affiliation": [
+                        {
+                            "name": "data[*].attributes.contributors[*].Editor.affiliation.name",
+                            "affiliationIdentifier": "data[*].attributes.contributors[*].Editor.affiliation.affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data[*].attributes.contributors[*].Editor.affiliation.affiliationIdentifierScheme",
+                            "SchemeURI": "https://data[*].attributes.contributors[*].Editor.affiliation.SchemeURI"
+                        }
+                    ],
+                    "contributorType": "Editor",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data[*].attributes.contributors[*].Editor.nameidentifiers[*].nameIdentifier",
+                            "nameIdentifierScheme": "data[*].attributes.contributors[*].Editor.nameidentifiers[*].nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data[*].attributes.contributors[*].HostingInstitution.name",
+                    "nameType": "Personal",
+                    "givenName": "data[*].attributes.contributors[*].HostingInstitution.givenName",
+                    "familyName": "data[*].attributes.contributors[*].HostingInstitution.familyName",
+                    "affiliation": [
+                        {
+                            "name": "data[*].attributes.contributors[*].HostingInstitution.affiliation.name",
+                            "affiliationIdentifier": "data[*].attributes.contributors[*].HostingInstitution.affiliation.affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data[*].attributes.contributors[*].HostingInstitution.affiliation.affiliationIdentifierScheme",
+                            "SchemeURI": "https://data[*].attributes.contributors[*].HostingInstitution.affiliation.SchemeURI"
+                        }
+                    ],
+                    "contributorType": "HostingInstitution",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data[*].attributes.contributors[*].HostingInstitution.nameidentifiers[*].nameIdentifier",
+                            "nameIdentifierScheme": "data[*].attributes.contributors[*].HostingInstitution.nameidentifiers[*].nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data[*].attributes.contributors[*].Other.name",
+                    "nameType": "Personal",
+                    "givenName": "data[*].attributes.contributors[*].Other.givenName",
+                    "familyName": "data[*].attributes.contributors[*].Other.familyName",
+                    "affiliation": [
+                        {
+                            "name": "data[*].attributes.contributors[*].Other.affiliation.name",
+                            "affiliationIdentifier": "data[*].attributes.contributors[*].Other.affiliation.affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data[*].attributes.contributors[*].Other.affiliation.affiliationIdentifierScheme",
+                            "SchemeURI": "https://data[*].attributes.contributors[*].Other.affiliation.SchemeURI"
+                        }
+                    ],
+                    "contributorType": "Other",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data[*].attributes.contributors[*].Other.nameidentifiers[*].nameIdentifier",
+                            "nameIdentifierScheme": "data[*].attributes.contributors[*].Other.nameidentifiers[*].nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data[*].attributes.contributors[*].Producer.name",
+                    "nameType": "Personal",
+                    "givenName": "data[*].attributes.contributors[*].Producer.givenName",
+                    "familyName": "data[*].attributes.contributors[*].Producer.familyName",
+                    "affiliation": [
+                        {
+                            "name": "data[*].attributes.contributors[*].Producer.affiliation.name",
+                            "affiliationIdentifier": "data[*].attributes.contributors[*].Producer.affiliation.affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data[*].attributes.contributors[*].Producer.affiliation.affiliationIdentifierScheme",
+                            "SchemeURI": "https://data[*].attributes.contributors[*].Producer.affiliation.SchemeURI"
+                        }
+                    ],
+                    "contributorType": "Producer",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data[*].attributes.contributors[*].Producer.nameidentifiers[*].nameIdentifier",
+                            "nameIdentifierScheme": "data[*].attributes.contributors[*].Producer.nameidentifiers[*].nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data[*].attributes.contributors[*].ProjectLeader.name",
+                    "nameType": "Personal",
+                    "givenName": "data[*].attributes.contributors[*].ProjectLeader.givenName",
+                    "familyName": "data[*].attributes.contributors[*].ProjectLeader.familyName",
+                    "affiliation": [
+                        {
+                            "name": "data[*].attributes.contributors[*].ProjectLeader.affiliation.name",
+                            "affiliationIdentifier": "data[*].attributes.contributors[*].ProjectLeader.affiliation.affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data[*].attributes.contributors[*].ProjectLeader.affiliation.affiliationIdentifierScheme",
+                            "SchemeURI": "https://data[*].attributes.contributors[*].ProjectLeader.affiliation.SchemeURI"
+                        }
+                    ],
+                    "contributorType": "ProjectLeader",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data[*].attributes.contributors[*].ProjectLeader.nameidentifiers[*].nameIdentifier",
+                            "nameIdentifierScheme": "data[*].attributes.contributors[*].ProjectLeader.nameidentifiers[*].nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data[*].attributes.contributors[*].ProjectManager.name",
+                    "nameType": "Personal",
+                    "givenName": "data[*].attributes.contributors[*].ProjectManager.givenName",
+                    "familyName": "data[*].attributes.contributors[*].ProjectManager.familyName",
+                    "affiliation": [
+                        {
+                            "name": "data[*].attributes.contributors[*].ProjectManager.affiliation.name",
+                            "affiliationIdentifier": "data[*].attributes.contributors[*].ProjectManager.affiliation.affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data[*].attributes.contributors[*].ProjectManager.affiliation.affiliationIdentifierScheme",
+                            "SchemeURI": "https://data[*].attributes.contributors[*].ProjectManager.affiliation.SchemeURI"
+                        }
+                    ],
+                    "contributorType": "ProjectManager",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data[*].attributes.contributors[*].ProjectManager.nameidentifiers[*].nameIdentifier",
+                            "nameIdentifierScheme": "data[*].attributes.contributors[*].ProjectManager.nameidentifiers[*].nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data[*].attributes.contributors[*].ProjectMember.name",
+                    "nameType": "Personal",
+                    "givenName": "data[*].attributes.contributors[*].ProjectMember.givenName",
+                    "familyName": "data[*].attributes.contributors[*].ProjectMember.familyName",
+                    "affiliation": [
+                        {
+                            "name": "data[*].attributes.contributors[*].ProjectMember.affiliation.name",
+                            "affiliationIdentifier": "data[*].attributes.contributors[*].ProjectMember.affiliation.affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data[*].attributes.contributors[*].ProjectMember.affiliation.affiliationIdentifierScheme",
+                            "SchemeURI": "https://data[*].attributes.contributors[*].ProjectMember.affiliation.SchemeURI"
+                        }
+                    ],
+                    "contributorType": "ProjectMember",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data[*].attributes.contributors[*].ProjectMember.nameidentifiers[*].nameIdentifier",
+                            "nameIdentifierScheme": "data[*].attributes.contributors[*].ProjectMember.nameidentifiers[*].nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data[*].attributes.contributors[*].RegistrationAgency.name",
+                    "nameType": "Personal",
+                    "givenName": "data[*].attributes.contributors[*].RegistrationAgency.givenName",
+                    "familyName": "data[*].attributes.contributors[*].RegistrationAgency.familyName",
+                    "affiliation": [
+                        {
+                            "name": "data[*].attributes.contributors[*].RegistrationAgency.affiliation.name",
+                            "affiliationIdentifier": "data[*].attributes.contributors[*].RegistrationAgency.affiliation.affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data[*].attributes.contributors[*].RegistrationAgency.affiliation.affiliationIdentifierScheme",
+                            "SchemeURI": "https://data[*].attributes.contributors[*].RegistrationAgency.affiliation.SchemeURI"
+                        }
+                    ],
+                    "contributorType": "RegistrationAgency",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data[*].attributes.contributors[*].RegistrationAgency.nameidentifiers[*].nameIdentifier",
+                            "nameIdentifierScheme": "data[*].attributes.contributors[*].RegistrationAgency.nameidentifiers[*].nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data[*].attributes.contributors[*].RegistrationAuthority.name",
+                    "nameType": "Personal",
+                    "givenName": "data[*].attributes.contributors[*].RegistrationAuthority.givenName",
+                    "familyName": "data[*].attributes.contributors[*].RegistrationAuthority.familyName",
+                    "affiliation": [
+                        {
+                            "name": "data[*].attributes.contributors[*].RegistrationAuthority.affiliation.name",
+                            "affiliationIdentifier": "data[*].attributes.contributors[*].RegistrationAuthority.affiliation.affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data[*].attributes.contributors[*].RegistrationAuthority.affiliation.affiliationIdentifierScheme",
+                            "SchemeURI": "https://data[*].attributes.contributors[*].RegistrationAuthority.affiliation.SchemeURI"
+                        }
+                    ],
+                    "contributorType": "RegistrationAuthority",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data[*].attributes.contributors[*].RegistrationAuthority.nameidentifiers[*].nameIdentifier",
+                            "nameIdentifierScheme": "data[*].attributes.contributors[*].RegistrationAuthority.nameidentifiers[*].nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data[*].attributes.contributors[*].RelatedPerson.name",
+                    "nameType": "Personal",
+                    "givenName": "data[*].attributes.contributors[*].RelatedPerson.givenName",
+                    "familyName": "data[*].attributes.contributors[*].RelatedPerson.familyName",
+                    "affiliation": [
+                        {
+                            "name": "data[*].attributes.contributors[*].RelatedPerson.affiliation.name",
+                            "affiliationIdentifier": "data[*].attributes.contributors[*].RelatedPerson.affiliation.affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data[*].attributes.contributors[*].RelatedPerson.affiliation.affiliationIdentifierScheme",
+                            "SchemeURI": "https://data[*].attributes.contributors[*].RelatedPerson.affiliation.SchemeURI"
+                        }
+                    ],
+                    "contributorType": "RelatedPerson",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data[*].attributes.contributors[*].RelatedPerson.nameidentifiers[*].nameIdentifier",
+                            "nameIdentifierScheme": "data[*].attributes.contributors[*].RelatedPerson.nameidentifiers[*].nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data[*].attributes.contributors[*].ResearchGroup.name",
+                    "nameType": "Personal",
+                    "givenName": "data[*].attributes.contributors[*].ResearchGroup.givenName",
+                    "familyName": "data[*].attributes.contributors[*].ResearchGroup.familyName",
+                    "affiliation": [
+                        {
+                            "name": "data[*].attributes.contributors[*].ResearchGroup.affiliation.name",
+                            "affiliationIdentifier": "data[*].attributes.contributors[*].ResearchGroup.affiliation.affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data[*].attributes.contributors[*].ResearchGroup.affiliation.affiliationIdentifierScheme",
+                            "SchemeURI": "https://data[*].attributes.contributors[*].ResearchGroup.affiliation.SchemeURI"
+                        }
+                    ],
+                    "contributorType": "ResearchGroup",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data[*].attributes.contributors[*].ResearchGroup.nameidentifiers[*].nameIdentifier",
+                            "nameIdentifierScheme": "data[*].attributes.contributors[*].ResearchGroup.nameidentifiers[*].nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data[*].attributes.contributors[*].RightsHolder.name",
+                    "nameType": "Personal",
+                    "givenName": "data[*].attributes.contributors[*].RightsHolder.givenName",
+                    "familyName": "data[*].attributes.contributors[*].RightsHolder.familyName",
+                    "affiliation": [
+                        {
+                            "name": "data[*].attributes.contributors[*].RightsHolder.affiliation.name",
+                            "affiliationIdentifier": "data[*].attributes.contributors[*].RightsHolder.affiliation.affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data[*].attributes.contributors[*].RightsHolder.affiliation.affiliationIdentifierScheme",
+                            "SchemeURI": "https://data[*].attributes.contributors[*].RightsHolder.affiliation.SchemeURI"
+                        }
+                    ],
+                    "contributorType": "RightsHolder",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data[*].attributes.contributors[*].RightsHolder.nameidentifiers[*].nameIdentifier",
+                            "nameIdentifierScheme": "data[*].attributes.contributors[*].RightsHolder.nameidentifiers[*].nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data[*].attributes.contributors[*].Researcher.name",
+                    "nameType": "Personal",
+                    "givenName": "data[*].attributes.contributors[*].Researcher.givenName",
+                    "familyName": "data[*].attributes.contributors[*].Researcher.familyName",
+                    "affiliation": [
+                        {
+                            "name": "data[*].attributes.contributors[*].Researcher.affiliation.name",
+                            "affiliationIdentifier": "data[*].attributes.contributors[*].Researcher.affiliation.affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data[*].attributes.contributors[*].Researcher.affiliation.affiliationIdentifierScheme",
+                            "SchemeURI": "https://data[*].attributes.contributors[*].Researcher.affiliation.SchemeURI"
+                        }
+                    ],
+                    "contributorType": "Researcher",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data[*].attributes.contributors[*].Researcher.nameidentifiers[*].nameIdentifier",
+                            "nameIdentifierScheme": "data[*].attributes.contributors[*].Researcher.nameidentifiers[*].nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data[*].attributes.contributors[*].Sponsor.name",
+                    "nameType": "Personal",
+                    "givenName": "data[*].attributes.contributors[*].Sponsor.givenName",
+                    "familyName": "data[*].attributes.contributors[*].Sponsor.familyName",
+                    "affiliation": [
+                        {
+                            "name": "data[*].attributes.contributors[*].Sponsor.affiliation.name",
+                            "affiliationIdentifier": "data[*].attributes.contributors[*].Sponsor.affiliation.affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data[*].attributes.contributors[*].Sponsor.affiliation.affiliationIdentifierScheme",
+                            "SchemeURI": "https://data[*].attributes.contributors[*].Sponsor.affiliation.SchemeURI"
+                        }
+                    ],
+                    "contributorType": "Sponsor",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data[*].attributes.contributors[*].Sponsor.nameidentifiers[*].nameIdentifier",
+                            "nameIdentifierScheme": "data[*].attributes.contributors[*].Sponsor.nameidentifiers[*].nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data[*].attributes.contributors[*].Supervisor.name",
+                    "nameType": "Personal",
+                    "givenName": "data[*].attributes.contributors[*].Supervisor.givenName",
+                    "familyName": "data[*].attributes.contributors[*].Supervisor.familyName",
+                    "affiliation": [
+                        {
+                            "name": "data[*].attributes.contributors[*].Supervisor.affiliation.name",
+                            "affiliationIdentifier": "data[*].attributes.contributors[*].Supervisor.affiliation.affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data[*].attributes.contributors[*].Supervisor.affiliation.affiliationIdentifierScheme",
+                            "SchemeURI": "https://data[*].attributes.contributors[*].Supervisor.affiliation.SchemeURI"
+                        }
+                    ],
+                    "contributorType": "Supervisor",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data[*].attributes.contributors[*].Supervisor.nameidentifiers[*].nameIdentifier",
+                            "nameIdentifierScheme": "data[*].attributes.contributors[*].Supervisor.nameidentifiers[*].nameIdentifierScheme"
+                        }
+                    ]
+                },
+                {
+                    "name": "data[*].attributes.contributors[*].WorkPackageLeader.name",
+                    "nameType": "Personal",
+                    "givenName": "data[*].attributes.contributors[*].WorkPackageLeader.givenName",
+                    "familyName": "data[*].attributes.contributors[*].WorkPackageLeader.familyName",
+                    "affiliation": [
+                        {
+                            "name": "data[*].attributes.contributors[*].WorkPackageLeader.affiliation.name",
+                            "affiliationIdentifier": "data[*].attributes.contributors[*].WorkPackageLeader.affiliation.affiliationIdentifier",
+                            "affiliationIdentifierScheme": "data[*].attributes.contributors[*].WorkPackageLeader.affiliation.affiliationIdentifierScheme",
+                            "SchemeURI": "https://data[*].attributes.contributors[*].WorkPackageLeader.affiliation.SchemeURI"
+                        }
+                    ],
+                    "contributorType": "WorkPackageLeader",
+                    "nameIdentifiers": [
+                        {
+                            "nameIdentifier": "data[*].attributes.contributors[*].WorkPackageLeader.nameidentifiers[*].nameIdentifier",
+                            "nameIdentifierScheme": "data[*].attributes.contributors[*].WorkPackageLeader.nameidentifiers[*].nameIdentifierScheme"
+                        }
+                    ]
+                }
+            ],
+            "dates": [
+                {
+                    "date": "2021-11-18T00:00:00Z",
+                    "dateType": "Accepted"
+                },
+                {
+                    "date": "2021-11-18T00:00:00Z",
+                    "dateType": "Available"
+                },
+                {
+                    "date": "2021-11-18T00:00:00Z",
+                    "dateType": "Copyrighted"
+                },
+                {
+                    "date": "2021-11-18T00:00:00Z",
+                    "dateType": "Collected"
+                },
+                {
+                    "date": "2021-11-18T00:00:00Z",
+                    "dateType": "Created"
+                },
+                {
+                    "date": "2020",
+                    "dateType": "Issued"
+                },
+                {
+                    "date": "2021-11-18T00:00:00Z",
+                    "dateType": "Submitted"
+                },
+                {
+                    "date": "2021-11-18T00:00:00Z",
+                    "dateType": "Updated"
+                },
+                {
+                    "date": "2021-11-18T00:00:00Z",
+                    "dateType": "Valid"
+                },
+                {
+                    "date": "2021-11-18T00:00:00Z",
+                    "dateType": "Withdrawn"
+                },
+                {
+                    "date": "2021-11-18T00:00:00Z",
+                    "dateType": "Other"
+                }
+            ],
+            "language": "en",
+            "types": {
+                "ris": "data[*].attributes.types/ris",
+                "bibtex": "data[*].attributes.types/bibtex",
+                "citeproc": "data[*].attributes.types/citeproc",
+                "schemaOrg": "data[*].attributes.types/schema.org",
+                "resourceType": "/data[*].attributes.types/resourceType",
+                "resourceTypeGeneral": "Dataset"
+            },
+            "relatedIdentifiers": [
+                {
+                    "relationType": "IsCitedBy",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].IsCitedBy/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "Cites",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].Cites/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsSupplementTo",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].IsSupplementTo/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsSupplementedBy",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].IsSupplementedBy/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsContinuedBy",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].IsContinuedBy/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "Continues",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].Continues/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsNewVersionOf",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].IsNewVersionOf/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsPreviousVersionOf",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].IsPreviousVersionOf/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsPartOf",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].IsPartOf/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "HasPart",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].HasPart/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsPublishedIn",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].IsPublishedIn/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsReferencedBy",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].IsReferencedBy/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "References",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].References/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsDocumentedBy",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].IsDocumentedBy/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "Documents",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].Documents/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsCompiledBy",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].IsCompiledBy/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "Compiles",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].Compiles/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsVariantFormOf",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].IsVariantFormOf/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsOriginalFormOf",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].IsOriginalFormOf/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsIdenticalTo",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].IsIdenticalTo/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "HasMetadata",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].HasMetadata[*].relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsMetadataFor",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].IsMetadataFor/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "Reviews",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].Reviews/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsReviewedBy",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].IsReviewedBy/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsDerivedFrom",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].IsDerivedFrom/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsSourceOf",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].IsSourceOf/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "Describes",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].Describes/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsDescribedBy",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].IsDescribedBy/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "HasVersion",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].HasVersion/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsVersionOf",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].IsVersionOf/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "Requires",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].Requires/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsRequiredBy",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].IsRequiredBy/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "Obsoletes",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].Obsoletes/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                },
+                {
+                    "relationType": "IsObsoletedBy",
+                    "relatedIdentifier": "https://data[*].attributes.relatedidentifiers[*].IsObsoletedBy/relatedIdentifier",
+                    "relatedIdentifierType": "URL",
+                    "resourceTypeGeneral": "Other"
+                }
+            ],
+            "sizes": [
+                "data[*].attributes.relatedidentifiers[*].sizes"
+            ],
+            "formats": [
+                "data[*].attributes.relatedidentifiers[*].formats"
+            ],
+            "version": "data[*].attributes.version",
+            "rightsList": [
+                {
+                    "rights": "data[*].attributes.rightsList/rights",
+                    "rightsUri": "https://data[*].attributes.rightsList/rightsUri",
+                    "schemeUri": "https://data[*].attributes.rightsList/schemeUri",
+                    "rightsIdentifier": "data[*].attributes.rightsList/rightsIdentifier",
+                    "rightsIdentifierScheme": "data[*].attributes.rightsList/rightsIdentifierScheme"
+                }
+            ],
+            "descriptions": [
+                {
+                    "description": "data[*].attributes.descriptions/description/Abstract",
+                    "descriptionType": "Abstract"
+                },
+                {
+                    "description": "data[*].attributes.descriptions/description/Methods",
+                    "descriptionType": "Methods"
+                },
+                {
+                    "description": "data[*].attributes.descriptions/description/TechnicalInfo",
+                    "descriptionType": "SeriesInformation"
+                },
+                {
+                    "description": "data[*].attributes.descriptions/description/TechnicalInfo",
+                    "descriptionType": "TableOfContents"
+                },
+                {
+                    "description": "data[*].attributes.descriptions/description/TechnicalInfo",
+                    "descriptionType": "TechnicalInfo"
+                },
+                {
+                    "description": "data[*].attributes.descriptions/description/Other",
+                    "descriptionType": "Other"
+                }
+            ],
+            "geoLocations": [
+                {
+                    "geoLocationBox": {
+                        "eastBoundLongitude": "data[*].attributes.geoLocations/geoLocationBox/eastBoundLongitude",
+                        "northBoundLatitude": "data[*].attributes.geoLocations/geoLocationBox/westBoundLongitude",
+                        "southBoundLatitude": "data[*].attributes.geoLocations/geoLocationBox/southBoundLatitude",
+                        "westBoundLongitude": "data[*].attributes.geoLocations/geoLocationBox/northBoundLatitude"
+                    },
+                    "geoLocationPoint": {
+                        "pointLatitude": "data[*].attributes.geoLocations/geoLocationPoint/geolocationPointLongitude",
+                        "pointLongitude": "data[*].attributes.geoLocations/geoLocationPoint/geolocationPointLatitude"
+                    },
+                    "geoLocationPlace": "data[*].attributes.geoLocations/geoLocationPlace"
+                }
+            ],
+            "fundingReferences": [
+                {
+                    "funderName": "data[*].attributes.fundingReferences/funderName",
+                    "awardNumber": "data[*].attributes.fundingReferences/awardNumber",
+                    "funderIdentifier": "data[*].attributes.fundingReferences/funderIdentifier",
+                    "funderIdentifierType": "data[*].attributes.fundingReferences/funderIdentifierType"
+                }
+            ],
+            "relatedItems": [
+                {
+                    "relationType": "data[*].attributes.relatedItems[*].relationType",
+                    "relatedItemType": "data[*].attributes.relatedItems.relatedItemType",
+                    "titles": [{
+                        "title": "data[*].attributes.relatedItems[*].titles[*].title",
+                        "titleType": "data[*].attributes.relatedItems[*].titles[*].titleType"
+                    }],
+                    "creators": [
+                        {
+                            "name": "data[*].attributes.relatedItems/creators/Personal.name",
+                            "nameType": "Personal",
+                            "givenName": "data[*].attributes.relatedItems/creators/Personal.givenName",
+                            "familyName": "data[*].attributes.relatedItems/creators/Personal.familyName",
+                            "affiliation": [
+                                {
+                                    "name": "data[*].attributes.relatedItems/creators/Personal.affiliation.name",
+                                    "affiliationIdentifier": "data[*].attributes.relatedItems/creators/Personal.affiliation.affiliationIdentifier",
+                                    "affiliationIdentifierScheme": "data[*].attributes.relatedItems/creators/Personal.affiliation.affiliationIdentifierScheme",
+                                    "SchemeURI": "https://data[*].attributes.relatedItems/creators/Personal.affiliation.SchemeURI"
+                                }
+                            ],
+                            "nameIdentifiers": [
+                                {
+                                    "SchemeURI": "https://data[*].attributes.relatedItems/creators/Personal.nameidentifiers[*].schemeUri",
+                                    "nameIdentifier": "data[*].attributes.relatedItems/creators/Personal.nameidentifiers[*].nameIdentifier",
+                                    "nameIdentifierScheme": "data[*].attributes.relatedItems/creators/Personal.nameidentifiers[*].nameIdentifierScheme"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "data[*].attributes.relatedItems/creators/Organizational.name",
+                            "nameType": "Organizational",
+                            "givenName": "data[*].attributes.relatedItems/creators/Organizational.givenName",
+                            "familyName": "data[*].attributes.relatedItems/creators/Organizational.familyName",
+                            "affiliation": [
+                                {
+                                    "name": "data[*].attributes.relatedItems/creators/Organizational.affiliation.name",
+                                    "affiliationIdentifier": "data[*].attributes.relatedItems/creators/Organizational.affiliation.affiliationIdentifier",
+                                    "affiliationIdentifierScheme": "data[*].attributes.relatedItems/creators/Organizational.affiliation.affiliationIdentifierScheme",
+                                    "SchemeURI": "https://data[*].attributes.relatedItems/creators/Organizational.affiliation.SchemeURI"
+                                }
+                            ],
+                            "nameIdentifiers": [
+                                {
+                                    "SchemeURI": "https://data[*].attributes.creators/Organizational.nameidentifiers[*].schemeUri",
+                                    "nameIdentifier": "data[*].attributes.creators/Organizational.nameidentifiers[*].nameIdentifier",
+                                    "nameIdentifierScheme": "data[*].attributes.creators/Organizational.nameidentifiers[*].nameIdentifierScheme"
+                                }
+                            ]
+                        }
+                    ],
+                    "publicationYear": "data[*].attributes.relatedItems.publicationYear",
+                    "publisher": "data[*].attributes.relatedItems.publisher"
+                }
+            ],
+            "url": "https://data[*].attributes.url",
+            "contentUrl": "https://data[*].attributes.contentUrl"
+        }
+    }
+}

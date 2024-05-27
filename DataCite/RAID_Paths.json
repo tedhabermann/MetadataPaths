@@ -1,0 +1,186 @@
+{
+    "data": {
+        "id": "https://doi.org/10.82164/paths4.4",
+        "type": "dois",
+        "attributes": {
+            "doi": "10.82164/PATHS4.4",
+            "identifier": 
+                {
+                    "id":                   "data[*].attributes.identifier.id",
+                    "schemaUri":            "data[*].attributes.identifier.schemaUri",
+                    "registrationAgency":   "data[*].attributes.identifier.registrationAgency",
+                    "owner":                "data[*].attributes.identifier.owner",
+                    "license":              "data[*].attributes.identifier.license",
+                    "version":              "data[*].attributes.identifier.version"
+                },
+            "date":
+                {
+                    "startDate":    "data[*].attributes.date.startDate",
+                    "endDate":      "data[*].attributes.date.endDate"
+                },
+            "title": 
+                {
+                "text":     "data[*].attributes.title.text",
+                "type":
+                    {
+                        "id":           "data[*].attributes.title.type.id",
+                        "schemaUri":    "data[*].attributes.title.type.schemaUri"
+
+                    },
+                "language": 
+                    {
+                        "id":           "data[*].attributes.title.language.id",
+                        "schemaUri":    "data[*].attributes.title.language.schemaUri"
+                    },
+                "startDate":    "data[*].attributes.title.startDate",
+                "endDate":      "data[*].attributes.title.endDate"
+            },
+            "descriptions": [
+                {
+                    "text": "data[*].attributes.descriptions.text",
+                    "type":
+                    {
+                        "id":           "data[*].attributes.descriptions.type.id",
+                        "schemaUri":    "data[*].attributes.descriptions.type.schemaUri"
+
+                    },
+                "language": 
+                    {
+                        "id":           "data[*].attributes.descriptions.language.id",
+                        "schemaUri":    "data[*].attributes.descriptions.language.schemaUri"
+                    }
+                }
+            ],
+            "contributors": [
+                {
+                    "id":           "data[*].attributes.contributor.id",
+                    "schemaUri":    "data[*].attributes.contributor.schemaUri",
+                    "position":
+                        {
+                            "id":           "data[*].attributes.contributor.position.id",
+                            "schemaUri":    "data[*].attributes.contributor.position.schemaUri"
+                        },
+                    "startDate":    "data[*].attributes.title.startDate",
+                    "endDate":      "data[*].attributes.title.endDate",
+                    "leader":       "data[*].attributes.contributor.leader",
+                    "contact":       "data[*].attributes.contributor.contact",
+                    "role":
+                        {
+                            "id":           "data[*].attributes.contributor.role.id",
+                            "schemaUri":    "data[*].attributes.contributor.role.schemaUri"
+                        }
+                }
+            ],
+            "organisations": [
+                {
+                    "id":           "data[*].attributes.organisation.id",
+                    "schemaUri":    "data[*].attributes.organisation.schemaUri",
+                    "role":
+                        {
+                            "id":           "data[*].attributes.organisation.role.id",
+                            "schemaUri":    "data[*].attributes.organisation.role.schemaUri"
+                        },
+                    "startDate":    "data[*].attributes.organisation.startDate",
+                    "endDate":      "data[*].attributes.organisation.endDate"
+                }
+            ],
+            "relatedObjects": [
+                {
+                    "type":
+                        {
+                            "id":           "data[*].attributes.relatedObject.type.id",
+                            "schemaUri":    "data[*].attributes.relatedObjects.type.schemaUri"
+                        },
+                    "category":
+                        {
+                            "id":           "data[*].attributes.relatedObjects.category.id",
+                            "schemaUri":    "data[*].attributes.relatedObjects.category.schemaUri"
+                        }
+                }
+            ],
+            "alternateIdentifiers": [
+                {
+                    "id":                   "data[*].attributes.alternateIdentifier.id",
+                    "type":                 "data[*].attributes.alternateIdentifier.type"
+                }
+            ],
+            "alternateUrl": [
+                {
+                    "url":                  "data[*].attributes.alternateUrl.url"
+                }
+            ],
+            "relatedRaids": [
+                {
+                    "id":               "data[*].attributes.relatedRaid.id",
+                    "type": {
+                        "id":           "data[*].attributes.relatedRaid.type.id",
+                        "schemaUri":    "data[*].attributes.relatedRaid.type.schemaUri"
+                    }
+                }
+            ],
+            "access":
+                {
+                    "type": {
+                        "id":           "data[*].attributes.access.type.id",
+                        "schemaUri":    "data[*].attributes.access.type.schemaUri"
+                    },
+                    "embargoExpiry":    "data[*].attributes.access.embargoExpiry",
+                    "accessStatement":
+                        {
+                            "text":             "data[*].attributes.access.accessStatement.text",
+                            "language": {
+                                "id":           "data[*].attributes.access.accessStatement.language.id",
+                                "schemaUri":    "data[*].attributes.access.accessStatement.language.schemaUri"
+                            }
+                        }
+                },
+            "subjects": [
+                {
+                    "id":           "data[*].attributes.subject.id",
+                    "schemaUri":    "data[*].attributes.subject.schemaUri",
+                    "keyword":
+                        {
+                            "text":        "data[*].attributes.subject.keyword.text",
+                            "language": 
+                            {
+                                "id":           "data[*].attributes.subject.language.id",
+                                "schemaUri":    "data[*].attributes.subject.language.schemaUri"
+                            }
+                        }
+                }
+            ],
+            "spatialCoverages": [
+                {
+                    "id":           "data[*].attributes.spatialCoverage.id",
+                    "schemaUri":    "data[*].attributes.spatialCoverage.schemaUri",
+                    "type":
+                        {
+                            "id":           "data[*].attributes.spatialCoverage.type.id",
+                            "schemaUri":    "data[*].attributes.spatialCoverage.type.schemaUri"
+                        },
+                    "place":
+                        {
+                            "text":         "data[*].attributes.spatialCoverage.text",
+                            "language": 
+                            {
+                                "id":           "data[*].attributes.spatialCoverage.language.id",
+                                "schemaUri":    "data[*].attributes.spatialCoverage.language.schemaUri"
+                            }
+                        }
+                }
+            ],  
+            "traditionalKnowledgeLabel": [
+                {
+                    "id":           "data[*].attributes.traditionalKnowledgeLabel.id",
+                    "schemaUri":    "data[*].attributes.traditionalKnowledgeLabel.schemaUri"
+                }
+            ],
+            "traditionalKnowledgeNotice": [
+                {
+                    "id":           "data[*].attributes.traditionalKnowledgeNotice.id",
+                    "schemaUri":    "data[*].attributes.traditionalKnowledgeNotice.schemaUri"
+                }
+            ]
+        }
+    }
+}
